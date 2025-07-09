@@ -23,17 +23,17 @@ The very first stage (say, ID 0\) is the original, purely scientific stage that 
 ## **Information**
 
 This is basically a relatively straightforward text edit bit, divided into different categories. It sets the general information of a stage:  
-\-              Nomenclature  
-`o`   Full name (e.g. Old English)  
-`o`   Abbreviation (e.g. OE)  
-\-              Pronunciation  
-\-              Allophony  
-\-              Orthography  
+- Nomenclature  
+  - Full name (e.g. Old English)  
+  - Abbreviation (e.g. OE)  
+- Pronunciation  
+- Allophony  
+- Orthography  
    
 Nomenclature are just very simplistic text fields, the other three are slightly more complex. Think of them as longer text fields that allow for multiple lines that basically enable you to define regex rules. For total clarity, though it probably doesn’t matter super much:  
-\-              Pronunciation consists of any additional rules that need to be applied to the raw word data to produce the International Phonetic Alphabet pronunciation. Think of e.g. “bard” in non-rhotic English dialects having to lose the r and change \+ lengthen the vowel to get /bɑːd/.  
-\-              Allophony works the same way, but it has to do with specific extra changes that are entirely conditional and predictable. These tend to be harder to understand for non-linguists, but you’ll notice that e.g. between “pot” and “spot”, you’ll notice a puff of air coming out of your mouth if you say the former, but not the latter.  
-\-              Orthography basically consists of rules that need to be applied to the raw word data to produce the spelling. Think of e.g. “kw” needing to be parsed and displayed as “qu”.  
+- Pronunciation consists of any additional rules that need to be applied to the raw word data to produce the International Phonetic Alphabet pronunciation. Think of e.g. “bard” in non-rhotic English dialects having to lose the r and change \+ lengthen the vowel to get /bɑːd/.  
+- Allophony works the same way, but it has to do with specific extra changes that are entirely conditional and predictable. These tend to be harder to understand for non-linguists, but you’ll notice that e.g. between “pot” and “spot”, you’ll notice a puff of air coming out of your mouth if you say the former, but not the latter.  
+- Orthography basically consists of rules that need to be applied to the raw word data to produce the spelling. Think of e.g. “kw” needing to be parsed and displayed as “qu”.  
    
 I’ve toyed around with multiple ways to deal with this in the past. The cleanest one is probably having a whole bunch of individual text fields side by side, e.g. something I did in the past for orthography:  
    
@@ -47,13 +47,13 @@ One of the primary ways languages evolve over time is through **sound changes**.
 As before, since regex rules produce different results based on the order, the order of these is key, and being able to conveniently reorder would be extremely helpful.  
    
 Sound changes consist of the following data:  
-\-              The actual regex rules  
-\-              Prose  
-\-              The name of a chapter if it starts one (optional)  
-\-              Internal notes  
-\-              Recursion  
-\-              Odds  
-\-              Behind the scenes  
+- The actual regex rules  
+- Prose  
+- The name of a chapter if it starts one (optional)  
+- Internal notes  
+- Recursion  
+- Odds  
+- Behind the scenes  
    
 The actual regex rules are pretty much identical to how the pronunciation regex (see above) is laid out. Here, too, a convenient field to test the regex would be welcome, as well as potentially a second field to test all sound changes *up to that point*, i.e. if you’d give an input while checking/editing the fourth change, giving input to the second field would have it undergo all regex rules of the first up to and including the fourth change.  
    
@@ -88,8 +88,6 @@ Noun and pronoun morphology entries consist of a name, an abbreviation, and in t
    
 Adjective morphology entries are luckily far simpler: they consist of a name, an abbreviation, and a referenced noun/pronoun inflection for each gender that the stage needs to inflect for.
 
-### 
-
 ### **Verbal**
 
 Verbs are more straightforward, without subcategories, but in return, they’re a mess. Per-stage information includes which number and which amount of persons they decline for (traditionally 2 numbers and 3 persons), and this table basically gets multiplied for each TAM included (to keep this simple enough, consider TAM to be an English tense), which in turn gets multiplied by the amount of voices (active vs passive vs middle, which will also differ across stages). On top of this, there can be extra fields, such as infinitives and participles.  
@@ -107,30 +105,30 @@ Lexicon is basically a fancy word for dictionary, or vocabulary, or whatever you
 ### **Primary parameters**
 
 A lexicon entry, i.e. a word, always has the following information:  
-\-              Raw form  
-\-              Raw form override  
-\-              Meanings  
-\-              Part of speech  
-\-              Inflection pattern  
-\-              Internal notes  
-\-              Prose  
-\-              Sources  
+- Raw form  
+- Raw form override  
+- Meanings  
+- Part of speech  
+- Inflection pattern  
+- Internal notes  
+- Prose  
+- Sources  
    
 The raw form is raw data that undergoes the phonology, allophony and orthography rules outlined before. It is also exposed to sound changes for any stage that follows it (if it gets inherited, that is). The override is empty by default but allows you to change the raw form if preferred. The raw form field is always read-only.  
    
 Meanings are basically the translations. This is essentially an array of possible translations, but it’s important that more than just a meaning can be given. For example, occurrence may also want to be specified (informal, formal, archaic, dialectal), as well as which case adpositions/verbs take, and other information such as euphemistic and idiomatic usage. This varies between possible meanings of a single word, so if a single word both means “tree” and “river”, for whatever reason, they need to have individual options.  
    
 Words always belong to a part of speech class. The following exist:  
-\-              Noun  
-\-              Pronoun  
-\-              Adjective  
-\-              Verb  
-\-              Adverb  
-\-              Adposition  
-\-              Root  
-\-              Affix  
-\-              Particle  
-\-              Conjunction  
+- Noun  
+- Pronoun  
+- Adjective  
+- Verb  
+- Adverb  
+- Adposition  
+- Root  
+- Affix  
+- Particle  
+- Conjunction  
    
 Inflection patterns refer to which inflection pattern a word belongs to, as described above.  
    
@@ -146,9 +144,6 @@ Non-inheritances will have an additional components field, which is required for
    
 Ex nihilo words will feature an additional checkbox about whether they’re scientifically sourced. Most ex-nihilo words do in fact have a scientific basis, but there are a few ex-nihilo words that have been named after people supporting the project, in which case they are exempt from sourcing (the sourcing part will be disabled) and will be clearly marked as such when exported.
 
-### 
-
-### 
 
 ### **Interaction with sporadic sound changes**
 
@@ -163,10 +158,10 @@ What is a language without texts, after all\! This bit is still tentative in for
 ## **Sources**
 
 Due to the (wannabe) scientific nature of this project, academic sourcing is super important. This means there needs to be a centralized place to register sources, which can then be tracked and referenced as outlined above. Key to each source is the following:  
-\-              Name  
-\-              Author(s)  
-\-              Year of publication  
-\-              Reference (e.g. Adiego 2016a) \[this can probably be automated, though\]  
+- Name  
+- Author(s)  
+- Year of publication  
+- Reference (e.g. Adiego 2016a) \[this can probably be automated, though\]  
    
 We originally also tracked links to Google Books and WorldCat, but this is just a guise for not just using the pdfs ourselves, so we should probably just leave that for what it is.  
    
