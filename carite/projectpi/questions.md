@@ -1,3 +1,13 @@
+# ROUND THREE
+
+> I understand that sound changes have odds from 0% to 100%. When does this RNG get rolled?
+
+> **Update**: Looking at the previous screenshots, what explcit improvements are you expecting from my overhaul? I've seeded the following examples, but I'm looking to more specific ones to you and your project. Having these desires from you will drastically change how I design this. Another way to think of this is "In what measurable ways will psf's interface better than Jasper's existing interface?"
+
+> What is the difference between the "other pages" documentation and the "corpus"?
+
+> Can I see or use the alpha / beta versions of the software?
+
 # ROUND TWO
 > Looking at the previous screenshots, what explcit improvements are you expecting from my overhaul? I've seeded the following examples, but I'm looking to more specific ones to you and your project. 
 
@@ -10,11 +20,20 @@ I want:
 
 > Can I please see the existing Google Sheet that is used to generate the website?
 
+https://docs.google.com/spreadsheets/d/1ujWrd-kgZ3LMU7G71FWactoF4ihVIwr7YMxZgqg4Hns/edit?gid=284553596#gid=284553596
+
 > For lexicon, do we look at the different inflection patterns established for nouns? Do we only look at patterns that are valid for this stage?
+
+only for this stage, but lexicon is wider than nouns - it also includes indeclinables (such as prepositions and adverbs), as well as other declinables such as adjectives and verbs
 
 > Is prose like "use this in a sentence"?
 
+it's basically just "extra fluff for documentation", generally regarding etymology and usage
+
 > Is a "sporadic sound change" the same as "sound changes" from above?
+
+sporadic sound changes are sound changes with odds < 100%
+(which in the world of linguistics are very uncommon)
 
 # ROUND ONE
 > Is there a maximum number of rules?
