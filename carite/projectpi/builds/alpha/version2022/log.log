@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/psf/Decomps/bassoonian.github.io/carite/projectpi/builds/alpha/version2022/main.py", line 2052, in <module>
+    wd_layout = [[sg.Text("Please choose a project to open.")],[sg.Listbox(values=list_of_folders, size=(30, 6), select_mode='LISTBOX_SELECT_MODE_SINGLE', key='-CHOOSE-PROJECT-LIST-BOX-', enable_events=True)],[sg.Button(button_text='Select', disabled=True, key='-CHOOSE-PROJECT-SELECT-BUTTON-'), sg.Button(button_text='New', key='-CHOOSE-PROJECT-NEW-BUTTON-')]]
+AttributeError: module 'PySimpleGUI' has no attribute 'Text'
+NoneType: None

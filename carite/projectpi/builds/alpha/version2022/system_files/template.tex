@@ -1,0 +1,176 @@
+% !TEX program = xelatex
+
+%page setup
+\documentclass[svgnames,x11names,b5paper]{book}
+\usepackage[b5paper, portrait, margin=1.5cm]{geometry}
+
+%font shit
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+
+%for typing in different scripts
+\usepackage{polyglossia}
+\renewcommand{\rm}{\normalfont}
+%\newfontfamily\russianfont{MonomakhUnicode}
+\setdefaultlanguage{english}
+\setotherlanguages{armenian,sanskrit,greek,russian}
+
+%\setlength{\parindent}{10pt}
+%random stuff which handles tables
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{float}
+
+%asmsymbol
+\usepackage{amssymb}
+
+%lists
+\usepackage{enumitem}
+\setlist{noitemsep}
+
+%pagecolour
+\usepackage{xcolor}
+%\pagecolor{AntiqueWhite}
+
+%tikz
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+
+%footnote formatting
+\usepackage[bottom,hang,multiple]{footmisc}
+\renewcommand\footnoterule{}
+\setlength{\footnotemargin}{0.75em}
+
+%footnotes in tables
+%\newcommand{\fnark}{\addtocounter{footnote}{1}\footnotemark[\thefootnote]}
+%\newcommand{\fnext}[1]{\footnotetext{#1}}
+
+% baarux
+\usepackage[mcolblock,nostandards]{baabbrevs}
+\usepackage[canonical,nochapterlabels]{baarux-0.9.9}
+\baaruset{junctureoutersep=0.4ex, junctureinnersep=0.2ex}
+\baaruset{hangindent=1.5em} % adjusting indenting on multiline glosses
+\renewcommand{\glossarypreamble}{\thispagestyle{empty}} % for removing page number from abbreviations glossary
+\input{abbreviations.tex}
+
+%table of contents
+\usepackage{titletoc}
+\usepackage{titlesec}
+\setcounter{tocdepth}{4}
+
+%random formatting mumbo-jumbo
+%\usepackage{hyperref}
+\usepackage{ragged2e}
+
+% subsubsubsections
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\usepackage{booktabs}
+
+%macro that allows you to change your lang's name easily; when in prose type \langname{}
+\newcommand{\langname}{Carite}
+
+% for making dictionary entries:
+% in the first {} put the lexeme
+% in the second put the pronunciation
+% in the third put the part of speech
+% in the fourth put stuff like gender, transitivity, whatever
+% in the fifth put principal parts or genitives of nouns etc
+% in the sixth put the meanings
+% in the seventh put etymological information
+% to cite a source within a dictentry, put \fnark{} where you want the footnote to be and then put \fnext{} after the entry, and if you have more than one footnote in the entry you need to put \addtocounter{footnote}{-n} for every n+1 footnotes you add
+
+\newcommand{\dictentry}[7]{
+
+\begin{minipage}{\textwidth}
+\textbf{#1} \quad{} {/}{#2}{/} \quad{} \textsc{#3}. \quad{} \textsc{#4} ~\textit{#5} \\\vspace{4pt}
+\textsc{senses} #6 \\\vspace{-2pt}
+\textsc{etym} ~~ #7
+\end{minipage}\\\vspace{8pt}
+
+}
+
+\begin{document}
+
+\input{cover}
+
+\newpage
+
+\tableofcontents
+\clearpage
+
+\section{Introduction}
+
+\section{Sound Changes}
+
+%% for sc in lt_soundchanges
+    %% if not 'donotdisplay' in sc
+        %% if 'newchapter' in sc
+            \subsection{\VAR{sc.newchapter}}
+        
+        %% endif
+        \VAR{sc.prose}
+
+        %% if 'examples' in sc
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+            %% for example in sc.examples
+                \VAR{example}\\
+            %% endfor
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        %% endif
+        %% if 'prose_after' in sc
+            \VAR{sc.prose_after}
+
+        %% endif
+    %% endif
+%% endfor
+
+\begin{table}[H]
+    \begin{center}
+    \begin{tabular}{lllllllll}
+    \textsc{PIE} & *sem- & → & \textsc{proto-Hellenic} & *hen-s & → & \textsc{Attic} & εἵς \textit{heís} & `one'
+    \end{tabular}
+    \end{center}
+    \end{table}
+
+\section{Phonology}
+
+\section{Morphology}
+
+% you can get things to span n columns with \multicolumn{n}{c}{blabla}
+\begin{table}[H]
+    \begin{center}
+    \begin{tabular}{r|ccc}
+    \toprule
+    & \textsc{sg} & \textsc{du} & \textsc{pl} \\
+    \midrule
+    \textsc{nom} & λόγος & \multirow{2}{*}{λόγω} & λόγοι\\
+    \textsc{acc} & λόγον & & λόγους\\
+    \textsc{gen} & λόγου & \multirow{2}{*}{λόγοιν} & λόγων\\
+    \textsc{dat} & λόγωι & & λόγοις\\
+    \bottomrule
+    \end{tabular}
+    \end{center}
+    \end{table}
+
+\section{Lexicon}
+
+~~~~
+% ^ these tildes allow for indentation and prevent the first dictionary entry from being too far left
+
+%% for entry in lt_dictionary
+\dictentry{\VAR{entry.spelling}}{\VAR{entry.ipa}}{\VAR{entry.wordclass}}{q-stem}{ataʀum}{\VAR{entry.meaning}}{\VAR{entry.etymo}}
+%% endfor
+
+prose prose prose\\
+
+\end{document}

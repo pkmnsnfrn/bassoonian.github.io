@@ -1,0 +1,22 @@
+{
+    "vcb": [
+        [
+            {
+                "lemma": "lorem",
+                "meaning": [
+                    "ipsum"
+                ],
+                "pie_formation": "lorem",
+                "pie_formation2": "lorem",
+                "pie_formation_meaning": [
+                    "ipsum"
+                ],
+                "sporadics": [],
+                "ortho": [
+                    "lorem"
+                ],
+                "capitalise": false
+            }
+        ]
+    ]
+}

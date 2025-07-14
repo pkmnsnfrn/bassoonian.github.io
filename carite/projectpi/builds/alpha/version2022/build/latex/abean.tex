@@ -1,0 +1,1394 @@
+% !TEX program = xelatex
+
+%page setup
+\documentclass[svgnames,x11names,b5paper]{book}
+\usepackage[b5paper, portrait, margin=1.5cm]{geometry}
+
+%font shit
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+
+%for typing in different scripts
+\usepackage{polyglossia}
+\renewcommand{\rm}{\normalfont}
+%\newfontfamily\russianfont{MonomakhUnicode}
+\setdefaultlanguage{english}
+\setotherlanguages{armenian,sanskrit,greek,russian}
+
+%\setlength{\parindent}{10pt}
+%random stuff which handles tables
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{float}
+
+%asmsymbol
+\usepackage{amssymb}
+
+%lists
+\usepackage{enumitem}
+\setlist{noitemsep}
+
+%pagecolour
+\usepackage{xcolor}
+%\pagecolor{AntiqueWhite}
+
+%tikz
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+
+%footnote formatting
+\usepackage[bottom,hang,multiple]{footmisc}
+\renewcommand\footnoterule{}
+\setlength{\footnotemargin}{0.75em}
+
+%footnotes in tables
+%\newcommand{\fnark}{\addtocounter{footnote}{1}\footnotemark[\thefootnote]}
+%\newcommand{\fnext}[1]{\footnotetext{#1}}
+
+% baarux
+\usepackage[mcolblock,nostandards]{baabbrevs}
+\usepackage[canonical,nochapterlabels]{baarux-0.9.9}
+\baaruset{junctureoutersep=0.4ex, junctureinnersep=0.2ex}
+\baaruset{hangindent=1.5em} % adjusting indenting on multiline glosses
+\renewcommand{\glossarypreamble}{\thispagestyle{empty}} % for removing page number from abbreviations glossary
+\input{abbreviations.tex}
+
+%table of contents
+\usepackage{titletoc}
+\usepackage{titlesec}
+\setcounter{tocdepth}{4}
+
+%random formatting mumbo-jumbo
+%\usepackage{hyperref}
+\usepackage{ragged2e}
+
+% subsubsubsections
+\setcounter{secnumdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\usepackage{booktabs}
+
+%macro that allows you to change your lang's name easily; when in prose type \langname{}
+\newcommand{\langname}{Carite}
+
+% for making dictionary entries:
+% in the first {} put the lexeme
+% in the second put the pronunciation
+% in the third put the part of speech
+% in the fourth put stuff like gender, transitivity, whatever
+% in the fifth put principal parts or genitives of nouns etc
+% in the sixth put the meanings
+% in the seventh put etymological information
+% to cite a source within a dictentry, put \fnark{} where you want the footnote to be and then put \fnext{} after the entry, and if you have more than one footnote in the entry you need to put \addtocounter{footnote}{-n} for every n+1 footnotes you add
+
+\newcommand{\dictentry}[7]{
+
+\begin{minipage}{\textwidth}
+\textbf{#1} \quad{} {/}{#2}{/} \quad{} \textsc{#3}. \quad{} \textsc{#4} ~\textit{#5} \\\vspace{4pt}
+\textsc{senses} #6 \\\vspace{-2pt}
+\textsc{etym} ~~ #7
+\end{minipage}\\\vspace{8pt}
+
+}
+
+\begin{document}
+
+\input{cover}
+
+\newpage
+
+\tableofcontents
+\clearpage
+
+\section{Introduction}
+
+\section{Sound Changes}
+
+            \subsection{Laryngeal colouring}
+        
+        Likely the earliest traditionally-dateable sound change in Carite, and in Indo-European in general, is \textbf{laryngeal colouring}. As its traces can be seen even within Anatolian, it is likely that an allophonic process of vowel colouring next to the laryngeals \textit{*h₂ *h₃} predates the split of the Anatolian subfamily. Early on, this had little effect on the morphology of Indo-European; only later did it influence its grammatical ablaut. Compare the following examples:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *h₂str̥yéh₂ & = & *h₂str̥y\textbf{é}h₂ & → & *h₂str̥y\textbf{á}h₂ & → & \textsc{Ab.} & stirjā\\
+                \textsc{PIE} & *h₂érkʷos & = & *h₂\textbf{é}rkʷos & → & *h₂\textbf{á}rkʷos & → & \textsc{Ab.} & arfos\\
+                \textsc{PIE} & *péh₃tlom & = & *p\textbf{é}h₃tlom & → & *p\textbf{ó}h₃tlom & → & \textsc{Ab.} & pūtlom\\
+                \textsc{PIE} & *h₃eḱtówos & = & *h₃\textbf{e}ḱtówos & → & *h₃\textbf{o}ḱtówos & → & \textsc{Ab.} & ogzowos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            As in other Indo-European languages, the effects of laryngeal colouring are recoverable only for the vowel \textit{*e}. No language shows coloring on \textit{*o}, though it's indeterminable if this is due to only \textit{*e} being affected or if colored \textit{*o} was simply lost. The oft-reported colouring of \textit{*o} next to \textit{*h₂} in Latin and Greek is convincingly refuted by De Decker (0).\\
+Due to how widespread this change was, examples in other branches are plentiful. Compare the following:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*bʰr\textbf{éh₂}tēr} > °FRATERBROTHER°, Proto-Celtic \textit{*br\textbf{ā}tīr}, Ancient Greek φρ\textbf{ᾱ́}τηρ, Latin \textit{fr\textbf{ā}ter}, Proto-Germanic \textit{*br\textbf{ō}þēr} (through \textit{*br\textbf{ā}þēr});\\
+\item  Proto-Indo-European \textit{*\textbf{h₂é}rh₃trom} > °PLOUGHARD°, Proto-Celtic \textit{*\textbf{a}ratrom}, Ancient Greek \textbf{ἄ}ροτρον, Latin \textit{\textbf{a}rātrum}, Proto-Germanic \textit{*\textbf{a}rþraz};\\
+\item  Proto-Indo-European \textit{*d\textbf{éh₃}nom} > °GIFTDONUM° (through \textit{*d\textbf{ṓ}nom}), Proto-Celtic \textit{*d\textbf{ā}nus} (through \textit{*d\textbf{ō}nus}), Latin \textit{d\textbf{ō}num}; Proto-Indo-European \textit{*d\textbf{éh₃}rom} > Ancient Greek δ\textbf{ῶ}ρον; Proto-Indo-European \textit{*bʰl\textbf{eh₃}tís} > Proto-Germanic \textit{*bl\textbf{ō}diz};\\
+\item  Proto-Indo-European \textit{*\textbf{h₃é}wis} > °OWISSHEEP°, Proto-Celtic \textit{*\textbf{o}wis}, Ancient Greek \textbf{ὄ}ϊς, Latin \textit{\textbf{o}vis}, Proto-Germanic \textit{*\textbf{a}wiz} (through \textit{*\textbf{o}wiz}).\\
+\end{itemize}
+The vocalism in °GIFTDONUM° is the result of a later raising of stressed \textit{*ō}. Note that the vocalism in Proto-Germanic \textit{*brōþēr} reflects a later merger of \textit{*ā} into \textit{*ō}, and the vocalism in Proto-Germanic \textit{*awiz} reflects a later merger of \textit{*o} into \textit{*a}.
+
+            \subsection{Cluster assimilation}
+        
+        Obstruent clusters undergo \textbf{regressive voicing assimilation}. This process is also extremely early, though its age relative to laryngeal voicing cannot be determined. Observe the following examples:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *m̥dtós & = & *m̥\textbf{d}tós & → & *m̥\textbf{t}tós & → & \textsc{Ab.} & azdos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        This change also operated when the cluster included aspirates: they can be assumed to also be voiced, or breathily/partially voiced, to begin with. All aspirates in such clusters presumably become voiceless aspirates, but their result cannot be shown to be different from regular voiced obstruents: presumably, this aspiration is lost early enough internally to merge their outcome with that of regular \textit{tenues}, and not (the somewhat later) voiceless aspirates.
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *méǵʰsri & → & *méḱ\textbf{ʰ}sri & → & *méḱsri & → & \textsc{Ab.} & meksri\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Later on, s-mobile arose and proliferated. This had a different behavior, promoting progressive voicing assimilation under \textbf{Siebs' Law}. This had the effect of changing morphological |*sB *sBh| into |*sP|:
+
+            It is not clear if the voiceless aspirates remained phonemic for long — in any case, in Carite, they behave identically to the regular voiceless tenues and presumably merged shortly after if they ever were distinct in the first place.
+
+            \subsection{Dental degemination}
+        
+        As part of the \textbf{degemination of dentals}, the first dental (i.e. alveolar plosive) was affricated, likely already in Proto-Indo-European times, and then the resulting cluster was simplified:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *bʰédʰtrom & → & *bʰé\textbf{t}trom & → & *bʰé\textbf{s}trom & → & \textsc{Ab.} & pestrom\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This process continued to be a productive morphophonological alternation.\\
+This development mirrors the degemination in Greek:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*bʰéy\textbf{dʰt}is} > °BHIDHTIS°, Ancient Greek πί\textbf{στ}ις;\\
+\end{itemize}
+Compare this to Italic, Celtic and Germanic, where the degemination of dentals resulted in \textit{*ss}:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*se\textbf{dt}ós} > Proto-Germanic \textit{*se\textbf{ss}az}, Latin \textit{se\textbf{ss}us};\\
+\item  Proto-Indo-European \textit{*me\textbf{dt}ós} > Proto-Celtic \textit{*me\textbf{ss}os}.\\
+\end{itemize}
+It is likely the change was not complete yet in Celtic in Proto-Celtic times, as we find an intermediate stage in Gaulish.
+
+            \subsection{Thorn clusters}
+        
+        The treatment of \textbf{thorn clusters} sets Common Indo-European apart from Early Indo-European: none of these languages preserve them intact, i.e. as coronal-dorsal clusters. In Carite, thorn clusters underwent metathesis:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *tétḱlom & = & *tét\textbf{ḱ}lom & → & *té\textbf{ḱ}tlom & → & \textsc{Ab.} & tektlom\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            Metathesis of thorn clusters is a trait shared with Celtic and Greek as shown below:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*\textbf{dʰǵʰ}ési} > °YESTERDAYWORD° (through \textit{*gdesi}), Proto-Celtic \textit{*\textbf{gd}esi}, Ancient Greek \textbf{χθ}ές.\\
+\end{itemize}
+The assibilation of the dental in °YESTERDAYWORD° will be discussed later. In the other western branches, the clusters were simply reduced:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*\textbf{dʰǵʰ}emelos} > Latin \textit{\textbf{h}umilis}; compare to °LOWWW° and Ancient Greek \textbf{χθ}αμαλός;\\
+\item  Proto-Indo-European \textit{*\textbf{dʰǵʰ}ésros} > Proto-Germanic \textit{*\textbf{g}estraz}.\\
+\end{itemize}
+
+            \subsection{Osthoff's Law}
+        
+        Another early process in Carite history, shared with Italo-Celtic, Greek, and probably Germanic, is \textbf{Osthoff's Law}: long vowels shorten when preceding a resonant that's followed by a consonant:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *tpḗrsneh₂ & → & *tp\textbf{ḗ}rsnah₂ & → & *tp\textbf{é}rsnah₂ & → & \textsc{Ab.} & pernā\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            Osthoff's Law continued to be productive until after the loss of laryngeals in all branches, but in Carite, it acted as a surface filter for a particularly long time, continuing to affect later loans and formations all the way until the loss of vowel length in the medieval period. The example below illustrates how it divides western Indo-European from eastern languages such as Sanskrit:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*tp\textbf{ḗ}rsneh₂} > °HEEL1°, Ancient Greek πτ\textbf{έ}ρνη, Latin \textit{p\textbf{e}rna}, Proto-Germanic \textit{*f\textbf{e}rsnō}; compare to Sanskrit पार्ष्णि.\\
+\end{itemize}
+In subsequent changes, Osthoff's Law, as a surface filter, will continue to be pointed out.
+
+            \subsection{Saussure Effect}
+        
+        Laryngeals between a resonant and a consonant were lost, provided that the resonant was preceded by \textit{*o}; this is known as the \textbf{Saussure Effect}. While it is unclear if this effect already affected Proto-Indo-European proper or if it's a later development, it is nonetheless shared by many branches, Carite included:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *solh₂nós & = & *sol\textbf{h₂}nós & → & *solnós & → & \textsc{Ab.} & holnos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            \subsection{Centumisation}
+        
+        Centumisation in Carite took place somewhat late, and only after the \textbf{coalescence} of a sequence of a back velar followed by \textit{*w} into a single labiovelar consonant:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *siskwós & = & *sisk\textbf{w}ós & → & *sisk\textbf{ʷ}ós & → & \textsc{Ab.} & hizvos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            It is worth noting that Greek, in order to preserve the length caused by the original cluster, rendered them as geminates instead.
+
+        The typical actual centumisation involved the unconditional merger of the palatovelars into regular velars as follows:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *téḱnom & = & *té\textbf{ḱ}nom & → & *té\textbf{k}nom & → & \textsc{Ab.} & teknom\\
+                \textsc{pre-Ab.} & *bʰeh₂ǵeh₂ & → & *bʰah₂\textbf{ǵ}ah₂ & → & *bʰah₂\textbf{g}ah₂ & → & \textsc{Ab.} & pāgā\\
+                \textsc{PIE} & *ǵʰolh₃éh₂ & → & *\textbf{ǵ}ʰolh₃áh₂ & → & *\textbf{g}ʰolh₃áh₂ & → & \textsc{Ab.} & holā\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This reduced the triple-contrast velar series to one that only contrasted plain and labialised. Centumisation is shared with the other western languages:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*swé\textbf{ḱ}uros} > °SEKURUSFATHER°, Proto-Celtic \textit{*swe\textbf{k}rVnos}, Ancient Greek ἑ\textbf{κ}υρός, Latin \textit{so\textbf{c}er}, Proto-Germanic \textit{*swe\textbf{h}rô} (through \textit{*swe\textbf{k}rô});\\
+\item  Proto-Indo-European \textit{*\textbf{ǵ}énus} > °GENWII°, Proto-Celtic \textit{*\textbf{g}enus}, Ancient Greek \textbf{γ}ένυς, Latin \textit{\textbf{g}ena}, Proto-Germanic \textit{*\textbf{k}innuz} (through \textit{*\textbf{g}innuz});\\
+\item  Proto-Indo-European \textit{*\textbf{ǵʰ}éyōm} > °WINTER°, Proto-Celtic \textit{*\textbf{g}yemos} (through \textit{*\textbf{gʰ}yemos}), Ancient Greek \textbf{χ}εῖμα, Latin \textit{\textbf{h}iems} (through \textit{*\textbf{gʰ}iems}), Proto-Germanic \textit{*\textbf{g}ōīn-} (through \textit{*\textbf{gʰ}ōīn-}).\\
+\end{itemize}
+Carite is peculiar in that the late centumisation, which only occurred after the coalescence of a sequence of a plain velar and \textit{*w}, allows for an original contrast that is not found in the other western languages as they also merged palatovelars followed by \textit{*w} with the labiovelars. For example, compare how Carite, unlike its sister centum branches, retains a sequence of a palatovelar and \textit{*w} as a cluster as opposed original labiovelars and the sequence of a plain velar and \textit{*w} which later shifted to fricatives as seen in the examples above — this will be discussed in greater detail later:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*h₁é\textbf{ḱw}os} > °EKWOS°, not  **ε\textbf{φ}ος (\textit{**e\textbf{f}os}); compare to Proto-Celtic \textit{*e\textbf{kʷ}os}, Ancient Greek ἵ\textbf{ππ}ος (through \textit{*íkkʷos}), Latin \textit{e\textbf{qu}us}, Proto-Germanic \textit{*e\textbf{hw}az} (through \textit{*e\textbf{kw}az});\\
+\item  Proto-Indo-European \textit{*dn̥\textbf{ǵʰw}éh₂s} > °DAGWAA°, not **διμ\textbf{θ}ᾱ (\textit{**dim\textbf{v}ā}); compare to Proto-Celtic \textit{*tan\textbf{gʷ}āts} (through \textit{*tan\textbf{gʷʰ}āts}), Latin \textit{lin\textbf{gu}a} (through \textit{*lin\textbf{gʷʰ}ā}), Proto-Germanic \textit{*tun\textbf{g}ǭ} (through \textit{*tun\textbf{gʰw}ǭ}).\\
+\end{itemize}
+Original \textit{*ǵw} clusters are not included in the examples above as none such cluster were continued into Carite; however, we can safely assume that it would probably have had the same fate. It is worth noting that in Germanic, the fact labiovelars are written as \textit{*Cw} rather than \textit{*Cʷ} is purely an orthographical convention and does not mean they are clusters. The loss of the labialisation in Proto-Germanic \textit{*tungǭ} is a result of delabialisation after \textit{*un}.
+
+            \subsection{Laryngeal and syllabic sonorant development}
+        
+        The Proto-Indo-European laryngeals, which (mostly) disappeared in almost all branches, left behind traces before doing so. Besides the laryngeal colouring mentioned earlier, which was presumably much older, the \textbf{first laryngeal loss} marks the start of a long process of laryngeal deletion:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *h₂wéh₁n̥tos & = & *h₂wé\textbf{h₁}n\textbf{̥}tos & → & *h₂wéntos & → & \textsc{Ab.} & fentos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            As Osthoff's Law continued to be in effect, vowels were prevented from being lengthened if they were followed by a resonant and another consonant.
+
+        Syllabic sonorants and laryngeals adjacent to them interacted in many branches, Carite included. Similar to Celtic, Greek and Latin, Carite inserted a prop vowel between any syllabic sonorant and a laryngeal, moving the syllabicity from the sonorant to this new prop vowel:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *gl̥h₁ís & = & *gl\textbf{̥}h₁ís & → & *gl\textbf{ǝ}h₁ís & → & \textsc{Ab.} & glīs\\
+                \textsc{PIE} & *n̥ḱm̥h₂nós & → & *n̥km\textbf{̥}h₂nós & → & *n̥km\textbf{ǝ}h₂nós & → & \textsc{Ab.} & akmūnos\\
+                \textsc{PIE} & *str̥h₃tós & = & *str\textbf{̥}h₃tós & → & *str\textbf{ǝ}h₃tós & → & \textsc{Ab.} & strōdos\\
+                \textsc{PIE} & *h₁n̥gʷnís & = & *h₁n\textbf{̥}gʷnís & → & *h₁\textbf{ǝ}ngʷnís & → & \textsc{Ab.} & amvnis\\
+                \textsc{PIE} & *h₂r̥ǵrós & → & *h₂r\textbf{̥}grós & → & *h₂\textbf{ǝ}rgrós & → & \textsc{Ab.} & argros\\
+                \textsc{PIE} & *h₃r̥dʰwós & = & *h₃r\textbf{̥}dʰwós & → & *h₃\textbf{ǝ}rdʰwós & → & \textsc{Ab.} & ordūs\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Next, syllabic sonorants lost their syllabicity with an epenthetic vowel \textit{*ǝ} being inserted to compensate. The exact resolution depended on the environment. Syllabic nasals turned into \textit{*a} when preceded by at least two consonants, while syllabic liquids inserted a prop vowel after them in the same environment. All remaining syllabic sonorants simply ejected a prop vowel before them:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₁ln̥gʷhrós & = & *h₁l\textbf{n̥}gʷhrós & → & *h₁l\textbf{a}gʷhrós & → & \textsc{Ab.} & lavros\\
+                \textsc{PIE} & *pr̥sth₂óm & = & *pr\textbf{̥}sth₂óm & → & *pr\textbf{ǝ}sth₂óm & → & \textsc{Ab.} & prizdom\\
+                \textsc{PIE} & *ln̥dʰéh₂ & → & *ln\textbf{̥}dʰáh₂ & → & *l\textbf{ǝ}ndʰáh₂ & → & \textsc{Ab.} & lindā\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            It is likely that the reflex of nasals before clusters started off as a nasalised neutral vowel — \textit{*ə̃} — which later lost its nasalisation and neutralised differently than its oral equivalent, most importantly not engaging in the vowel colouring that would later take place.
+
+        Whenever a laryngeal was surrounded by two true consonants — that is, all consonants excluding the semivowels \textit{*y *w} — it inserted a prop vowel after itself:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *ph₂trós & = & *ph₂trós & → & *ph₂\textbf{ǝ}trós & → & \textsc{Ab.} & padros\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            \subsection{Prop vowel colouring}
+        
+        The precise reflex of the recently created prop vowels heavily depended on their environment. First of all, it took up rounding from any previous consonant:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *gʷhn̥tós & → & *gʷh\textbf{ǝ}ntós & → & *gʷh\textbf{u}ntós & → & \textsc{Ab.} & hundos\\
+                \textsc{PIE} & *kánmn̥ & → & *kánm\textbf{ǝ}n & → & *kánm\textbf{u}n & → & \textsc{Ab.} & kammun\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Due to the regressive action of the \textit{boukolos} rule, which delabialised labiovelars next to \textit{*u}, this delabialised any labiovelar after which it occured:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *gʷhn̥tós & → & *g\textbf{ʷh}untós & → & *g\textbf{ʰ}untós & → & \textsc{Ab.} & hundos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            It is worth noting that this did not affect new sequences of \textit{*wu}, which stayed as is.
+
+        The prop vowel took colour from surrounding laryngeals much like older \textit{*e}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *dʰh₁syós & → & *dʰh₁\textbf{ǝ}syós & → & *dʰh₁\textbf{e}syós & → & \textsc{Ab.} & tezjos\\
+                \textsc{PIE} & *semh₂lós & → & *semh₂\textbf{ǝ}lós & → & *semh₂\textbf{a}lós & → & \textsc{Ab.} & hamalos\\
+                \textsc{PIE} & *n̥h₃dós & → & *n\textbf{ǝ}h₃dós & → & *n\textbf{o}h₃dós & → & \textsc{Ab.} & nōdos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Finally, any remaining prop vowels merged into \textit{*u} when directly preceding \textit{*m}, while all other prop vowels lost their distinctiveness by merging into \textit{*i}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *sept"m̥ & → & *sept\textbf{ǝ́}m & → & *sept\textbf{ú}m & → & \textsc{Ab.} & hebdum\\
+                \textsc{PIE} & *h₂erǵn̥tóm & → & *h₂arg\textbf{ǝ}ntóm & → & *h₂arg\textbf{i}ntóm & → & \textsc{Ab.} & argindom\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            As can be seen above, the treatment of syllabic sonorants and laryngeals in these contexts is particularly complicated, and the same can be said for the other western branches. The following comparison will remain superficial and simplified; as such, the reader is advised to read more specialised sources if they wish to learn more.\\
+Syllabic sonorants interacting with adjacent laryngeals is a feature shared with Celtic, Greek and Latin, but not Germanic, which simply ignored the laryngeals as if they didn't exist and treated these clusters just like it treated lone syllabic sonorants: by inserting a \textit{*u} before them. The later colouring of the prop vowel by adjacent laryngeals is only shared with Greek, however, and referred to as the so-called \textbf{triple reflex}. In other branches, the outcome tended to be an a-vocalism instead. Compare the following:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*(h₂)w\textbf{ĺ̥h₁}neh₂} > °WLANA°, Proto-Celtic \textit{*w(u)\textbf{lā}n-}, Ancient Greek \textbf{λῆ}νος, Latin \textit{\textbf{lā}na}; compare to Proto-Germanic \textit{*w\textbf{ul}lō};\\
+\item  Proto-Indo-European \textit{*ǵ\textbf{r̥h₂}nóm} > °GRANUMGRAIN°, Proto-Celtic \textit{*g\textbf{rā}nom}, Latin \textit{g\textbf{rā}num}; compare to Proto-Germanic \textit{*k\textbf{ur}ną}; Proto-Indo-European \textit{*p\textbf{l̥h₂}Kyéti} > °ISTRIKE°, Ancient Greek π\textbf{λή}σσω;\\
+\item  Proto-Indo-European \textit{*ǵ\textbf{n̥h₃}tós} > °GNOTUSKNOWN°, Proto-Celtic \textit{*g\textbf{nā}tos} (through \textit{*gnōtos}), Ancient Greek γ\textbf{νω}τός, Latin \textit{\textbf{nō}tus}.\\
+\end{itemize}
+The resulting vocalisations of syllabic sonorants and the position of the newly inserted vowel is particularly complicated in Carite, but significantly easier in the other branches. In Celtic, \textit{*i} appeared after syllabic liquids when between any consonant and a stop or \textit{*m}, while \textit{*a} appeared in every other case. In Latin, \textit{*o} appeared before liquids, but \textit{*e} did for everything else; special developments are included in papers such as Prósper (2017). The Greek development is considerably more complicated and readers are advised to consult Sihler (1995) and papers such as Mihaylova (2012) for an elaborate exposition. Germanic, as mentioned before, was very straightforward as it simply put \textit{*u} before the syllabic sonorants. Some examples are included below:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*déḱ\textbf{m̥}} > °10°, Proto-Celtic \textit{*dek\textbf{am}}, Ancient Greek δέκ\textbf{α}, Latin \textit{dec\textbf{em}}, Proto-Germanic \textit{*teh\textbf{un}} (with secondary \textit{*-n} for \textit{*-m});\\
+\item  Proto-Indo-European \textit{*m\textbf{r̥}tós} > °MORTUUSDEAD°, Proto-Celtic \textit{*m\textbf{ar}wos}, Ancient Greek β\textbf{ρο}τός, Latin \textit{m\textbf{or}tuus}, Proto-Germanic \textit{*m\textbf{ur}þą}.\\
+\end{itemize}
+In the same fashion, Carite has environment-dependent outcomes like the other branches did.
+
+            \subsection{Engels' Law}
+        
+        An unusual but well-documented Carite change is the effect of laryngeals on consonants in word-initial position. They voiced plosives and sibilants, probably through a process of glottalisation:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₁ḱm̥tóm & → & *h₁\textbf{k}umtóm & → & *h₁\textbf{g}umtóm & → & \textsc{Ab.} & gundom\\
+                \textsc{pre-Ab.} & *h₁sh₂néh₂ & → & *h₁\textbf{s}h₂anáh₂ & → & *h₁\textbf{z}h₂anáh₂ & → & \textsc{Ab.} & zanā\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Similarly, semivowels underwent fortition, with \textit{*y} surfacing as \textit{*k} and \textit{*w} surfacing as \textit{*kʷ}. Importantly, however, is that the fortition of \textit{*y} only took place following \textit{*h₁}, as opposed to the other consonants, which underwent this change regardless of which of laryngeal:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₁yós & = & *h₁\textbf{y}ós & → & *h₁\textbf{k}ós & → & \textsc{Ab.} & kos\\
+                \textsc{pre-Ab.} & *h₁widʰwéh₂ & → & *h₁\textbf{w}idʰwáh₂ & → & *h₁\textbf{kʷ}idʰwáh₂ & → & \textsc{Ab.} & fidwā\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            A longstanding hypothesis is that the fortition of \textit{*h₁y} resulted in \textit{*ḱ}, which hadn't merged into \textit{*k} yet. This opinion is somewhat controversial, but is unfalsifiable because what sound exactly that \textit{*y} fortited to is impossible to know for sure. The fact only \textit{*h₁} affected \textit{*y} is in line with its word-initial treatment in Greek and can be explained through Byrd's improvement of Pinault's Law; this would imply \textit{*h₂ *h₃} would have been lost before \textit{*y} before this phonological change could have taken place. For more information, please refer to Bozzone (2013).\\
+This change is occasionally termed \textbf{Engels' Law}, and it was first posited by the Limburgish philologist Klaus Engels.
+
+        It is likely that at this point, the laryngeals lost differentiation and merged into one general laryngeal continuant, completing the \textbf{merger of laryngeals}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *n̥ḱm̥h₂nós & → & *akmu\textbf{h₂}nós & → & *akmu\textbf{H}nós & → & \textsc{Ab.} & akmūnos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        The next loss of laryngeals (\textbf{second laryngeal loss}) happened to sequences of vowels with a laryngeal:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *lówksneh₂ & → & *lówksn\textbf{aH} & → & *lówksn\textbf{ā} & → & \textsc{Ab.} & lūksnā\\
+                \textsc{pre-Ab.} & *ḱeh₁énos & → & *k\textbf{eHé}nos & → & *k\textbf{ḗ}nos & → & \textsc{Ab.} & kīnos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            The lengthening of contracted laryngeal sequences still obeyed Osthoff's Law, shortening the new vowels when followed by a sequence of a resonant plus obstruent. Examples of this process are scant, but they are evident in the so-called conjunctive nominals, which, in early Carite, take special forms in subordinate clauses and in coordinated clauses. A typical example of this is with the masculine noun °EKWOS°: its genitive plural is attested as both the ordinary εκῠωμ (\textit{ekwōm}) and the conjunctive εκῠομφε (\textit{ekwomfe}) — the length of the vowel in the suffix is indicative of Osthoff's Law. With the deletion of the laryngeal and subsequent compensatory lengthening, any allophonous colouring effects were phonemicised.
+
+        After this, the laryngeals failed to effect any further changes, and were likely lost shortly thereafter, completing the \textbf{third laryngeal loss}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₂éngʷhis & → & *\textbf{H}ángʷhis & → & *ángʷhis & → & \textsc{Ab.} & amvis\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This included all word-initial laryngeals immediately followed by a consonant, which were lost in all daughters except for Anatolian, Greek, Armenian, and Phrygian. It is worth noting this change phonemicised what used to be allophones; i.e. the colouring of \textit{*e} and Engels' Law.
+
+            \subsection{Davide's Law}
+        
+        One of the longstanding issues in the evolution from Proto-Indo-European to Abean was the surfacing of some \textit{*e *ē} as \textit{*a *ā}. This shift is called \textbf{Davide's Law}, and it must have taken place following the dissolution of syllabic sonorants and laryngeals, but before the collapse of the three-way plosive system and (presumably) the fricativisation of the labiovelars. Davide's Law posits that pretonic \textit{*e *ē} shift to \textit{*a *ā} when next to a rhotic, the semivowel \textit{*w} or its vocalic equivalent \textit{*u}, and any (labio)velar:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₁erkʷós & → & *\textbf{e}rkʷós & → & *\textbf{a}rkʷós & → & \textsc{Ab.} & arvos\\
+                \textsc{PIE} & *h₃l̥h₁rós & → & *l\textbf{ē}rós & → & *l\textbf{ā}rós & → & \textsc{Ab.} & lāros\\
+                \textsc{PIE} & *ḱh₁snós & → & *k\textbf{e}snós & → & *k\textbf{a}snós & → & \textsc{Ab.} & kaznos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        When preceding \textit{*n} before another velar, the allophonic velarity of the nasal also triggered the same shift:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₁n̥gʷnís & → & *\textbf{e}ngʷnís & → & *\textbf{a}ngʷnís & → & \textsc{Ab.} & amvnis\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            It is likely this change originally also affected the augment for roots starting with the consonants mentioned above, but we find no trace of this in inscriptions, and it was probably analogised away later.\\
+Due to the environment this change is conditioned by, several historical linguists have pointed out the noteworthy similarity to the phenomenon known as RUKI, which was long held to only affect satem languages. However, post-Proto-Germanic developments related to vowel lowering in RUKI-like environments have pointed towards the isogloss being shared with at least one centum language, too (see Prescott (2004)), so it is not unthinkable that the Carite shift may be explained in the same vein.
+
+        Unusually, some words show the effects of Davide's Law outside of these conditions. One of these conditions is after initial \textit{*s}, which will actually be explained shortly; the others are more opaque. The effect again seems to be limited to pretonic \textit{*e *ē}, but the range of adjacent consonants triggering it seems to be larger. Some Caritologists have suggested that dialectally, Davide's Law also affected any pretonic \textit{*e *ē} next to voiced obstruents, citing the glottalic theory as a possible additional cause. Regardless, the conditions are not fully understood and we only posit the following:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₁edʰléh₂ & → & *\textbf{e}dʰlā́ & → & *\textbf{a}dʰlā́ & → & \textsc{Ab.} & adlā\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            Superficially, the fact Carite exhibits “too many” a-vocalisms is noteworthily similar to an identical problem in Latin. However, the conditions are entirely different. For more information on the Italic colouring of \textit{*o} to \textit{*a}, please refer to sources such as Vine (2011) and de Vaan (2008).
+
+            \subsection{Development of \textit{*h}}
+        
+        Word-initial laryngeal voicing of \textit{*s} enables the dating of another change: its word-initial, prevocalic debuccalisation:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *sokʷyós & = & *\textbf{s}okʷyós & → & *\textbf{h}okʷyós & → & \textsc{Ab.} & hovjos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            Greek also took part in the debuccalisation of \textit{*s}, although it was significantly more widespread, also taking place intervocalically and in some complex clusters. Compare the following:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*\textbf{s}upnós} > °HUPNOS°, Proto-Celtic \textit{*\textbf{s}ownos}, Ancient Greek \textbf{ὕ}πνος, Latin \textit{\textbf{s}omnus}, Proto-Germanic \textit{*\textbf{s}wefnaz};\\
+\item  Proto-Indo-European \textit{*\textbf{s}weḱrúh₂} > °SOCRUSAUNT°, Proto-Celtic \textit{*\textbf{s}wekrū}, Ancient Greek \textbf{ἑ}κυρά, Latin \textit{\textbf{s}ocrus}, Proto-Germanic \textit{*\textbf{s}wegrū}.\\
+\end{itemize}
+As shown above, original \textit{*sw-} kept the sibilant as is; the labial would later possibly coalesce with the following vowel.
+
+        Another change, presumably happening concurrently, was the debuccalisation of word-initial prevocalic \textit{*gʰ}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *ǵʰérmn̥ & → & *\textbf{gʰ}érmun & → & *\textbf{h}érmun & → & \textsc{Ab.} & hermun\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            In Latin, we find <<h>> for original \textit{*gʰ} but in a far more widespread environment. Compare the following:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*\textbf{ǵʰ}h₂éns} > °GANSGOOSE°, Proto-Celtic \textit{*\textbf{g}ansis}, Ancient Greek \textbf{χ}ήν, Latin \textit{ansēr} (through \textit{*\textbf{h}ansēr}), Proto-Germanic \textit{*\textbf{g}ans};\\
+\item  Proto-Indo-European \textit{*wé\textbf{ǵʰ}eti} > °VEHOBRING°, Ancient Greek ἔ\textbf{χ}ω, Latin \textit{ve\textbf{h}ō}, Proto-Germanic \textit{*we\textbf{g}aną}.\\
+\end{itemize}
+
+        In a handful of words, we find the effects of Davide's Law on words that etymologically started with \textit{*s}. It is likely that the word-initial prevocalic merger of \textit{*s} and \textit{*gʰ}, where the latter triggered the change, resulted in these hypercorrections.
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *sh₁syós & → & *h\textbf{e}syós & → & *h\textbf{a}syós & → & \textsc{Ab.} & hazjos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            \subsection{Dental assibilation}
+        
+        Around this time, dental plosives following a (labio)velar plosive assibilated when not followed by another consonant.
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₃eḱtéh₃ & → & *ok\textbf{t}ṓ & → & *ok\textbf{s}ṓ & → & \textsc{Ab.} & ogzū\\
+                \textsc{pre-Ab.} & *dʰǵʰemelos & → & *gʰ\textbf{dʰ}emelos & → & *gʰ\textbf{z}emelos & → & \textsc{Ab.} & gzemelos\\
+                \textsc{PIE} & *wlikʷtóm & = & *wlikʷ\textbf{t}óm & → & *wlikʷ\textbf{s}óm & → & \textsc{Ab.} & wlizmom\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This process was unique to Carite and can not be found in other early western Indo-European languages.
+
+            \subsection{Aspiration loss}
+        
+        The three-way stop system collapsed after dental assibilation occurred. First, we find that plain and aspirated voiced stops neutralize after a nasal:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *wéndʰeh₂ & → & *wénd\textbf{ʰ}ā & → & *wéndā & → & \textsc{Ab.} & wendā\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            It was long assumed that an identical change occurred in Italic; however, recent evidence suggests that this must be a post-Italic development, as Umbrian lacks it. As such, even though Latin has an identical development, we must consider these to be independent (cf. Stuart-Smith (2004)).
+
+        The three-way contrast system in plosives only took place after the aforementioned post-nasal neutralisation. The voiced aspirates, being actually breathy voiced, merged into the tenues. A glottalic interpretation is that in these early Carite stages voicing was a creaky or glottalised feature (explaining laryngeal voicing of word-initial obstruents), and that breathy segments had more in common acoustically with voiceless tenues. Alternatively, we posit that they simply devoiced first and only later lost their aspiration. Regardless, the internal history of this change is opaque, and we only posit:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *dʰubʰnós & = & *\textbf{dʰ}u\textbf{bʰ}nós & → & *\textbf{t}u\textbf{p}nós & → & \textsc{Ab.} & tubnos\\
+                \textsc{PIE} & *h₁réwdʰos & → & *réw\textbf{dʰ}os & → & *réw\textbf{t}os & → & \textsc{Ab.} & rȳtos\\
+                \textsc{PIE} & *n̥ǵʰwetós & → & *a\textbf{gʰ}watós & → & *a\textbf{k}watós & → & \textsc{Ab.} & akōdos\\
+                \textsc{PIE} & *gʷhermós & → & *\textbf{g}ʷ\textbf{h}armós & → & *\textbf{k}ʷarmós & → & \textsc{Ab.} & farmos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            Notably, this change did not affect word-initial \textit{*h} derived from older \textit{*gʰ}, as it had already merged with the reflex of initial \textit{*s}, but did affect all internal instances of \textit{*gʰ}—even those that were preserved as a result of prefixation. If the environment in which Davide's Law was effective did indeed sporadically include voiced stops, then the collapse of the system probably postdates it. Likewise, the collapse must follow the assibilation described above, as the cluster \textit{*gʰdʰ} yielded \textit{*gz} (through \textit{*gʰz}), not \textit{**ks} (through \textit{**kt}).\\
+The outcome of the original three-way contrast system in other languages is diverse. Compare the following cognates:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*h₃ór\textbf{bʰ}os} > °ORPHANOS°, Proto-Celtic \textit{*or\textbf{b}os}, Ancient Greek ὀρ\textbf{φ}ανός, Latin \textit{or\textbf{b}us}, Proto-Germanic \textit{*ar\textbf{b}az};\\
+\item  Proto-Indo-European \textit{*\textbf{dʰ}uréh₂} > °DOORTURA°, Proto-Celtic \textit{*\textbf{d}worā}, Ancient Greek \textbf{θ}ύρα, Latin \textit{\textbf{f}orum} (through \textit{*þorum}), Proto-Germanic \textit{*\textbf{d}urō};\\
+\item  Proto-Indo-European \textit{*h₃méy\textbf{ǵʰ}eti} > °MIIKOO° Ancient Greek ὀμεί\textbf{χ}ω, Latin \textit{meiō} (through \textit{*mei\textbf{χ}ō}), Proto-Germanic \textit{*mī\textbf{g}aną}; Proto-Indo-European \textit{*sé\textbf{ǵʰ}os} > °SEGOSPOWER°, Proto-Celtic \textit{*se\textbf{g}os}, Proto-Germanic \textit{*se\textbf{g}az};\\
+\item  Proto-Indo-European \textit{*sní\textbf{gʷʰ}s} > °SNIFI° (through \textit{*snikʷī}), Proto-Celtic \textit{*sni\textbf{gʷ}(y)os}, Ancient Greek νί\textbf{φ}α (through \textit{ní\textbf{kʷʰ}a}), Latin \textit{nix} (with oblique \textit{ni\textbf{v}-} through \textit{ni\textbf{ɣʷ}-}), Proto-Germanic \textit{*snai\textbf{w}az} (through \textit{*snai\textbf{gw}az}).\\
+\end{itemize}
+The way Celtic handles the voiced aspirates is relatively straightforward, as it merged voiced aspirates into the regular voiced series. The only exception is \textit{*gʷʰ}, which deaspirated only after \textit{*gʷ} had shifted to \textit{*b}. In Greek, the aspirates simply devoiced; this may be an isogloss shared with Carite, which would later lose their aspiration. In Italic, we find word-initial devoicing of the aspirates, after which all aspirates became fricatives. In Latin times, these later shifted further — for exact details, one may consult Stuart-Smith (2004), although the examples listed above already give some clues. In Germanic, the voiced aspirates played a pivotal role in what is referred to as Grimm's Law. The three-way contrast system remained, although a chain shift took place that caused the fricativisation of voiceless stops, the devoicing of voiced stops, and the deaspiration of aspirates. This can be conveniently conveyed as \textit{*Bʰ > *B > *P > *F}. For more information and examples, please consult Ringe (2009).
+
+            \subsection{Labiovelar developments}
+        
+        Long-distance assimilation of labial \textit{*p} into a following \textit{*kʷ} happened around this period. It is unknown whether this change predated or postdated the collapse of the aspiration-based system, since there are no suitable etymologies with original \textit{*bʰ} and \textit{*gʷʰ}. Examples are few but include the following:
+
+            Italo-Celtic individually underwent a similar assimilation, the difference being that Carite requires the second labiovelar to be prevocalic, whereas Italo-Celtic does not. Compare the following:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*\textbf{p}én\textbf{kʷ}e} > °5°, Proto-Celtic \textit{*\textbf{kʷ}en\textbf{kʷ}e}, Ancient Greek \textbf{π}έν\textbf{τ}ε, Latin \textit{\textbf{qu}īn\textbf{qu}e}, Proto-Germanic \textit{*\textbf{f}im\textbf{f}e};\\
+\item  Proto-Indo-European \textit{*\textbf{p}o\textbf{kʷ}téh₂} > °COCTUSSWEAT°; compare to Proto-Celtic \textit{*\textbf{kʷ}o\textbf{x}tos} (through \textit{*\textbf{kʷ}o\textbf{k}tos}), Latin \textit{\textbf{c}o\textbf{c}tus} (through \textit{\textbf{qu}o\textbf{c}tus}).\\
+\end{itemize}
+The development of Proto-Germanic \textit{*fimfe} seems like it fits the picture, but is actually an irregular assimilation going the other way around, with \textit{*kʷ} assimilating into the preceding \textit{*p} and a shift to \textit{*f} through Grimm's Law. On the preconsonantal delabialisation in the latter example, as well as the Carite outcome of \textit{*kʷs}, see below. The Carite ordinal °5o° appears to defy the prevocalic requirement of the shift, but this is easily explained as analogy with the cardinal.
+
+        It was roughly at this time that the more lenis labiovelar plosives \textit{*kʷ *gʷ} lost their velar plosion, but retained the lower frequency timbre of velarisation by labiodentalising instead of merely shifting to labials:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *negʷhrós & → & *na\textbf{kʷ}rós & → & *na\textbf{f}rós & → & \textsc{Ab.} & navros\\
+                \textsc{PIE} & *ugʷrós & = & *u\textbf{gʷ}rós & → & *u\textbf{v}rós & → & \textsc{Ab.} & uvros\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            The development of labiovelars into labials (rather than labiodentals) is seen in some of Carite's sister branches. Celtic, for example, merges \textit{*gʷ} into \textit{*b} with \textit{*gʷʰ} taking its place. In Greek, labiovelars merged into labial or dental stops depending on their environment; the exact outcome also depends on the dialect. Latin retained \textit{*kʷ} as <<qu>> (except in cases where it was later unrounded), while \textit{*gʷ} merged into \textit{*w} <<v>> when not postnasal. Some other Italic languages shifted them to labial plosives. Germanic retained labialisation, but the series had been subject to Grimm's Law, yielding \textit{*hw *kw *gw}. Compare the following cognates:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*liné\textbf{kʷ}ti} > °LEYKWOO° (through \textit{*lin\textbf{f}ṓ}) > Proto-Celtic \textit{*lin\textbf{kʷ}eti}, Ancient Greek λιμ\textbf{π}άνω, Latin \textit{lin\textbf{qu}ō}; Proto-Indo-European \textit{*h₂é\textbf{kʷ}eh₂} > °AQUAWATER°, Latin \textit{a\textbf{qu}ā}, Proto-Germanic \textit{*a\textbf{hw}ō};\\
+\item  Proto-Indo-European \textit{*\textbf{gʷ}ih₃wós} > °VIVUS°, Proto-Celtic \textit{*\textbf{b}iwos}, Latin \textit{\textbf{v}īvus}, Proto-Germanic \textit{*\textbf{kw}ikwaz}; Proto-Indo-European \textit{*h₁ré\textbf{gʷ}os} > °TWILIGHTDUSK°, Ancient Greek ἔρε\textbf{β}ος, Proto-Germanic \textit{*re\textbf{kw}az}.\\
+\end{itemize}
+The intervocalic labiovelar in Proto-Germanic \textit{*kwikwaz} is a development unique to Germanic referred to as Cowgill's Law; for more information, please refer to Ringe (2009).\\
+It is worth noting that Carite, unlike all other western centum languages — Celtic (before \textit{*y}, \textit{*t}, \textit{*s} and \textit{*n}), Greek (before \textit{*y}), Latin (before all consonants) and Germanic (before \textit{*y}, \textit{*r} \textit{*t}) — preserved labialisation in all cases (with the obvious exception of the boukolos rule). Compare the words for “night”:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*nó\textbf{kʷ}ts} > °NUFT° (through \textit{*no\textbf{f}sī}), Proto-Celtic \textit{*no\textbf{x}tV-}, Ancient Greek νύ\textbf{ξ} (through \textit{nó\textbf{kʷ}ts} > \textit{nú\textbf{k}ts} with Cowgill's Law), Latin \textit{no\textbf{x}} (through \textit{no\textbf{c}ts}), Proto-Germanic \textit{*na\textbf{h}ts}.\\
+\end{itemize}
+Please do note that the conditions of delabialisation in the other branches mentioned above are simplifications. For further information, consult the relevant sources.
+
+            \subsection{Diphthong collapse}
+        
+        When any vowel was followed by \textit{*i *u}, the sequence collapsed into a diphthong, with \textit{*i *u} surfacing as the semivowels \textit{*y *w}. If they were formerly stressed, the stress shifted to the preceding vowel:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *kéh₂ikos & → & *ká\textbf{i}kos & → & *ká\textbf{y}kos & → & \textsc{Ab.} & kīkos\\
+                \textsc{pre-Ab.} & *keh₂ulós & → & *ka\textbf{u}lós & → & *ka\textbf{w}lós & → & \textsc{Ab.} & kōlos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This widespread change primarily resolved hiatus originating from \textit{*VHV} environments.
+
+        Very early on, the homorganic sequence \textit{*eye} coalesced into a long vowel:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *tréyes & = & *tr\textbf{éye}s & → & *tr\textbf{ḗ}s & → & \textsc{Ab.} & trīs\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        At some point between the coalescence of \textit{*eye} and all further monophthongisation (as will be discussed below), semivowel dissimilation took place. In brief, \textit{*w} and \textit{*y} shifted to \textit{*b} and \textit{*l}, respectively, when near or next to another instance of the same vowel or its vocalic equivalent. More precisely, \textit{*w} shifted to \textit{*b} before \textit{*u *ū} or before a sequence consisting of a vowel, optionally a resonant, and \textit{*w}, while \textit{*y} shifted to \textit{*l} before \textit{*i *ī} or before a sequence consisting of a vowel, optionally a resonant, and \textit{*y}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₁néwn̥tos & → & *né\textbf{w}untos & → & *né\textbf{b}untos & → & \textsc{Ab.} & nebuntos\\
+                \textsc{PIE} & *wiweros & = & *\textbf{w}iweros & → & *\textbf{b}iweros & → & \textsc{Ab.} & biweros\\
+                \textsc{PIE} & *yoynis & = & *\textbf{y}oynis & → & *\textbf{l}oynis & → & \textsc{Ab.} & lø̄nis\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            We know this change follows the coalescence of \textit{*eye}, as the sequence \textit{*-eyey} surfaces as *-ηῐ (\textit{*-ēj}) and not **-ελη (\textit{*-elē}). This dissimilation did not take place where the vocalic equivalent preceded its semivowel equivalent: we find °TREEKNOWER° rather than **δρυβῑστρις (\textit{**drubīstris}).
+
+        Short diphthongs merged into long vowels. The sequences \textit{*we *wa *wo} collapsed too, unless the result would be shortened by Osthoff's Law.
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *wáy & → & *\textbf{wá}j & → & *\textbf{ṓ}j & → & \textsc{Ab.} & ūj\\
+                \textsc{PIE} & *wésmn̥ & → & *\textbf{wé}smun & → & *\textbf{"y}:smun & → & \textsc{Ab.} & ȳsmun\\
+                \textsc{pre-Ab.} & *swóyos & → & *s\textbf{wó}jos & → & *s\textbf{ū́}jos & → & \textsc{Ab.} & sūjos\\
+                \textsc{pre-Ab.} & *h₂éwsos & → & *\textbf{áw}sos & → & *\textbf{ṓ}sos & → & \textsc{Ab.} & ūsos\\
+                \textsc{PIE} & *yéwgmn̥ & → & *j\textbf{éw}gmun & → & *j\textbf{"y}:gmun & → & \textsc{Ab.} & jȳgmun\\
+                \textsc{PIE} & *ḱowh₁ros & → & *k\textbf{ow}ros & → & *k\textbf{ū}ros & → & \textsc{Ab.} & kūros\\
+                \textsc{PIE} & *pr̥h₂i & → & *pr\textbf{aj} & → & *pr\textbf{ē} & → & \textsc{Ab.} & prē\\
+                \textsc{pre-Ab.} & *léymō & → & *l\textbf{éj}mō & → & *l\textbf{ī́}mō & → & \textsc{Ab.} & līmō\\
+                \textsc{PIE} & *hₓóynos & → & *\textbf{ój}nos & → & *\textbf{"ø}:nos & → & \textsc{Ab.} & ø̄nos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This caused the original Indo-European ablaut patterns to become very opaque, leading to the loss of productive ablaut.
+
+            \subsection{Other minor changes}
+        
+        A few other consonant changes date to roughly this period without an easy way to precisely date them relative to other Abean developments of this time. Several clusters simplified word-initially:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *tpḗrsneh₂ & → & *\textbf{t}pérsnā & → & *pérsnā & → & \textsc{Ab.} & pernā\\
+                \textsc{PIE} & *kséwtrom & → & *\textbf{k}s"y:trom & → & *s"y:trom & → & \textsc{Ab.} & sȳtrom\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        In a single occurrence, word-initial \textit{*sf-} (from original \textit{*skʷ-}) underwent fortition to \textit{*sp-}:
+
+            As this appears to be the only case where said environment takes place, it is unknown whether this change is regular.
+
+        Likewise, initial \textit{*dl} dissimilates to \textit{*gl}. This is the only attested word:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *dl̥h₁gʰós & → & *\textbf{d}lākós & → & *\textbf{g}lākós & → & \textsc{Ab.} & glāgos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            It is unknown if the same would happen to initial \textit{*tl-} as Abean does not appear to continue any words with it.
+
+        The initial cluster \textit{*pst} yielded Carite \textit{*sp}, possibly through an intermediate \textit{*spt}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{pre-Ab.} & *sptényos & → & *sp\textbf{t}énjos & → & *spénjos & → & \textsc{Ab.} & spenjos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Word-initially, \textit{*m} was fortited to \textit{*b} before any liquid:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *mr̥gʰtós & → & *\textbf{m}riksós & → & *\textbf{b}riksós & → & \textsc{Ab.} & brigzos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This change is shared with Greek, Latin and Germanic, while Celtic appears to lack it. Compare the following:
+\begin{itemize}
+\item  Proto-Indo-European \textit{*\textbf{mr}égʰmn̥} > °BRAGNAZBRAIN°, Ancient Greek \textbf{βρ}έχμα, Proto-Germanic \textit{*\textbf{br}agnaz};\\
+\item  Proto-Indo-European \textit{*\textbf{mr}éǵʰus} > °BRIGWIS°, Ancient Greek \textbf{βρ}αχύς, Latin \textit{\textbf{br}evis};\\
+\item  Proto-Indo-European \textit{*\textbf{ml̥}h₂tis} > Proto-Celtic \textit{*\textbf{ml}ātis}.\\
+\end{itemize}
+
+        Curiously, prevocalic \textit{*fs} and \textit{*ms} both surface as \textit{*sm}:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *nigʷtós & → & *ni\textbf{f}sós & → & *nis\textbf{m}ós & → & \textsc{Ab.} & nizmos\\
+                \textsc{PIE} & *h₁ómsos & → & *óm\textbf{s}os & → & *ó\textbf{s}mos & → & \textsc{Ab.} & osmos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            It is likely the cluster \textit{*fs} first dissimilated and merged into \textit{*ms} before metathesis.
+
+        Between two sonorants, \textit{*s} was deleted:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *pénkʷtos & → & *pén\textbf{s}mos & → & *pénmos & → & \textsc{Ab.} & pemmos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Word-finally, \textit{*d} rhotacised into \textit{*r}, provided it was preceded by a vowel:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₂éd & → & *á\textbf{d} & → & *á\textbf{r} & → & \textsc{Ab.} & ar\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+        Somewhere around this time, the short high vowels \textit{*i *u} turned into glides when unstressed and preceding another vowel. This did not take place when following any cluster.
+
+        Following the reduction of these unstressed high vowels, dentals palatalised:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *tyegʷnós & → & *\textbf{tj}avnós & → & *\textbf{s}avnós & → & \textsc{Ab.} & savnos\\
+                \textsc{PIE} & *bodʰyós & → & *bo\textbf{tj}ós & → & *bo\textbf{ss}ós & → & \textsc{Ab.} & bozzos\\
+                \textsc{PIE} & *dyḗws & → & *\textbf{dj}"y:s & → & *\textbf{z}"y:s & → & \textsc{Ab.} & zȳs\\
+                \textsc{PIE} & *pedyós & → & *pa\textbf{dj}ós & → & *pa\textbf{zz}ós & → & \textsc{Ab.} & pazzos\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            This assibilation of dentals resembles Greek, but it is by no means as widespread as in there. Refer to Sihler (1995) for the major palatalisation of most Proto-Greek consonants.
+
+        Stressed \textit{*ē *ō} were raised:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *méh₁ & → & *m\textbf{ē}́ & → & *m\textbf{ī}́ & → & \textsc{Ab.} & mī\\
+                \textsc{pre-Ab.} & *kʷetṓr & → & *fat\textbf{ō}́r & → & *fat\textbf{ū}́r & → & \textsc{Ab.} & fadūr\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            \subsection{Nasal surface filter}
+        
+        A surface filter of nasal assimilation applying across Carite history is also dated to have started here:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *h₂éngʷhis & → & *á\textbf{n}vis & → & *á\textbf{m}vis & → & \textsc{Ab.} & amvis\\
+                \textsc{pre-Ab.} & *demspótis & = & *de\textbf{m}spótis & → & *de\textbf{n}spótis & → & \textsc{Ab.} & denzbotis\\
+                \textsc{PIE} & *h₂émǵʰi & → & *á\textbf{m}gi & → & *á\textbf{n}gi & → & \textsc{Ab.} & angi\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            Exceptionally, \textit{*m} did not assimilate into \textit{*n} before \textit{*n}, which was retained as the sequence \textit{*mn} instead.
+
+            \subsection{Carite Verner's Law}
+        
+        The change that is taken to define Carite as a fully independent language in its own right is the \textbf{Carite Verner's Law}, a structural parallel of Verner's Law in Germanic. Onsets of stressed, non-initial Carite syllables were voiced, and when distinctive positional accent was lost to fixed word-initial accent, the voicing phonemicised completely:
+
+            \begin{table}[H]
+                \begin{center}
+                \begin{tabular}{llcllllll}
+                \textsc{PIE} & *n̥dr̥ḱetós & → & *adirka\textbf{t}ós & → & *adirka\textbf{d}ós & → & \textsc{Ab.} & adirkados\\
+                \end{tabular}
+                \end{center}
+                \end{table}
+        
+            The voicing is likely to have initially affected only the onset of that stressed syllable, but voicing assimilation rules for clusters spread voicing to the whole cluster. Despite the name and similar effect — that is, the voicing of segments based on now-lost accent — this law significantly differed from its Germanic analogue. In Germanic, clusters were automatically disqualified from being affected by the law, and the requirement was that the preceding syllable nucleus be unstressed. In Carite, clusters benefited significantly from the effects of this law, and it only affected the onset of what was formerly a stressed syllable as long as it was non-initial; as such, word-final coda voicing effects as in Germanic's \textit{*-az} suffix (from \textit{*-os}) are nowhere to be found in Carite.\\
+While Carite and Germanic are the most well-known examples of Indo-European branches losing phonemic stress or pitch accent only after it had functioned as conditioning for other changes, these are by no means the only ones. Other stress-based Carite developments mentioned before are Davide's Law and the stress-based raising of Proto-Indo-European \textit{*ē *ō}. Outside of Carite, we find Dybo's Law — the pretonic shortening of vowels in some environments — which most certainly affected Celtic and quite possibly also Latin and Germanic; for more information, please refer to Matasović (2012).
+
+\begin{table}[H]
+    \begin{center}
+    \begin{tabular}{lllllllll}
+    \textsc{PIE} & *sem- & → & \textsc{proto-Hellenic} & *hen-s & → & \textsc{Attic} & εἵς \textit{heís} & `one'
+    \end{tabular}
+    \end{center}
+    \end{table}
+
+\section{Phonology}
+
+\section{Morphology}
+
+% you can get things to span n columns with \multicolumn{n}{c}{blabla}
+\begin{table}[H]
+    \begin{center}
+    \begin{tabular}{r|ccc}
+    \toprule
+    & \textsc{sg} & \textsc{du} & \textsc{pl} \\
+    \midrule
+    \textsc{nom} & λόγος & \multirow{2}{*}{λόγω} & λόγοι\\
+    \textsc{acc} & λόγον & & λόγους\\
+    \textsc{gen} & λόγου & \multirow{2}{*}{λόγοιν} & λόγων\\
+    \textsc{dat} & λόγωι & & λόγοις\\
+    \bottomrule
+    \end{tabular}
+    \end{center}
+    \end{table}
+
+\section{Lexicon}
+
+~~~~
+% ^ these tildes allow for indentation and prevent the first dictionary entry from being too far left
+
+\dictentry{()ῠλῑνᾱ (()wlīnā)}{()wliːnaː}{noun}{q-stem}{ataʀum}{wool}{From PIE \textit{*(h₂)wĺ̥h₁neh₂}, from \textit{*(h₂)welh₁-} (?). The actual reconstruction of the root differs between authors, with the middle laryngeal being reconstructed both as \textit{*h₁} and \textit{*h₂}. While this is irrelevant to the outcome in Carite, \textit{*h₂} seems more likely due to the Doric variant λᾶνος (\textit{lânos}), if not a hyperdorism. More prevalent is the reconstruction with with an initial \textit{*h₂-}. This laryngeal is reconstructed on the basis of the initial \textit{ḫ-} in Hittite. Matasović (2009) ascribes this to metathesis however, as neither Greek form shows any trace of the expected word-initial α  (\textit{a-}). While Beekes (2010) says the laryngeal might have been there originally, it must have vanished disappeared early in Greek history, possibly through dissimilation. The presence of the laryngeal would not affect the Carite outcome as Engels' law would require \textit{*h₂w-} to be followed by a vowel. As pointed out by Kroonen (2013), the Germanic reflex requires a suffix-stressed form which slightly deviates from the others; however, Ringe (2009) departs from a radically stressed form instead.\\}
+\dictentry{-ισκος (-iskos)}{-iskos}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-iskos}.}
+\dictentry{-μυν (-mun)}{-mun}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-mn̥}.}
+\dictentry{-ος (-os)}{-os}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-os}.}
+\dictentry{-τρομ (-trom)}{-trom}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-trom}.}
+\dictentry{-τρῑ (-trī)}{-triː}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-trih₂}.}
+\dictentry{-ω (-ō)}{-oː}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-ō}.}
+\dictentry{-ᾱδος (-ādos)}{-aːdos}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-eh₂tós}.}
+\dictentry{-ῐος (-jos)}{-jos}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-yós}.}
+\dictentry{-ῑνος (-īnos)}{-iːnos}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*-īnos}.}
+\dictentry{=φε (=fe)}{=fe}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*=kʷe}.}
+\dictentry{yκνος (yknos)}{yːknos}{noun}{q-stem}{ataʀum}{wagon, cart}{From PIE \textit{*wéǵʰnos} (), from \textit{*weǵʰ-} (?).}
+\dictentry{yσμυν (ysmun)}{yːsmun}{noun}{q-stem}{ataʀum}{garment, article of clothing}{From PIE \textit{*wésmn̥}, from \textit{*wes-} (?).}
+\dictentry{yτελομ (ytelom)}{yːtelom}{noun}{q-stem}{ataʀum}{calf}{From PIE \textit{*wételom}, from \textit{*wet-} (?).}
+\dictentry{yτος (ytos)}{yːtos}{noun}{q-stem}{ataʀum}{year}{From PIE \textit{*wétos}, from \textit{*wet-} (?).}
+\dictentry{yφος (yfos)}{yːfos}{noun}{q-stem}{ataʀum}{story, poetry, myth}{From PIE \textit{*wékʷos}, from \textit{*wekʷ-} (?).}
+\dictentry{yφσπερος (yfsperos)}{yːfsperos}{noun}{q-stem}{ataʀum}{evening}{From PIE \textit{*wékʷsperos}. Proto-Germanic \textit{*westeraz} may belong here, but this is still rather uncertain.}
+\dictentry{αβρις (abris)}{abris}{noun}{q-stem}{ataʀum}{rain}{From PIE \textit{*n̥bʰrís}, from \textit{*nebʰ-} (?).}
+\dictentry{αγγι (angi)}{angi}{UNDEFINED}{q-stem}{ataʀum}{near£+DAT}{From PIE \textit{*h₂émǵʰi}, from \textit{*h₂emǵʰ-} (?).}
+\dictentry{Αγιρῐᾱ (Agirjā)}{agirjaː}{noun}{q-stem}{ataʀum}{pagan goddess of earth and agriculture}{From PIE \textit{*h₂eǵr̥yeh₂}, from \textit{*h₂eǵ-} (?).}
+\dictentry{αγκος (ankos)}{ankos}{noun}{q-stem}{ataʀum}{mountain valley}{From PIE \textit{*h₂énkos}, from \textit{*h₂enk-} (?).}
+\dictentry{αγρος (agros)}{agros}{noun}{q-stem}{ataʀum}{field, farm}{From PIE \textit{*h₂éǵros} (), from \textit{*h₂eǵ-} (?).}
+\dictentry{αγῑνος (agīnos)}{agiːnos}{noun}{q-stem}{ataʀum}{hedgehog}{From Pre-Ab. \textit{*h₁eǵʰíhₓnos}, from PIE \textit{*h₁éǵʰis}. Beekes (2010) reconstructs the Proto-Germanic etymon with \textit{*-ī-} although Kroonen (2013) disagrees. While the \textit{*l$\sim$*n} alteration may date back to Proto-Indo-European times, it is more likely we are dealing with two separate derivations, a view which is supported by the difference in length. While the Germanic form may be traced back to the diminutive suffix \textit{*-ilaz}, either Hoffmann's suffix \textit{*-hₓn-} or the derivational \textit{*-ihₓnos} may be identified in the Graeco-Armeno-Carite derivation. The presence of an o-grade in Armenian as well as its classification as an a-stem points towards an independent Armenian derivation, while it is impossible to point out if the Graeco-Carite derivations, which are formally identical, are independent or areal innovations. While the association between hedgehogs and snakes appears to be common and a linguistic analysis of hedgehog as “snake-eater” checks out zoologically, an actual derivation only makes sense phonologically in Greek as its word for snake, Ancient Greek ἔχις, would be the only pure reflex of a hypothetical Proto-Indo-European \textit{*h₁éǵʰis}, being displaced by  \textit{*h₃égʷʰis} in other branches. Any corruption of reflexes of the latter or of the lexeme for hedgehog in descendants must thus be secondary.}
+\dictentry{Αγῡνος (Agūnos)}{aguːnos}{noun}{q-stem}{ataʀum}{pagan god of archery and solar chariot}{From PIE \textit{*h₁eḱwónos}. In the Carite pantheon, this god continues one of the divine horse twins alongside °HORSETWIN2°, more specifically the young warrior, and his depiction varies from a young man riding a horse to a centaur. Functional equivalents include the Ancient Greek Διόσκοροι. Onomastically, this deity is a derivation of the common word for horse, Proto-Indo-European \textit{*h₁éḱwos} (cf. °EKWOS°).}
+\dictentry{αδιρκαδος (adirkados)}{adirkados}{UNDEFINED}{q-stem}{ataʀum}{hidden}{From PIE \textit{*n̥dr̥ḱetós}, from \textit{*derḱ-} (?).}
+\dictentry{αδλᾱ (adlā)}{adlaː}{noun}{q-stem}{ataʀum}{danewort, dwarf elder}{From PIE \textit{*h₁edʰléh₂}, from \textit{*h₁edʰ-} (?). Probably of substrate origin. The meaning of “danewort” as opposed to other trees, as is the case in e.g. Slavic, is restricted to Italo-Carite. The Gaulish Gaulish \textit{odocos} is often connected, but Delamarre (2003) connects it to Proto-Indo-European \textit{*h₃ed-} "to smell" instead. The connection to Ancient Greek ἐλάτη as posited by Friedrich (1970) must be discarded.}
+\dictentry{αδος (ados)}{ados}{noun}{q-stem}{ataʀum}{emmer}{From PIE \textit{*h₂édos}, from \textit{*h₂ed-} (?).}
+\dictentry{αθνος (avnos)}{avnos}{noun}{q-stem}{ataʀum}{lamb}{From PIE \textit{*h₂egʷnós}. The labiovelar is sometimes reconstructed as aspirated to account for the Celtic reflex; however, this would be incompatible with the Slavic and Greek reflexes. See Matasović (2009) for a more in-depth explanation on how Proto-Celtic \textit{*owignos} may have come into being.}
+\dictentry{Αθῐος (Avjos)}{avjos}{UNDEFINED}{q-stem}{ataʀum}{Abean}{From Pre-Ab. \textit{*h₂ekʷyós}, from PIE \textit{*h₂ékʷeh₂}.}
+\dictentry{ακινος (akinos)}{akinos}{noun}{q-stem}{ataʀum}{grape}{From PIE \textit{*h₂eḱinos} (), from \textit{*h₂eḱ-} (?).}
+\dictentry{ακιρνᾱ (akirnā)}{akirnaː}{noun}{q-stem}{ataʀum}{maple}{From PIE \textit{*akr̥néh₂}. A tree name of North-Western substrate origin.}
+\dictentry{ακμω (akmō)}{akmoː}{noun}{q-stem}{ataʀum}{stone, rock}{From PIE \textit{*h₂éḱmō}, from \textit{*h₂eḱ-} (?).}
+\dictentry{ακμῡνος (akmūnos)}{akmuːnos}{UNDEFINED}{q-stem}{ataʀum}{neglected, ignored}{From PIE \textit{*n̥ḱm̥h₂nós}, from \textit{*ḱemh₂-} (?).}
+\dictentry{ακος (akos)}{akos}{noun}{q-stem}{ataʀum}{distress}{From PIE \textit{*h₂égʰos}, from \textit{*h₂egʰ-} (?).}
+\dictentry{ακος (akos)}{akos}{noun}{q-stem}{ataʀum}{thorn}{From PIE \textit{*h₂éḱos}, from \textit{*h₂eḱ-} (?).}
+\dictentry{ακωδος (akōdos)}{akoːdos}{UNDEFINED}{q-stem}{ataʀum}{solid}{From PIE \textit{*n̥ǵʰwetós}, from \textit{*ǵʰew-} (?).}
+\dictentry{αλβος (albos)}{albos}{UNDEFINED}{q-stem}{ataʀum}{white}{From PIE \textit{*h₂elbʰós}.}
+\dictentry{αλθᾱ (alvā)}{alvaː}{noun}{q-stem}{ataʀum}{payment, prize, reward}{From PIE \textit{*h₂elgʷhéh₂}, from \textit{*h₂elgʷh-} (?).}
+\dictentry{αλπι (alpi)}{alpi}{noun}{q-stem}{ataʀum}{barley}{From PIE \textit{*h₂élbʰi}.}
+\dictentry{αλτερος (alteros)}{alteros}{UNDEFINED}{q-stem}{ataʀum}{second}{From PIE \textit{*h₂élteros}, from \textit{*h₂el-} (?).}
+\dictentry{αλῐος (aljos)}{aljos}{UNDEFINED}{q-stem}{ataʀum}{other, another, else}{From PIE \textit{*h₂élyos}, from \textit{*h₂el-} (?).}
+\dictentry{αμβι (ambi)}{ambi}{UNDEFINED}{q-stem}{ataʀum}{around£+DAT}{From PIE \textit{*h₂m̥bʰí}, from \textit{*h₂ent-} (?).}
+\dictentry{αμβιφολος (ambifolos)}{ambifolos}{noun}{q-stem}{ataʀum}{servant, slave}{From PIE \textit{*h₂m̥bʰikʷolh₁ós} (), from \textit{*kʷelh₁-} (?).}
+\dictentry{αμθις (amvis)}{amvis}{noun}{q-stem}{ataʀum}{snake}{From PIE \textit{*h₂éngʷhis}.}
+\dictentry{Αμθνις (Amvnis)}{amvnis}{noun}{q-stem}{ataʀum}{pagan god of fire}{From PIE \textit{*h₁n̥gʷnís}, from \textit{*h₁engʷ-} (?).}
+\dictentry{ανδιος (andios)}{andios}{noun}{q-stem}{ataʀum}{front, forehead}{From PIE \textit{*h₂entíos}, from \textit{*h₂ent-} (?). The form \textit{*h₂entíos} is labelled as Post-Proto-Indo-European by Ringe (2009). Despite not having had any contact with the Germanic people until the time of the Visigoths, we may find the same accentuation in Greek, which is likely a development shared by Carite.}
+\dictentry{ανδος (andos)}{andos}{noun}{q-stem}{ataʀum}{flower}{From PIE \textit{*h₂éndʰos}, from \textit{*h₂endʰ-} (?).}
+\dictentry{ανεμος (anemos)}{anemos}{noun}{q-stem}{ataʀum}{breath}{From PIE \textit{*h₂énh₁mos} (), from \textit{*h₂enh₁-} (?).}
+\dictentry{ανεμυν (anemun)}{anemun}{noun}{q-stem}{ataʀum}{soul}{From PIE \textit{*h₂énh₁mn̥}, from \textit{*h₂enh₁-} (?).}
+\dictentry{ανρος (anros)}{anros}{noun}{q-stem}{ataʀum}{man}{From Pre-Ab. \textit{*h₂n̥rós}, from PIE \textit{*h₂nḗr}. From the original paradigm \textit{*h₂nēr} ($acc \textit{*h₂nérm̥}, $gen \textit{*h₂n̥rós}), Carite appears to have thematicised the genitive stem whereas Celtic generalised the accusative stem.}
+\dictentry{αντι (anti)}{anti}{UNDEFINED}{q-stem}{ataʀum}{against£+DAT, than£+DAT, because of£+DAT}{From PIE \textit{*h₂énti}.}
+\dictentry{αξω (axō)}{aksoː}{noun}{q-stem}{ataʀum}{axle}{From PIE \textit{*h₂éḱsō}, from \textit{*h₂eḱs-} (?).}
+\dictentry{απο (apo)}{apo}{UNDEFINED}{q-stem}{ataʀum}{from£+DAT, since£+DAT&of time, after£+DAT&of time}{From PIE \textit{*h₂epo}, from \textit{*h₂ed-} (?).}
+\dictentry{αρ (ar)}{ar}{UNDEFINED}{q-stem}{ataʀum}{to£+ACC, at£+DAT}{From PIE \textit{*h₂éd}.}
+\dictentry{αργινδομ (argindom)}{argindom}{noun}{q-stem}{ataʀum}{silver}{From PIE \textit{*h₂erǵn̥tóm}, from \textit{*h₂erǵ-} (?).}
+\dictentry{αργρος (argros)}{argros}{UNDEFINED}{q-stem}{ataʀum}{bright}{From PIE \textit{*h₂r̥ǵrós}, from \textit{*h₂erǵ-} (?).}
+\dictentry{αρθος (arvos)}{arvos}{noun}{q-stem}{ataʀum}{religious chant}{From PIE \textit{*h₁erkʷós}, from \textit{*h₁erkʷ-} (?). While both Mallory (2006) and Martirosyan (2010) include a Celtic cognate in Old Irish \textit{erc} (“heaven”), the word is noteworthily missing from Matasović (2009). Martirosyan (2010) also mentions the Irish word for heaven being a reflex of the god of thunder, for which see °PERKUNAS°.}
+\dictentry{αρκω (arkō)}{arkoː}{noun}{q-stem}{ataʀum}{chest£anatomy}{From PIE \textit{*h₂érkō}, from \textit{*h₂erk-} (?).}
+\dictentry{αρξος (arxos)}{arksos}{noun}{q-stem}{ataʀum}{bear}{From PIE \textit{*h₂ŕ̥tḱos}. The numerous alterations in the cognates can be ascribed to tabooistic distortion.}
+\dictentry{αροτρομ (arotrom)}{arotrom}{noun}{q-stem}{ataʀum}{plough, ard}{From PIE \textit{*h₂érh₃trom}, from \textit{*h₂erh₃-} (?).}
+\dictentry{αρτρομ (artrom)}{artrom}{noun}{q-stem}{ataʀum}{sinew, tendon}{From PIE \textit{*h₂érdʰrom}, from \textit{*h₂er-} (?).}
+\dictentry{αρφος (arfos)}{arfos}{noun}{q-stem}{ataʀum}{bow}{From PIE \textit{*h₂érkʷos}. de Vaan (2008) compares the reflexes to Ancient Greek ἄρκευθος and Proto-Slavic \textit{*orkỳta} and assumes a substrate word. However, the presence of the labialisation in Germano-Celtic while it is missing from Greek is problematic.}
+\dictentry{αρῐος (arjos)}{arjos}{noun}{q-stem}{ataʀum}{believer in the Carite pantheon}{From PIE \textit{*h₂eryós} ().}
+\dictentry{ασδος (asdos)}{azdos}{noun}{q-stem}{ataʀum}{criminal}{From PIE \textit{*m̥dtós}, from \textit{*med-} (?). A word of dubious origin. The most popular etymology is a derivation of Proto-Indo-European \textit{*med-}, shifting in meaning from “he who is measured” to “he who is judged” and finally to “criminal”.}
+\dictentry{ασφαδος (asfados)}{asfados}{UNDEFINED}{q-stem}{ataʀum}{taboo, unacceptable, forbidden}{From PIE \textit{*n̥skʷetós}, from \textit{*sekʷ-} (?).}
+\dictentry{αφᾱ (afā)}{afaː}{noun}{q-stem}{ataʀum}{water}{From PIE \textit{*h₂ékʷeh₂}. The Proto-Indo-European formation is most likely Post-Proto-Indo-European, being restricted to Italo-Germano-Carite. Kroonen (2013) suggests for a formal variant of Proto-Indo-European \textit{*h₂eP-} over a loan from a non-Indo-European language. Kilday (2015) makes an interesting case for the root  \textit{*h₁eh₁kʷ-}, whence the root-accent zero grade formation  \textit{*h₁h̥́₁kʷeh₂}. This formation is incompatible with the Carite reflex, however. For more information, please consult the source.}
+\dictentry{αψ (aps)}{aps}{UNDEFINED}{q-stem}{ataʀum}{again, in return}{From PIE \textit{*h₂éps}.}
+\dictentry{αῐερι (ajeri)}{ajeri}{UNDEFINED}{q-stem}{ataʀum}{tomorrow}{From PIE \textit{*h₂éyeri}.}
+\dictentry{αῐος (ajos)}{ajos}{noun}{q-stem}{ataʀum}{metal}{From PIE \textit{*h₂éyos}.}
+\dictentry{αῠος (awos)}{awos}{noun}{q-stem}{ataʀum}{grandfather}{From PIE \textit{*h₂éwh₂os} ().}
+\dictentry{βακτρομ (baktrom)}{baktrom}{noun}{q-stem}{ataʀum}{staff, scepter, rod}{From PIE \textit{*báktrom}, from \textit{*bak-} (?).}
+\dictentry{βαρβαρος (barbaros)}{barbaros}{UNDEFINED}{q-stem}{ataʀum}{foreign}{From PIE \textit{*bárbaros}, from \textit{*barbar-} (?).}
+\dictentry{βιῠερος (biweros)}{biweros}{noun}{q-stem}{ataʀum}{squirrel}{From PIE \textit{*wiweros}, from \textit{*wer-} (?). The Latin outcome is irregular and may be through folk etymology, possibly through analogy with Latin \textit{vīvus}? Balto-Slavic cognates are mentioned in multiple sources but seemingly missing from Derksen (2008); they are mentioned in Derksen (2015), however. Kroonen (2013) attempts to connect the seemingly unrelated Germanic reflex by including a laryngeal, yielding the root  \textit{*h₂wer-}. However, this would also surface in the reduplications as \textit{*h₂ey-}, \textit{*h₂wi-}, \textit{*h₂i-} and even \textit{*h₂oy-}, making this a very ad hoc solution. His explanation, being that the daughters independently restored the reduplication after the loss of laryngeals, is unconvincing. As suggested by Mallory (2006) among others, by analysing the Germanic formation as a compound of the word for “oak”, Proto-Germanic \textit{*aiks}, and the Proto-Indo-European root  \textit{*wer-} reconstructed by the other scholars, we may solve the puzzle without any new issues emerging.}
+\dictentry{βορῡς (borūs)}{boruːs}{UNDEFINED}{q-stem}{ataʀum}{boundary, edge}{From PIE \textit{*wórwos}, from \textit{*werw-} (?).}
+\dictentry{βοσζος (boszos)}{bozzos}{UNDEFINED}{q-stem}{ataʀum}{yellow}{From PIE \textit{*bodʰyós}.}
+\dictentry{βρεκμυν (brekmun)}{brekmun}{noun}{q-stem}{ataʀum}{brain}{From PIE \textit{*mrégʰmn̥}, from \textit{*mregʰ-} (?).}
+\dictentry{βριγζος (brigzos)}{brigzos}{UNDEFINED}{q-stem}{ataʀum}{drenched}{From PIE \textit{*mr̥gʰtós}, from \textit{*mergʰ-} (?).}
+\dictentry{βυλφος (bulfos)}{bulfos}{noun}{q-stem}{ataʀum}{wolf}{From PIE \textit{*wĺ̥kʷos}. This word appears to have been reshaped significantly in the different branches, presumably due to taboo. The Balto-Slavic mobile accent contrasts with what we find in other branches and may be due to analogy with the feminine form.}
+\dictentry{γε (ge)}{ge}{UNDEFINED}{q-stem}{ataʀum}{indeed, thus, therefore}{From PIE \textit{*ǵe}.}
+\dictentry{γενεμυν (genemun)}{genemun}{noun}{q-stem}{ataʀum}{legacy}{From PIE \textit{*ǵénh₁mn̥}, from \textit{*ǵenh₁-} (?).}
+\dictentry{γενετρῑ (genetrī)}{genetriː}{noun}{q-stem}{ataʀum}{mother}{From PIE \textit{*ǵénh₁trih₂}, from \textit{*ǵenh₁-} (?).}
+\dictentry{γενος (genos)}{genos}{noun}{q-stem}{ataʀum}{race, lineage}{From PIE \textit{*ǵénh₁os}, from \textit{*ǵenh₁-} (?).}
+\dictentry{γζεμελος (gzemelos)}{gzemelos}{UNDEFINED}{q-stem}{ataʀum}{low}{From Pre-Ab. \textit{*dʰǵʰemelos}, from PIE \textit{*dʰéǵʰōm}, from \textit{*dʰéǵʰ-} (?).}
+\dictentry{γζεσι (gzesi)}{gzesi}{UNDEFINED}{q-stem}{ataʀum}{yesterday}{From PIE \textit{*dʰǵʰési}, from \textit{*dʰeǵʰ-} (?).}
+\dictentry{γλοῐῡς (glojūs)}{glojuːs}{UNDEFINED}{q-stem}{ataʀum}{clay}{From PIE \textit{*gloywos}, from \textit{*gley-} (?). Derksen (2008) and de Vaan (2008) prefer to reconstruct  \textit{**gleh₁y-} as the root, but this would not have a difference in the Carite outcome. Matasović (2009) posits  \textit{*gleyhₓ-} instead, which would require Dybo's law for the Proto-Celtic verb  \textit{*glināti}. Martirosyan (2010) posits an additional  \textit{*gl̥yeh₂-}, which is problematic for multiple reasons. Either way, the exact reconstruction is uncertain. The original suffix of the Greek reflex is uncertain; if \textit{*-yos}, it is formally identical to the Germanic reflex instead.}
+\dictentry{γλᾱγος (glāgos)}{glaːgos}{UNDEFINED}{q-stem}{ataʀum}{long}{From PIE \textit{*dl̥h₁gʰós}.}
+\dictentry{γλῑς (glīs)}{gliːs}{UNDEFINED}{q-stem}{ataʀum}{dormouse}{From PIE \textit{*gl̥h₁ís}.}
+\dictentry{γνωδος (gnōdos)}{gnoːdos}{UNDEFINED}{q-stem}{ataʀum}{known}{From PIE \textit{*ǵn̥h₃tós}, from \textit{*ǵneh₃-} (?).}
+\dictentry{γομβος (gombos)}{gombos}{noun}{q-stem}{ataʀum}{jaw}{From PIE \textit{*ǵómbʰos}, from \textit{*ǵembʰ-} (?).}
+\dictentry{γρᾱνομ (grānom)}{graːnom}{noun}{q-stem}{ataʀum}{grain}{From PIE \textit{*ǵr̥h₂nóm}, from \textit{*ǵerh₂-} (?).}
+\dictentry{γυνδομ (gundom)}{gundom}{UNDEFINED}{q-stem}{ataʀum}{hundred}{From PIE \textit{*h₁ḱm̥tóm}.}
+\dictentry{δyῐος (dyjos)}{dyːjos}{noun}{q-stem}{ataʀum}{fear}{From PIE \textit{*dwéyos}, from \textit{*dwey-} (?).}
+\dictentry{δαγῠᾱ (dagwā)}{dagwaː}{noun}{q-stem}{ataʀum}{tongue}{From Pre-Ab. \textit{*dn̥ǵʰwéh₂}, from PIE \textit{*dn̥ǵʰwéh₂s}.}
+\dictentry{δαξιῠος (daxiwos)}{daksiwos}{UNDEFINED}{q-stem}{ataʀum}{right, south}{From PIE \textit{*deḱsiwós}, from \textit{*deḱ-} (?).}
+\dictentry{δεκος (dekos)}{dekos}{noun}{q-stem}{ataʀum}{honour, dignity}{From PIE \textit{*déḱos}, from \textit{*deḱ-} (?).}
+\dictentry{δεκυμ (dekum)}{dekum}{UNDEFINED}{q-stem}{ataʀum}{ten}{From PIE \textit{*déḱm̥}.}
+\dictentry{δεκυντος (dekuntos)}{dekuntos}{UNDEFINED}{q-stem}{ataʀum}{tenth}{From PIE \textit{*déḱm̥tos}.}
+\dictentry{δελετρομ (deletrom)}{deletrom}{noun}{q-stem}{ataʀum}{pick, pickaxe}{From PIE \textit{*délh₁trom}, from \textit{*delh₁-} (?).}
+\dictentry{δενσβοτις (densbotis)}{denzbotis}{noun}{q-stem}{ataʀum}{lord}{From Pre-Ab. \textit{*demspótis}, from PIE \textit{*déms pótis}.}
+\dictentry{δενσβοτνῑ (densbotnī)}{denzbotniː}{noun}{q-stem}{ataʀum}{lady}{From Pre-Ab. \textit{*demspótnih₂}, from PIE \textit{*déms pótnih₂}.}
+\dictentry{δεῐῡς (dejūs)}{dejuːs}{noun}{q-stem}{ataʀum}{god, deity}{From PIE \textit{*deywós} (), from \textit{*dyew-} (?).}
+\dictentry{δη (dē)}{deː}{UNDEFINED}{q-stem}{ataʀum}{but}{From Pre-Ab. \textit{*deh₁}, from PIE \textit{*de}.}
+\dictentry{δογμος (dogmos)}{dogmos}{UNDEFINED}{q-stem}{ataʀum}{oblique}{From PIE \textit{*dh₃ǵʰmós}.}
+\dictentry{δοιγομ (doigom)}{døːgom}{noun}{q-stem}{ataʀum}{symbol, token}{From PIE \textit{*doyḱóm}, from \textit{*deyḱ-} (?).}
+\dictentry{δομ (dom)}{dom}{UNDEFINED}{q-stem}{ataʀum}{while, during}{From Pre-Ab. \textit{*dom}, from PIE \textit{*de}.}
+\dictentry{δονς (dons)}{dons}{UNDEFINED}{q-stem}{ataʀum}{tooth}{From PIE \textit{*h₃dónts}, from \textit{*h₃ed-} (?).}
+\dictentry{δορφομ (dorfom)}{dorfom}{noun}{q-stem}{ataʀum}{dinner}{From PIE \textit{*dórkʷom}.}
+\dictentry{Δρεκμω (Drekmō)}{drekmoː}{noun}{q-stem}{ataʀum}{pagan god of the underworld}{From PIE \textit{*drégʰmō}, from \textit{*dregʰ-} (?).}
+\dictentry{δρομος (dromos)}{dromos}{noun}{q-stem}{ataʀum}{racetrack}{From PIE \textit{*drómos} (), from \textit{*drem-} (?).}
+\dictentry{δᾱῐυρος (dājuros)}{daːjuros}{noun}{q-stem}{ataʀum}{brother-in-law}{From Pre-Ab. \textit{*deh₂yurós}, from PIE \textit{*deh₂iwḗr} ().}
+\dictentry{δῑμω (dīmō)}{diːmoː}{noun}{q-stem}{ataʀum}{deity}{From PIE \textit{*déh₂imō}, from \textit{*deh₂y-} (?).}
+\dictentry{δῠικολμος (dwikolmos)}{dwikolmos}{noun}{q-stem}{ataʀum}{an ancient instrument}{From Pre-Ab. \textit{*dwiḱolh₂mos}, from PIE \textit{*ḱolh₂m} (), from \textit{*ḱelh₂-} (?).}
+\dictentry{δῠᾱρος (dwāros)}{dwaːros}{UNDEFINED}{q-stem}{ataʀum}{lasting long}{From PIE \textit{*dweh₂rós}, from \textit{*dweh₂-} (?).}
+\dictentry{δῠῡ (dwū)}{dwuː}{UNDEFINED}{q-stem}{ataʀum}{two}{From PIE \textit{*dwóh₁}.}
+\dictentry{δῡμᾱ (dūmā)}{duːmaː}{UNDEFINED}{q-stem}{ataʀum}{retinue}{From Pre-Ab. \textit{*dṓmeh₂}, from PIE \textit{*dṓm}.}
+\dictentry{δῡνομ (dūnom)}{duːnom}{noun}{q-stem}{ataʀum}{gift, present}{From PIE \textit{*déh₃nom}, from \textit{*deh₃-} (?).}
+\dictentry{δῡῐος (dūjos)}{duːjos}{UNDEFINED}{q-stem}{ataʀum}{dumb}{From PIE \textit{*dowh₂yos}, from \textit{*dweh₂-} (?).}
+\dictentry{εδονομ (edonom)}{edonom}{noun}{q-stem}{ataʀum}{food}{From PIE \textit{*h₁edonom}, from \textit{*h₁ed-} (?).}
+\dictentry{εκῡς (ekūs)}{ekuːs}{UNDEFINED}{q-stem}{ataʀum}{horse}{From PIE \textit{*h₁éḱwos}.}
+\dictentry{ελιμβος (elimbos)}{elimbos}{noun}{q-stem}{ataʀum}{deer}{From PIE \textit{*h₁éln̥bʰos} (), from \textit{*h₁el-} (?).}
+\dictentry{ελκος (elkos)}{elkos}{noun}{q-stem}{ataʀum}{wound, injury}{From PIE \textit{*h₁élḱos}, from \textit{*h₁elḱ-} (?).}
+\dictentry{ελνος (elnos)}{elnos}{noun}{q-stem}{ataʀum}{elk}{From PIE \textit{*h₁elnós} (), from \textit{*h₁el-} (?).}
+\dictentry{εν (en)}{en}{UNDEFINED}{q-stem}{ataʀum}{in£+DAT, inside£+DAT, within£+DAT}{From PIE \textit{*h₁én}.}
+\dictentry{ενδερ (ender)}{ender}{UNDEFINED}{q-stem}{ataʀum}{between£+DAT}{From Pre-Ab. \textit{*h₁entér}, from PIE \textit{*h₁én}.}
+\dictentry{ενδο (endo)}{endo}{UNDEFINED}{q-stem}{ataʀum}{into£+ACC}{From Pre-Ab. \textit{*h₁éndo}, from PIE \textit{*h₁én}.}
+\dictentry{ενῑφος (enīfos)}{eniːfos}{noun}{q-stem}{ataʀum}{face}{From PIE \textit{*h₁énih₃kʷos} (), from \textit{*h₃ekʷ-} (?).}
+\dictentry{εξ (ex)}{eks}{UNDEFINED}{q-stem}{ataʀum}{out of£+ACC}{From PIE \textit{*éḱs}.}
+\dictentry{επι (epi)}{epi}{UNDEFINED}{q-stem}{ataʀum}{on£+DAT, onto£+ACC, for (duration of time)£+ACC}{From PIE \textit{*h₁epi}.}
+\dictentry{ερεμος (eremos)}{eremos}{UNDEFINED}{q-stem}{ataʀum}{still, static}{From PIE \textit{*h₁érh₁mos}, from \textit{*h₁erh₁-} (?).}
+\dictentry{ερᾱ (erā)}{eraː}{noun}{q-stem}{ataʀum}{earth}{From PIE \textit{*h₁éreh₂}, from \textit{*h₁er-} (?). While the status of the root is unsure, the Carite forms seem to mirror the Greek one perfectly. Matasović (2009) categorises Welsh \textit{erw} under Proto-Indo-European \textit{*h₂erh₃-} instead.}
+\dictentry{ετι (eti)}{eti}{UNDEFINED}{q-stem}{ataʀum}{still, yet, further, also, no more£with negative, no longer£with negative}{From PIE \textit{*h₁éti}, from \textit{*h₁et-} (?).}
+\dictentry{Ζyς (Zys)}{zyːs}{UNDEFINED}{q-stem}{ataʀum}{pagan god of the sky and rain}{From PIE \textit{*dyḗws}, from \textit{*dyew-} (?).}
+\dictentry{ζανᾱ (zanā)}{zanaː}{noun}{q-stem}{ataʀum}{blood}{From Pre-Ab. \textit{*h₁sh₂néh₂}, from PIE \textit{*h₁ésh₂r̥}.}
+\dictentry{ζονᾱ (zonā)}{zonaː}{noun}{q-stem}{ataʀum}{people, men}{From Pre-Ab. \textit{*h₁sh₂onéh₂}, from PIE \textit{*h₁ésh₂r̥}. A formation that appears to be unique to Carite.}
+\dictentry{ηαβλᾱ (hablā)}{hablaː}{noun}{q-stem}{ataʀum}{head}{From PIE \textit{*gʰebʰléh₂}, from \textit{*gʰebʰ-} (?). The Greek cognate would be formally identical if not for the suffixal vowel of unknown origin. Some sources construct a palatovelar instead, which would be irrelevant to the Carite outcome.}
+\dictentry{ηαγρομ (hagrom)}{hagrom}{noun}{q-stem}{ataʀum}{temple, shrine}{From PIE \textit{*sh₂króm}, from \textit{*seh₂k-} (?).}
+\dictentry{ηαζῐος (hazjos)}{hazjos}{noun}{q-stem}{ataʀum}{rye}{From Pre-Ab. \textit{*sh₁syós}, from PIE \textit{*(s)h₁syós}, from \textit{*(s)h₁es-} (?). The reconstruction \textit{*ses(y)ós}, which Mallory (2006) posits, leaves the Celtic vowel unexplained and is thus untenable.}
+\dictentry{ηαλῠᾱ (halwā)}{halwaː}{noun}{q-stem}{ataʀum}{vegetable}{From PIE \textit{*ǵʰelh₃wéh₂}, from \textit{*ǵʰelh₃-} (?).}
+\dictentry{ηαμαλος (hamalos)}{hamalos}{UNDEFINED}{q-stem}{ataʀum}{equal, level, smooth}{From PIE \textit{*semh₂lós}, from \textit{*semh₂-} (?).}
+\dictentry{ηεβδυμ (hebdum)}{hebdum}{UNDEFINED}{q-stem}{ataʀum}{seven}{From PIE \textit{*sept"m̥}.}
+\dictentry{ηεδος (hedos)}{hedos}{noun}{q-stem}{ataʀum}{seat}{From PIE \textit{*sédos}, from \textit{*sed-} (?).}
+\dictentry{ηεκος (hekos)}{hekos}{noun}{q-stem}{ataʀum}{power, strength}{From PIE \textit{*séǵʰos}, from \textit{*seǵʰ-} (?).}
+\dictentry{ηελος (helos)}{helos}{noun}{q-stem}{ataʀum}{swamp}{From PIE \textit{*sélos}.}
+\dictentry{ηελπος (helpos)}{helpos}{noun}{q-stem}{ataʀum}{grease, oil}{From PIE \textit{*sélpos}, from \textit{*selp-} (?).}
+\dictentry{ηεμβασκις (hembaskis)}{hembaskis}{noun}{q-stem}{ataʀum}{balance}{From Pre-Ab. \textit{*sembʰáskis}, from PIE \textit{*bʰáskis}, from \textit{*bʰask-} (?).}
+\dictentry{ηεμφος (hemfos)}{hemfos}{UNDEFINED}{q-stem}{ataʀum}{someone, something}{From Pre-Ab. \textit{*sémkʷos}, from PIE \textit{*kʷós}.}
+\dictentry{ηενος (henos)}{henos}{UNDEFINED}{q-stem}{ataʀum}{old}{From PIE \textit{*sénos}.}
+\dictentry{ηερκος (herkos)}{herkos}{noun}{q-stem}{ataʀum}{fence, enclosure}{From PIE \textit{*sérḱos}, from \textit{*serḱ-} (?).}
+\dictentry{ηερμυν (hermun)}{hermun}{noun}{q-stem}{ataʀum}{joy}{From PIE \textit{*ǵʰérmn̥}, from \textit{*ǵʰer-} (?).}
+\dictentry{ηερος (heros)}{heros}{noun}{q-stem}{ataʀum}{binding, union, agreement}{From PIE \textit{*séros}, from \textit{*ser-} (?).}
+\dictentry{ηινδερ (hinder)}{hinder}{UNDEFINED}{q-stem}{ataʀum}{without£+INS}{From PIE \textit{*sn̥tér}, from \textit{*sen-} (?).}
+\dictentry{ηισθος (hisvos)}{hizvos}{UNDEFINED}{q-stem}{ataʀum}{dry}{From Pre-Ab. \textit{*siskwós}, from PIE \textit{*siskús}, from \textit{*sek-} (?).}
+\dictentry{ηο (ho)}{ho}{UNDEFINED}{q-stem}{ataʀum}{if, supposing that}{From PIE \textit{*só}.}
+\dictentry{ηοθος (hovos)}{hovos}{noun}{q-stem}{ataʀum}{sap, resin}{From PIE \textit{*sokʷós}. Beekes (2010) points out that Latin \textit{sūcus} (whence °SUCUS°), while similar, is clearly deviant. However, as de Vaan (2008) notes, we find both \textit{*suḱ-} and \textit{*sug-} as zero grades, which only complicates it even further. If we posit an o-grade \textit{*souk-} and assume an early metathesis into \textit{*sokw-$\sim$sokʷ-}, we may reconcile the two forms. However, the variation in velar remains problematic. This vacillation may be explained by looking for a non-Indo-European origin, such as Proto-Uralic \textit{*śuwe}.}
+\dictentry{ηοθῐος (hovjos)}{hovjos}{noun}{q-stem}{ataʀum}{dog}{From PIE \textit{*sokʷyós}, from \textit{*sekʷ-} (?). Albanian \textit{shok}, while related, was borrowed from the Latin cognate.}
+\dictentry{ηολ()ῠος (hol()wos)}{hol()wos}{UNDEFINED}{q-stem}{ataʀum}{each£SG, every£SG, all£PL}{From PIE \textit{*sol(h₂)wós}, from \textit{*selh₂-} (?).}
+\dictentry{ηολνος (holnos)}{holnos}{UNDEFINED}{q-stem}{ataʀum}{healthy, safe, whole}{From PIE \textit{*solh₂nós}, from \textit{*selh₂-} (?).}
+\dictentry{ηολᾱ (holā)}{holaː}{noun}{q-stem}{ataʀum}{gall, bile}{From PIE \textit{*ǵʰolh₃éh₂}, from \textit{*ǵʰelh₃-} (?). The Anlaut fricative in Latin is problematic.}
+\dictentry{ηομθᾱ (homvā)}{homvaː}{noun}{q-stem}{ataʀum}{oracle, prophecy}{From PIE \textit{*songʷhéh₂}, from \textit{*sengʷh-} (?).}
+\dictentry{ηομος (homos)}{homos}{UNDEFINED}{q-stem}{ataʀum}{same}{From PIE \textit{*somhₓós}, from \textit{*sem-} (?).}
+\dictentry{ηορμος (hormos)}{hormos}{noun}{q-stem}{ataʀum}{necklace}{From PIE \textit{*sórmos} (), from \textit{*ser-} (?).}
+\dictentry{ηορνᾱ (hornā)}{hornaː}{noun}{q-stem}{ataʀum}{bowels}{From PIE \textit{*ǵʰórhₓneh₂}, from \textit{*ǵʰerhₓ-} (?). Beekes (2010) considers the appurtenance of the Latin and Albanian cognates to be doubtful because of the unexpected reflex of the first stop.}
+\dictentry{ηορῐος (horjos)}{horjos}{noun}{q-stem}{ataʀum}{swine}{From Pre-Ab. \textit{*ǵʰóryos}, from PIE \textit{*ǵʰḗr}. Beekes (2010) mentions that the word may actually be substrate in origin. The secondary meaning of female genitalia, which is also present in the Greek reflex, eventually overtook the animal meaning in Carite.}
+\dictentry{ηοστις (hostis)}{hostis}{noun}{q-stem}{ataʀum}{guest}{From PIE \textit{*gʰóstis}, from \textit{*gʰes-} (?).}
+\dictentry{ηυβερ (huber)}{huber}{UNDEFINED}{q-stem}{ataʀum}{above£+DAT, over£+ACC}{From PIE \textit{*supér}.}
+\dictentry{ηυβνος (hubnos)}{hubnos}{noun}{q-stem}{ataʀum}{sleep, slumber}{From PIE \textit{*supnós}, from \textit{*swep-} (?). Unlike most other sources, Matasović (2009) claims that the Celtic form derives from a zero grade formation rather than an o-grade. This vision is adopted in this dictionary.}
+\dictentry{ηυδος (hudos)}{hudos}{noun}{q-stem}{ataʀum}{liquid}{From PIE \textit{*ǵʰutós}, from \textit{*ǵʰew-} (?). Proto-Germanic \textit{*gudą} ("god") may be a cognate as well.}
+\dictentry{ηυνδερος (hunderos)}{hunderos}{UNDEFINED}{q-stem}{ataʀum}{half}{From PIE \textit{*sm̥téros}, from \textit{*sem-} (?).}
+\dictentry{ηυνδος (hundos)}{hundos}{noun}{q-stem}{ataʀum}{victim}{From PIE \textit{*gʷhn̥tós} (), from \textit{*gʷhen-} (?).}
+\dictentry{ηυπο (hupo)}{hupo}{UNDEFINED}{q-stem}{ataʀum}{under (stationary)£+DAT, under (directional)£+ACC}{From PIE \textit{*supo}.}
+\dictentry{ηωμος (hōmos)}{hoːmos}{UNDEFINED}{q-stem}{ataʀum}{calm, easy, pleasant}{From PIE \textit{*sōmós}, from \textit{*sem-} (?).}
+\dictentry{ηῑκνις (hīknis)}{hiːknis}{UNDEFINED}{q-stem}{ataʀum}{pale, slow}{From PIE \textit{*séh₁knis}, from \textit{*seh₁k-} (?).}
+\dictentry{ηῑμυν (hīmun)}{hiːmun}{noun}{q-stem}{ataʀum}{seed}{From PIE \textit{*séh₁mn̥}, from \textit{*seh₁-} (?).}
+\dictentry{ηῑτλομ (hītlom)}{hiːtlom}{noun}{q-stem}{ataʀum}{age}{From PIE \textit{*séh₂itlom}, from \textit{*seh₂y-} (?).}
+\dictentry{θενᾱ (venā)}{venaː}{noun}{q-stem}{ataʀum}{woman}{From Pre-Ab. \textit{*gʷéneh₂}, from PIE \textit{*gʷḗn}, from \textit{*gʷen-} (?). The two Celtic terms were in fact distinct.}
+\dictentry{θορᾱ (vorā)}{voraː}{noun}{q-stem}{ataʀum}{meat used as food for pets}{From PIE \textit{*gʷorh₃éh₂}, from \textit{*gʷerh₃-} (?).}
+\dictentry{θρεπος (vrepos)}{vrepos}{noun}{q-stem}{ataʀum}{foal}{From PIE \textit{*gʷrébʰos}, from \textit{*gʷrebʰ-} (?).}
+\dictentry{θρᾱῠω (vrāwō)}{vraːwoː}{noun}{q-stem}{ataʀum}{quern, millstone}{From Pre-Ab. \textit{*gʷréh₂wō}, from PIE \textit{*gʷréh₂us}, from \textit{*gʷreh₂-} (?).}
+\dictentry{θρῡδος (vrūdos)}{vruːdos}{UNDEFINED}{q-stem}{ataʀum}{slow}{From Pre-Ab. \textit{*gʷruh₂tós}, from PIE \textit{*gʷréh₂us}, from \textit{*gʷreh₂-} (?).}
+\dictentry{θᾱμυν (vāmun)}{vaːmun}{noun}{q-stem}{ataʀum}{journey}{From PIE \textit{*gʷéh₂mn̥}, from \textit{*gʷeh₂-} (?).}
+\dictentry{θῑῠος (vīwos)}{viːwos}{UNDEFINED}{q-stem}{ataʀum}{alive}{From PIE \textit{*gʷih₃wós}, from \textit{*gʷeyh₃-} (?).}
+\dictentry{ιλμᾱ (ilmā)}{ilmaː}{noun}{q-stem}{ataʀum}{elm}{From Pre-Ab. \textit{*l̥meh₂}, from PIE \textit{*l̥mos}. The Germanic cognates are mentioned by Matasović (2009) but are missing in Kroonen (2013) and Ringe (2009). Almost undoubtedly of substrate origin.}
+\dictentry{Ιμβυνδος (Imbundos)}{imbundos}{noun}{q-stem}{ataʀum}{mythological realm of the Chthonic deities}{From Pre-Ab. \textit{*n̥bʰundʰós}, from PIE \textit{*bʰudʰnós}, from \textit{*dʰewbʰ-} (?).}
+\dictentry{ιμποδος (impodos)}{impodos}{UNDEFINED}{q-stem}{ataʀum}{undrinkable}{From PIE \textit{*n̥ph₃etós}, from \textit{*peh₃-} (?).}
+\dictentry{ιν- (in-)}{in-}{UNDEFINED}{q-stem}{ataʀum}{ipsum}{From PIE \textit{*n̥-}.}
+\dictentry{κyμυν (kymun)}{kyːmun}{noun}{q-stem}{ataʀum}{wave}{From PIE \textit{*ḱéwh₁mn̥}, from \textit{*ḱewh₁-} (?).}
+\dictentry{καζνος (kaznos)}{kaznos}{UNDEFINED}{q-stem}{ataʀum}{gray, grey}{From PIE \textit{*ḱh₁snós}.}
+\dictentry{καμμυν (kammun)}{kammun}{noun}{q-stem}{ataʀum}{song}{From PIE \textit{*kánmn̥}, from \textit{*kan-} (?).}
+\dictentry{καπρος (kapros)}{kapros}{noun}{q-stem}{ataʀum}{goat}{From PIE \textit{*kápros}. While the Proto-Celtic voicing of \textit{*pr} to \textit{*br} is regular, the initial \textit{*g} is unusual. Matasović (2009) posits assimilation with the following \textit{*b} or contamination with Proto-Indo-European \textit{*gʰayd-}, which is not attested in Celtic and furthermore considered to be a loan (cf. °GHAYD°). de Vaan (2008) instead suggests that the voicing discrepancy is the result of \textit{*kápros} being a loan itself, a claim the phonemic \textit{*a} may confirm. Mallory (2006) suggests a derivation from Proto-Indo-European \textit{*kápr̥} “penis”, which is no less problematic.}
+\dictentry{κελτρομ (keltrom)}{keltrom}{noun}{q-stem}{ataʀum}{shield}{From PIE \textit{*ḱéltrom}, from \textit{*ḱel-} (?).}
+\dictentry{κενατρᾱ (kenatrā)}{kenatraː}{noun}{q-stem}{ataʀum}{sister-in-law}{From Pre-Ab. \textit{*h₁yénh₂treh₂}, from PIE \textit{*h₁yénh₂tēr}. The Armenian cognate is slightly problematic and may not be related after all.}
+\dictentry{κενστρομ (kenstrom)}{kenstrom}{noun}{q-stem}{ataʀum}{stinger}{From PIE \textit{*ḱénttrom}, from \textit{*ḱent-} (?).}
+\dictentry{κερδος (kerdos)}{kerdos}{noun}{q-stem}{ataʀum}{craft, art}{From PIE \textit{*kérdos}, from \textit{*kerd-} (?).}
+\dictentry{κεῐῡς (kejūs)}{kejuːs}{noun}{q-stem}{ataʀum}{friend}{From PIE \textit{*ḱéywos} (), from \textit{*ḱey-} (?).}
+\dictentry{κικῐᾱ (kikjā)}{kikjaː}{noun}{q-stem}{ataʀum}{jay, magpie}{From PIE \textit{*kíḱyeh₂}. Of onomatopoeic origin.}
+\dictentry{κινῐος (kinjos)}{kinjos}{UNDEFINED}{q-stem}{ataʀum}{fresh}{From PIE \textit{*kn̥yós}, from \textit{*ken-} (?).}
+\dictentry{κιρβος (kirbos)}{kirbos}{noun}{q-stem}{ataʀum}{fruit}{From PIE \textit{*kr̥pós}. A word with a slightly troublesome etymology. While the a-vocalism in Latin can easily be explained (see de Vaan (2008)), the Greek form is slightly more problematic. While de Vaan (2008) vouches for a zero grade with analogy to the verb, the Mycenaean attestation lacks the rhotic. Beekes (2010) suggests a non-Indo-European origin instead, which de Vaan (2008) finds unlikely given the presence of a Latino-Balto-Slavic verb. In any case, Carite shows the regular outcome of a zero grade.}
+\dictentry{κλεπος (klepos)}{klepos}{noun}{q-stem}{ataʀum}{theft}{From PIE \textit{*klépos}, from \textit{*klep-} (?).}
+\dictentry{κλεῠος (klewos)}{klewos}{noun}{q-stem}{ataʀum}{fame, glory}{From PIE \textit{*ḱléwos}, from \textit{*ḱlew-} (?).}
+\dictentry{κλωρος (klōros)}{kloːros}{UNDEFINED}{q-stem}{ataʀum}{green}{From PIE \textit{*ǵʰl̥h₃rós}, from \textit{*ǵʰelh₃-} (?).}
+\dictentry{κλᾱδρος (klādros)}{klaːdros}{UNDEFINED}{q-stem}{ataʀum}{smooth}{From PIE \textit{*gʰl̥h₂dʰrós}, from \textit{*gʰleh₂dʰ-} (?).}
+\dictentry{κλᾱρος (klāros)}{klaːros}{UNDEFINED}{q-stem}{ataʀum}{hard, harsh}{From Pre-Ab. \textit{*kl̥h₁rós}, from PIE \textit{*(s)kl̥h₁rós}, from \textit{*(s)kelh₁-} (?).}
+\dictentry{κλᾱῠᾱ (klāwā)}{klaːwaː}{noun}{q-stem}{ataʀum}{key}{From Pre-Ab. \textit{*kleh₂weh₂}, from PIE \textit{*(s)kleh₂weh₂}, from \textit{*(s)kleh₂w-} (?). The Slavic forms are problematic as the expected vowel colouring does not occur.}
+\dictentry{κλῑτρᾱ (klītrā)}{kliːtraː}{noun}{q-stem}{ataʀum}{shelter}{From PIE \textit{*ḱléytreh₂}, from \textit{*ḱley-} (?).}
+\dictentry{κοβομ (kobom)}{kobom}{noun}{q-stem}{ataʀum}{divination}{From PIE \textit{*kobom}, from \textit{*kob-} (?).}
+\dictentry{κοιμος (koimos)}{køːmos}{noun}{q-stem}{ataʀum}{home}{From PIE \textit{*ḱóymos}, from \textit{*ḱey-} (?). The Greek verb is most likely a denominative of an unattested *κοῖμος (\textit{*koîmos}), which would be formally identical to the Germano-Carite nouns. Beekes (2010) mentions a cognate in Proto-Slavic \textit{*sěmьja} which appears to be missing from Derksen (2008).}
+\dictentry{κολμος (kolmos)}{kolmos}{noun}{q-stem}{ataʀum}{reed, cane}{From Pre-Ab. \textit{*ḱolh₂mos}, from PIE \textit{*ḱolh₂m} (), from \textit{*ḱelh₂-} (?).}
+\dictentry{κολσος (kolsos)}{kolsos}{noun}{q-stem}{ataʀum}{neck}{From PIE \textit{*kólsos}. A derivation from the root  \textit{*kʷel-} is sometimes suggested; however, the delabialisation in Germano-Carite would be irregular. Ringe (2009) specifically labels the formation as Post-Proto-Indo-European. Middle Irish \textit{coll} “head, chief”, which is mentioned by Mallory (2006), is considered a loan from Latin by de Vaan (2008).}
+\dictentry{κομ (kom)}{kom}{UNDEFINED}{q-stem}{ataʀum}{with£+INS}{From PIE \textit{*ḱóm}.}
+\dictentry{κοξᾱ (koxā)}{koksaː}{noun}{q-stem}{ataʀum}{hip, haunch}{From PIE \textit{*kóḱseh₂}. Lithuanian \textit{kiškà} may be related as well.}
+\dictentry{κορῐος (korjos)}{korjos}{noun}{q-stem}{ataʀum}{army}{From PIE \textit{*kóryos} (), from \textit{*ker-} (?).}
+\dictentry{κος (kos)}{kos}{UNDEFINED}{q-stem}{ataʀum}{relative pronoun}{From PIE \textit{*h₁yós}.}
+\dictentry{κοσλᾱ (koslā)}{koslaː}{noun}{q-stem}{ataʀum}{hazel}{From PIE \textit{*kósleh₂}. Probably of substrate origin.}
+\dictentry{κρεπος (krepos)}{krepos}{noun}{q-stem}{ataʀum}{body}{From PIE \textit{*krépos}, from \textit{*krep-} (?).}
+\dictentry{κρετος (kretos)}{kretos}{noun}{q-stem}{ataʀum}{strength}{From PIE \textit{*krétos}, from \textit{*kret-} (?).}
+\dictentry{κρισζομ (kriszom)}{krizzom}{noun}{q-stem}{ataʀum}{heart}{From Pre-Ab. \textit{*ḱr̥dyóm}, from PIE \textit{*ḱḗr}, from \textit{*ḱerd-} (?).}
+\dictentry{κρᾱνομ (krānom)}{kraːnom}{noun}{q-stem}{ataʀum}{horn}{From PIE \textit{*ḱr̥h₂nóm}, from \textit{*ḱerh₂-} (?).}
+\dictentry{κρᾱῠος (krāwos)}{kraːwos}{noun}{q-stem}{ataʀum}{stag}{From PIE \textit{*ḱr̥h₂wós}, from \textit{*ḱer-} (?). For the presence of \textit{*h₂} in the Carite forms, see °HORN°.}
+\dictentry{κρῑμυν (krīmun)}{kriːmun}{noun}{q-stem}{ataʀum}{decision, verdict}{From PIE \textit{*kréymn̥}, from \textit{*krey-} (?).}
+\dictentry{κρῑτρομ (krītrom)}{kriːtrom}{noun}{q-stem}{ataʀum}{sieve}{From Pre-Ab. \textit{*kréydʰrom}, from PIE \textit{*(s)kréydʰrom}, from \textit{*(s)ker-} (?).}
+\dictentry{κυρμις (kurmis)}{kurmis}{noun}{q-stem}{ataʀum}{worm}{From PIE \textit{*kʷŕ̥mis}.}
+\dictentry{κωλος (kōlos)}{koːlos}{noun}{q-stem}{ataʀum}{stem, stalk, straw}{From Pre-Ab. \textit{*keh₂ulós}, from PIE \textit{*(s)keh₂ulós}, from \textit{*(s)keh₂u-} (?). We may be dealing with a Mediterranean word per Martirosyan (2010).}
+\dictentry{Κωμενᾱ (Kōmenā)}{koːmenaː}{noun}{q-stem}{ataʀum}{mythological afterlife}{From PIE \textit{*h₁yewh₂mh₁néh₂}, from \textit{*h₁yewh₂-} (?). Beekes (2010)'s assumption that the word is Pre-Greek is refuted by Nikolaev (2015), who proposes a plausible etymology that allows connection to Indo-Iranian cognates, as well as a perfect match to the Carite term for afterlife.}
+\dictentry{κᾱρᾱ (kārā)}{kaːraː}{noun}{q-stem}{ataʀum}{female lover}{From PIE \textit{*kéh₂reh₂}, from \textit{*keh₂-} (?). The semantic shift in Carite appears to be similar to the shift in Germanic, but is almost certainly an independent development.}
+\dictentry{κῐος (kjos)}{kjos}{UNDEFINED}{q-stem}{ataʀum}{this}{From PIE \textit{*ḱyós}.}
+\dictentry{κῑκος (kīkos)}{kiːkos}{UNDEFINED}{q-stem}{ataʀum}{blind}{From PIE \textit{*kéh₂ikos}, from \textit{*keh₂i-} (?).}
+\dictentry{κῑνος (kīnos)}{kiːnos}{UNDEFINED}{q-stem}{ataʀum}{distal pronoun}{From Pre-Ab. \textit{*ḱeh₁énos}, from PIE \textit{*h₁énos}.}
+\dictentry{κῠᾱρος (kwāros)}{kwaːros}{UNDEFINED}{q-stem}{ataʀum}{wild}{From PIE \textit{*ǵʰweh₁rós}, from \textit{*ǵʰweh₁-} (?).}
+\dictentry{κῡπᾱ (kūpā)}{kuːpaː}{noun}{q-stem}{ataʀum}{handle}{From PIE \textit{*kóh₂peh₂}, from \textit{*keh₂p-} (?).}
+\dictentry{Κῡρος (Kūros)}{kuːros}{noun}{q-stem}{ataʀum}{mythological hero}{From PIE \textit{*ḱowh₁ros}, from \textit{*ḱewh₁-} (?). Matasović (2009) reconstructs the root as  \textit{*ḱewh₂-} instead, but \textit{*h₁} would share its reflex with \textit{*h₂} in this environment anyway.}
+\dictentry{λyτερος (lyteros)}{lyːteros}{UNDEFINED}{q-stem}{ataʀum}{free}{From PIE \textit{*h₁léwdʰeros}, from \textit{*h₁lewdʰ-} (?).}
+\dictentry{λαθρος (lavros)}{lavros}{UNDEFINED}{q-stem}{ataʀum}{fast, swift, nimble}{From PIE \textit{*h₁ln̥gʷhrós}, from \textit{*h₁lengʷh-} (?).}
+\dictentry{λαῐῡς (lajūs)}{lajuːs}{UNDEFINED}{q-stem}{ataʀum}{left, north}{From PIE \textit{*leh₂iwós}, from \textit{*leh₂-} (?).}
+\dictentry{λεκτρομ (lektrom)}{lektrom}{noun}{q-stem}{ataʀum}{bed}{From PIE \textit{*légʰtrom}, from \textit{*legʰ-} (?).}
+\dictentry{λεντος (lentos)}{lentos}{UNDEFINED}{q-stem}{ataʀum}{soft}{From PIE \textit{*léntos}, from \textit{*len-} (?).}
+\dictentry{λιβρος (libros)}{libros}{UNDEFINED}{q-stem}{ataʀum}{slippery, unstable}{From PIE \textit{*h₃librós}.}
+\dictentry{λινδᾱ (lindā)}{lindaː}{noun}{q-stem}{ataʀum}{loins}{From PIE \textit{*ln̥dʰéh₂}, from \textit{*lendʰ-} (?). Ringe (2009) vouches for a  \textit{*landʰom} origin of Proto-Germanic \textit{*landą}, of which Kroonen (2013) disapproves.}
+\dictentry{λοινις (loinis)}{løːnis}{noun}{q-stem}{ataʀum}{reed}{From PIE \textit{*yoynis}.}
+\dictentry{λοισᾱ (loisā)}{løːsaː}{noun}{q-stem}{ataʀum}{furrow£agriculture}{From PIE \textit{*lóyseh₂} (), from \textit{*leys-} (?).}
+\dictentry{λοιφνομ (loifnom)}{løːfnom}{noun}{q-stem}{ataʀum}{trash}{From PIE \textit{*lóykʷnom}, from \textit{*leykʷ-} (?).}
+\dictentry{λομβᾱ (lombā)}{lombaː}{noun}{q-stem}{ataʀum}{mythological water spirit}{From PIE \textit{*lombʰeh₂}, from \textit{*lem-} (?). Only Hyllested (2004) vouches for the connection between all etymons.}
+\dictentry{λωγος (lōgos)}{loːgos}{UNDEFINED}{q-stem}{ataʀum}{pale, wealthy}{From PIE \textit{*lewkós}, from \textit{*lewk-} (?).}
+\dictentry{λᾱρος (lāros)}{laːros}{UNDEFINED}{q-stem}{ataʀum}{destructive, ruinous}{From PIE \textit{*h₃l̥h₁rós}, from \textit{*h₃elh₁-} (?).}
+\dictentry{λῑμω (līmō)}{liːmoː}{noun}{q-stem}{ataʀum}{lake}{From Pre-Ab. \textit{*léymō}, from PIE \textit{*(s)léymō}, from \textit{*(s)ley-} (?).}
+\dictentry{λῡγος (lūgos)}{luːgos}{noun}{q-stem}{ataʀum}{grove, clearing}{From PIE \textit{*lowkós}, from \textit{*lewk-} (?). The Germanic cognate only differs in stress.}
+\dictentry{λῡμυν (lūmun)}{luːmun}{noun}{q-stem}{ataʀum}{mud, dirt}{From PIE \textit{*lúhₓmn̥}, from \textit{*luhₓ-} (?).}
+\dictentry{λῡξνᾱ (lūxnā)}{luːksnaː}{noun}{q-stem}{ataʀum}{moon}{From PIE \textit{*lówksneh₂}, from \textit{*lewk-} (?).}
+\dictentry{λῡτρομ (lūtrom)}{luːtrom}{noun}{q-stem}{ataʀum}{bath}{From PIE \textit{*lówh₃trom}, from \textit{*lewh₃-} (?).}
+\dictentry{μαγρος (magros)}{magros}{UNDEFINED}{q-stem}{ataʀum}{thin, meager}{From PIE \textit{*mh₂ḱrós}, from \textit{*meh₂ḱ-} (?).}
+\dictentry{Μαργονος (Margonos)}{margonos}{noun}{q-stem}{ataʀum}{pagan god of medicine and lunar chariot}{From PIE \textit{*markónos}. In the Carite pantheon, this god continues one of the divine horse twins alongside °HORSETWIN2°, more specifically the young warrior, and his depiction varies from a young man riding a horse to a centaur. Functional equivalents include the Ancient Greek Διόσκοροι.}
+\dictentry{μεγαλος (megalos)}{megalos}{UNDEFINED}{q-stem}{ataʀum}{great, fantastic, awesome}{From Pre-Ab. \textit{*méǵh₂los}, from PIE \textit{*méǵh₂s}, from \textit{*meǵh₂-} (?).}
+\dictentry{μελος (melos)}{melos}{noun}{q-stem}{ataʀum}{limb}{From PIE \textit{*mélos}, from \textit{*mel-} (?).}
+\dictentry{μεμμυν (memmun)}{memmun}{noun}{q-stem}{ataʀum}{wisdom}{From PIE \textit{*ménmn̥}, from \textit{*men-} (?).}
+\dictentry{μεμρομ (memrom)}{memrom}{noun}{q-stem}{ataʀum}{flesh}{From Pre-Ab. \textit{*mémsrom}, from PIE \textit{*mḗms}.}
+\dictentry{Μενεζῠᾱ (Menezwā)}{menezwaː}{UNDEFINED}{q-stem}{ataʀum}{pagan goddess of mysticism}{From PIE \textit{*meneswéh₂}, from \textit{*men-} (?).}
+\dictentry{μενος (menos)}{menos}{noun}{q-stem}{ataʀum}{mind}{From PIE \textit{*ménos}, from \textit{*men-} (?).}
+\dictentry{μενσις (mensis)}{mensis}{noun}{q-stem}{ataʀum}{month}{From Pre-Ab. \textit{*méh₁n̥sis}, from PIE \textit{*mḗh₁n̥s}.}
+\dictentry{μεξρι (mexri)}{meksri}{UNDEFINED}{q-stem}{ataʀum}{until£+GEN}{From PIE \textit{*méǵʰsri}, from \textit{*ǵʰes-} (?).}
+\dictentry{μεσσος (messos)}{messos}{UNDEFINED}{q-stem}{ataʀum}{middle}{From PIE \textit{*médʰyos}.}
+\dictentry{μικλᾱ (miklā)}{miklaː}{UNDEFINED}{q-stem}{ataʀum}{fog, mist}{From PIE \textit{*h₃mígʰleh₂}.}
+\dictentry{μισδος (misdos)}{mizdos}{noun}{q-stem}{ataʀum}{reward, prize}{From PIE \textit{*misdʰós}, from \textit{*mey-} (?). Given the feminine gender of the Germano-Slavic reflexes, Beekes (2010) mentions that the word may have been an old feminine, although he says the shift in gender would be unusual. Additionally, the neuter gender of the Sanskrit reflex doesn't clear up anything. Perhaps the feminine reflexes are old collectives? Anyhow, the Carite form perfectly mirrors the Greek reflex.}
+\dictentry{μοξ (mox)}{moks}{UNDEFINED}{q-stem}{ataʀum}{soon}{From Pre-Ab. \textit{*moḱs}, from PIE \textit{*moḱs(u)}.}
+\dictentry{μορι (mori)}{mori}{noun}{q-stem}{ataʀum}{sea, standing water}{From PIE \textit{*móri}.}
+\dictentry{μυλδᾱ (muldā)}{muldaː}{noun}{q-stem}{ataʀum}{soil, ground}{From PIE \textit{*ml̥dʰéh₂}. Beekes (2010) argues that Ancient Greek μάλθη, which Mallory (2006) posits as cognate, is a Pre-Greek technical loan and thus unrelated. The Germanic cognate is not mentioned in Kroonen (2013) or Ringe (2009).}
+\dictentry{μυρδος (murdos)}{murdos}{noun}{q-stem}{ataʀum}{human}{From PIE \textit{*mr̥tós}, from \textit{*mer-} (?). The stressed zero grade in Germanic, as proven by the absence of Verner's Law, is clearly deviant when compared to the Greek and Sanskrit forms. In Latin, Slavic and Celtic, the \textit{*-wós} suffix from Proto-Indo-European \textit{*gʷih₃wós} (whence °VIVUS°) contaminated the original formation to different degrees. The semantic shift from “mortal” to “human” is extremely common, with there being a perfect parallel in Armenian մարդ as well as similar shifts in other words such as Latin \textit{mortālis} and Ancient Greek βρότειος.}
+\dictentry{μυρῡς (murūs)}{muruːs}{UNDEFINED}{q-stem}{ataʀum}{ill, sick}{From PIE \textit{*mr̥wós}, from \textit{*mer-} (?).}
+\dictentry{μυσομ (musom)}{musom}{noun}{q-stem}{ataʀum}{moss, lichen, mould}{From PIE \textit{*músom}, from \textit{*mews-} (?).}
+\dictentry{μᾱτρᾱ (mātrā)}{maːtraː}{noun}{q-stem}{ataʀum}{mother}{From Pre-Ab. \textit{*méh₂treh₂}, from PIE \textit{*méh₂tēr}.}
+\dictentry{μῑ (mī)}{miː}{UNDEFINED}{q-stem}{ataʀum}{prohibition particle}{From PIE \textit{*méh₁}.}
+\dictentry{μῑτος (mītos)}{miːtos}{noun}{q-stem}{ataʀum}{autumn, fall}{From PIE \textit{*h₂méh₁tos} (), from \textit{*h₂meh₁-} (?).}
+\dictentry{μῑτρομ (mītrom)}{miːtrom}{noun}{q-stem}{ataʀum}{ruler£measuring device}{From PIE \textit{*méh₁trom}, from \textit{*meh₁-} (?).}
+\dictentry{μῡδαρομ (mūdarom)}{muːdarom}{noun}{q-stem}{ataʀum}{bowels, guts, intestines}{From PIE \textit{*m̥h₂dh₂róm}, from \textit{*meh₂d-} (?).}
+\dictentry{ναγρος (nagros)}{nagros}{UNDEFINED}{q-stem}{ataʀum}{dead}{From PIE \textit{*neḱrós}, from \textit{*neḱ-} (?).}
+\dictentry{ναθρος (navros)}{navros}{noun}{q-stem}{ataʀum}{kidney}{From PIE \textit{*negʷhrós} ().}
+\dictentry{νεβυν (nebun)}{nebun}{UNDEFINED}{q-stem}{ataʀum}{nine}{From PIE \textit{*h₁néwn̥}.}
+\dictentry{νεβυντος (nebuntos)}{nebuntos}{UNDEFINED}{q-stem}{ataʀum}{ninth}{From PIE \textit{*h₁néwn̥tos}.}
+\dictentry{νεδη (nedē)}{nedeː}{UNDEFINED}{q-stem}{ataʀum}{not even}{From Pre-Ab. \textit{*nedeh₁}, from PIE \textit{*de}.}
+\dictentry{νεκι (neki)}{neki}{UNDEFINED}{q-stem}{ataʀum}{negative marker}{From PIE \textit{*négʰi}.}
+\dictentry{νεμος (nemos)}{nemos}{noun}{q-stem}{ataʀum}{forest}{From PIE \textit{*némos}, from \textit{*nem-} (?).}
+\dictentry{νεπελᾱ (nepelā)}{nepelaː}{noun}{q-stem}{ataʀum}{fumes, foul steam}{From PIE \textit{*nebʰeléh₂}, from \textit{*nebʰ-} (?). It is likely a similar diminutive existed in Celtic.}
+\dictentry{νεπος (nepos)}{nepos}{noun}{q-stem}{ataʀum}{cloud}{From PIE \textit{*nébʰos}, from \textit{*nebʰ-} (?).}
+\dictentry{νεπτις (neptis)}{neptis}{noun}{q-stem}{ataʀum}{nephew}{From Pre-Ab. \textit{*néptis}, from PIE \textit{*népōts}.}
+\dictentry{νεπτῑ (neptī)}{neptiː}{noun}{q-stem}{ataʀum}{niece}{From PIE \textit{*néptih₂}.}
+\dictentry{νεσυμθος (nesumvos)}{nesumvos}{UNDEFINED}{q-stem}{ataʀum}{no one, nothing}{From Pre-Ab. \textit{*nesm̥kʷós}, from PIE \textit{*kʷós}.}
+\dictentry{νεῠε (newe)}{newe}{UNDEFINED}{q-stem}{ataʀum}{or}{From PIE \textit{*newe}.}
+\dictentry{νεῠος (newos)}{newos}{UNDEFINED}{q-stem}{ataʀum}{new}{From PIE \textit{*néwos}, from \textit{*new-} (?).}
+\dictentry{νηδεδος (nēdedos)}{neːdedos}{UNDEFINED}{q-stem}{ataʀum}{disgusting}{From PIE \textit{*n̥h₁detós}, from \textit{*h₁ed-} (?).}
+\dictentry{νιζμος (nizmos)}{nizmos}{UNDEFINED}{q-stem}{ataʀum}{clean}{From PIE \textit{*nigʷtós}, from \textit{*neygʷ-} (?).}
+\dictentry{νιρφονος (nirfonos)}{nirfonos}{noun}{q-stem}{ataʀum}{epithet (man-slayer)}{From PIE \textit{*h₂nr̥gʷhonós}, from \textit{*gʷhen-} (?). A very old epithet that appears to be a compound of the words that yield °NERO° and °GWHENMI°, meaning “man-slayer”. The Greek cognate is notoriously close but they may be independent formations.}
+\dictentry{νιρῐᾱ (nirjā)}{nirjaː}{noun}{q-stem}{ataʀum}{dream}{From Pre-Ab. \textit{*h₃nr̥yéh₂}, from PIE \textit{*h₃énr̥}.}
+\dictentry{νισδος (nisdos)}{nizdos}{noun}{q-stem}{ataʀum}{nest}{From PIE \textit{*nisdós}, from \textit{*sed-} (?). Ringe (2009) reconstructs the Germanic reflex as \textit{*nistaz}, which would be the expected result. However, as shown by Kroonen (2013), all Germanic languages show a neuter gender, which means it's more than likely it was already neuter at Proto-Germanic times. The origin of the velar in the Slavic etymon is unknown and postdates the Balto-Slavic split.}
+\dictentry{νοθνος (novnos)}{novnos}{UNDEFINED}{q-stem}{ataʀum}{naked}{From Pre-Ab. \textit{*nogʷnós}, from PIE \textit{*nógʷs}, from \textit{*negʷ-} (?).}
+\dictentry{νομυν (nomun)}{nomun}{noun}{q-stem}{ataʀum}{name}{From PIE \textit{*h₃nómn̥}.}
+\dictentry{νοφσδοσῐᾱ (nofsdosjā)}{novzdosjaː}{UNDEFINED}{q-stem}{ataʀum}{last night}{From Pre-Ab. \textit{*nokʷttósyeh₂}, from PIE \textit{*nókʷts}.}
+\dictentry{νωδος (nōdos)}{noːdos}{UNDEFINED}{q-stem}{ataʀum}{toothless}{From PIE \textit{*n̥h₃dós}, from \textit{*h₃ed-} (?).}
+\dictentry{Νᾱγραδος (Nāgrados)}{naːgrados}{noun}{q-stem}{ataʀum}{he who can not be woken}{From PIE \textit{*n̥h₁gretós}, from \textit{*h₁ger-} (?).}
+\dictentry{νᾱνεμος (nānemos)}{naːnemos}{UNDEFINED}{q-stem}{ataʀum}{without wind, calm}{From PIE \textit{*n̥h₂nh₁mós}, from \textit{*h₂enh₁-} (?).}
+\dictentry{Νᾱρζῠᾱ (Nārzwā)}{naːrzwaː}{noun}{q-stem}{ataʀum}{pagan river goddess}{From Pre-Ab. \textit{*h₁n̥h₁r̥swéh₂}, from PIE \textit{*lorem}, from \textit{*h₁ers-} (?).}
+\dictentry{νῑδος (nīdos)}{niːdos}{noun}{q-stem}{ataʀum}{shame, disgrace}{From PIE \textit{*h₃néydos}, from \textit{*h₃neyd-} (?).}
+\dictentry{νῡ (nū)}{nuː}{UNDEFINED}{q-stem}{ataʀum}{now, already}{From PIE \textit{*nū}.}
+\dictentry{ογετᾱ (ogetā)}{ogetaː}{noun}{q-stem}{ataʀum}{harrow}{From PIE \textit{*h₂oḱéteh₂}, from \textit{*h₂eḱ-} (?). According to Beekes (2010), the connection to the Greek reflex is tentative at best because of apparent remodeling after Ancient Greek ὀξύς (which is also possibly non-Indo-European) and the presence of the Pre-Greek suffix -ιν-. Furthermore, Kroonen (2013) vouches for a European origin instead. The actual Latin development into \textit{-cc-} is unclear; de Vaan (2008) offers several convincing explanations. Mallory (2006) reconstructs a new root \textit{*{h₁,h₂}ek-}, possibly with a regular velar to explain the presence of /k/ in the Baltic forms; Derksen (2008) and Derksen (2015) explain this deviation as a borrowing from Germanic instead, vouching for the semantic distance between the Slavic and Balto-Germanic words. As it is preferable to retain the connection to Proto-Indo-European \textit{*h₂eḱ-} (“sharp”) or to simply consider it to be of non-Indo-European origin, the reconstruction of a separate root is unnecessary.}
+\dictentry{ογζοῠος (ogzowos)}{ogzowos}{UNDEFINED}{q-stem}{ataʀum}{eighth}{From PIE \textit{*h₃eḱtówos}.}
+\dictentry{ογζῡ (ogzū)}{ogzuː}{UNDEFINED}{q-stem}{ataʀum}{eight}{From PIE \textit{*h₃eḱtéh₃}.}
+\dictentry{ογκος (onkos)}{onkos}{noun}{q-stem}{ataʀum}{elbow}{From PIE \textit{*h₂ónkos} (), from \textit{*h₂enk-} (?).}
+\dictentry{ογμος (ogmos)}{ogmos}{noun}{q-stem}{ataʀum}{furrow}{From PIE \textit{*h₂óǵmos}, from \textit{*h₂eǵ-} (?).}
+\dictentry{οινος (oinos)}{øːnos}{UNDEFINED}{q-stem}{ataʀum}{one}{From PIE \textit{*hₓóynos}.}
+\dictentry{οισζος (oiszos)}{øːzzos}{UNDEFINED}{q-stem}{ataʀum}{passable}{From PIE \textit{*h₁oytyós}, from \textit{*h₁ey-} (?).}
+\dictentry{ολῡς (olūs)}{oluːs}{UNDEFINED}{q-stem}{ataʀum}{destructive, sinister, ominous}{From PIE \textit{*h₃olh₁wós}, from \textit{*h₃elh₁-} (?).}
+\dictentry{ομβλος (omblos)}{omblos}{noun}{q-stem}{ataʀum}{navel, belly button}{From PIE \textit{*h₃n̥bʰlós}, from \textit{*h₃nebʰ-} (?). The vocalisation of \textit{*l̥} in the Greek cognate may point towards a late thematicisation.}
+\dictentry{ονος (onos)}{onos}{noun}{q-stem}{ataʀum}{load, burden}{From PIE \textit{*h₃énos}, from \textit{*h₃en-} (?).}
+\dictentry{ορδῡς (ordūs)}{orduːs}{UNDEFINED}{q-stem}{ataʀum}{high}{From PIE \textit{*h₃r̥dʰwós}, from \textit{*h₃erdʰ-} (?).}
+\dictentry{ορπος (orpos)}{orpos}{noun}{q-stem}{ataʀum}{orphan}{From PIE \textit{*h₃órbʰos} (), from \textit{*h₃erbʰ-} (?).}
+\dictentry{ορσος (orsos)}{orsos}{noun}{q-stem}{ataʀum}{tail}{From PIE \textit{*h₁órsos} (), from \textit{*h₁ers-} (?).}
+\dictentry{οσδος (osdos)}{ozdos}{noun}{q-stem}{ataʀum}{branch}{From PIE \textit{*h₃ósdos} ().}
+\dictentry{οσμος (osmos)}{osmos}{noun}{q-stem}{ataʀum}{shoulder}{From PIE \textit{*h₁ómsos}. The vocalism in Latin has widely been considered troublesome and is usually explained away as an old s-stem. Höfler (2017), however, posits an additional unknown laryngeal between \textit{*m} and \textit{*s} which, with a nominative singular o-grade, would not surface due to Saussure's Law. In the e-grade of the dual, however, it would, which is where the Latin form comes from. This view is adopted in this dictionary entry. For more information, please consult the source.}
+\dictentry{οστομ (ostom)}{ostom}{noun}{q-stem}{ataʀum}{bone}{From Pre-Ab. \textit{*h₃ésth₁om}, from PIE \textit{*h₃ésth₁}.}
+\dictentry{οῐῡς (ojūs)}{ojuːs}{UNDEFINED}{q-stem}{ataʀum}{only, sole, single, alone}{From PIE \textit{*hₓóywos}.}
+\dictentry{οῠιγᾱ (owigā)}{owigaː}{noun}{q-stem}{ataʀum}{ewe}{From Pre-Ab. \textit{*h₃ewikéh₂}, from PIE \textit{*h₃éwis}.}
+\dictentry{πyκᾱ (pykā)}{pyːkaː}{noun}{q-stem}{ataʀum}{spruce, pine}{From PIE \textit{*péwḱeh₂}, from \textit{*pewḱ-} (?). Kroonen (2013) mentions this root also probably surfaces in Armenian թեղաւշ, where it would be the second member of the compound. Martirosyan (2010), however, does not mention this at all.}
+\dictentry{παδρος (padros)}{padros}{noun}{q-stem}{ataʀum}{father}{From Pre-Ab. \textit{*ph₂trós}, from PIE \textit{*ph₂tḗr} (), from \textit{*peh₂-} (?).}
+\dictentry{παος (paos)}{paos}{noun}{q-stem}{ataʀum}{light}{From PIE \textit{*bʰéh₂os}, from \textit{*bʰeh₂-} (?).}
+\dictentry{παργνος (pargnos)}{pargnos}{UNDEFINED}{q-stem}{ataʀum}{freckled}{From PIE \textit{*perḱnós}, from \textit{*perḱ-} (?).}
+\dictentry{παρος (paros)}{paros}{noun}{q-stem}{ataʀum}{spelt}{From PIE \textit{*bʰáros}, from \textit{*bʰar-} (?).}
+\dictentry{πασζος (paszos)}{pazzos}{UNDEFINED}{q-stem}{ataʀum}{terrestrial}{From PIE \textit{*pedyós}, from \textit{*ped-} (?).}
+\dictentry{πασκις (paskis)}{paskis}{noun}{q-stem}{ataʀum}{weight}{From PIE \textit{*bʰáskis}, from \textit{*bʰask-} (?).}
+\dictentry{πεγγος (pengos)}{pengos}{noun}{q-stem}{ataʀum}{tar}{From PIE \textit{*bʰénǵʰos}, from \textit{*bʰenǵʰ-} (?).}
+\dictentry{πεδομ (pedom)}{pedom}{noun}{q-stem}{ataʀum}{step}{From PIE \textit{*pedom}, from \textit{*ped-} (?).}
+\dictentry{πεκος (pekos)}{pekos}{noun}{q-stem}{ataʀum}{money, currency}{From PIE \textit{*péḱos}, from \textit{*peḱ-} (?).}
+\dictentry{πελνος (pelnos)}{pelnos}{noun}{q-stem}{ataʀum}{skin, hide}{From PIE \textit{*pélnos} (), from \textit{*pel-} (?).}
+\dictentry{πελος (pelos)}{pelos}{noun}{q-stem}{ataʀum}{cliff}{From PIE \textit{*pélos}, from \textit{*pel-} (?).}
+\dictentry{πεμμος (pemmos)}{pemmos}{UNDEFINED}{q-stem}{ataʀum}{fifth}{From PIE \textit{*pénkʷtos}.}
+\dictentry{πεμφε (pemfe)}{pemfe}{UNDEFINED}{q-stem}{ataʀum}{five}{From PIE \textit{*pénkʷe}.}
+\dictentry{περι (peri)}{peri}{UNDEFINED}{q-stem}{ataʀum}{about£+GEN, through£+ACC, for£+DAT}{From PIE \textit{*peri}.}
+\dictentry{περνᾱ (pernā)}{pernaː}{noun}{q-stem}{ataʀum}{heel}{From PIE \textit{*tpḗrsneh₂}. It is not clear if the shift from “heel” to “weakness” was influenced the myth of Achilles, but the similarity is too striking to be a mere coincidence. The underlying root is sometimes thought to be related to °HEEL2°.}
+\dictentry{περυτι (peruti)}{peruti}{UNDEFINED}{q-stem}{ataʀum}{last year}{From PIE \textit{*péruti}, from \textit{*wet-} (?).}
+\dictentry{πεσος (pesos)}{pesos}{noun}{q-stem}{ataʀum}{penis}{From PIE \textit{*pésos}, from \textit{*pes-} (?).}
+\dictentry{πεστρομ (pestrom)}{pestrom}{noun}{q-stem}{ataʀum}{hoe}{From PIE \textit{*bʰédʰtrom}, from \textit{*bʰedʰ-} (?).}
+\dictentry{πεταλομ (petalom)}{petalom}{noun}{q-stem}{ataʀum}{leaf}{From PIE \textit{*péth₂lom}, from \textit{*peth₂-} (?).}
+\dictentry{πετατλομ (petatlom)}{petatlom}{noun}{q-stem}{ataʀum}{wing}{From PIE \textit{*péth₂dʰlom}, from \textit{*peth₂-} (?).}
+\dictentry{πληνος (plēnos)}{pleːnos}{UNDEFINED}{q-stem}{ataʀum}{full}{From PIE \textit{*pl̥h₁nós}, from \textit{*pelh₁-} (?).}
+\dictentry{πλοῠος (plowos)}{plowos}{noun}{q-stem}{ataʀum}{sailing, voyage}{From PIE \textit{*plowós}, from \textit{*plew-} (?). Beekes (2010) mentions a formally identical Russian plov, of which no further trace can be found.}
+\dictentry{πλᾱμ (plām)}{plaːm}{UNDEFINED}{q-stem}{ataʀum}{except£+GEN}{From PIE \textit{*pl̥h₂m}, from \textit{*pleh₂-} (?).}
+\dictentry{πλᾱμᾱ (plāmā)}{plaːmaː}{noun}{q-stem}{ataʀum}{hand}{From PIE \textit{*pl̥h₂méh₂}, from \textit{*pelh₂-} (?). The reconstruction Proto-Indo-European \textit{*pólh₂m̥} posited by Mallory (2006) is untenable.}
+\dictentry{πλῑ (plī)}{pliː}{UNDEFINED}{q-stem}{ataʀum}{too much}{From PIE \textit{*pl̥h₁í}, from \textit{*pleh₁-} (?).}
+\dictentry{πλῡῐομ (plūjom)}{pluːjom}{noun}{q-stem}{ataʀum}{ship}{From PIE \textit{*plówyom}, from \textit{*plew-} (?).}
+\dictentry{πνοῠος (pnowos)}{pnowos}{noun}{q-stem}{ataʀum}{animal}{From PIE \textit{*pnowós}, from \textit{*pnew-} (?). A noun without any formal correspondences in other languages. The Proto-Indo-European formation most likely meant "breather" and the semantic shift of such word to animal is widely attested, with examples including Latin \textit{animal} and Proto-Germanic \textit{*deuzą} (but note that Proto-Celtic \textit{*dwosyos}, its cognate, refers to humans instead). Please refer to °PNEWMI° for further etymology and sources.}
+\dictentry{ποζμᾱ (pozmā)}{pozmaː}{noun}{q-stem}{ataʀum}{sweat}{From PIE \textit{*pokʷtéh₂}, from \textit{*pekʷ-} (?).}
+\dictentry{ποιμω (poimō)}{pøːmoː}{noun}{q-stem}{ataʀum}{shepherd, herder}{From PIE \textit{*póh₂imō}, from \textit{*peh₂-} (?).}
+\dictentry{ποιῠᾱ (poiwā)}{pøːwaː}{noun}{q-stem}{ataʀum}{meadow}{From PIE \textit{*póh₂iweh₂} (), from \textit{*peh₂-} (?).}
+\dictentry{πολγᾱ (polgā)}{polgaː}{noun}{q-stem}{ataʀum}{fallow land}{From PIE \textit{*polḱéh₂}.}
+\dictentry{πολκος (polkos)}{polkos}{noun}{q-stem}{ataʀum}{stomach}{From PIE \textit{*bʰólǵʰos} (), from \textit{*bʰelǵʰ-} (?).}
+\dictentry{πολῐομ (poljom)}{poljom}{noun}{q-stem}{ataʀum}{leaf}{From PIE \textit{*bʰólh₃yom}, from \textit{*bʰleh₃-} (?).}
+\dictentry{πονδος (pondos)}{pondos}{noun}{q-stem}{ataʀum}{boulder}{From Pre-Ab. \textit{*póndos}, from PIE \textit{*(s)póndos}, from \textit{*(s)pend-} (?).}
+\dictentry{πορθος (porvos)}{porvos}{UNDEFINED}{q-stem}{ataʀum}{violent, dangerous}{From PIE \textit{*bʰorgʷos}.}
+\dictentry{πορᾱ (porā)}{poraː}{noun}{q-stem}{ataʀum}{time as an instance}{From PIE \textit{*bʰoréh₂}, from \textit{*bʰer-} (?).}
+\dictentry{ποσζομ (poszom)}{pozzom}{noun}{q-stem}{ataʀum}{grave}{From PIE \textit{*bʰodʰyóm}, from \textit{*bʰedʰ-} (?).}
+\dictentry{ποστι (posti)}{posti}{UNDEFINED}{q-stem}{ataʀum}{after£+DAT, behind£+DAT}{From Pre-Ab. \textit{*posti}, from PIE \textit{*pos}.}
+\dictentry{ποτις (potis)}{potis}{noun}{q-stem}{ataʀum}{husband}{From PIE \textit{*pótis}.}
+\dictentry{ποτνῑ (potnī)}{potniː}{noun}{q-stem}{ataʀum}{wife}{From PIE \textit{*pótnih₂}.}
+\dictentry{πρη (prē)}{preː}{UNDEFINED}{q-stem}{ataʀum}{before£+DAT}{From PIE \textit{*pr̥h₂i}, from \textit{*preh₂-} (?).}
+\dictentry{πρησθοῠος (prēsvowos)}{preːzvowos}{noun}{q-stem}{ataʀum}{high priest}{From PIE \textit{*preysgʷowós} (), from \textit{*gʷew-} (?).}
+\dictentry{Πριονᾱ (Prionā)}{prionaː}{noun}{q-stem}{ataʀum}{pagan goddess of love and fertility}{From PIE \textit{*prihₓóneh₂}, from \textit{*preyhₓ-} (?).}
+\dictentry{πριος (prios)}{prios}{UNDEFINED}{q-stem}{ataʀum}{free}{From PIE \textit{*prihₓós}, from \textit{*preyhₓ-} (?).}
+\dictentry{πρισδομ (prisdom)}{prizdom}{noun}{q-stem}{ataʀum}{finger}{From PIE \textit{*pr̥sth₂óm}, from \textit{*steh₂-} (?).}
+\dictentry{προ (pro)}{pro}{UNDEFINED}{q-stem}{ataʀum}{too, also}{From PIE \textit{*pro}.}
+\dictentry{προμος (promos)}{promos}{UNDEFINED}{q-stem}{ataʀum}{first}{From PIE \textit{*prómos}, from \textit{*per-} (?).}
+\dictentry{προτι (proti)}{proti}{UNDEFINED}{q-stem}{ataʀum}{at£+DAT, in front of£+DAT}{From PIE \textit{*próti}.}
+\dictentry{προτῑφομ (protīfom)}{protiːfom}{noun}{q-stem}{ataʀum}{face}{From PIE \textit{*prótih₃kʷom}, from \textit{*h₃ekʷ-} (?).}
+\dictentry{πρωγζος (prōgzos)}{proːgzos}{noun}{q-stem}{ataʀum}{anus£singular, butt£plural, buttocks£plural, rump£plural}{From PIE \textit{*proh₂ḱtós}. The reconstruction \textit{*pr̥h₃ḱtós} posited by Mallory (2006) is untenable.}
+\dictentry{πρᾱτρος (prātros)}{praːtros}{noun}{q-stem}{ataʀum}{brother}{From Pre-Ab. \textit{*bʰréh₂tros}, from PIE \textit{*bʰréh₂tēr} ().}
+\dictentry{πυγνος (pugnos)}{pugnos}{noun}{q-stem}{ataʀum}{fist}{From PIE \textit{*puǵnós} (), from \textit{*pewǵ-} (?).}
+\dictentry{πυγᾱ (pugā)}{pugaː}{noun}{q-stem}{ataʀum}{flight, escape}{From PIE \textit{*bʰugéh₂}, from \textit{*bʰewg-} (?).}
+\dictentry{πυδλος (pudlos)}{pudlos}{noun}{q-stem}{ataʀum}{boy}{From PIE \textit{*putlós}. Armenian ուստր, mentioned as a cognate by Mallory (2006), is derived from a different root by Martirosyan (2010). de Vaan (2008) mentions Proto-Slavic \textit{*pъtákъ} as cognate, to which Derksen (2008) assigns no etymology.}
+\dictentry{πυλτ(ε)νος (pult(e)nos)}{pult(e)nos}{UNDEFINED}{q-stem}{ataʀum}{large£of an area}{From PIE \textit{*pl̥th₂(e)nós}, from \textit{*pleth₂-} (?).}
+\dictentry{πυῐος (pujos)}{pujos}{UNDEFINED}{q-stem}{ataʀum}{small, little}{From PIE \textit{*ph₂uyós}, from \textit{*peh₂w-} (?).}
+\dictentry{πᾱγᾱ (pāgā)}{paːgaː}{noun}{q-stem}{ataʀum}{beech}{From Pre-Ab. \textit{*bʰeh₂ǵeh₂}, from PIE \textit{*bʰeh₂ǵos}. This word was most likely feminine in Proto-Indo-European, with the noun class changing accordingly in Carite. The Germanic form is only formally identical without the \textit{*j}.}
+\dictentry{πᾱνος (pānos)}{paːnos}{UNDEFINED}{q-stem}{ataʀum}{white}{From PIE \textit{*bʰeh₂nos}, from \textit{*bʰeh₂-} (?).}
+\dictentry{πῡκος (pūkos)}{puːkos}{UNDEFINED}{q-stem}{ataʀum}{few, several}{From PIE \textit{*péh₂ukos}, from \textit{*peh₂w-} (?).}
+\dictentry{πῡρος (pūros)}{puːros}{noun}{q-stem}{ataʀum}{wheat}{From PIE \textit{*puhₓrós}, from \textit{*pewhₓ-} (?). Beekes (2010) explains the variation in vowel length in Greek as the result of laryngeal metathesis, i.e. \textit{*phₓurós}. If the short vowel is the result of pretonic shortening, i.e. Dybo's law, however, Ancient Greek πυρός is also formally identical to the Carite reflex. Despite the ability to reconstruct a Proto-Indo-European form, this word may be an old Wanderwort instead. Old English \textit{fyrs} is also mentioned, but no Proto-Germanic form can be found.}
+\dictentry{πῡρος (pūros)}{puːros}{UNDEFINED}{q-stem}{ataʀum}{cheap}{From PIE \textit{*péh₂uros}, from \textit{*peh₂w-} (?).}
+\dictentry{πῡσς (pūss)}{puːss}{UNDEFINED}{q-stem}{ataʀum}{foot}{From PIE \textit{*pṓds}, from \textit{*ped-} (?).}
+\dictentry{Πῡσω (Pūsō)}{puːsoː}{noun}{q-stem}{ataʀum}{pagan god of cattle, music and art}{From PIE \textit{*péh₂usō}, from \textit{*peh₂-} (?).}
+\dictentry{πῡτλομ (pūtlom)}{puːtlom}{noun}{q-stem}{ataʀum}{drinking cup}{From PIE \textit{*péh₃tlom}, from \textit{*peh₃-} (?).}
+\dictentry{ρyμυν (rymun)}{ryːmun}{noun}{q-stem}{ataʀum}{horsehair}{From PIE \textit{*réwmn̥}.}
+\dictentry{ρyτος (rytos)}{ryːtos}{noun}{q-stem}{ataʀum}{copper, bronze}{From PIE \textit{*h₁réwdʰos}, from \textit{*h₁rewdʰ-} (?).}
+\dictentry{ρεθος (revos)}{revos}{noun}{q-stem}{ataʀum}{twilight, dusk}{From PIE \textit{*h₁régʷos}.}
+\dictentry{ρεῠος (rewos)}{rewos}{noun}{q-stem}{ataʀum}{countryside}{From PIE \textit{*hₓréwos}, from \textit{*hₓrew-} (?).}
+\dictentry{ροβος (robos)}{robos}{noun}{q-stem}{ataʀum}{rape?}{From PIE \textit{*h₁ropós} (), from \textit{*h₁rep-} (?).}
+\dictentry{ρυδρος (rudros)}{rudros}{UNDEFINED}{q-stem}{ataʀum}{red}{From PIE \textit{*h₁rudʰrós}, from \textit{*h₁rewdʰ-} (?).}
+\dictentry{ρῑγνῑ (rīgnī)}{riːgniː}{noun}{q-stem}{ataʀum}{queen}{From PIE \textit{*h₃rḗǵnih₂}, from \textit{*h₃reǵ-} (?).}
+\dictentry{ρῑμᾱ (rīmā)}{riːmaː}{noun}{q-stem}{ataʀum}{number}{From PIE \textit{*h₂réymeh₂}, from \textit{*h₂rey-} (?). The actual form of this root is not entirely clear. Matasović (2009) reconstructs an unknown root-final laryngeal and posits a zero grade formation to account for the long vowel; the full grade would result into \textit{**reimā}. However, as he points out, this extra laryngeal is not reflected in Greek. Kroonen (2013) considers \textit{*h₂rey-} to be a reanalysis of \textit{*h₂rh₁ey-}, an i-present to  \textit{*h₂reh₁-}. In Germano-Carite, both \textit{*-ihₓ-} and \textit{*-ey(hₓ)-} result in \textit{*-ī-}, so the precise reconstruction is irrelevant for these branches.}
+\dictentry{ρῑξ (rīx)}{riːks}{UNDEFINED}{q-stem}{ataʀum}{king}{From PIE \textit{*h₃rḗǵs}, from \textit{*h₃reǵ-} (?).}
+\dictentry{ρῑπᾱ (rīpā)}{riːpaː}{noun}{q-stem}{ataʀum}{steep slope}{From PIE \textit{*h₁réypeh₂}, from \textit{*h₁reyp-} (?).}
+\dictentry{ρῑῠος (rīwos)}{riːwos}{noun}{q-stem}{ataʀum}{river}{From PIE \textit{*h₃rihₓwós}, from \textit{*h₃reyhₓ-} (?). Mallory (2006) reconstructs the root as  \textit{*h₁reyhₓ-} instead.}
+\dictentry{ρῡδος (rūdos)}{ruːdos}{UNDEFINED}{q-stem}{ataʀum}{angry}{From PIE \textit{*h₁rowdʰós}, from \textit{*h₁rewdʰ-} (?).}
+\dictentry{σyκυρος (sykuros)}{syːkuros}{noun}{q-stem}{ataʀum}{father-in-law}{From PIE \textit{*swéḱuros}. The Armeno-Celtic cognates are derivations of the feminine equivalent, with the Celtic reflex being a derivation using \textit{*-Vnos} (often used to indicate possession) and the Armenian reflex being a compound with  ayr ("man"). In Slavic, the consonant was altered through analogy with the feminine equivalent.}
+\dictentry{σyξ (syx)}{syːks}{UNDEFINED}{q-stem}{ataʀum}{six}{From PIE \textit{*swéḱs}.}
+\dictentry{σyξτος (syxtos)}{syːkstos}{UNDEFINED}{q-stem}{ataʀum}{sixth}{From PIE \textit{*swéḱstos}.}
+\dictentry{σyσζος (syszos)}{syːzzos}{UNDEFINED}{q-stem}{ataʀum}{such}{From Pre-Ab. \textit{*swédyos}, from PIE \textit{*swé}.}
+\dictentry{σyτος (sytos)}{syːtos}{noun}{q-stem}{ataʀum}{custom, habit}{From PIE \textit{*swédʰos}.}
+\dictentry{σyτρομ (sytrom)}{syːtrom}{noun}{q-stem}{ataʀum}{scythe}{From PIE \textit{*kséwtrom}, from \textit{*ksew-} (?).}
+\dictentry{σαθνος (savnos)}{savnos}{UNDEFINED}{q-stem}{ataʀum}{holy, venerable}{From PIE \textit{*tyegʷnós}, from \textit{*tyegʷ-} (?).}
+\dictentry{Σκανδῑ (Skandī)}{skandiː}{noun}{q-stem}{ataʀum}{pagan goddess of the moon, healing and the sea}{From Pre-Ab. \textit{*skandíh₂}, from PIE \textit{*(s)kandíh₂}, from \textit{*(s)kand-} (?).}
+\dictentry{σκαῑ (skaī)}{skaiː}{noun}{q-stem}{ataʀum}{shadow}{From PIE \textit{*skéh₂ih₂}.}
+\dictentry{σκελος (skelos)}{skelos}{noun}{q-stem}{ataʀum}{leg}{From Pre-Ab. \textit{*skélos}, from PIE \textit{*(s)kélos}, from \textit{*(s)kel-} (?).}
+\dictentry{σκορομ (skorom)}{skorom}{noun}{q-stem}{ataʀum}{bark, bast}{From Pre-Ab. \textit{*skoróm}, from PIE \textit{*(s)koróm}, from \textit{*(s)ker-} (?).}
+\dictentry{σκορᾱ (skorā)}{skoraː}{noun}{q-stem}{ataʀum}{dung,faeces}{From Pre-Ab. \textit{*sḱóreh₂}, from PIE \textit{*sóḱr̥}. The Carite formation appears to be a thematicisation of the original collective.}
+\dictentry{σλῑῠος (slīwos)}{sliːwos}{UNDEFINED}{q-stem}{ataʀum}{blue}{From Pre-Ab. \textit{*slihₓwós}, from PIE \textit{*(s)lihₓwós}, from \textit{*(s)leyhₓ-} (?).}
+\dictentry{σμερος (smeros)}{smeros}{noun}{q-stem}{ataʀum}{part, share}{From PIE \textit{*sméros}, from \textit{*smer-} (?).}
+\dictentry{σμῡλομ (smūlom)}{smuːlom}{noun}{q-stem}{ataʀum}{apple}{From PIE \textit{*sm̥h₂lom}.}
+\dictentry{σνᾱμυν (snāmun)}{snaːmun}{noun}{q-stem}{ataʀum}{fountain}{From PIE \textit{*snéh₂mn̥}, from \textit{*sneh₂-} (?).}
+\dictentry{σνῑτλομ (snītlom)}{sniːtlom}{noun}{q-stem}{ataʀum}{awl}{From Pre-Ab. \textit{*snéh₁dʰlom}, from PIE \textit{*(s)néh₁dʰlom}, from \textit{*(s)neh₁-} (?).}
+\dictentry{σπαδᾱ (spadā)}{spadaː}{noun}{q-stem}{ataʀum}{sword}{From PIE \textit{*sph₂dʰh₁éh₂}, from \textit{*speh₂-} (?).}
+\dictentry{σπαρος (sparos)}{sparos}{UNDEFINED}{q-stem}{ataʀum}{rich}{From PIE \textit{*sph₁rós}, from \textit{*speh₁-} (?).}
+\dictentry{σπελκᾱ (spelkā)}{spelkaː}{noun}{q-stem}{ataʀum}{spleen}{From PIE \textit{*spélǵʰeh₂}. The different reflexes showcase a wide variety of unexpected alterations and reconstructing a single root or form is difficult. Either way, the Carite form seems to perfectly mirror the Celtic form, including the reformed full grade without the laryngeal. For a more in-depth explanation, see Matasović (2009). Slavic cognates are not mentioned by Derksen (2008).}
+\dictentry{Σπεντρῑ (Spentrī)}{spentriː}{noun}{q-stem}{ataʀum}{pagan goddess of fate}{From Pre-Ab. \textit{*spéntrih₂}, from PIE \textit{*(s)péntrih₂}, from \textit{*(s)pen-} (?).}
+\dictentry{σπενῐος (spenjos)}{spenjos}{noun}{q-stem}{ataʀum}{breast}{From Pre-Ab. \textit{*sptényos}, from PIE \textit{*pstḗn}. The original Anlaut, presumably \textit{*pst-}, is widely debated due to the variety in which it appears in different daughter languages.}
+\dictentry{σπερος (speros)}{speros}{noun}{q-stem}{ataʀum}{starling}{From Pre-Ab. \textit{*spéros}, from PIE \textit{*spḗr}, from \textit{*sper-} (?). The large amount of discrepancies may point towards a substrate origin, as is common for bird names. Ancient Greek ψάρ is probably unrelated according to Beekes (2010), but was included in this dictionary anyway.}
+\dictentry{σπερᾱ (sperā)}{speraː}{noun}{q-stem}{ataʀum}{heel}{From PIE \textit{*spérhₓeh₂}, from \textit{*sperhₓ-} (?). The underlying root is sometimes thought to be related to °HEEL1°.}
+\dictentry{σπιγγος (spingos)}{spingos}{noun}{q-stem}{ataʀum}{finch}{From Pre-Ab. \textit{*spingos}, from PIE \textit{*(s)pingos}. Presumably a loanword from a common European source, as also hinted at by the similarity between different bird names in Greek.}
+\dictentry{σποινᾱ (spoinā)}{spøːnaː}{noun}{q-stem}{ataʀum}{foam}{From Pre-Ab. \textit{*spéh₃ineh₂}, from PIE \textit{*(s)péh₃ineh₂}. Rather than \textit{*-eh₃i-}, we may also be dealing with \textit{*-ohₓi-}. The discrepancy between \textit{*-m-} and \textit{*-n-} in the descendants may stem from an original \textit{*-mn-} and/or from dissimilation of \textit{*-m-} due to the preceding labial plosive. Derksen (2015) suggests a connection to Proto-Indo-European \textit{*speh₁-}, which would have meant “to be filled to the rim” rather than “to succeed”.}
+\dictentry{σπονδᾱ (spondā)}{spondaː}{noun}{q-stem}{ataʀum}{libation}{From PIE \textit{*spondéh₂}, from \textit{*spend-} (?).}
+\dictentry{σρyμυν (srymun)}{sryːmun}{noun}{q-stem}{ataʀum}{brook, river, stream}{From PIE \textit{*sréwmn̥}, from \textit{*srew-} (?).}
+\dictentry{σροκνᾱ (sroknā)}{sroknaː}{noun}{q-stem}{ataʀum}{nose}{From PIE \textit{*srógʰneh₂}, from \textit{*sregʰ-} (?). Martirosyan (2010) does not include the Celtic cognate and, on account of the missing prosthetic vowel in Armenian, posits a Mediterranean substrate origin instead. Additionally, since the Armeno-Greek forms imply \textit{*srungʰ-}, their reflexes are hard to reconcile. It is likely that the root was originally onomatopoeic and later independent onomatopoeic alterations are responsible for the vascillation.}
+\dictentry{σροῠος (srowos)}{srowos}{noun}{q-stem}{ataʀum}{stream, brook}{From PIE \textit{*srówos}, from \textit{*srew-} (?). Proto-Slavic \textit{*ostrovъ} would be identical, if not for the prefix.}
+\dictentry{σρῑγος (srīgos)}{sriːgos}{noun}{q-stem}{ataʀum}{frost, cold}{From PIE \textit{*sríhₓgos}.}
+\dictentry{σταδμος (stadmos)}{stadmos}{noun}{q-stem}{ataʀum}{place}{From PIE \textit{*sth₂dʰmós} (), from \textit{*steh₂-} (?).}
+\dictentry{στεγμυν (stegmun)}{stegmun}{noun}{q-stem}{ataʀum}{blanket, cover}{From Pre-Ab. \textit{*stégmn̥}, from PIE \textit{*(s)tégmn̥}, from \textit{*(s)teg-} (?).}
+\dictentry{στεγος (stegos)}{stegos}{noun}{q-stem}{ataʀum}{building}{From Pre-Ab. \textit{*stégos}, from PIE \textit{*(s)tégos}, from \textit{*(s)teg-} (?).}
+\dictentry{Στενω (Stenō)}{stenoː}{noun}{q-stem}{ataʀum}{mythological hammer}{From Pre-Ab. \textit{*sténhₓō}, from PIE \textit{*(s)ténhₓō}, from \textit{*(s)tenhₓ-} (?).}
+\dictentry{στερᾱ (sterā)}{steraː}{noun}{q-stem}{ataʀum}{star}{From Pre-Ab. \textit{*h₂stéreh₂}, from PIE \textit{*h₂stḗr}, from \textit{*h₂eh₁s-} (?).}
+\dictentry{Στιρῐᾱ (Stirjā)}{stirjaː}{noun}{q-stem}{ataʀum}{mythological priestess}{From Pre-Ab. \textit{*h₂str̥yéh₂}, from PIE \textit{*h₂stḗr}, from \textit{*h₂eh₁s-} (?). Transparently an old derivation of °ASTER°.}
+\dictentry{στοικος (stoikos)}{støːkos}{noun}{q-stem}{ataʀum}{path, way}{From PIE \textit{*stóygʰos} (), from \textit{*steygʰ-} (?).}
+\dictentry{στομυν (stomun)}{stomun}{noun}{q-stem}{ataʀum}{voice}{From PIE \textit{*stómn̥}.}
+\dictentry{στρωδος (strōdos)}{stroːdos}{noun}{q-stem}{ataʀum}{valley}{From PIE \textit{*str̥h₃tós} (), from \textit{*sterh₃-} (?).}
+\dictentry{στᾱμυν (stāmun)}{staːmun}{noun}{q-stem}{ataʀum}{statue}{From PIE \textit{*stéh₂mn̥}, from \textit{*steh₂-} (?).}
+\dictentry{στῑῐομ (stījom)}{stiːjom}{noun}{q-stem}{ataʀum}{item, thing}{From PIE \textit{*stih₂yóm}, from \textit{*steyh₂-} (?).}
+\dictentry{σωγινς (sōgins)}{soːgins}{UNDEFINED}{q-stem}{ataʀum}{far, far away}{From PIE \textit{*sweḱ"n̥s}.}
+\dictentry{σῡρος (sūros)}{suːros}{noun}{q-stem}{ataʀum}{louse}{From PIE \textit{*sworós} (), from \textit{*swer-} (?).}
+\dictentry{σῡῐος (sūjos)}{suːjos}{UNDEFINED}{q-stem}{ataʀum}{own}{From Pre-Ab. \textit{*swóyos}, from PIE \textit{*swé}.}
+\dictentry{τyμυν (tymun)}{tyːmun}{noun}{q-stem}{ataʀum}{cabbage}{From PIE \textit{*téwh₂mn̥}, from \textit{*tewh₂-} (?).}
+\dictentry{τε(ι)μω (te(i)mō)}{te(i)moː}{noun}{q-stem}{ataʀum}{suckling, baby}{From PIE \textit{*dʰéh₁(i)mō}.}
+\dictentry{τεβμος (tebmos)}{tebmos}{UNDEFINED}{q-stem}{ataʀum}{warm}{From PIE \textit{*tepmós}, from \textit{*tep-} (?).}
+\dictentry{τεγος (tegos)}{tegos}{noun}{q-stem}{ataʀum}{roof}{From Pre-Ab. \textit{*tégos}, from PIE \textit{*(s)tégos}, from \textit{*(s)teg-} (?).}
+\dictentry{τεδρᾱ (tedrā)}{tedraː}{noun}{q-stem}{ataʀum}{capercaillie}{From PIE \textit{*tetréh₂}, from \textit{*teter-} (?). Most likely of onomatopoeic origin. A Slavic cognate appears to be missing from Derksen (2008).}
+\dictentry{τεζῐος (tezjos)}{tezjos}{UNDEFINED}{q-stem}{ataʀum}{sacred, divine, holy}{From Pre-Ab. \textit{*dʰh₁syós}, from PIE \textit{*dʰéh₁s}, from \textit{*dʰeh₁-} (?).}
+\dictentry{τεκνομ (teknom)}{teknom}{noun}{q-stem}{ataʀum}{child, offspring}{From PIE \textit{*téḱnom}, from \textit{*teḱ-} (?).}
+\dictentry{τεκτλομ (tektlom)}{tektlom}{noun}{q-stem}{ataʀum}{adze}{From Pre-Ab. \textit{*tétḱlom}, from PIE \textit{*tétḱ(dʰ)lom}, from \textit{*tetḱ-} (?).}
+\dictentry{τελαμω (telamō)}{telamoː}{noun}{q-stem}{ataʀum}{earth}{From PIE \textit{*télh₂mō}, from \textit{*telh₂-} (?).}
+\dictentry{τενος (tenos)}{tenos}{noun}{q-stem}{ataʀum}{snare, trap}{From PIE \textit{*ténos}, from \textit{*ten-} (?).}
+\dictentry{τεξω (texō)}{teksoː}{noun}{q-stem}{ataʀum}{carpenter}{From PIE \textit{*tétḱō}, from \textit{*tetḱ-} (?).}
+\dictentry{τεπος (tepos)}{tepos}{noun}{q-stem}{ataʀum}{warmth}{From PIE \textit{*tépos}, from \textit{*tep-} (?).}
+\dictentry{τερετρομ (teretrom)}{teretrom}{noun}{q-stem}{ataʀum}{auger}{From PIE \textit{*térh₁trom}, from \textit{*terh₁-} (?).}
+\dictentry{τερμος (termos)}{termos}{UNDEFINED}{q-stem}{ataʀum}{strong}{From PIE \textit{*dʰérmos}, from \textit{*dʰer-} (?).}
+\dictentry{τερμυν (termun)}{termun}{noun}{q-stem}{ataʀum}{boundary, end}{From PIE \textit{*térmn̥}, from \textit{*ter(h₂)-} (?).}
+\dictentry{τερσος (tersos)}{tersos}{noun}{q-stem}{ataʀum}{courage, bravery}{From PIE \textit{*dʰérsos}, from \textit{*dʰers-} (?).}
+\dictentry{τιρζος (tirzos)}{tirzos}{noun}{q-stem}{ataʀum}{flat surface for food}{From PIE \textit{*tr̥sós}, from \textit{*ters-} (?). The a-vocalism in the Greek reflex is irregular. Beekes (2010) suggests a possible intermediate language it was loaned from. The Armenian cognate is not mentioned by Martirosyan (2010).}
+\dictentry{τολᾱ (tolā)}{tolaː}{noun}{q-stem}{ataʀum}{meadow, dale}{From Pre-Ab. \textit{*dʰóleh₂}, from PIE \textit{*dʰólos}, from \textit{*dʰel-} (?). Often reconstructed as \textit{*dʰólh₂os} — however, the only thing pointing towards a laryngeal would be the inclusion of Ancient Greek θαλάμη, which Beekes (2010) refutes. Likewise, the inclusion of Ancient Greek θόλος per Mallory (2006) should be discarded.}
+\dictentry{τορμος (tormos)}{tormos}{noun}{q-stem}{ataʀum}{hole, socket}{From PIE \textit{*tórh₁mos} (), from \textit{*terh₁-} (?).}
+\dictentry{τρισζος (triszos)}{trizzos}{UNDEFINED}{q-stem}{ataʀum}{third}{From PIE \textit{*tr̥tyós}.}
+\dictentry{τρογος (trogos)}{trogos}{noun}{q-stem}{ataʀum}{wheel}{From PIE \textit{*dʰrogʰós}, from \textit{*dʰregʰ-} (?). Matasović (2009) explains the voiceless velar in Celtic by assimilation from an original \textit{*-s} (see also °HORTUS°).}
+\dictentry{τρῑς (trīs)}{triːs}{UNDEFINED}{q-stem}{ataʀum}{three}{From PIE \textit{*tréyes}.}
+\dictentry{τρῑστις (trīstis)}{triːstis}{UNDEFINED}{q-stem}{ataʀum}{annoyed}{From PIE \textit{*tréystis}.}
+\dictentry{τυβνος (tubnos)}{tubnos}{UNDEFINED}{q-stem}{ataʀum}{deep}{From PIE \textit{*dʰubʰnós}, from \textit{*dʰewbʰ-} (?).}
+\dictentry{τυβρος (tubros)}{tubros}{UNDEFINED}{q-stem}{ataʀum}{dark}{From PIE \textit{*dʰubʰrós}, from \textit{*dʰewbʰ-} (?).}
+\dictentry{τυγδρᾱ (tugdrā)}{tugdraː}{noun}{q-stem}{ataʀum}{daughter}{From Pre-Ab. \textit{*dʰugtréh₂}, from PIE \textit{*dʰugh₂tḗr}.}
+\dictentry{τυζνος (tuznos)}{tuznos}{UNDEFINED}{q-stem}{ataʀum}{brown}{From PIE \textit{*dʰusnós}, from \textit{*dʰews-} (?).}
+\dictentry{τυρᾱ (turā)}{turaː}{noun}{q-stem}{ataʀum}{door}{From PIE \textit{*dʰuréh₂}, from \textit{*dʰwer-} (?).}
+\dictentry{τωδᾱ (tōdā)}{toːdaː}{noun}{q-stem}{ataʀum}{people, nation}{From PIE \textit{*tewtéh₂}. The Celtic form may be from an original o-grade instead.}
+\dictentry{τῑκε (tīke)}{tiːke}{UNDEFINED}{q-stem}{ataʀum}{here}{From Pre-Ab. \textit{*téyḱe}, from PIE \textit{*só}.}
+\dictentry{τῑκος (tīkos)}{tiːkos}{noun}{q-stem}{ataʀum}{mound, wall}{From PIE \textit{*dʰéyǵʰos}, from \textit{*dʰeyǵʰ-} (?).}
+\dictentry{τῡμος (tūmos)}{tuːmos}{noun}{q-stem}{ataʀum}{heap, pile}{From PIE \textit{*dʰóh₁mos} (), from \textit{*dʰeh₁-} (?).}
+\dictentry{τῡρος (tūros)}{tuːros}{noun}{q-stem}{ataʀum}{bull}{From PIE \textit{*táwros}. Due to the extreme similarity to Proto-Semitic \textit{*ṯawr-} of the same meaning, it is likely this word was borrowed from one language into the other or from a common source. Kroonen (2013) assumes a Pre-Proto-Indo-European form \textit{*þaur} which at some point was raised to \textit{*þeur}; he draws a comparison to Etruscan 𐌈𐌄𐌖𐌓  for the change in diphthong. While the dental fricative would have been rendered as a stop in all extant Indo-European languages, a secondary approximation through /st/ would explain Proto-Germanic \textit{*steuraz}. Matasović (2018) mentions that Albanian \textit{ter} may be a loan from Latin instead. It is unclear if the Balto-Slavic mobile accent originates from an original suffixal accent, which would contrast with Graeco-Carite, or if it is a later development.\\}
+\dictentry{υβελος (ubelos)}{ubelos}{UNDEFINED}{q-stem}{ataʀum}{bad, evil, wicked}{From PIE \textit{*h₂upélos}, from \textit{*h₂wep-} (?).}
+\dictentry{υγγανος (unganos)}{unganos}{UNDEFINED}{q-stem}{ataʀum}{big, large}{From Pre-Ab. \textit{*m̥ǵh₂nós}, from PIE \textit{*méǵh₂s}, from \textit{*meǵh₂-} (?).}
+\dictentry{υγγᾱμ (ungām)}{ungaːm}{UNDEFINED}{q-stem}{ataʀum}{very}{From Pre-Ab. \textit{*m̥ǵéh₂m}, from PIE \textit{*méǵh₂s}, from \textit{*meǵh₂-} (?).}
+\dictentry{υδερος (uderos)}{uderos}{noun}{q-stem}{ataʀum}{abdomen, belly}{From PIE \textit{*udéros}. The presence of an unvoiced dental plosive in Latin can easily be explained through analogy. For a more in-depth explanation, seede Vaan (2008).}
+\dictentry{υθρος (uvros)}{uvros}{UNDEFINED}{q-stem}{ataʀum}{wet}{From PIE \textit{*ugʷrós}, from \textit{*wegʷ-} (?).}
+\dictentry{υσδερᾱ (usderā)}{uzderaː}{noun}{q-stem}{ataʀum}{uterus}{From PIE \textit{*udtéreh₂}. The formation is a variation on Proto-Indo-European \textit{*udéros}, for which see °UTERUS°.}
+\dictentry{φαδιρτος (fadirtos)}{fadirtos}{UNDEFINED}{q-stem}{ataʀum}{fourth}{From Pre-Ab. \textit{*kʷetŕ̥tos}, from PIE \textit{*kʷétr̥tos}.}
+\dictentry{φαδνομ (fadnom)}{fadnom}{noun}{q-stem}{ataʀum}{dowry}{From PIE \textit{*h₁wednóm}, from \textit{*h₁wed-} (?).}
+\dictentry{φαδῡρ (fadūr)}{faduːr}{UNDEFINED}{q-stem}{ataʀum}{four}{From Pre-Ab. \textit{*kʷetṓr}, from PIE \textit{*kʷetwṓr}.}
+\dictentry{φαρμος (farmos)}{farmos}{UNDEFINED}{q-stem}{ataʀum}{hot}{From PIE \textit{*gʷhermós}, from \textit{*gʷher-} (?).}
+\dictentry{φεντος (fentos)}{fentos}{noun}{q-stem}{ataʀum}{wind}{From Pre-Ab. \textit{*h₂wéh₁n̥tos}, from PIE \textit{*h₂wéh₁n̥ts}, from \textit{*h₂weh₁-} (?). The thematicisation into a masculine o-stem is common to all post-Anatolian languages, and must predate the Carite vocalisation of consonant stems into i-stems.}
+\dictentry{φερος (feros)}{feros}{noun}{q-stem}{ataʀum}{heat}{From PIE \textit{*gʷhéros}, from \textit{*gʷher-} (?).}
+\dictentry{φεφλος (feflos)}{feflos}{noun}{q-stem}{ataʀum}{circle, wheel}{From PIE \textit{*kʷékʷlos}, from \textit{*kʷel-} (?). Klein (2017) reconstructs an additional \textit{*h₁} before the thematic vowel.}
+\dictentry{φηδρος (fēdros)}{feːdros}{UNDEFINED}{q-stem}{ataʀum}{smart, clever, intelligent}{From PIE \textit{*gʷheh₂idrós}, from \textit{*gʷheh₂id-} (?).}
+\dictentry{φιδῠᾱ (fidwā)}{fidwaː}{noun}{q-stem}{ataʀum}{widow}{From Pre-Ab. \textit{*h₁widʰwéh₂}, from PIE \textit{*h₁widʰéwh₂}. While the initial laryngeal is not always reconstructed, it is required for the Carite onset. The Albanian reflex may be a Latin loan.}
+\dictentry{φολπος (folpos)}{folpos}{noun}{q-stem}{ataʀum}{gulf, bay}{From PIE \textit{*kʷólpos}, from \textit{*kʷelp-} (?). The Greek reflex must have undergone dissimilation.}
+\dictentry{φολᾱ (folā)}{folaː}{noun}{q-stem}{ataʀum}{turning,cycle}{From PIE \textit{*kʷóleh₂}, from \textit{*kʷel-} (?).}
+\dictentry{φος (fos)}{fos}{UNDEFINED}{q-stem}{ataʀum}{who?£primary, what?£primary, who£conjunctive, what£conjunctive}{From PIE \textit{*kʷós}.}
+\dictentry{φοτερος (foteros)}{foteros}{UNDEFINED}{q-stem}{ataʀum}{which}{From PIE \textit{*kʷóteros}.}
+\dictentry{φοψᾱ (fopsā)}{fopsaː}{noun}{q-stem}{ataʀum}{wasp}{From PIE \textit{*hₓwóbʰseh₂}, from \textit{*hₓwebʰ-} (?). If an initial laryngeal is reconstructed, its identity is not agreed upon. Nonetheless, the presence of the initial φ  (\textit{f-}) in Carite points towards an original word-initial laryngeal.\\}
+\dictentry{ωμος (ōmos)}{oːmos}{UNDEFINED}{q-stem}{ataʀum}{raw, uncooked}{From PIE \textit{*h₂oh₃mós}, from \textit{*h₂eh₃-} (?).}
+\dictentry{ωῐεδος (ōjedos)}{oːjedos}{noun}{q-stem}{ataʀum}{eagle}{From Pre-Ab. \textit{*h₂ewyetós}, from PIE \textit{*h₂éwis} ().}
+\dictentry{ᾱπις (āpis)}{aːpis}{UNDEFINED}{q-stem}{ataʀum}{nice, friendly}{From PIE \textit{*h₂éh₂pis}, from \textit{*h₂ep-} (?).}
+\dictentry{ῐyγμυν (jygmun)}{jyːgmun}{noun}{q-stem}{ataʀum}{bridge}{From PIE \textit{*yéwgmn̥}, from \textit{*yewg-} (?).}
+\dictentry{ῐεῠος (jewos)}{jewos}{noun}{q-stem}{ataʀum}{broth, soup, sauce}{From PIE \textit{*yéwhₓos}, from \textit{*yewhₓ-} (?).}
+\dictentry{ῐεῠος (jewos)}{jewos}{noun}{q-stem}{ataʀum}{justice, law}{From PIE \textit{*h₂yéwos}, from \textit{*h₂yew-} (?).}
+\dictentry{ῐυγγος (jungos)}{jungos}{UNDEFINED}{q-stem}{ataʀum}{young}{From PIE \textit{*h₂yuh₁n̥ḱós}, from \textit{*h₂ey-} (?).}
+\dictentry{ῐυγομ (jugom)}{jugom}{noun}{q-stem}{ataʀum}{yoke}{From PIE \textit{*yugóm}, from \textit{*yewg-} (?).}
+\dictentry{ῐυθῑῠος (juvīwos)}{juviːwos}{UNDEFINED}{q-stem}{ataʀum}{everlasting, eternal, immortal}{From Pre-Ab. \textit{*h₂yugʷih₃wós}, from PIE \textit{*gʷih₃wós}, from \textit{*gʷeyh₃-} (?).}
+\dictentry{ῐᾱῠοτ (jāwot)}{jaːwot}{UNDEFINED}{q-stem}{ataʀum}{until£+ACC}{From PIE \textit{*yéh₂wot}.}
+\dictentry{ῑξ (īx)}{iːks}{UNDEFINED}{q-stem}{ataʀum}{goat}{From PIE \textit{*h₂éyǵs}, from \textit{*h₂eyǵ-} (?).}
+\dictentry{ῑξμᾱ (īxmā)}{iːksmaː}{noun}{q-stem}{ataʀum}{arrowhead}{From PIE \textit{*h₂éyḱsmeh₂}.}
+\dictentry{ῑτος (ītos)}{iːtos}{noun}{q-stem}{ataʀum}{bonfire}{From PIE \textit{*h₂éydʰos} (), from \textit{*h₂eydʰ-} (?).}
+\dictentry{ῠενδᾱ (wendā)}{wendaː}{noun}{q-stem}{ataʀum}{hair}{From PIE \textit{*wéndʰeh₂}, from \textit{*wendʰ-} (?).}
+\dictentry{ῠεργομ (wergom)}{wergom}{noun}{q-stem}{ataʀum}{work}{From PIE \textit{*wérǵom}, from \textit{*werǵ-} (?).}
+\dictentry{ῠερνᾱ (wernā)}{wernaː}{noun}{q-stem}{ataʀum}{alder}{From Pre-Ab. \textit{*wérneh₂}, from PIE \textit{*wérnos}, from \textit{*wer-} (?). The connection to the non-Celtic reflexes is uncertain.}
+\dictentry{ῠερστρομ (werstrom)}{werstrom}{noun}{q-stem}{ataʀum}{wrist, ankle}{From PIE \textit{*wérttrom}, from \textit{*wert-} (?).}
+\dictentry{ῠιζος (wizos)}{wizos}{noun}{q-stem}{ataʀum}{poison, venom}{From PIE \textit{*wisós}, from \textit{*weys-} (?). The Greek lengthening appears to be secondary. Martirosyan (2010) posits a related Armenian Գէն which would be formally identical to Latin \textit{vēna}, which de Vaan (2008) does not mention.}
+\dictentry{ῠλιζμομ (wlizmom)}{wlizmom}{noun}{q-stem}{ataʀum}{dew}{From PIE \textit{*wlikʷtóm}, from \textit{*wleykʷ-} (?).}
+\dictentry{ῠοικος (woikos)}{wøːkos}{noun}{q-stem}{ataʀum}{room, chamber}{From PIE \textit{*wóyḱos}, from \textit{*weyḱ-} (?). As evidenced by Gothic 𐍅𐌴𐌹𐌷𐍃, the Germanic branch also contained a reflex; however, neither Kroonen (2013) nor Ringe (2009) mention the exact Proto-Germanic form.}
+\dictentry{ῠοργος (worgos)}{worgos}{noun}{q-stem}{ataʀum}{worker}{From PIE \textit{*worǵós}, from \textit{*wérǵ-} (?). An old agent noun unique to Carite of Indo-European age related to °WERGOMWORK°.}
+\dictentry{ῠοργᾱ (worgā)}{worgaː}{noun}{q-stem}{ataʀum}{wrath, ire}{From PIE \textit{*worǵéh₂}, from \textit{*werǵ-} (?).}
+\dictentry{ῠορτοφς (wortofs)}{wortofs}{UNDEFINED}{q-stem}{ataʀum}{quail}{From PIE \textit{*wórtokʷs}.}
+\dictentry{ῠριγνος (wrignos)}{wrignos}{UNDEFINED}{q-stem}{ataʀum}{stiff}{From PIE \textit{*wriḱnós}, from \textit{*wreyḱ-} (?).}
+\dictentry{ῠῑλομ (wīlom)}{wiːlom}{noun}{q-stem}{ataʀum}{tin}{From Pre-Ab. \textit{*wáylom}, from PIE \textit{*wáy}.}
+\dictentry{ῠῑρος (wīros)}{wiːros}{UNDEFINED}{q-stem}{ataʀum}{true, real}{From PIE \textit{*wéh₁ros}, from \textit{*weh₁-} (?).}
+\dictentry{ῡ (ū)}{uː}{UNDEFINED}{q-stem}{ataʀum}{o£vocative particle, oh!}{From PIE \textit{*ṓ}.}
+\dictentry{ῡθνις (ūvnis)}{uːvnis}{noun}{q-stem}{ataʀum}{ploughshare}{From PIE \textit{*wogʷhnís}.}
+\dictentry{ῡκος (ūkos)}{uːkos}{noun}{q-stem}{ataʀum}{chariot}{From PIE \textit{*wóǵʰos} (), from \textit{*weǵʰ-} (?).}
+\dictentry{ῡρος (ūros)}{uːros}{UNDEFINED}{q-stem}{ataʀum}{careful, cautious}{From PIE \textit{*worós}, from \textit{*wer-} (?).}
+\dictentry{ῡσος (ūsos)}{uːsos}{noun}{q-stem}{ataʀum}{ear}{From Pre-Ab. \textit{*h₂éwsos}, from PIE \textit{*h₂ṓws}, from \textit{*h₂ew-} (?).}
+\dictentry{Ῡσοσᾱ (Ūsosā)}{uːsosaː}{noun}{q-stem}{ataʀum}{pagan goddess of life and day}{From Pre-Ab. \textit{*h₂éwsoseh₂}, from PIE \textit{*h₂éwsōs}, from \textit{*h₂ews-} (?). Beekes (2010) also connects Proto-Celtic \textit{*wāri-} (“sunrise, east”) through \textit{*h₂wōsri-}. Matasović (2009), however, prefers Proto-Indo-European \textit{*wesr̥}. While the meaning strongly correlates to  \textit{*h₂ews-}, the lengthened o-grade through Schwebeablaut feels rather far-fetched.}
+\dictentry{ῡφτλομ (ūftlom)}{uːftlom}{noun}{q-stem}{ataʀum}{word, message£PL}{From PIE \textit{*wókʷtlom}, from \textit{*wekʷ-} (?).}
+\dictentry{ῡῐ (ūj)}{uːj}{UNDEFINED}{q-stem}{ataʀum}{alas}{From PIE \textit{*wáy}.}
+\dictentry{ῡῐομ (ūjom)}{uːjom}{noun}{q-stem}{ataʀum}{egg}{From PIE \textit{*h₂ōwyóm}.}
+prose prose prose\\
+
+\end{document}

@@ -1,0 +1,26 @@
+\selectlanguage *{english}
+\contentsline {section}{\numberline {0.1}Introduction}{4}{}%
+\contentsline {section}{\numberline {0.2}Sound Changes}{4}{}%
+\contentsline {subsection}{\numberline {0.2.1}Laryngeal colouring}{4}{}%
+\contentsline {subsection}{\numberline {0.2.2}Cluster assimilation}{4}{}%
+\contentsline {subsection}{\numberline {0.2.3}Dental degemination}{5}{}%
+\contentsline {subsection}{\numberline {0.2.4}Thorn clusters}{5}{}%
+\contentsline {subsection}{\numberline {0.2.5}Osthoff's Law}{6}{}%
+\contentsline {subsection}{\numberline {0.2.6}Saussure Effect}{6}{}%
+\contentsline {subsection}{\numberline {0.2.7}Centumisation}{6}{}%
+\contentsline {subsection}{\numberline {0.2.8}Laryngeal and syllabic sonorant development}{7}{}%
+\contentsline {subsection}{\numberline {0.2.9}Prop vowel colouring}{8}{}%
+\contentsline {subsection}{\numberline {0.2.10}Engels' Law}{9}{}%
+\contentsline {subsection}{\numberline {0.2.11}Davide's Law}{10}{}%
+\contentsline {subsection}{\numberline {0.2.12}Development of \textit {*h}}{11}{}%
+\contentsline {subsection}{\numberline {0.2.13}Dental assibilation}{12}{}%
+\contentsline {subsection}{\numberline {0.2.14}Aspiration loss}{12}{}%
+\contentsline {subsection}{\numberline {0.2.15}Labiovelar developments}{13}{}%
+\contentsline {subsection}{\numberline {0.2.16}Diphthong collapse}{14}{}%
+\contentsline {subsection}{\numberline {0.2.17}Other minor changes}{15}{}%
+\contentsline {subsection}{\numberline {0.2.18}Nasal surface filter}{17}{}%
+\contentsline {subsection}{\numberline {0.2.19}Carite Verner's Law}{17}{}%
+\contentsline {section}{\numberline {0.3}Phonology}{17}{}%
+\contentsline {section}{\numberline {0.4}Morphology}{17}{}%
+\contentsline {section}{\numberline {0.5}Lexicon}{18}{}%
+\contentsfinish 

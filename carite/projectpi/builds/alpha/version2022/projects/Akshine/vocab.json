@@ -1,0 +1,24 @@
+{
+    "vcb": [
+        [
+            {
+                "lemma": "s\"ekvetai",
+                "meaning": [
+                    "follow"
+                ],
+                "pie_formation": "s\"ekv-e-tor",
+                "pie_formation2": "s\"ekvetai",
+                "pie_formation_meaning": [
+                    "to follow"
+                ],
+                "sporadics": {},
+                "ortho": [
+                    "s\"ekvetai"
+                ],
+                "capitalise": false,
+                "pie_root": "sekv-",
+                "pie_root_index": 0
+            }
+        ]
+    ]
+}

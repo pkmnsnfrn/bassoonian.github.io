@@ -1,0 +1,4820 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.31)  13 APR 2023 21:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/Users/jasper/Documents/GitHub/clongsite/build/latex/abean.tex
+(/Users/jasper/Documents/GitHub/clongsite/build/latex/abean.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count193
+\l__color_backend_stack_int=\count194
+\g__color_backend_stack_int=\count195
+\g__graphics_track_int=\count196
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count197
+\g__pdf_backend_annotation_int=\count198
+\g__pdf_backend_link_int=\count199
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count266
+\l__fontspec_language_int=\count267
+\l__fontspec_strnum_int=\count268
+\l__fontspec_tmp_int=\count269
+\l__fontspec_tmpa_int=\count270
+\l__fontspec_tmpb_int=\count271
+\l__fontspec_tmpc_int=\count272
+\l__fontspec_em_int=\count273
+\l__fontspec_emdef_int=\count274
+\l__fontspec_strong_int=\count275
+\l__fontspec_strongdef_int=\count276
+\l__fontspec_tmpa_dim=\dimen147
+\l__fontspec_tmpb_dim=\dimen148
+\l__fontspec_tmpc_dim=\dimen149
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+
+Package fontspec Info: Font family 'LibertinusSerif(0)' created for font
+(fontspec)             'Libertinus Serif' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Libertinus
+(fontspec)             Serif/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count277
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count278
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+
+LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
+(hooks)              Use hook 'file/tracklang.sty/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
+(hooks)              Use hook 'package/bidi/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
+(hooks)              Use hook 'package/luabidi/after' instead.
+
+\xpg@normalclass=\XeTeXcharclass1
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for english
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Default language is english.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-armenian.ldf
+File: gloss-armenian.ldf polyglossia: module for armenian
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {armenian/script}  =>  {Armenian}
+>  {armenian/lcscript}  =>  {armenian}
+>  {armenian/scripttag}  =>  {armn}
+>  {armenian/language}  =>  {Armenian}
+>  {armenian/langtag}  =>  {HYE}
+>  {armenian/bcp47}  =>  {hy}
+>  {armenian/hyphennames}  =>  {armenian}
+>  {armenian/direction}  =>  {LR}
+>  {armenian/hyphenmins}  =>  {2,2}
+>  {armenian/frenchspacing}  =>  {false}
+>  {armenian/indentfirst}  =>  {false}
+>  {armenian/fontsetup}  =>  {true}
+>  {armenian/envname}  =>  {armenian}
+>  {armenian/babelname}  =>  {armenian}
+>  {armenian/localnumeral}  =>  {armeniannumerals}
+>  {armenian/Localnumeral}  =>  {armeniannumerals}.
+Package polyglossia Info: Option: Armenian, variant=western.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-sanskrit.ldf
+File: gloss-sanskrit.ldf polyglossia: module for sanskrit
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/devanagaridigits.sty
+Package: devanagaridigits 2010/04/01 v0.1 Formatting of Devanagari digits
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {armenian/script}  =>  {Armenian}
+>  {armenian/lcscript}  =>  {armenian}
+>  {armenian/scripttag}  =>  {armn}
+>  {armenian/language}  =>  {Armenian}
+>  {armenian/langtag}  =>  {HYE}
+>  {armenian/bcp47}  =>  {hy}
+>  {armenian/hyphennames}  =>  {armenian}
+>  {armenian/direction}  =>  {LR}
+>  {armenian/hyphenmins}  =>  {2,2}
+>  {armenian/frenchspacing}  =>  {false}
+>  {armenian/indentfirst}  =>  {false}
+>  {armenian/fontsetup}  =>  {true}
+>  {armenian/envname}  =>  {armenian}
+>  {armenian/babelname}  =>  {armenian}
+>  {armenian/localnumeral}  =>  {armeniannumerals}
+>  {armenian/Localnumeral}  =>  {armeniannumerals}
+>  {sanskrit/script}  =>  {latin}
+>  {sanskrit/lcscript}  =>  {latin}
+>  {sanskrit/scripttag}  =>  {}
+>  {sanskrit/language}  =>  {Sanskrit}
+>  {sanskrit/langtag}  =>  {SAN}
+>  {sanskrit/bcp47}  =>  {sa-Deva}
+>  {sanskrit/hyphennames}  =>  {sanskrit,prakrit}
+>  {sanskrit/direction}  =>  {LR}
+>  {sanskrit/hyphenmins}  =>  {1,3}
+>  {sanskrit/frenchspacing}  =>  {true}
+>  {sanskrit/indentfirst}  =>  {false}
+>  {sanskrit/fontsetup}  =>  {false}
+>  {sanskrit/envname}  =>  {sanskrit}
+>  {sanskrit/babelname}  =>  {sanskrit}
+>  {sanskrit/localnumeral}  =>  {sanskritnumerals}
+>  {sanskrit/Localnumeral}  =>  {sanskritnumerals}.
+Package polyglossia Info: Skipping automatic font setup for language sanskrit.
+Package polyglossia Info: Option: Sanskrit, numerals=devanagari.
+\sanskrit@questionexclamation=\XeTeXcharclass2
+\sanskrit@punctthin=\XeTeXcharclass3
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-greek.ldf
+File: gloss-greek.ldf polyglossia: module for greek
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {armenian/script}  =>  {Armenian}
+>  {armenian/lcscript}  =>  {armenian}
+>  {armenian/scripttag}  =>  {armn}
+>  {armenian/language}  =>  {Armenian}
+>  {armenian/langtag}  =>  {HYE}
+>  {armenian/bcp47}  =>  {hy}
+>  {armenian/hyphennames}  =>  {armenian}
+>  {armenian/direction}  =>  {LR}
+>  {armenian/hyphenmins}  =>  {2,2}
+>  {armenian/frenchspacing}  =>  {false}
+>  {armenian/indentfirst}  =>  {false}
+>  {armenian/fontsetup}  =>  {true}
+>  {armenian/envname}  =>  {armenian}
+>  {armenian/babelname}  =>  {armenian}
+>  {armenian/localnumeral}  =>  {armeniannumerals}
+>  {armenian/Localnumeral}  =>  {armeniannumerals}
+>  {sanskrit/script}  =>  {Devanagari}
+>  {sanskrit/lcscript}  =>  {devanagari}
+>  {sanskrit/scripttag}  =>  {deva}
+>  {sanskrit/language}  =>  {Sanskrit}
+>  {sanskrit/langtag}  =>  {SAN}
+>  {sanskrit/bcp47}  =>  {sa-Deva}
+>  {sanskrit/hyphennames}  =>  {sanskrit,prakrit}
+>  {sanskrit/direction}  =>  {LR}
+>  {sanskrit/hyphenmins}  =>  {1,3}
+>  {sanskrit/frenchspacing}  =>  {true}
+>  {sanskrit/indentfirst}  =>  {false}
+>  {sanskrit/fontsetup}  =>  {false}
+>  {sanskrit/envname}  =>  {sanskrit}
+>  {sanskrit/babelname}  =>  {sanskrit}
+>  {sanskrit/localnumeral}  =>  {sanskritnumerals}
+>  {sanskrit/Localnumeral}  =>  {sanskritnumerals}
+>  {greek/script}  =>  {Greek}
+>  {greek/lcscript}  =>  {greek}
+>  {greek/scripttag}  =>  {grek}
+>  {greek/language}  =>  {Greek}
+>  {greek/langtag}  =>  {ELL}
+>  {greek/bcp47}  =>  {el-monoton}
+>  {greek/hyphennames}  =>  {}
+>  {greek/direction}  =>  {LR}
+>  {greek/hyphenmins}  =>  {2,3}
+>  {greek/frenchspacing}  =>  {true}
+>  {greek/indentfirst}  =>  {true}
+>  {greek/fontsetup}  =>  {true}
+>  {greek/envname}  =>  {greek}
+>  {greek/babelname}  =>  {greek}
+>  {greek/localnumeral}  =>  {greeknumerals}
+>  {greek/Localnumeral}  =>  {Greeknumerals}.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/xgreek-fixes.def)
+Package polyglossia Info: Option: Monotonic Greek.
+\@attic@num=\count279
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-russian.ldf
+File: gloss-russian.ldf polyglossia: module for russian
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/xpg-cyrillicnumbers.s
+ty
+Package: xpg-cyrillicnumbers 2019/11/15 v0.2 Formatting of Cyrillic alphabetic 
+numbers
+)
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {armenian/script}  =>  {Armenian}
+>  {armenian/lcscript}  =>  {armenian}
+>  {armenian/scripttag}  =>  {armn}
+>  {armenian/language}  =>  {Armenian}
+>  {armenian/langtag}  =>  {HYE}
+>  {armenian/bcp47}  =>  {hy}
+>  {armenian/hyphennames}  =>  {armenian}
+>  {armenian/direction}  =>  {LR}
+>  {armenian/hyphenmins}  =>  {2,2}
+>  {armenian/frenchspacing}  =>  {false}
+>  {armenian/indentfirst}  =>  {false}
+>  {armenian/fontsetup}  =>  {true}
+>  {armenian/envname}  =>  {armenian}
+>  {armenian/babelname}  =>  {armenian}
+>  {armenian/localnumeral}  =>  {armeniannumerals}
+>  {armenian/Localnumeral}  =>  {armeniannumerals}
+>  {sanskrit/script}  =>  {Devanagari}
+>  {sanskrit/lcscript}  =>  {devanagari}
+>  {sanskrit/scripttag}  =>  {deva}
+>  {sanskrit/language}  =>  {Sanskrit}
+>  {sanskrit/langtag}  =>  {SAN}
+>  {sanskrit/bcp47}  =>  {sa-Deva}
+>  {sanskrit/hyphennames}  =>  {sanskrit,prakrit}
+>  {sanskrit/direction}  =>  {LR}
+>  {sanskrit/hyphenmins}  =>  {1,3}
+>  {sanskrit/frenchspacing}  =>  {true}
+>  {sanskrit/indentfirst}  =>  {false}
+>  {sanskrit/fontsetup}  =>  {false}
+>  {sanskrit/envname}  =>  {sanskrit}
+>  {sanskrit/babelname}  =>  {sanskrit}
+>  {sanskrit/localnumeral}  =>  {sanskritnumerals}
+>  {sanskrit/Localnumeral}  =>  {sanskritnumerals}
+>  {greek/script}  =>  {Greek}
+>  {greek/lcscript}  =>  {greek}
+>  {greek/scripttag}  =>  {grek}
+>  {greek/language}  =>  {Greek}
+>  {greek/langtag}  =>  {ELL}
+>  {greek/bcp47}  =>  {el-monoton}
+>  {greek/hyphennames}  =>  {}
+>  {greek/direction}  =>  {LR}
+>  {greek/hyphenmins}  =>  {2,3}
+>  {greek/frenchspacing}  =>  {true}
+>  {greek/indentfirst}  =>  {true}
+>  {greek/fontsetup}  =>  {true}
+>  {greek/envname}  =>  {greek}
+>  {greek/babelname}  =>  {greek}
+>  {greek/localnumeral}  =>  {greeknumerals}
+>  {greek/Localnumeral}  =>  {Greeknumerals}
+>  {russian/script}  =>  {Cyrillic}
+>  {russian/lcscript}  =>  {cyrillic}
+>  {russian/scripttag}  =>  {cyrl}
+>  {russian/language}  =>  {Russian}
+>  {russian/langtag}  =>  {RUS}
+>  {russian/bcp47}  =>  {ru}
+>  {russian/hyphennames}  =>  {russian}
+>  {russian/direction}  =>  {LR}
+>  {russian/hyphenmins}  =>  {2,2}
+>  {russian/frenchspacing}  =>  {true}
+>  {russian/indentfirst}  =>  {true}
+>  {russian/fontsetup}  =>  {true}
+>  {russian/envname}  =>  {russian}
+>  {russian/babelname}  =>  {russian}
+>  {russian/localnumeral}  =>  {russiannumerals}
+>  {russian/Localnumeral}  =>  {Russiannumerals}.
+Package polyglossia Info: Option: Russian, numerals=arabic.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2019/09/30 Babel common definitions for shorthands
+ Taken verbatim from babel files (2019/09/27 v3.34)
+)
+Package polyglossia Info: Making " an active character on input line 97.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box51
+\extrarowheight=\dimen151
+\NC@list=\toks20
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box52
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count280
+\multirow@dima=\skip52
+\bigstrutjot=\dimen152
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count281
+\mult@box=\box53
+\multicol@leftmargin=\dimen153
+\c@unbalance=\count282
+\c@collectmore=\count283
+\doublecol@number=\count284
+\multicoltolerance=\count285
+\multicolpretolerance=\count286
+\full@width=\dimen154
+\page@free=\dimen155
+\premulticols=\dimen156
+\postmulticols=\dimen157
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box54
+\last@line=\box55
+\maxbalancingoverflow=\dimen158
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@firstbox=\box58
+\mult@gfirstbox=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count287
+\c@columnbadness=\count288
+\c@finalcolumnbadness=\count289
+\last@try=\dimen159
+\multicolovershoot=\dimen160
+\multicolundershoot=\dimen161
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count290
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count291
+\float@exts=\toks21
+\float@box=\box98
+\@float@everytoks=\toks22
+\@floatcapt=\box99
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks23
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen162
+\enit@toks=\toks24
+\enit@inbox=\box100
+\enit@count@id=\count292
+\enitdp@description=\count293
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2021/10/31 v2.13 Predefined colors according to Unix/X11 (UK)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen163
+\pgfutil@tempdimb=\dimen164
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box101
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen167
+\pgf@y=\dimen168
+\pgf@xa=\dimen169
+\pgf@ya=\dimen170
+\pgf@xb=\dimen171
+\pgf@yb=\dimen172
+\pgf@xc=\dimen173
+\pgf@yc=\dimen174
+\pgf@xd=\dimen175
+\pgf@yd=\dimen176
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count294
+\c@pgf@countb=\count295
+\c@pgf@countc=\count296
+\c@pgf@countd=\count297
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count298
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)
+\pgfsys@objnum=\count299
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count300
+\pgfsyssoftpath@bigbuffer@items=\count301
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen177
+\pgfmath@count=\count302
+\pgfmath@box=\box102
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count303
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen178
+\pgf@picmaxx=\dimen179
+\pgf@picminy=\dimen180
+\pgf@picmaxy=\dimen181
+\pgf@pathminx=\dimen182
+\pgf@pathmaxx=\dimen183
+\pgf@pathminy=\dimen184
+\pgf@pathmaxy=\dimen185
+\pgf@xx=\dimen186
+\pgf@xy=\dimen187
+\pgf@yx=\dimen188
+\pgf@yy=\dimen189
+\pgf@zx=\dimen190
+\pgf@zy=\dimen191
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen192
+\pgf@path@lasty=\dimen193
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen194
+\pgf@shorten@start@additional=\dimen195
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box103
+\pgf@hbox=\box104
+\pgf@layerbox@main=\box105
+\pgf@picture@serial@count=\count304
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen196
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen197
+\pgf@pt@y=\dimen198
+\pgf@pt@temp=\dimen199
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen256
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen257
+\pgf@sys@shading@range@num=\count305
+\pgf@shadingcount=\count306
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box106
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box107
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen258
+\pgf@nodesepend=\dimen259
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count307
+\pgfplotmarksize=\dimen262
+)
+\tikz@lastx=\dimen263
+\tikz@lasty=\dimen264
+\tikz@lastxsaved=\dimen265
+\tikz@lastysaved=\dimen266
+\tikz@lastmovetox=\dimen267
+\tikz@lastmovetoy=\dimen268
+\tikzleveldistance=\dimen269
+\tikzsiblingdistance=\dimen270
+\tikz@figbox=\box108
+\tikz@figbox@bg=\box109
+\tikz@tempbox=\box110
+\tikz@tempbox@bg=\box111
+\tikztreelevel=\count308
+\tikznumberofchildren=\count309
+\tikznumberofcurrentchild=\count310
+\tikz@fig@count=\count311
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count312
+\pgfmatrixcurrentcolumn=\count313
+\pgf@matrix@numberofcolumns=\count314
+)
+\tikz@expandcount=\count315
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tikz-qtree/pgftree.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.tex
+\pgf@subpicminx=\dimen271
+\pgf@subpicminy=\dimen272
+\pgf@subpicmaxx=\dimen273
+\pgf@subpicmaxy=\dimen274
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tikz-qtree/pgftree.tex
+\levelsep=\dimen275
+\subtreesep=\dimen276
+\smuggle@levelsep=\dimen277
+\smuggle@subtreesep=\dimen278
+\this@levelsep=\dimen279
+\this@subtreesep=\dimen280
+\pgftree@childx=\dimen281
+\pgftree@savechildx=\dimen282
+\pgftree@childy=\dimen283
+\pgftree@savechildy=\dimen284
+\pgftree@childi=\count316
+\pgftree@savechildi=\count317
+\pgftree@level=\count318
+\pgftree@depth=\dimen285
+\pgf@subpic@hbox@children=\box112
+\pgf@subpic@minx@children=\dimen286
+\pgf@subpic@miny@children=\dimen287
+\pgf@subpic@maxx@children=\dimen288
+\pgf@subpic@maxy@children=\dimen289
+\pgftree@lastchildx=\dimen290
+\pgftree@lastchildy=\dimen291
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.tex
+\@result=\toks37
+\child@list=\toks38
+\root@node=\toks39
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
+\FN@temptoken=\toks40
+\footnotemargin=\dimen292
+\@outputbox@depth=\dimen293
+Package footmisc Info: Declaring symbol style bringhurst on input line 695.
+Package footmisc Info: Declaring symbol style chicago on input line 703.
+Package footmisc Info: Declaring symbol style wiley on input line 712.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 743.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
+.
+)
+(./baabbrevs.sty
+Package: baabbrevs 2020/12/20 v1.1 glossing abbreviations
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/leipzig/leipzig.sty
+Package: leipzig 2019/10/19 v2.3 Leipzig package for linguistic abbreviations
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2021/11/01 v4.49 (NLCT)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2021/10/15 v2.07 (NLCT)
+\@glsmfirst=\toks41
+\@glsmrest=\toks42
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks43
+\ex@=\dimen294
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen295
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count319
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count320
+\leftroot@=\count321
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count322
+\DOTSCASE@=\count323
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box113
+\strutbox@=\box114
+\big@size=\dimen296
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count324
+\c@MaxMatrixCols=\count325
+\dotsspace@=\muskip16
+\c@parentequation=\count326
+\dspbrk@lvl=\count327
+\tag@help=\toks44
+\row@=\count328
+\column@=\count329
+\maxfields@=\count330
+\andhelp@=\toks45
+\eqnshift@=\dimen297
+\alignsep@=\dimen298
+\tagshift@=\dimen299
+\tagwidth@=\dimen300
+\totwidth@=\dimen301
+\lineht@=\dimen302
+\@envbody=\toks46
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks47
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count331
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count332
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count333
+\FP@xia=\count334
+\FP@xib=\count335
+\FP@xfa=\count336
+\FP@xfb=\count337
+\FP@rega=\count338
+\FP@regb=\count339
+\FP@regs=\count340
+\FP@times=\count341
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count342
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks48
+\@dtl@tmpcount=\count343
+\dtl@tmplength=\skip59
+\dtl@sortresult=\count344
+\@dtl@numgrpsepcount=\count345
+\@dtl@datatype=\count346
+\dtl@codeA=\count347
+\dtl@codeB=\count348
+\@dtl@foreach@level=\count349
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2021/11/01 v4.49 (NLCT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries-english/glossaries-eng
+lish.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+
+Package glossaries Warning: No language module detected for `armenian'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-armenian' or similar.
+
+
+Package glossaries Warning: No language module detected for `sanskrit'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-sanskrit' or similar.
+
+
+Package glossaries Warning: No language module detected for `greek'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-greek' or similar.
+
+
+Package glossaries Warning: No language module detected for `russian'.
+(glossaries)                Language modules need to be installed separately.
+(glossaries)                Please check on CTAN for a bundle called
+(glossaries)                `glossaries-russian' or similar.
+
+\gls@level=\count350
+\@gls@tmpb=\toks49
+\gls@tmplen=\skip60
+\glskeylisttok=\toks50
+\glslabeltok=\toks51
+\glsshorttok=\toks52
+\glslongtok=\toks53
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2021/11/01 v4.49 (NLCT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2021/11/01 v4.49 (NLCT)
+\glslistdottedwidth=\skip61
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2021/11/01 v4.49 (NLCT)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count351
+\LTcapwidth=\dimen303
+\LT@head=\box115
+\LT@firsthead=\box116
+\LT@foot=\box117
+\LT@lastfoot=\box118
+\LT@gbox=\box119
+\LT@cols=\count352
+\LT@rows=\count353
+\c@LT@tables=\count354
+\c@LT@chunks=\count355
+\LT@p@ftn=\toks54
+)
+\glsdescwidth=\skip66
+\glspagelistwidth=\skip67
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2021/11/01 v4.49 (NLCT)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count356
+\ST@wd=\dimen304
+\ST@rightskip=\skip68
+\ST@leftskip=\skip69
+\ST@parfillskip=\skip70
+\ST@pageleft=\dimen305
+\ST@headht=\dimen306
+\ST@tailht=\dimen307
+\ST@pagesofar=\dimen308
+\ST@pboxht=\dimen309
+\ST@lineht=\dimen310
+\ST@prevht=\dimen311
+\ST@toadd=\dimen312
+\ST@dimen=\dimen313
+\ST@pbox=\box120
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2021/11/01 v4.49 (NLCT)
+\glstreeindent=\skip71
+))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-mcols.
+sty
+Package: glossary-mcols 2021/11/01 v4.49 (NLCT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/glossaries/styles/glossary-inline
+.sty
+Package: glossary-inline 2021/11/01 v4.49 (NLCT)
+))) (./baarux-0.9.9.sty
+
+LaTeX Warning: You have requested package `baarux-0.9.9',
+               but the package provides `baarux'.
+
+Package: baarux 2021/03/12 v0.9.10 linguistics-style examples
+(/usr/local/texlive/2022/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\baaru:counta=\count357
+\baaru:countb=\count358
+\baaru:countc=\count359
+\baaru:exdepth=\count360
+\baaru:curX=\count361
+\baaru:nextX=\count362
+\baaru:lastX=\count363
+\baaru:cached_curX=\count364
+\baaru:cached_endlinechar=\count365
+\baaru:baseX=\count366
+\baaru:curY=\count367
+\baaru:curNlevelY=\count368
+\baaru:lastNlevelY=\count369
+\baaru:baseY=\count370
+\baaru:nrows=\count371
+\baaru:n_col_data=\count372
+\baaru:n_multicols=\count373
+\baaru:multicol_span=\count374
+\baaru:n_regular_cols=\count375
+\baaru:blockno=\count376
+\baaru:autoidx=\count377
+\baaru:contouridx=\count378
+\baaru:chapterno=\count379
+\baaru:ncols=\count380
+\baaru:colno=\count381
+\baaru:buffer=\toks55
+\baaru:cache=\toks56
+\baaru:width=\dimen314
+\baaru:cur_label_wd=\dimen315
+\baaru:linewidth=\dimen316
+\baaru:remaining_width=\dimen317
+\baaru:cached_width=\dimen318
+\baaru:column_width=\dimen319
+\baaru:sidepanel_width=\dimen320
+\baaru:prevdepth=\dimen321
+\baaru:indent=\dimen322
+\baaru:leftmargin=\dimen323
+\baaru:cellwidth=\dimen324
+\baaru:cellskip=\dimen325
+\baaru:natwd=\dimen326
+\baaru:gaps_total=\dimen327
+\baaru:cols_total=\dimen328
+\baaru:max_delta_gaps=\dimen329
+\baaru:max_delta_cols=\dimen330
+\baaru:max_delta=\dimen331
+\baaru:target_delta=\dimen332
+\baaru:target_delta_gaps=\dimen333
+\baaru:target_delta_cols=\dimen334
+\baaru:parskip=\skip72
+\c@fnexesi=\count382
+\c@exesi=\count383
+\c@exesii=\count384
+\c@exesiii=\count385
+\c@exesiv=\count386
+\baaru:tonevalue=\dimen335
+\baaru:contour=\toks57
+)
+(./abbreviations.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
+\ttl@leftsep=\dimen336
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box121
+\beforetitleunit=\skip73
+\aftertitleunit=\skip74
+\ttl@plus=\dimen337
+\ttl@minus=\dimen338
+\ttl@toksa=\toks58
+\titlewidth=\dimen339
+\titlewidthlast=\dimen340
+\titlewidthfirst=\dimen341
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip75
+\RaggedLeftLeftskip=\skip76
+\RaggedRightLeftskip=\skip77
+\CenteringRightskip=\skip78
+\RaggedLeftRightskip=\skip79
+\RaggedRightRightskip=\skip80
+\CenteringParfillskip=\skip81
+\RaggedLeftParfillskip=\skip82
+\RaggedRightParfillskip=\skip83
+\JustifyingParfillskip=\skip84
+\CenteringParindent=\skip85
+\RaggedLeftParindent=\skip86
+\RaggedRightParindent=\skip87
+\JustifyingParindent=\skip88
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen342
+\lightrulewidth=\dimen343
+\cmidrulewidth=\dimen344
+\belowrulesep=\dimen345
+\belowbottomsep=\dimen346
+\aboverulesep=\dimen347
+\abovetopsep=\dimen348
+\cmidrulesep=\dimen349
+\cmidrulekern=\dimen350
+\defaultaddspace=\dimen351
+\@cmidla=\count387
+\@cmidlb=\count388
+\@aboverulesep=\dimen352
+\@belowrulesep=\dimen353
+\@thisruleclass=\count389
+\@lastruleclass=\count390
+\@thisrulewidth=\dimen354
+)
+(./abean.aux
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+)
+\openout1 = `abean.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+7.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: b5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(42.67912pt, 415.41025pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 625.96065pt, 42.67912pt)
+* \paperwidth=500.7685pt
+* \paperheight=711.3189pt
+* \textwidth=415.41025pt
+* \textheight=625.96065pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-59.65836pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=57.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 97.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 97.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 97.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 97.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 97.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 97.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 97.
+LaTeX Font Info:    Redeclaring math accent \check on input line 97.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 97.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 97.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 97.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 97.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 97.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/LibertinusSerif(0)/m/n on input line
+ 97.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 97.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(0)/m/n on input lin
+e 97.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/LibertinusSerif(0)/m/n --> TU/LibertinusSerif(0)/m/n
+ on input line 97.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/LibertinusSerif(0)/m/it on input li
+ne 97.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/LibertinusSerif(0)/b/n on input lin
+e 97.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 97.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 97.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/LibertinusSerif(0)/m/n --> TU/LibertinusSerif(0)/b/n
+ on input line 97.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/LibertinusSerif(0)/b/it on input l
+ine 97.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 97.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 97.
+LaTeX Info: Redefining \rmfamily on input line 97.
+LaTeX Info: Redefining \sffamily on input line 97.
+LaTeX Info: Redefining \ttfamily on input line 97.
+(./cover.tex
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.13 \hline
+           
+? 
+[1
+
+])
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' in size <10> not av
+ailable
+(Font)              Font shape `TU/LibertinusSerif(0)/m/it' tried instead on in
+put line 103.
+ [2
+
+
+] (./abean.toc
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write4
+\openout4 = `abean.toc'.
+
+ [3]
+Overfull \hbox (12.93646pt too wide) in paragraph at lines 128--129
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *bʰr\TU/LibertinusSerif(0)/b/it/10 éh₂\TU/LibertinusSerif(0)/m/it/10 tēr \T
+U/LibertinusSerif(0)/m/n/10 > °FRATERBROTHER°, Proto-Celtic \TU/LibertinusSerif
+(0)/m/it/10 *br\TU/LibertinusSerif(0)/b/it/10 ā\TU/LibertinusSerif(0)/m/it/10 t
+īr\TU/LibertinusSerif(0)/m/n/10 , Ancient Greek φρ\TU/LibertinusSerif(0)/b/n/10
+ ᾱ́\TU/LibertinusSerif(0)/m/n/10 τηρ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Overfull \hbox (14.47649pt too wide) in paragraph at lines 129--130
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *\TU/LibertinusSerif(0)/b/it/10 h₂é\TU/LibertinusSerif(0)/m/it/10 rh₃trom \
+TU/LibertinusSerif(0)/m/n/10 > °PLOUGHARD°, Proto-Celtic \TU/LibertinusSerif(0)
+/m/it/10 *\TU/LibertinusSerif(0)/b/it/10 a\TU/LibertinusSerif(0)/m/it/10 ratrom
+\TU/LibertinusSerif(0)/m/n/10 , Ancient Greek \TU/LibertinusSerif(0)/b/n/10 ἄ\T
+U/LibertinusSerif(0)/m/n/10 ροτρον,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Overfull \hbox (4.64978pt too wide) in paragraph at lines 130--131
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *d\TU/LibertinusSerif(0)/b/it/10 éh₃\TU/LibertinusSerif(0)/m/it/10 nom \TU/
+LibertinusSerif(0)/m/n/10 > °GIFTDONUM° (through \TU/LibertinusSerif(0)/m/it/10
+ *d\TU/LibertinusSerif(0)/b/it/10 ṓ\TU/LibertinusSerif(0)/m/it/10 nom\TU/Libert
+inusSerif(0)/m/n/10 ), Proto-Celtic \TU/LibertinusSerif(0)/m/it/10 *d\TU/Libert
+inusSerif(0)/b/it/10 ā\TU/LibertinusSerif(0)/m/it/10 nus \TU/LibertinusSerif(0)
+/m/n/10 (through
+ []
+
+
+Overfull \hbox (15.10205pt too wide) in paragraph at lines 130--131
+\TU/LibertinusSerif(0)/m/it/10 *d\TU/LibertinusSerif(0)/b/it/10 ō\TU/Libertinus
+Serif(0)/m/it/10 nus\TU/LibertinusSerif(0)/m/n/10 ), Latin \TU/LibertinusSerif(
+0)/m/it/10 d\TU/LibertinusSerif(0)/b/it/10 ō\TU/LibertinusSerif(0)/m/it/10 num\
+TU/LibertinusSerif(0)/m/n/10 ; Proto-Indo-European \TU/LibertinusSerif(0)/m/it/
+10 *d\TU/LibertinusSerif(0)/b/it/10 éh₃\TU/LibertinusSerif(0)/m/it/10 rom \TU/L
+ibertinusSerif(0)/m/n/10 > Ancient Greek δ\TU/LibertinusSerif(0)/b/n/10 ῶ\TU/Li
+bertinusSerif(0)/m/n/10 ρον; Proto-Indo-European
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+Missing character: There is no प (U+092A) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ा (U+093E) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no र (U+0930) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ् (U+094D) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ष (U+0937) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ् (U+094D) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ण (U+0923) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ि (U+093F) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+
+Overfull \hbox (0.26427pt too wide) in paragraph at lines 381--382
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *ǵ\TU/LibertinusSerif(0)/b/it/10 r̥h₂\TU/LibertinusSerif(0)/m/it/10 nóm \TU
+/LibertinusSerif(0)/m/n/10 > °GRANUMGRAIN°, Proto-Celtic \TU/LibertinusSerif(0)
+/m/it/10 *g\TU/LibertinusSerif(0)/b/it/10 rā\TU/LibertinusSerif(0)/m/it/10 nom\
+TU/LibertinusSerif(0)/m/n/10 , Latin \TU/LibertinusSerif(0)/m/it/10 g\TU/Libert
+inusSerif(0)/b/it/10 rā\TU/LibertinusSerif(0)/m/it/10 num\TU/LibertinusSerif(0)
+/m/n/10 ; com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+
+Overfull \hbox (2.12984pt too wide) in paragraph at lines 386--387
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *déḱ\TU/LibertinusSerif(0)/b/it/10 m̥ \TU/LibertinusSerif(0)/m/n/10 > °10°,
+ Proto-Celtic \TU/LibertinusSerif(0)/m/it/10 *dek\TU/LibertinusSerif(0)/b/it/10
+ am\TU/LibertinusSerif(0)/m/n/10 , Ancient Greek δέκ\TU/LibertinusSerif(0)/b/n/
+10 α\TU/LibertinusSerif(0)/m/n/10 , Latin \TU/LibertinusSerif(0)/m/it/10 dec\TU
+/LibertinusSerif(0)/b/it/10 em\TU/LibertinusSerif(0)/m/n/10 , Proto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
+ []
+
+
+Overfull \hbox (1.0165pt too wide) in paragraph at lines 387--388
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *m\TU/LibertinusSerif(0)/b/it/10 r̥\TU/LibertinusSerif(0)/m/it/10 tós \TU/L
+ibertinusSerif(0)/m/n/10 > °MORTUUSDEAD°, Proto-Celtic \TU/LibertinusSerif(0)/m
+/it/10 *m\TU/LibertinusSerif(0)/b/it/10 ar\TU/LibertinusSerif(0)/m/it/10 wos\TU
+/LibertinusSerif(0)/m/n/10 , Ancient Greek β\TU/LibertinusSerif(0)/b/n/10 ρο\TU
+/LibertinusSerif(0)/m/n/10 τός,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+
+ []
+
+
+Overfull \hbox (4.56316pt too wide) in paragraph at lines 585--586
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *h₃méy\TU/LibertinusSerif(0)/b/it/10 ǵʰ\TU/LibertinusSerif(0)/m/it/10 eti \
+TU/LibertinusSerif(0)/m/n/10 > °MIIKOO° Ancient Greek ὀμεί\TU/LibertinusSerif(0
+)/b/n/10 χ\TU/LibertinusSerif(0)/m/n/10 ω, Latin \TU/LibertinusSerif(0)/m/it/10
+ meiō \TU/LibertinusSerif(0)/m/n/10 (through \TU/LibertinusSerif(0)/m/it/10 *me
+i\TU/LibertinusSerif(0)/b/it/10 χ\TU/LibertinusSerif(0)/m/it/10 ō\TU/Libertinus
+Serif(0)/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
+
+ []
+
+
+Overfull \hbox (23.97983pt too wide) in paragraph at lines 615--616
+[]\TU/LibertinusSerif(0)/m/n/10 Proto-Indo-European \TU/LibertinusSerif(0)/m/it
+/10 *\TU/LibertinusSerif(0)/b/it/10 gʷ\TU/LibertinusSerif(0)/m/it/10 ih₃wós \TU
+/LibertinusSerif(0)/m/n/10 > °VIVUS°, Proto-Celtic \TU/LibertinusSerif(0)/m/it/
+10 *\TU/LibertinusSerif(0)/b/it/10 b\TU/LibertinusSerif(0)/m/it/10 iwos\TU/Libe
+rtinusSerif(0)/m/n/10 , Latin \TU/LibertinusSerif(0)/b/it/10 v\TU/LibertinusSer
+if(0)/m/it/10 īvus\TU/LibertinusSerif(0)/m/n/10 , Proto-Germanic \TU/Libertinus
+Serif(0)/m/it/10 *\TU/LibertinusSerif(0)/b/it/10 kw\TU/LibertinusSerif(0)/m/it/
+10 ikwaz\TU/LibertinusSerif(0)/m/n/10 ;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
+
+ []
+
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 735--736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+
+ []
+
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 864--864
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 864--864
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 865--865
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 866--866
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 867--867
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 868--868
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 869--869
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 870--870
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 871--871
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 872--872
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 873--873
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 874--874
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1365) has occurred while \output is active []
+
+ [18]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 875--875
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 876--876
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 877--877
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 878--878
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 879--879
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 880--880
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 881--881
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 882--882
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 883--883
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 884--884
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 885--885
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 886--886
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 887--887
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 888--888
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 889--889
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 890--890
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 891--891
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 892--892
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 893--893
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 894--894
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2229) has occurred while \output is active []
+
+ [20]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 895--895
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 896--896
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 897--897
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 898--898
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 899--899
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 900--900
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 901--901
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 902--902
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 903--903
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 904--904
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 905--905
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 906--906
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 907--907
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 908--908
+[]$[]$ 
+ []
+
+[21]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 909--909
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 910--910
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 911--911
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 912--912
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 913--913
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 914--914
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 915--915
+[]$[]$ 
+ []
+
+! Misplaced alignment tab character &.
+<argument> from£+DAT, since£+DAT&
+                                 of time, after£+DAT&of time
+l.916 ...extit{*h₂epo}, from \textit{*h₂ed-} (?).}
+                                                  
+? 
+! Misplaced alignment tab character &.
+<argument> ...DAT, since£+DAT&of time, after£+DAT&
+                                                  of time
+l.916 ...extit{*h₂epo}, from \textit{*h₂ed-} (?).}
+                                                  
+? 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 916--916
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 917--917
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 918--918
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 919--919
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 920--920
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 7362) has occurred while \output is active []
+
+ [22]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 921--921
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 922--922
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 923--923
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 924--924
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 925--925
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 926--926
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 927--927
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 928--928
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 929--929
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 930--930
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 4205) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 931--931
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 932--932
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 933--933
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 934--934
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 935--935
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 936--936
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 937--937
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 938--938
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 939--939
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 940--940
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 941--941
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1975) has occurred while \output is active []
+
+ [24]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 942--942
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 943--943
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 944--944
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 945--945
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 946--946
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 947--947
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 948--948
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 949--949
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 950--950
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 951--951
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 952--952
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 953--953
+[]$[]$ 
+ []
+
+[25]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 954--954
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 955--955
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 956--956
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 957--957
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 958--958
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 959--959
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 960--960
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 961--961
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 962--962
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 963--963
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 964--964
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 965--965
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 966--966
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 967--967
+[]$[]$ 
+ []
+
+[26]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 968--968
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 969--969
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 970--970
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 971--971
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 972--972
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 973--973
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 974--974
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 975--975
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 976--976
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 977--977
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 978--978
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 979--979
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 980--980
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 981--981
+[]$[]$ 
+ []
+
+[27]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 982--982
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 983--983
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 984--984
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 985--985
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 986--986
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 987--987
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 988--988
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 989--989
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 990--990
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 991--991
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 992--992
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 993--993
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 994--994
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [28]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 995--995
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 996--996
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 997--997
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 998--998
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 999--999
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1000--1000
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1001--1001
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1002--1002
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1003--1003
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1004--1004
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1005--1005
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1006--1006
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1007--1007
+[]$[]$ 
+ []
+
+[29]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1008--1008
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1009--1009
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1010--1010
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1011--1011
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1012--1012
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1013--1013
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1014--1014
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1015--1015
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1016--1016
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1017--1017
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1018--1018
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1019--1019
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [30]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1020--1020
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1021--1021
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1022--1022
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1023--1023
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1024--1024
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1025--1025
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1026--1026
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1027--1027
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1028--1028
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1029--1029
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1030--1030
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1031--1031
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [31]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1032--1032
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1033--1033
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1034--1034
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1035--1035
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1036--1036
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1037--1037
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1038--1038
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1039--1039
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1040--1040
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1041--1041
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1042--1042
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1043--1043
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1044--1044
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2285) has occurred while \output is active []
+
+ [32]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1045--1045
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1046--1046
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1047--1047
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1048--1048
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1049--1049
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1050--1050
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1051--1051
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1052--1052
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1053--1053
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1054--1054
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1055--1055
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1056--1056
+[]$[]$ 
+ []
+
+[33]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1057--1057
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1058--1058
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1059--1059
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1060--1060
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1061--1061
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1062--1062
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1063--1063
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1064--1064
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1065--1065
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1066--1066
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1067--1067
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1068--1068
+[]$[]$ 
+ []
+
+[34]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1069--1069
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1070--1070
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1071--1071
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1072--1072
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1073--1073
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1074--1074
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1075--1075
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1076--1076
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1077--1077
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1078--1078
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1079--1079
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1080--1080
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [35]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1081--1081
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1082--1082
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1083--1083
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1084--1084
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1085--1085
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1086--1086
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1087--1087
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1088--1088
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1089--1089
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1090--1090
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1091--1091
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1092--1092
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 5696) has occurred while \output is active []
+
+ [36]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1093--1093
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1094--1094
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1095--1095
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1096--1096
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1097--1097
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1098--1098
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1099--1099
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1100--1100
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1101--1101
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1102--1102
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1103--1103
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1104--1104
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1105--1105
+[]$[]$ 
+ []
+
+[37]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1106--1106
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1107--1107
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1108--1108
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1109--1109
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1110--1110
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1111--1111
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1112--1112
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1113--1113
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1114--1114
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1115--1115
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1116--1116
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1117--1117
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1118--1118
+[]$[]$ 
+ []
+
+[38]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1119--1119
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1120--1120
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1121--1121
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1122--1122
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1123--1123
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1124--1124
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1125--1125
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1126--1126
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1127--1127
+[]$[]$ 
+ []
+
+Missing character: There is no մ (U+0574) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ա (U+0561) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ր (U+0580) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no դ (U+0564) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1128--1128
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1129--1129
+[]$[]$ 
+ []
+
+[39]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1130--1130
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1131--1131
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1132--1132
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1133--1133
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1134--1134
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1135--1135
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1136--1136
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1137--1137
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1138--1138
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1139--1139
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1140--1140
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1141--1141
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1142--1142
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1143--1143
+[]$[]$ 
+ []
+
+[40]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1144--1144
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1145--1145
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1146--1146
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1147--1147
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1148--1148
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1149--1149
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1150--1150
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1151--1151
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1152--1152
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1153--1153
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1154--1154
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1155--1155
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+ [41]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1156--1156
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1157--1157
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1158--1158
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1159--1159
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1160--1160
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1161--1161
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1162--1162
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1163--1163
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1164--1164
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1165--1165
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1166--1166
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2865) has occurred while \output is active []
+
+ [42]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1167--1167
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1168--1168
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1169--1169
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1170--1170
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1171--1171
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1172--1172
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1173--1173
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1174--1174
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1175--1175
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1176--1176
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1177--1177
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1178--1178
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1179--1179
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1180--1180
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1181--1181
+[]$[]$ 
+ []
+
+Missing character: There is no թ (U+0569) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ե (U+0565) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ղ (U+0572) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ա (U+0561) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ւ (U+0582) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no շ (U+0577) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1182--1182
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1183--1183
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1184--1184
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1185--1185
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1186--1186
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1187--1187
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1188--1188
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1189--1189
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1190--1190
+[]$[]$ 
+ []
+
+[44]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1191--1191
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1192--1192
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1193--1193
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1194--1194
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1195--1195
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1196--1196
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1197--1197
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1198--1198
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1199--1199
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1200--1200
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1201--1201
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1202--1202
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1203--1203
+[]$[]$ 
+ []
+
+[45]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1204--1204
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1205--1205
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1206--1206
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1207--1207
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1208--1208
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1209--1209
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1210--1210
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1211--1211
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1212--1212
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1213--1213
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1214--1214
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1215--1215
+[]$[]$ 
+ []
+
+[46]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1216--1216
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1217--1217
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1218--1218
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1219--1219
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1220--1220
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1221--1221
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1222--1222
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1223--1223
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1224--1224
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1225--1225
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1226--1226
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1227--1227
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1228--1228
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 4543) has occurred while \output is active []
+
+ [47]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1229--1229
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1230--1230
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1231--1231
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1232--1232
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1233--1233
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1234--1234
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1235--1235
+[]$[]$ 
+ []
+
+Missing character: There is no ո (U+0578) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ւ (U+0582) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ս (U+057D) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no տ (U+057F) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ր (U+0580) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1236--1236
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1237--1237
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1238--1238
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1239--1239
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1240--1240
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 5077) has occurred while \output is active []
+
+ [48]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1241--1241
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1242--1242
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1243--1243
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1244--1244
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1245--1245
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1246--1246
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1247--1247
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1248--1248
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1249--1249
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1250--1250
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1251--1251
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1252--1252
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 5345) has occurred while \output is active []
+
+ [49]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1253--1253
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1254--1254
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1255--1255
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1256--1256
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1257--1257
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1258--1258
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1259--1259
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1260--1260
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1261--1261
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1262--1262
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1263--1263
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 4416) has occurred while \output is active []
+
+ [50]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1264--1264
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1265--1265
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1266--1266
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1267--1267
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1268--1268
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1269--1269
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1270--1270
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1271--1271
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1272--1272
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1273--1273
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1274--1274
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1275--1275
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1276--1276
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2894) has occurred while \output is active []
+
+ [51]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1277--1277
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1278--1278
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1279--1279
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1280--1280
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1281--1281
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1282--1282
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1283--1283
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1284--1284
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1285--1285
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1286--1286
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1287--1287
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1288--1288
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1289--1289
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1290--1290
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1291--1291
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1292--1292
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1293--1293
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1294--1294
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1295--1295
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1296--1296
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1297--1297
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1298--1298
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2495) has occurred while \output is active []
+
+ [53]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1299--1299
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1300--1300
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1301--1301
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1302--1302
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1303--1303
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1304--1304
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1305--1305
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1306--1306
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1307--1307
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1308--1308
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1309--1309
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1310--1310
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1311--1311
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2080) has occurred while \output is active []
+
+ [54]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1312--1312
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1313--1313
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1314--1314
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1315--1315
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1316--1316
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1317--1317
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1318--1318
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1319--1319
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1320--1320
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1321--1321
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1322--1322
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1323--1323
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [55]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1324--1324
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1325--1325
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1326--1326
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1327--1327
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1328--1328
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1329--1329
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1330--1330
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1331--1331
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1332--1332
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1333--1333
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1334--1334
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1335--1335
+[]$[]$ 
+ []
+
+Missing character: There is no 𐌈 (U+10308) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𐌄 (U+10304) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𐌖 (U+10316) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𐌓 (U+10313) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1336
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1336--1336
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [56]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1337--1337
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1338--1338
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1339--1339
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1340--1340
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1341--1341
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1342--1342
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1343--1343
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1344--1344
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1345--1345
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1346--1346
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1347--1347
+[]$[]$ 
+ []
+
+[57]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1348--1348
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1349--1349
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1350--1350
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1351--1351
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1352--1352
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1353--1353
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1354--1354
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1355--1355
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1356--1356
+
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1356--1356
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1357--1357
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1358--1358
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1359--1359
+[]$[]$ 
+ []
+
+[58]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1360--1360
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1361--1361
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1362--1362
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1363--1363
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1364--1364
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1365--1365
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1366--1366
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1367--1367
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1368--1368
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1369--1369
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1370--1370
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1371--1371
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1372--1372
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 4595) has occurred while \output is active []
+
+ [59]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1373--1373
+[]$[]$ 
+ []
+
+Missing character: There is no Գ (U+0533) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no է (U+0567) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ն (U+0576) in font Libertinus Serif Regular/OT:s
+cript=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1374--1374
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1375--1375
+[]$[]$ 
+ []
+
+Missing character: There is no 𐍅 (U+10345) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𐌴 (U+10334) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𐌹 (U+10339) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𐌷 (U+10337) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𐍃 (U+10343) in font Libertinus Serif Regular/OT:
+script=latn;language=dflt;mapping=tex-text;!
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1376--1376
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1377--1377
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1378--1378
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1379--1379
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1380--1380
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1381--1381
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1382--1382
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1383--1383
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1384--1384
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 1721) has occurred while \output is active []
+
+ [60]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1385--1385
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1386--1386
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1387--1387
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1388--1388
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1389--1389
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1390--1390
+[]$[]$ 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1391--1391
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1392--1393
+
+ []
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {armenian/script}  =>  {Armenian}
+>  {armenian/lcscript}  =>  {armenian}
+>  {armenian/scripttag}  =>  {armn}
+>  {armenian/language}  =>  {Armenian}
+>  {armenian/langtag}  =>  {HYE}
+>  {armenian/bcp47}  =>  {hy}
+>  {armenian/hyphennames}  =>  {armenian}
+>  {armenian/direction}  =>  {LR}
+>  {armenian/hyphenmins}  =>  {2,2}
+>  {armenian/frenchspacing}  =>  {false}
+>  {armenian/indentfirst}  =>  {false}
+>  {armenian/fontsetup}  =>  {true}
+>  {armenian/envname}  =>  {armenian}
+>  {armenian/babelname}  =>  {armenian}
+>  {armenian/localnumeral}  =>  {armeniannumerals}
+>  {armenian/Localnumeral}  =>  {armeniannumerals}
+>  {sanskrit/script}  =>  {Devanagari}
+>  {sanskrit/lcscript}  =>  {devanagari}
+>  {sanskrit/scripttag}  =>  {deva}
+>  {sanskrit/language}  =>  {Sanskrit}
+>  {sanskrit/langtag}  =>  {SAN}
+>  {sanskrit/bcp47}  =>  {sa-Deva}
+>  {sanskrit/hyphennames}  =>  {sanskrit,prakrit}
+>  {sanskrit/direction}  =>  {LR}
+>  {sanskrit/hyphenmins}  =>  {1,3}
+>  {sanskrit/frenchspacing}  =>  {true}
+>  {sanskrit/indentfirst}  =>  {false}
+>  {sanskrit/fontsetup}  =>  {false}
+>  {sanskrit/envname}  =>  {sanskrit}
+>  {sanskrit/babelname}  =>  {sanskrit}
+>  {sanskrit/localnumeral}  =>  {sanskritnumerals}
+>  {sanskrit/Localnumeral}  =>  {sanskritnumerals}
+>  {greek/script}  =>  {Greek}
+>  {greek/lcscript}  =>  {greek}
+>  {greek/scripttag}  =>  {grek}
+>  {greek/language}  =>  {Greek}
+>  {greek/langtag}  =>  {ELL}
+>  {greek/bcp47}  =>  {el-monoton}
+>  {greek/hyphennames}  =>  {}
+>  {greek/direction}  =>  {LR}
+>  {greek/hyphenmins}  =>  {2,3}
+>  {greek/frenchspacing}  =>  {true}
+>  {greek/indentfirst}  =>  {true}
+>  {greek/fontsetup}  =>  {true}
+>  {greek/envname}  =>  {greek}
+>  {greek/babelname}  =>  {greek}
+>  {greek/localnumeral}  =>  {greeknumerals}
+>  {greek/Localnumeral}  =>  {Greeknumerals}
+>  {russian/script}  =>  {Cyrillic}
+>  {russian/lcscript}  =>  {cyrillic}
+>  {russian/scripttag}  =>  {cyrl}
+>  {russian/language}  =>  {Russian}
+>  {russian/langtag}  =>  {RUS}
+>  {russian/bcp47}  =>  {ru}
+>  {russian/hyphennames}  =>  {russian}
+>  {russian/direction}  =>  {LR}
+>  {russian/hyphenmins}  =>  {2,2}
+>  {russian/frenchspacing}  =>  {true}
+>  {russian/indentfirst}  =>  {true}
+>  {russian/fontsetup}  =>  {true}
+>  {russian/envname}  =>  {russian}
+>  {russian/babelname}  =>  {russian}
+>  {russian/localnumeral}  =>  {russiannumerals}
+>  {russian/Localnumeral}  =>  {Russiannumerals}.
+[61] (./abean.aux
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+) ) 
+Here is how much of TeX's memory you used:
+ 27656 strings out of 476179
+ 600613 string characters out of 5809544
+ 1006466 words of memory out of 5000000
+ 47868 multiletter control sequences out of 15000+600000
+ 471214 words of font info for 68 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 123i,10n,120p,1551b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on abean.pdf (61 pages).

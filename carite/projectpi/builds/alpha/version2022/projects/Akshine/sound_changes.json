@@ -1,0 +1,20 @@
+{
+    "sc": [
+        [
+            {
+                "prose": "Prose goes here",
+                "changes": [
+                    {
+                        "display": "SPE goes here",
+                        "regex": [
+                            [
+                                "INPUT",
+                                "OUTPUT"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    ]
+}

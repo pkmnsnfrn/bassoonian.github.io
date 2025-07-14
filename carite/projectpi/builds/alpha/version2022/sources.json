@@ -1,0 +1,4250 @@
+{
+    "sources": [
+        {
+            "title": "A little-known law on the root and syllable structures of Proto-Indo-European",
+            "firstname": [
+                "Ignasi-Xavier"
+            ],
+            "lastname": [
+                "Adiego"
+            ],
+            "year": 2016,
+            "reference": "Adiego (2016)",
+            "internalreference": "Adiego0"
+        },
+        {
+            "title": "Vox Latina",
+            "subtitle": "A Guide to the Pronunciation of Classical Latin",
+            "firstname": [
+                "W. Sidney"
+            ],
+            "lastname": [
+                "Allen"
+            ],
+            "location": "Cambridge",
+            "publisher": "University Press",
+            "year": 1978,
+            "reference": "Allen (1978)",
+            "internalreference": "Allen0"
+        },
+        {
+            "title": "A Companion to the Ancient Greek Language",
+            "firstname": [
+                "Egbert J."
+            ],
+            "lastname": [
+                "Bakker"
+            ],
+            "location": "Singapore",
+            "publisher": "Blackwell Publishing Ltd",
+            "year": 2010,
+            "reference": "Bakker (2010)",
+            "internalreference": "Bakker0"
+        },
+        {
+            "title": "Reconstructing Syntax",
+            "firstname": [
+                "Jóhanna"
+            ],
+            "lastname": [
+                "Barðdal"
+            ],
+            "etal": true,
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2020,
+            "reference": "Barðdal (2020)",
+            "internalreference": "Barðdal0"
+        },
+        {
+            "title": "The outcome of liquid and sibilant clusters in Ancient Greek",
+            "firstname": [
+                "Roberto"
+            ],
+            "lastname": [
+                "Batisti"
+            ],
+            "year": 2017,
+            "reference": "Batisti (2017)",
+            "internalreference": "Batisti0"
+        },
+        {
+            "title": "The origins of Indo-European nominal inflection",
+            "firstname": [
+                "Robert"
+            ],
+            "lastname": [
+                "Beekes"
+            ],
+            "location": "Innsbruck",
+            "publisher": "Institut für Sprachwissenschaft der Universität Innsbruck",
+            "year": 1985,
+            "reference": "Beekes (1985)",
+            "internalreference": "Beekes0"
+        },
+        {
+            "title": "Etymological Dictionary of Greek",
+            "firstname": [
+                "Robert"
+            ],
+            "lastname": [
+                "Beekes"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2010,
+            "reference": "Beekes (2010)",
+            "internalreference": "Beekes1"
+        },
+        {
+            "title": "Valency Alternations with Perception Verbs in Indo-European Languages",
+            "firstname": [
+                "Marina"
+            ],
+            "lastname": [
+                "Benedetti"
+            ],
+            "year": 2012,
+            "reference": "Benedetti (2012)",
+            "internalreference": "Benedetti0"
+        },
+        {
+            "title": "Iarl and Iormun-; Arya-and Aryaman-",
+            "subtitle": "A Study in Indo-European Comparative Mythology",
+            "firstname": [
+                "John D."
+            ],
+            "lastname": [
+                "Bengtson"
+            ],
+            "year": 2016,
+            "reference": "Bengtson (2016)",
+            "internalreference": "Bengtson0"
+        },
+        {
+            "title": "Pāli for new learners",
+            "subtitle": "Book I: how to say it",
+            "firstname": [
+                "J. R."
+            ],
+            "lastname": [
+                "Bhaddacak"
+            ],
+            "year": 2022,
+            "reference": "Bhaddacak (2022)",
+            "internalreference": "Bhaddacak0"
+        },
+        {
+            "title": "Consonantal Alternations in Indo-European Roots",
+            "subtitle": "Diatopic and/or Diachronic Variants or Functional Mechanism?",
+            "firstname": [
+                "Aldo Luiz"
+            ],
+            "lastname": [
+                "Bizzocchi"
+            ],
+            "year": 2017,
+            "reference": "Bizzocchi (2017)",
+            "internalreference": "Bizzocchi0"
+        },
+        {
+            "title": "Hic erant leones",
+            "subtitle": "Indo-European “lion” et alii",
+            "firstname": [
+                "Václav"
+            ],
+            "lastname": [
+                "Blažek"
+            ],
+            "year": 2005,
+            "reference": "Blažek (2005)",
+            "internalreference": "Blažek0"
+        },
+        {
+            "title": "Indo-European nominal o-stems and question of their origin",
+            "firstname": [
+                "Václav"
+            ],
+            "lastname": [
+                "Blažek"
+            ],
+            "year": 2015,
+            "reference": "Blažek (2015)",
+            "internalreference": "Blažek1"
+        },
+        {
+            "title": "Indo-European “gold” in Time and Space",
+            "firstname": [
+                "Václav"
+            ],
+            "lastname": [
+                "Blažek"
+            ],
+            "year": 2017,
+            "reference": "Blažek (2017)",
+            "internalreference": "Blažek2"
+        },
+        {
+            "title": "An Introductory Grammar of the Pāḷi Language",
+            "firstname": [
+                "Allan R."
+            ],
+            "lastname": [
+                "Bomhard"
+            ],
+            "location": "Charleston",
+            "publisher": "Buddhist Fellowship",
+            "year": 2012,
+            "reference": "Bomhard (2012)",
+            "internalreference": "Bomhard0"
+        },
+        {
+            "title": "The Etruscan Language",
+            "subtitle": "An Introduction",
+            "firstname": [
+                "Giuliano",
+                "Larissa"
+            ],
+            "lastname": [
+                "Bonfante",
+                "Bonfante"
+            ],
+            "location": "Manchester",
+            "publisher": "University Press",
+            "year": 2002,
+            "reference": "Bonfante (2002)",
+            "internalreference": "Bonfante0"
+        },
+        {
+            "title": "Studies in Historcal Ibero-Romance Morpho-Syntax",
+            "firstname": [
+                "Miriam"
+            ],
+            "lastname": [
+                "Bouzouita"
+            ],
+            "etal": true,
+            "in": "Issues in Hispanic and Lusophone Linguistics",
+            "location": "Amsterdam/Philadelphia",
+            "publisher": "John Benjamins Publishing Company",
+            "year": 2018,
+            "reference": "Bouzouita (2018)",
+            "internalreference": "Bouzouita0"
+        },
+        {
+            "title": "The PIE Subjunctive: Function and Development",
+            "firstname": [
+                "Chiara"
+            ],
+            "lastname": [
+                "Bozzone"
+            ],
+            "year": 2012,
+            "reference": "Bozzone (2012)",
+            "internalreference": "Bozzone0"
+        },
+        {
+            "title": "Initial “Yod” in Greek and the Etymology of Gk. ἵππος ‘horse’",
+            "firstname": [
+                "Chiara"
+            ],
+            "lastname": [
+                "Bozzone"
+            ],
+            "year": 2013,
+            "reference": "Bozzone (2013)",
+            "internalreference": "Bozzone1"
+        },
+        {
+            "title": "The Origin of the Caland System and the Typology of Adjectives",
+            "firstname": [
+                "Chiara"
+            ],
+            "lastname": [
+                "Bozzone"
+            ],
+            "year": 2016,
+            "reference": "Bozzone (2016)",
+            "internalreference": "Bozzone2"
+        },
+        {
+            "title": "Spanish Vocabulary",
+            "subtitle": "An Etymological Approach",
+            "firstname": [
+                "David"
+            ],
+            "lastname": [
+                "Brodsky"
+            ],
+            "location": "Austin",
+            "publisher": "University of Texas Press",
+            "year": 2008,
+            "reference": "Brodsky (2008)",
+            "internalreference": "Brodsky0"
+        },
+        {
+            "title": "A Crazy Rule in PIE? A Closer Look at The Saussure Effect",
+            "firstname": [
+                "Andrew Miles"
+            ],
+            "lastname": [
+                "Byrd"
+            ],
+            "year": 0,
+            "reference": "Byrd (0)",
+            "internalreference": "Byrd0"
+        },
+        {
+            "title": "Motivating Sievers' Law",
+            "firstname": [
+                "Andrew Miles"
+            ],
+            "lastname": [
+                "Byrd"
+            ],
+            "year": 2010,
+            "reference": "Byrd (2010)",
+            "internalreference": "Byrd1"
+        },
+        {
+            "title": "Reconstructing Indo-European Syllabiﬁcation",
+            "firstname": [
+                "Andrew Miles"
+            ],
+            "lastname": [
+                "Byrd"
+            ],
+            "year": 2010,
+            "reference": "Byrd (2010)",
+            "internalreference": "Byrd2"
+        },
+        {
+            "title": "Predicting IE Syllabification Through Phonotactic Analysis",
+            "firstname": [
+                "Andrew Miles"
+            ],
+            "lastname": [
+                "Byrd"
+            ],
+            "year": 2012,
+            "reference": "Byrd (2012)",
+            "internalreference": "Byrd3"
+        },
+        {
+            "title": "The Fatal Thread",
+            "firstname": [
+                "Didier"
+            ],
+            "lastname": [
+                "Calin"
+            ],
+            "year": 2008,
+            "reference": "Calin (2008)",
+            "internalreference": "Calin0"
+        },
+        {
+            "title": "The elaboration of the Gothic alphabet and orthography",
+            "firstname": [
+                "Fausto"
+            ],
+            "lastname": [
+                "Cercignani"
+            ],
+            "in": "Indogermanische Forschungen, 93",
+            "year": 1988,
+            "reference": "Cercignani (1988)",
+            "internalreference": "Cercignani0"
+        },
+        {
+            "title": "Etymological Dictionary of the Iranian Verb",
+            "firstname": [
+                "Johnny"
+            ],
+            "lastname": [
+                "Cheung"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2007,
+            "reference": "Cheung (2007)",
+            "internalreference": "Cheung0"
+        },
+        {
+            "title": "Phonological Root Structure Constraints in Proto-Indo-European",
+            "firstname": [
+                "Alain Louis"
+            ],
+            "lastname": [
+                "Corbeau"
+            ],
+            "year": 0,
+            "reference": "Corbeau (0)",
+            "internalreference": "Corbeau0"
+        },
+        {
+            "title": "A Descriptive and Comparative Grammar of Andalusi Arabic",
+            "firstname": [
+                "Federico"
+            ],
+            "lastname": [
+                "Corriento"
+            ],
+            "location": "Leiden/Boston",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2013,
+            "reference": "Corriento (2013)",
+            "internalreference": "Corriento0"
+        },
+        {
+            "title": "Comparative Historical Dialectology",
+            "subtitle": "Italo-Romance clues to Ibero-Romance sound change",
+            "firstname": [
+                "Thomas D."
+            ],
+            "lastname": [
+                "Cravens"
+            ],
+            "in": "Current Issues in Linguistic Theory",
+            "location": "Amsterdam/Philadelphia",
+            "publisher": "John Benjamins Publishing Company",
+            "year": 2002,
+            "reference": "Cravens (2002)",
+            "internalreference": "Cravens0"
+        },
+        {
+            "title": "Etymological, geographical and typological dimensions of “have” verbs in Indo European languages",
+            "firstname": [
+                "Pierluigi"
+            ],
+            "lastname": [
+                "Cuzzolin"
+            ],
+            "year": 2003,
+            "reference": "Cuzzolin (2003)",
+            "internalreference": "Cuzzolin0"
+        },
+        {
+            "title": "The Indo-European Subjunctive and questions of relative chronology",
+            "firstname": [
+                "Eystein"
+            ],
+            "lastname": [
+                "Dahl"
+            ],
+            "year": 2013,
+            "reference": "Dahl (2013)",
+            "internalreference": "Dahl0"
+        },
+        {
+            "title": "Laryngeal Aspiration in Greek?",
+            "firstname": [
+                "Filip"
+            ],
+            "lastname": [
+                "De Decker"
+            ],
+            "year": 0,
+            "reference": "De Decker (0)",
+            "internalreference": "De Decker0"
+        },
+        {
+            "title": "Some etymological and morphological observations on the *h2o problem",
+            "firstname": [
+                "Filip"
+            ],
+            "lastname": [
+                "De Decker"
+            ],
+            "year": 0,
+            "reference": "De Decker (0)",
+            "internalreference": "De Decker1"
+        },
+        {
+            "title": "Another attempt at a chronology for Grassmann's Law in Greek",
+            "firstname": [
+                "Filip"
+            ],
+            "lastname": [
+                "De Decker"
+            ],
+            "year": 2013,
+            "reference": "De Decker (2013)",
+            "internalreference": "De Decker2"
+        },
+        {
+            "title": "Stang's Law and the declension of the Proto-Indo-European word for “cow”",
+            "firstname": [
+                "Filip"
+            ],
+            "lastname": [
+                "De Decker"
+            ],
+            "year": 2013,
+            "reference": "De Decker (2013)",
+            "internalreference": "De Decker3"
+        },
+        {
+            "title": "An Etymological Case Study on the <PG> and <PG?> Vocabulary in Robert Beekes's new Etymological Dictionary of Greek",
+            "subtitle": "M",
+            "firstname": [
+                "Filip"
+            ],
+            "lastname": [
+                "De Decker"
+            ],
+            "year": 2016,
+            "reference": "De Decker (2016)",
+            "internalreference": "De Decker4"
+        },
+        {
+            "title": "The use and absence of the augment in the forms ἔδωκ(ε)(ν) and δῶκ(ε)(ν) in the Odyssey, with a brief discussion of the origin of the augment",
+            "firstname": [
+                "Filip"
+            ],
+            "lastname": [
+                "De Decker"
+            ],
+            "year": 2018,
+            "reference": "De Decker (2018)",
+            "internalreference": "De Decker5"
+        },
+        {
+            "title": "Notes on Indo-European Linguistics",
+            "firstname": [
+                "Jessica L."
+            ],
+            "lastname": [
+                "DeLisi"
+            ],
+            "year": 2013,
+            "reference": "DeLisi (2013)",
+            "internalreference": "DeLisi0"
+        },
+        {
+            "title": "Epenthesis and prosodic structure in Armenian",
+            "subtitle": "A diachronic account",
+            "firstname": [
+                "Jessica L."
+            ],
+            "lastname": [
+                "DeLisi"
+            ],
+            "year": 2015,
+            "reference": "DeLisi (2015)",
+            "internalreference": "DeLisi1"
+        },
+        {
+            "title": "Dictionnaire de la langue gauloise",
+            "subtitle": "une approche linguistique du vieux-celtique continental",
+            "firstname": [
+                "Xavier"
+            ],
+            "lastname": [
+                "Delamarre"
+            ],
+            "location": "Paris",
+            "publisher": "Editions Errance",
+            "year": 2003,
+            "reference": "Delamarre (2003)",
+            "internalreference": "Delamarre0"
+        },
+        {
+            "title": "Etymological Dictionary of the Slavic Inherited Lexicon",
+            "firstname": [
+                "Rick"
+            ],
+            "lastname": [
+                "Derksen"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2008,
+            "reference": "Derksen (2008)",
+            "internalreference": "Derksen0"
+        },
+        {
+            "title": "Etymological Dictionary of the Baltic Inherited Lexicon",
+            "firstname": [
+                "Rick"
+            ],
+            "lastname": [
+                "Derksen"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2015,
+            "reference": "Derksen (2015)",
+            "internalreference": "Derksen1"
+        },
+        {
+            "title": "On Indo-European Roads",
+            "firstname": [
+                "Lenka",
+                "Václav"
+            ],
+            "lastname": [
+                "Dočkalová",
+                "Blažek"
+            ],
+            "year": 2011,
+            "reference": "Dočkalová (2011)",
+            "internalreference": "Dočkalová0"
+        },
+        {
+            "title": "The Indo-European Resultative Particle *es",
+            "firstname": [
+                "George E."
+            ],
+            "lastname": [
+                "Dunkel"
+            ],
+            "year": 2004,
+            "reference": "Dunkel (2004)",
+            "internalreference": "Dunkel0"
+        },
+        {
+            "title": "The Kortlandt Effect",
+            "firstname": [
+                "Pascale"
+            ],
+            "lastname": [
+                "Eskes"
+            ],
+            "year": 2020,
+            "reference": "Eskes (2020)",
+            "internalreference": "Eskes0"
+        },
+        {
+            "title": "Greek and Latin verbal governing compounds in *-ā and their prehistory",
+            "firstname": [
+                "Hannes A.",
+                "Laura"
+            ],
+            "lastname": [
+                "Fellner",
+                "Grestenberger"
+            ],
+            "year": 2016,
+            "reference": "Fellner (2016)",
+            "internalreference": "Fellner0"
+        },
+        {
+            "title": "Proto-Greek and Common Greek",
+            "firstname": [
+                "Panagiotis"
+            ],
+            "lastname": [
+                "Filos"
+            ],
+            "year": 2014,
+            "reference": "Filos (2014)",
+            "internalreference": "Filos0"
+        },
+        {
+            "title": "Indo-European Language and Culture",
+            "subtitle": "An Introduction",
+            "firstname": [
+                "Benjamin W."
+            ],
+            "lastname": [
+                "Fortson IV"
+            ],
+            "location": "Malden/Oxford/Carlton",
+            "publisher": "Blackwell Publishing Ltd",
+            "year": 2004,
+            "reference": "Fortson IV (2004)",
+            "internalreference": "Fortson IV0"
+        },
+        {
+            "title": "A Lexicon of Greek Personal Names, Volume IIIA",
+            "subtitle": "The Peloponnese, Western Greece, Sicily and Magna Graecia",
+            "firstname": [
+                "P. M.",
+                "E."
+            ],
+            "lastname": [
+                "Fraser",
+                "Matthews"
+            ],
+            "location": "Oxford",
+            "publisher": "Clarendon Press",
+            "year": 1997,
+            "reference": "Fraser (1997)",
+            "internalreference": "Fraser0"
+        },
+        {
+            "title": "Ergativity in Indo-European",
+            "firstname": [
+                "John D."
+            ],
+            "lastname": [
+                "Frauzel"
+            ],
+            "year": 1988,
+            "reference": "Frauzel (1988)",
+            "internalreference": "Frauzel0"
+        },
+        {
+            "title": "Accent in Proto-Indo-European Athematic Nouns",
+            "subtitle": "Antifaithfulness in Inflectional Paradigms",
+            "firstname": [
+                "Melissa"
+            ],
+            "lastname": [
+                "Frazier"
+            ],
+            "location": "Chapel Hill",
+            "year": 2006,
+            "reference": "Frazier (2006)",
+            "internalreference": "Frazier0"
+        },
+        {
+            "title": "Proto-Indo-European trees",
+            "firstname": [
+                "Paul"
+            ],
+            "lastname": [
+                "Friedrich"
+            ],
+            "location": "Chicago/London",
+            "publisher": "The University of Chicago Press",
+            "year": 1970,
+            "reference": "Friedrich (1970)",
+            "internalreference": "Friedrich0"
+        },
+        {
+            "title": "What is Old is New again",
+            "subtitle": "PIE Secondary Roots with Fossilised Preverbs",
+            "firstname": [
+                "Romain"
+            ],
+            "lastname": [
+                "Garnier"
+            ],
+            "etal": true,
+            "location": "Leiden",
+            "year": 2019,
+            "reference": "Garnier (2019)",
+            "internalreference": "Garnier0"
+        },
+        {
+            "title": "Old Norse Brokkr, Sanskrit Bhr̥gu- and PIE (s)bʰr̥(h₂)g- ‘crackle, roar’",
+            "firstname": [
+                "Riccardo"
+            ],
+            "lastname": [
+                "Ginevra"
+            ],
+            "year": 2018,
+            "reference": "Ginevra (2018)",
+            "internalreference": "Ginevra0"
+        },
+        {
+            "title": "Latin oboedio",
+            "subtitle": "between phonological explanation and diastratic variation",
+            "firstname": [
+                "Francesco"
+            ],
+            "lastname": [
+                "Giura"
+            ],
+            "year": 2015,
+            "reference": "Giura (2015)",
+            "internalreference": "Giura0"
+        },
+        {
+            "title": "Baltisches zu IdG. *(s)leiH- ‘blau (sein)’",
+            "firstname": [
+                "Bernd",
+                "Adam"
+            ],
+            "lastname": [
+                "Gliwa",
+                "Hyllested"
+            ],
+            "year": 2006,
+            "reference": "Gliwa (2006)",
+            "internalreference": "Gliwa0"
+        },
+        {
+            "title": "Language change and linguistic theory",
+            "subtitle": "The case of archaic Indo-European conjunction",
+            "firstname": [
+                "David"
+            ],
+            "lastname": [
+                "Goldstein"
+            ],
+            "year": 2019,
+            "reference": "Goldstein (2019)",
+            "internalreference": "Goldstein0"
+        },
+        {
+            "title": "Homeric -φι(ν) is an oblique case marker",
+            "firstname": [
+                "David"
+            ],
+            "lastname": [
+                "Goldstein"
+            ],
+            "year": 2020,
+            "reference": "Goldstein (2020)",
+            "internalreference": "Goldstein1"
+        },
+        {
+            "title": "The Dual Treatment of *-oi in Slavic Revisited",
+            "firstname": [
+                "Yaroslav"
+            ],
+            "lastname": [
+                "Gorbachov"
+            ],
+            "year": 2015,
+            "reference": "Gorbachov (2015)",
+            "internalreference": "Gorbachov0"
+        },
+        {
+            "title": "Revisiting Indo-European ‘Wine’",
+            "firstname": [
+                "Luke"
+            ],
+            "lastname": [
+                "Gorton"
+            ],
+            "year": 2017,
+            "reference": "Gorton (2017)",
+            "internalreference": "Gorton0"
+        },
+        {
+            "title": "Adventures in ablaut",
+            "subtitle": "Brugmann's Law, analogy, and the hunt for o-grades in Indo-Iranian",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 0,
+            "reference": "Grestenberger (0)",
+            "internalreference": "Grestenberger0"
+        },
+        {
+            "title": "The final cut",
+            "subtitle": "Hittite iškallāri ‘splits, slices’, PIE *(s)k(w)elH ‘cut in half, split’, and root statives in Proto-Indo-European",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 0,
+            "reference": "Grestenberger (0)",
+            "internalreference": "Grestenberger1"
+        },
+        {
+            "title": "Greek reduplicated aorists and the alphathematic conjugation",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 2015,
+            "reference": "Grestenberger (2015)",
+            "internalreference": "Grestenberger2"
+        },
+        {
+            "title": "Reconstructing Proto-Indo-European Deponents",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 2016,
+            "reference": "Grestenberger (2016)",
+            "internalreference": "Grestenberger3"
+        },
+        {
+            "title": "Deponency in finite and nonfinite contexts",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 2018,
+            "reference": "Grestenberger (2018)",
+            "internalreference": "Grestenberger4"
+        },
+        {
+            "title": "Reconstructing passive syntax in Proto-Indo-European",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 2018,
+            "reference": "Grestenberger (2018)",
+            "internalreference": "Grestenberger5"
+        },
+        {
+            "title": "On Hittite iškallari and the PIE “stative”",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 2019,
+            "reference": "Grestenberger (2019)",
+            "internalreference": "Grestenberger6"
+        },
+        {
+            "title": "Participles, periphrastic constructions, and the structure of the Indo-European verb",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Grestenberger"
+            ],
+            "year": 2020,
+            "reference": "Grestenberger (2020)",
+            "internalreference": "Grestenberger7"
+        },
+        {
+            "title": "Studies in Greek and Vedic Prosody, Morphology, and Meter",
+            "firstname": [
+                "Dieter"
+            ],
+            "lastname": [
+                "Gunkel"
+            ],
+            "year": 2010,
+            "reference": "Gunkel (2010)",
+            "internalreference": "Gunkel0"
+        },
+        {
+            "title": "Greek and Latin from an Indo-European Perspective, ed. C. George et al",
+            "firstname": [
+                "Dieter"
+            ],
+            "lastname": [
+                "Gunkel"
+            ],
+            "year": 2011,
+            "reference": "Gunkel (2011)",
+            "internalreference": "Gunkel1"
+        },
+        {
+            "title": "On the accentual status of vocatives in Proto-Indo-European",
+            "firstname": [
+                "Dieter"
+            ],
+            "lastname": [
+                "Gunkel"
+            ],
+            "year": 2017,
+            "reference": "Gunkel (2017)",
+            "internalreference": "Gunkel2"
+        },
+        {
+            "title": "Elsevier's concise Spanish etymological dictionary",
+            "firstname": [
+                "Guido"
+            ],
+            "lastname": [
+                "Gómez de Silva"
+            ],
+            "location": "Amsterdam",
+            "publisher": "Elsevier",
+            "year": 1985,
+            "reference": "Gómez de Silva (1985)",
+            "internalreference": "Gómez de Silva0"
+        },
+        {
+            "title": "Strange ablauts and neglected sound changes in Proto-Indo-European",
+            "firstname": [
+                "Piotr"
+            ],
+            "lastname": [
+                "Gąsiorowski"
+            ],
+            "year": 1988,
+            "reference": "Gąsiorowski (1988)",
+            "internalreference": "Gąsiorowski0"
+        },
+        {
+            "title": "The meaning of life: PIE *gʷih₃u̯-",
+            "firstname": [
+                "Piotr"
+            ],
+            "lastname": [
+                "Gąsiorowski"
+            ],
+            "year": 2007,
+            "reference": "Gąsiorowski (2007)",
+            "internalreference": "Gąsiorowski1"
+        },
+        {
+            "title": "The Germanic reflexes of PIE *-sr- in the context of Verner's Law",
+            "firstname": [
+                "Piotr"
+            ],
+            "lastname": [
+                "Gąsiorowski"
+            ],
+            "year": 2012,
+            "reference": "Gąsiorowski (2012)",
+            "internalreference": "Gąsiorowski2"
+        },
+        {
+            "title": "Gruit Grus",
+            "subtitle": "The Indo-European Names of the Crane",
+            "firstname": [
+                "Piotr"
+            ],
+            "lastname": [
+                "Gąsiorowski"
+            ],
+            "year": 2013,
+            "reference": "Gąsiorowski (2013)",
+            "internalreference": "Gąsiorowski3"
+        },
+        {
+            "title": "Cherchez la femme",
+            "subtitle": "Two Germanic suffixes, one etymology",
+            "firstname": [
+                "Piotr"
+            ],
+            "lastname": [
+                "Gąsiorowski"
+            ],
+            "year": 2017,
+            "reference": "Gąsiorowski (2017)",
+            "internalreference": "Gąsiorowski4"
+        },
+        {
+            "title": "Multipartite Negation Markers and Phasal Adverbs in Ancient Indo-European Languages",
+            "firstname": [
+                "Olav"
+            ],
+            "lastname": [
+                "Hackstein"
+            ],
+            "year": 2017,
+            "reference": "Hackstein (2017)",
+            "internalreference": "Hackstein0"
+        },
+        {
+            "title": "Allative Formations",
+            "subtitle": "Homeric Greek ἄλλυδις ἄλλη, Old Latin alii aliā and Congeners",
+            "firstname": [
+                "Olav"
+            ],
+            "lastname": [
+                "Hackstein"
+            ],
+            "year": 2018,
+            "reference": "Hackstein (2018)",
+            "internalreference": "Hackstein1"
+        },
+        {
+            "title": "Neg > Q",
+            "subtitle": "Die lateinische Interrogativpartikel ⸗ne",
+            "firstname": [
+                "Olav"
+            ],
+            "lastname": [
+                "Hackstein"
+            ],
+            "year": 2018,
+            "reference": "Hackstein (2018)",
+            "internalreference": "Hackstein2"
+        },
+        {
+            "title": "From Possessive to Agentive",
+            "subtitle": "The Emergence of Agentivity in Possessive Adjectives",
+            "firstname": [
+                "Olav"
+            ],
+            "lastname": [
+                "Hackstein"
+            ],
+            "year": 2019,
+            "reference": "Hackstein (2019)",
+            "internalreference": "Hackstein3"
+        },
+        {
+            "title": "Archaisms and innovations",
+            "subtitle": "Four interconnected studies on Germanic historical phonology and morphology",
+            "firstname": [
+                "Bjarne Simmelkjær Sandgaard"
+            ],
+            "lastname": [
+                "Hansen"
+            ],
+            "year": 2014,
+            "reference": "Hansen (2014)",
+            "internalreference": "Hansen0"
+        },
+        {
+            "title": "Layers of root nouns in Germanic",
+            "subtitle": "Chronology, structure and origin",
+            "firstname": [
+                "Bjarne Simmelkjær Sandgaard"
+            ],
+            "lastname": [
+                "Hansen"
+            ],
+            "year": 2017,
+            "reference": "Hansen (2017)",
+            "internalreference": "Hansen1"
+        },
+        {
+            "title": "Wh-questions in Tocharian and implications for PIE reconstruction",
+            "firstname": [
+                "Ryan"
+            ],
+            "lastname": [
+                "Hearn"
+            ],
+            "year": 2017,
+            "reference": "Hearn (2017)",
+            "internalreference": "Hearn0"
+        },
+        {
+            "title": "Phonological evidence for a Proto-Baltic stage in the evolution of East and West Baltic",
+            "firstname": [
+                "Eugen"
+            ],
+            "lastname": [
+                "Hill"
+            ],
+            "year": 2016,
+            "reference": "Hill (2016)",
+            "internalreference": "Hill0"
+        },
+        {
+            "title": "The authority of truth and the origin of ὅσιος and ἔτυμος (= Skt. satyá‑ and tūtumá‑) with an excursus on pre-consonantal laryngeal loss",
+            "firstname": [
+                "George"
+            ],
+            "lastname": [
+                "Hinge"
+            ],
+            "year": 2007,
+            "reference": "Hinge (2007)",
+            "internalreference": "Hinge0"
+        },
+        {
+            "title": "Aspects of the Indo-European Aorist and Imperfect",
+            "subtitle": "Re-evaluating the evidence of the R̥gveda and Homer and its implications for PIE",
+            "firstname": [
+                "Ian"
+            ],
+            "lastname": [
+                "Hollenbaugh"
+            ],
+            "year": 2018,
+            "reference": "Hollenbaugh (2018)",
+            "internalreference": "Hollenbaugh0"
+        },
+        {
+            "title": "The Water Spirit",
+            "subtitle": "Greek νὐμφη, Sanskrit Rámbhā, Lithuanian Lãumė and Some Other Possibly Related Forms",
+            "firstname": [
+                "Adam"
+            ],
+            "lastname": [
+                "Hyllested"
+            ],
+            "location": "Copenhagen",
+            "year": 2004,
+            "reference": "Hyllested (2004)",
+            "internalreference": "Hyllested0"
+        },
+        {
+            "title": "A Look over Lat. umerus",
+            "firstname": [
+                "Stefan"
+            ],
+            "lastname": [
+                "Höfler"
+            ],
+            "year": 2017,
+            "reference": "Höfler (2017)",
+            "internalreference": "Höfler0"
+        },
+        {
+            "title": "Medb 'the intoxicating one'? (Re-)constructing the past through etymology",
+            "firstname": [
+                "Britta"
+            ],
+            "lastname": [
+                "Irslinger"
+            ],
+            "year": 2013,
+            "reference": "Irslinger (2013)",
+            "internalreference": "Irslinger0"
+        },
+        {
+            "title": "*-bhi, *-bhis, *-ōis",
+            "subtitle": "following the trail of the PIE instrumental plural",
+            "firstname": [
+                "Jay"
+            ],
+            "lastname": [
+                "Jasanoff"
+            ],
+            "publisher": "Museum Tusculanum Press",
+            "year": 2009,
+            "reference": "Jasanoff (2009)",
+            "internalreference": "Jasanoff0"
+        },
+        {
+            "title": "The Local Scripts of Archaic Greece",
+            "subtitle": "a Study on the Origin of the Greek Alphabet and its Development from the Eighth to the Fifth Centuries B.C.",
+            "firstname": [
+                "L. H."
+            ],
+            "lastname": [
+                "Jeffery"
+            ],
+            "location": "Oxford",
+            "publisher": "University Press",
+            "year": 1963,
+            "reference": "Jeffery (1963)",
+            "internalreference": "Jeffery0"
+        },
+        {
+            "title": "Franco",
+            "subtitle": "Soldier, Commander, Dictator",
+            "firstname": [
+                "Geoffrey"
+            ],
+            "lastname": [
+                "Jensen"
+            ],
+            "location": "Dulles",
+            "publisher": "Potomac Books Inc.",
+            "year": 2005,
+            "reference": "Jensen (2005)",
+            "internalreference": "Jensen0"
+        },
+        {
+            "title": "Two Indo-European Verbal Roots *leĝ-and *sleĝ- in the Light of Old and New Lexical Data",
+            "firstname": [
+                "Elwira"
+            ],
+            "lastname": [
+                "Kaczyńska"
+            ],
+            "year": 2016,
+            "reference": "Kaczyńska (2016)",
+            "internalreference": "Kaczyńska0"
+        },
+        {
+            "title": "Reconstruction of Balto-Slavic Personal Pronouns with Emphasis on Accentuation",
+            "firstname": [
+                "Mate"
+            ],
+            "lastname": [
+                "Kapović"
+            ],
+            "year": 2006,
+            "reference": "Kapović (2006)",
+            "internalreference": "Kapović0"
+        },
+        {
+            "title": "Germanic *axwō- and Latin aqua",
+            "firstname": [
+                "Douglas G."
+            ],
+            "lastname": [
+                "Kilday"
+            ],
+            "year": 2015,
+            "reference": "Kilday (2015)",
+            "internalreference": "Kilday0"
+        },
+        {
+            "title": "Latin sāl, pār, mās, and lār",
+            "firstname": [
+                "Douglas G."
+            ],
+            "lastname": [
+                "Kilday"
+            ],
+            "year": 2016,
+            "reference": "Kilday (2016)",
+            "internalreference": "Kilday1"
+        },
+        {
+            "title": "The continuation of Proto-Indo-European lexical accent in Ancient Greek",
+            "subtitle": "preservation and reanalysis",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2002,
+            "reference": "Kim (2002)",
+            "internalreference": "Kim0"
+        },
+        {
+            "title": "Greek monosyllabic imperatives in -ς",
+            "subtitle": "the endurance of a morphophonological pattern",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2004,
+            "reference": "Kim (2004)",
+            "internalreference": "Kim1"
+        },
+        {
+            "title": "Possible Tocharian evidence for root ablaut in PIE thematic presents?",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2010,
+            "reference": "Kim (2010)",
+            "internalreference": "Kim2"
+        },
+        {
+            "title": "Typology, grammaticalization, and the reconstruction of the Proto-Indo-European case system",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2010,
+            "reference": "Kim (2010)",
+            "internalreference": "Kim3"
+        },
+        {
+            "title": "The Indo-European, Anatolian, and Tocharian “secondary” cases in typological perspective",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2012,
+            "reference": "Kim (2012)",
+            "internalreference": "Kim4"
+        },
+        {
+            "title": "The PIE thematic animate accusative plural revisited",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2012,
+            "reference": "Kim (2012)",
+            "internalreference": "Kim5"
+        },
+        {
+            "title": "The PIE thematic animate accusative plural revisited",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2012,
+            "reference": "Kim (2012)",
+            "internalreference": "Kim6"
+        },
+        {
+            "title": "A tale of two suffixes",
+            "subtitle": "*‑h2‑, *‑ih2‑, and the evolution of feminine gender in Indo‑European",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2014,
+            "reference": "Kim (2014)",
+            "internalreference": "Kim7"
+        },
+        {
+            "title": "Studies in Armenian historical phonology (II)",
+            "subtitle": "Early raising of mid vowels in Auslaut",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2016,
+            "reference": "Kim (2016)",
+            "internalreference": "Kim8"
+        },
+        {
+            "title": "Studies in Armenian historical phonology I",
+            "subtitle": "aspiration and spirantization of PIE voiceless stops",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2016,
+            "reference": "Kim (2016)",
+            "internalreference": "Kim9"
+        },
+        {
+            "title": "Greco-Armenian: the persistence of a myth",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2018,
+            "reference": "Kim (2018)",
+            "internalreference": "Kim10"
+        },
+        {
+            "title": "One hundred years of re-reconstruction",
+            "subtitle": "Hittite, Tocharian, and the continuing revision of Proto-Indo-European",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2018,
+            "reference": "Kim (2018)",
+            "internalreference": "Kim11"
+        },
+        {
+            "title": "The 2pl. middle ending in Proto-Indo-European",
+            "firstname": [
+                "Ronald I."
+            ],
+            "lastname": [
+                "Kim"
+            ],
+            "year": 2019,
+            "reference": "Kim (2019)",
+            "internalreference": "Kim12"
+        },
+        {
+            "title": "Studien zur Geschichte des griechischen Alphabets",
+            "firstname": [
+                "Adolf"
+            ],
+            "lastname": [
+                "Kirchhoff"
+            ],
+            "location": "Berlin",
+            "publisher": "Ferd. Dümmler's Verlags-Buchhandlung",
+            "year": 1877,
+            "reference": "Kirchhoff (1877)",
+            "internalreference": "Kirchhoff0"
+        },
+        {
+            "title": "Handbook of Comparative and Historical Indo-European Linguistics",
+            "firstname": [
+                "Jared"
+            ],
+            "lastname": [
+                "Klein"
+            ],
+            "etal": true,
+            "location": "Berlin/Boston",
+            "publisher": "Walter de Gruyter GmbH",
+            "year": 2017,
+            "reference": "Klein (2017)",
+            "internalreference": "Klein0"
+        },
+        {
+            "title": "Remnants of r/n-Stem Heteroclite Inflection in Germanic",
+            "firstname": [
+                "Jenne"
+            ],
+            "lastname": [
+                "Klimp"
+            ],
+            "year": 2013,
+            "reference": "Klimp (2013)",
+            "internalreference": "Klimp0"
+        },
+        {
+            "title": "Etymological Dictionary of the Hittite Inherited Lexicon",
+            "firstname": [
+                "Alwin"
+            ],
+            "lastname": [
+                "Kloekhorst"
+            ],
+            "location": "Leiden/Boston",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2008,
+            "reference": "Kloekhorst (2008)",
+            "internalreference": "Kloekhorst0"
+        },
+        {
+            "title": "Proto-Indo-European “thorn”-clusters",
+            "firstname": [
+                "Alwin"
+            ],
+            "lastname": [
+                "Kloekhorst"
+            ],
+            "year": 2014,
+            "reference": "Kloekhorst (2014)",
+            "internalreference": "Kloekhorst1"
+        },
+        {
+            "title": "Prosody and the Old Celtic Verbal Complex",
+            "firstname": [
+                "John T."
+            ],
+            "lastname": [
+                "Koch"
+            ],
+            "year": 1987,
+            "reference": "Koch (1987)",
+            "internalreference": "Koch0"
+        },
+        {
+            "title": "The disintegration of the Indo-European language family",
+            "firstname": [
+                "Frederik"
+            ],
+            "lastname": [
+                "Kortlandt"
+            ],
+            "year": 0,
+            "reference": "Kortlandt (0)",
+            "internalreference": "Kortlandt0"
+        },
+        {
+            "title": "Toward a reconstruction of the Balto-Slavic verbal system",
+            "firstname": [
+                "Frederik"
+            ],
+            "lastname": [
+                "Kortlandt"
+            ],
+            "year": 1979,
+            "reference": "Kortlandt (1979)",
+            "internalreference": "Kortlandt1"
+        },
+        {
+            "title": "On final syllables in Slavic",
+            "firstname": [
+                "Frederik"
+            ],
+            "lastname": [
+                "Kortlandt"
+            ],
+            "year": 1983,
+            "reference": "Kortlandt (1983)",
+            "internalreference": "Kortlandt2"
+        },
+        {
+            "title": "Proto-Indo-European tones?",
+            "firstname": [
+                "Frederik"
+            ],
+            "lastname": [
+                "Kortlandt"
+            ],
+            "year": 1986,
+            "reference": "Kortlandt (1986)",
+            "internalreference": "Kortlandt3"
+        },
+        {
+            "title": "Old Irish verb morphology",
+            "firstname": [
+                "Frederik"
+            ],
+            "lastname": [
+                "Kortlandt"
+            ],
+            "year": 2006,
+            "reference": "Kortlandt (2006)",
+            "internalreference": "Kortlandt4"
+        },
+        {
+            "title": "The Indo-European k-aorist",
+            "firstname": [
+                "Frederik"
+            ],
+            "lastname": [
+                "Kortlandt"
+            ],
+            "year": 2016,
+            "reference": "Kortlandt (2016)",
+            "internalreference": "Kortlandt5"
+        },
+        {
+            "title": "Phoenician-Punic Dictionary",
+            "firstname": [
+                "Charles R."
+            ],
+            "lastname": [
+                "Krahmalkov"
+            ],
+            "location": "Leuven",
+            "publisher": "Éditions Peeters",
+            "year": 2000,
+            "reference": "Krahmalkov (2000)",
+            "internalreference": "Krahmalkov0"
+        },
+        {
+            "title": "A Phoenician-Punic Grammar",
+            "firstname": [
+                "Charles R."
+            ],
+            "lastname": [
+                "Krahmalkov"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2001,
+            "reference": "Krahmalkov (2001)",
+            "internalreference": "Krahmalkov1"
+        },
+        {
+            "title": "Proto-Indo-European *tsel- ‘to sneak’ and Germanic *stelan- ‘to steal, approach stealthily’",
+            "firstname": [
+                "Guus",
+                "Alexander"
+            ],
+            "lastname": [
+                "Kroonen",
+                "Lubotsky"
+            ],
+            "year": 2009,
+            "reference": "Kroonen (2009)",
+            "internalreference": "Kroonen0"
+        },
+        {
+            "title": "Consonant gradation in the Proto-Germanic iteratives",
+            "firstname": [
+                "Guus"
+            ],
+            "lastname": [
+                "Kroonen"
+            ],
+            "year": 2012,
+            "reference": "Kroonen (2012)",
+            "internalreference": "Kroonen1"
+        },
+        {
+            "title": "Reflections on the o/zero-Ablaut in the Germanic iterative verbs",
+            "firstname": [
+                "Guus"
+            ],
+            "lastname": [
+                "Kroonen"
+            ],
+            "year": 2012,
+            "reference": "Kroonen (2012)",
+            "internalreference": "Kroonen2"
+        },
+        {
+            "title": "Etymological Dictionary of Proto-Germanic",
+            "firstname": [
+                "Guus"
+            ],
+            "lastname": [
+                "Kroonen"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2013,
+            "reference": "Kroonen (2013)",
+            "internalreference": "Kroonen3"
+        },
+        {
+            "title": "n the origin of Greek μῆλον, Latin mālum, Albanian mollë and Hittite šam(a)lu- ‘apple’",
+            "firstname": [
+                "Guus"
+            ],
+            "lastname": [
+                "Kroonen"
+            ],
+            "year": 2016,
+            "reference": "Kroonen (2016)",
+            "internalreference": "Kroonen4"
+        },
+        {
+            "title": "Lachmann’s Law, Thurneysen’s Law, and a New Explanation of the PIE no-Participles",
+            "firstname": [
+                "Guus"
+            ],
+            "lastname": [
+                "Kroonen"
+            ],
+            "year": 2018,
+            "reference": "Kroonen (2018)",
+            "internalreference": "Kroonen5"
+        },
+        {
+            "title": "Reduplication in the Vedic verb",
+            "subtitle": "Indo-European inheritance, analogy and iconicity",
+            "firstname": [
+                "Leonid"
+            ],
+            "lastname": [
+                "Kulikov"
+            ],
+            "year": 2005,
+            "reference": "Kulikov (2005)",
+            "internalreference": "Kulikov0"
+        },
+        {
+            "title": "The Proto-Indo-European case system and its reflexes in a diachronic typological perspective",
+            "subtitle": "Evidence for the linguistic prehistory of Eurasia",
+            "firstname": [
+                "Leonid"
+            ],
+            "lastname": [
+                "Kulikov"
+            ],
+            "year": 2012,
+            "reference": "Kulikov (2012)",
+            "internalreference": "Kulikov1"
+        },
+        {
+            "title": "Proto-Indo-European Syntax and its Development",
+            "firstname": [
+                "Leonid",
+                "Nikolaos"
+            ],
+            "lastname": [
+                "Kulikov",
+                "Lavidas"
+            ],
+            "in": "Benjamins Current Topics",
+            "location": "Amsterdam/Philadelphia",
+            "publisher": "John Benjamins Publishing Company",
+            "year": 2015,
+            "reference": "Kulikov (2015)",
+            "internalreference": "Kulikov2"
+        },
+        {
+            "title": "From Indo-European to Latin",
+            "subtitle": "The evolution of a morphosyntactic type",
+            "firstname": [
+                "Helena"
+            ],
+            "lastname": [
+                "Kurzová"
+            ],
+            "in": "Current Issues in Linguistic Theory",
+            "location": "Amsterdam/Philadelphia",
+            "publisher": "John Benjamins Publishing Company",
+            "year": 1993,
+            "reference": "Kurzová (1993)",
+            "internalreference": "Kurzová0"
+        },
+        {
+            "title": "Vowel reduction and loss",
+            "subtitle": "challenges and perspectives",
+            "firstname": [
+                "Natalia",
+                "Cormac"
+            ],
+            "lastname": [
+                "Kuznetsova",
+                "Anderson"
+            ],
+            "year": 2020,
+            "reference": "Kuznetsova (2020)",
+            "internalreference": "Kuznetsova0"
+        },
+        {
+            "title": "Ungeklärtes *u neben Liquida in germanischen Nomina",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2004,
+            "reference": "Kümmel (2004)",
+            "internalreference": "Kümmel0"
+        },
+        {
+            "title": "The third person endings of the Old Latin perfect and the fate of final -d in Latin",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2007,
+            "reference": "Kümmel (2007)",
+            "internalreference": "Kümmel1"
+        },
+        {
+            "title": "The distribution of IE roots in *ND",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2012,
+            "reference": "Kümmel (2012)",
+            "internalreference": "Kümmel2"
+        },
+        {
+            "title": "Typology and reconstruction",
+            "subtitle": "The consonants and vowels of Proto-Indo-European",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2012,
+            "reference": "Kümmel (2012)",
+            "internalreference": "Kümmel3"
+        },
+        {
+            "title": "The lengthened grade in the nominative singular",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2013,
+            "reference": "Kümmel (2013)",
+            "internalreference": "Kümmel4"
+        },
+        {
+            "title": "Zum “proterokinetischen” Ablaut",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2014,
+            "reference": "Kümmel (2014)",
+            "internalreference": "Kümmel5"
+        },
+        {
+            "title": "Addenda und Corrigenda zu LIV²",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2015,
+            "reference": "Kümmel (2015)",
+            "internalreference": "Kümmel6"
+        },
+        {
+            "title": "Das dünkt mich dunkel",
+            "subtitle": "Germanische etymologische Probleme",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2016,
+            "reference": "Kümmel (2016)",
+            "internalreference": "Kümmel7"
+        },
+        {
+            "title": "Is ancient old and modern new?",
+            "subtitle": "Fallacies of attestation and reconstruction (with special focus on Indo-Iranian)",
+            "firstname": [
+                "Martin Joachim"
+            ],
+            "lastname": [
+                "Kümmel"
+            ],
+            "year": 2016,
+            "reference": "Kümmel (2016)",
+            "internalreference": "Kümmel8"
+        },
+        {
+            "title": "Un calendrier celtique",
+            "subtitle": "le calendrier gaulois de Coligny",
+            "firstname": [
+                "Jean-Michel",
+                "Paul"
+            ],
+            "lastname": [
+                "Le Contel",
+                "Verdier"
+            ],
+            "location": "Paris",
+            "publisher": "Editions Errance",
+            "year": 1997,
+            "reference": "Le Contel (1997)",
+            "internalreference": "Le Contel0"
+        },
+        {
+            "title": "The Oxford Guide to the Romance Languages",
+            "firstname": [
+                "Adam",
+                "Martin"
+            ],
+            "lastname": [
+                "Ledgeway",
+                "Maiden"
+            ],
+            "location": "Oxford",
+            "publisher": "University Press",
+            "year": 2016,
+            "reference": "Ledgeway (2016)",
+            "internalreference": "Ledgeway0"
+        },
+        {
+            "title": "Proto-Indo-European Syntax",
+            "firstname": [
+                "Winfred P."
+            ],
+            "lastname": [
+                "Lehmann"
+            ],
+            "location": "Leiden",
+            "publisher": "E.J. Brill",
+            "year": 1986,
+            "reference": "Lehmann (1986)",
+            "internalreference": "Lehmann0"
+        },
+        {
+            "title": "Latin tree names and the European substratum",
+            "firstname": [
+                "Corinna"
+            ],
+            "lastname": [
+                "Leschber"
+            ],
+            "year": 2012,
+            "reference": "Leschber (2012)",
+            "internalreference": "Leschber0"
+        },
+        {
+            "title": "A dictionary of Late Egyptian",
+            "firstname": [
+                "Leonard H."
+            ],
+            "lastname": [
+                "Lesko"
+            ],
+            "location": "Providence",
+            "publisher": "B.C. Scribe Publications",
+            "year": 2004,
+            "reference": "Lesko (2004)",
+            "internalreference": "Lesko0"
+        },
+        {
+            "title": "Proto-Indo-European 'Turn' and 'Snake'",
+            "firstname": [
+                "Orsat"
+            ],
+            "lastname": [
+                "Ligoria"
+            ],
+            "year": 2019,
+            "reference": "Ligoria (2019)",
+            "internalreference": "Ligoria0"
+        },
+        {
+            "title": "κρέας, kravíḥ and the original nom.-acc. sg. of the IE s-stem neuters",
+            "firstname": [
+                "Roland"
+            ],
+            "lastname": [
+                "Litscher"
+            ],
+            "year": 2007,
+            "reference": "Litscher (2007)",
+            "internalreference": "Litscher0"
+        },
+        {
+            "title": "The Nominative of PIE *eh₂- and *ih₂-Stems",
+            "firstname": [
+                "Roland"
+            ],
+            "lastname": [
+                "Litscher"
+            ],
+            "year": 2013,
+            "reference": "Litscher (2013)",
+            "internalreference": "Litscher1"
+        },
+        {
+            "title": "Ancient Egyptian",
+            "subtitle": "A Linguistic Introduction",
+            "firstname": [
+                "Antonio"
+            ],
+            "lastname": [
+                "Loprieno"
+            ],
+            "location": "Cambridge",
+            "publisher": "University Press",
+            "year": 1995,
+            "reference": "Loprieno (1995)",
+            "internalreference": "Loprieno0"
+        },
+        {
+            "title": "From Ancient Egyptian to Coptic",
+            "firstname": [
+                "Antonio"
+            ],
+            "lastname": [
+                "Loprieno"
+            ],
+            "in": "Language Typology and Language Universals",
+            "location": "Berlin",
+            "publisher": "Walter de Gruyter",
+            "year": 2001,
+            "reference": "Loprieno (2001)",
+            "internalreference": "Loprieno1"
+        },
+        {
+            "title": "Caland Adjectives in *-nt- and Participles in Sanskrit and Proto-Indo-European",
+            "firstname": [
+                "John J."
+            ],
+            "lastname": [
+                "Lowe"
+            ],
+            "year": 2011,
+            "reference": "Lowe (2011)",
+            "internalreference": "Lowe0"
+        },
+        {
+            "title": "Gr. pḗgnumi : Skt. pajrá- and loss of laryngeals before mediae in Indo-Iranian",
+            "firstname": [
+                "Alexander M."
+            ],
+            "lastname": [
+                "Lubotsky"
+            ],
+            "year": 1981,
+            "reference": "Lubotsky (1981)",
+            "internalreference": "Lubotsky0"
+        },
+        {
+            "title": "Against a Proto-Indo-European phoneme *a",
+            "firstname": [
+                "Alexander M."
+            ],
+            "lastname": [
+                "Lubotsky"
+            ],
+            "year": 1989,
+            "reference": "Lubotsky (1989)",
+            "internalreference": "Lubotsky1"
+        },
+        {
+            "title": "Avestan siiazd-, Sanskrit sedh-, Latin cēdere ‘to flinch’",
+            "firstname": [
+                "Alexander M."
+            ],
+            "lastname": [
+                "Lubotsky"
+            ],
+            "year": 2004,
+            "reference": "Lubotsky (2004)",
+            "internalreference": "Lubotsky2"
+        },
+        {
+            "title": "Indo-European 'heel'",
+            "firstname": [
+                "Alexander M."
+            ],
+            "lastname": [
+                "Lubotsky"
+            ],
+            "year": 2006,
+            "reference": "Lubotsky (2006)",
+            "internalreference": "Lubotsky3"
+        },
+        {
+            "title": "On the grammaticalization of kwi-/kwo- relative clauses in Proto-Indo-European",
+            "firstname": [
+                "Eugenio R."
+            ],
+            "lastname": [
+                "Luján"
+            ],
+            "year": 2009,
+            "reference": "Luján (2009)",
+            "internalreference": "Luján0"
+        },
+        {
+            "title": "On the Accentuation of Compound s-Stem Adjectives in Greek and Vedic",
+            "firstname": [
+                "Jesse"
+            ],
+            "lastname": [
+                "Lundquist"
+            ],
+            "year": 2016,
+            "reference": "Lundquist (2016)",
+            "internalreference": "Lundquist0"
+        },
+        {
+            "title": "The Morphology of Proto-Indo-European",
+            "firstname": [
+                "Jesse",
+                "Anthony D."
+            ],
+            "lastname": [
+                "Lundquist",
+                "Yates"
+            ],
+            "location": "Los Angeles",
+            "year": 2018,
+            "reference": "Lundquist (2018)",
+            "internalreference": "Lundquist1"
+        },
+        {
+            "title": "Basic valency orientation, the anticausative alternation, and voice in PIE",
+            "firstname": [
+                "Silvia"
+            ],
+            "lastname": [
+                "Luraghi"
+            ],
+            "year": 2016,
+            "reference": "Luraghi (2016)",
+            "internalreference": "Luraghi0"
+        },
+        {
+            "title": "The dative of agent in Indo-European languages",
+            "firstname": [
+                "Silvia"
+            ],
+            "lastname": [
+                "Luraghi"
+            ],
+            "year": 2016,
+            "reference": "Luraghi (2016)",
+            "internalreference": "Luraghi1"
+        },
+        {
+            "title": "On the Notation and Chronography of the Calendar of Coligny",
+            "firstname": [
+                "Eóin"
+            ],
+            "lastname": [
+                "Mac Neill"
+            ],
+            "year": 1926,
+            "reference": "Mac Neill (1926)",
+            "internalreference": "Mac Neill0"
+        },
+        {
+            "title": "The 'fiver'",
+            "subtitle": "Germanic 'finger', Balto-Slavic de-numeral adjectives in *-ero- and their Indo-European background",
+            "firstname": [
+                "Marek"
+            ],
+            "lastname": [
+                "Majer"
+            ],
+            "year": 2017,
+            "reference": "Majer (2017)",
+            "internalreference": "Majer0"
+        },
+        {
+            "title": "In Search of the Indo-Europeans",
+            "subtitle": "Language, Archeology and Myth",
+            "firstname": [
+                "J. P."
+            ],
+            "lastname": [
+                "Mallory"
+            ],
+            "publisher": "Thames and Hudson",
+            "year": 1989,
+            "reference": "Mallory (1989)",
+            "internalreference": "Mallory0"
+        },
+        {
+            "title": "Enclyclopedia of Indo-European Culture",
+            "firstname": [
+                "J. P.",
+                "D. Q."
+            ],
+            "lastname": [
+                "Mallory",
+                "Adams"
+            ],
+            "location": "London/Chicago",
+            "publisher": "Fitzroy Dearborn Publishers",
+            "year": 1997,
+            "reference": "Mallory (1997)",
+            "internalreference": "Mallory1"
+        },
+        {
+            "title": "The Oxford Introduction to Proto-Indo-European and the Proto-Indo-European World",
+            "firstname": [
+                "J. P.",
+                "D. Q."
+            ],
+            "lastname": [
+                "Mallory",
+                "Adams"
+            ],
+            "location": "New York",
+            "publisher": "Oxford University Press Inc.",
+            "year": 2006,
+            "reference": "Mallory (2006)",
+            "internalreference": "Mallory2"
+        },
+        {
+            "title": "3:3, 5:1, or 4:2?",
+            "subtitle": "On the Ablaut of the Root Aorist in Greek and Indo-European",
+            "firstname": [
+                "Melanie"
+            ],
+            "lastname": [
+                "Malzahn"
+            ],
+            "year": 2004,
+            "reference": "Malzahn (2004)",
+            "internalreference": "Malzahn0"
+        },
+        {
+            "title": "Etymological Dictionary of the Armenian Inherited Lexicon",
+            "firstname": [
+                "Hrach K."
+            ],
+            "lastname": [
+                "Martirosyan"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2010,
+            "reference": "Martirosyan (2010)",
+            "internalreference": "Martirosyan0"
+        },
+        {
+            "title": "The belly of an Indo-European",
+            "subtitle": "Some Greek and Iranian cognates of IE merĝ- ‘to divide, cut’*",
+            "firstname": [
+                "Laura"
+            ],
+            "lastname": [
+                "Massetti"
+            ],
+            "year": 2015,
+            "reference": "Massetti (2015)",
+            "internalreference": "Massetti0"
+        },
+        {
+            "title": "Clause alignment in Proto-Indo-European",
+            "firstname": [
+                "Ranko"
+            ],
+            "lastname": [
+                "Matasović"
+            ],
+            "year": 0,
+            "reference": "Matasović (0)",
+            "internalreference": "Matasović0"
+        },
+        {
+            "title": "Latin opīnor",
+            "firstname": [
+                "Ranko"
+            ],
+            "lastname": [
+                "Matasović"
+            ],
+            "year": 0,
+            "reference": "Matasović (0)",
+            "internalreference": "Matasović1"
+        },
+        {
+            "title": "A Grammatical Sketch of Classical Armenian",
+            "firstname": [
+                "Ranko"
+            ],
+            "lastname": [
+                "Matasović"
+            ],
+            "location": "Zagreb",
+            "year": 2009,
+            "reference": "Matasović (2009)",
+            "internalreference": "Matasović2"
+        },
+        {
+            "title": "Etymological Dictionary of Proto-Celtic",
+            "firstname": [
+                "Ranko"
+            ],
+            "lastname": [
+                "Matasović"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2009,
+            "reference": "Matasović (2009)",
+            "internalreference": "Matasović3"
+        },
+        {
+            "title": "Addenda et corrigenda to Ranko Matasović's Etymological Dictionary of Proto-Celtic (Brill, Leiden 2009)",
+            "firstname": [
+                "Ranko"
+            ],
+            "lastname": [
+                "Matasović"
+            ],
+            "location": "Zagreb",
+            "year": 2011,
+            "reference": "Matasović (2011)",
+            "internalreference": "Matasović4"
+        },
+        {
+            "title": "Dybo's law in Proto-Celtic",
+            "firstname": [
+                "Ranko"
+            ],
+            "lastname": [
+                "Matasović"
+            ],
+            "year": 2012,
+            "reference": "Matasović (2012)",
+            "internalreference": "Matasović5"
+        },
+        {
+            "title": "A Grammatical Sketch of Albanian for Students of Indo-European",
+            "firstname": [
+                "Ranko"
+            ],
+            "lastname": [
+                "Matasović"
+            ],
+            "location": "Zagreb",
+            "year": 2018,
+            "reference": "Matasović (2018)",
+            "internalreference": "Matasović6"
+        },
+        {
+            "title": "Multiple suffixes and nominal word formation in Indo-European languages",
+            "firstname": [
+                "Joachim"
+            ],
+            "lastname": [
+                "Matzinger"
+            ],
+            "year": 2008,
+            "reference": "Matzinger (2008)",
+            "internalreference": "Matzinger0"
+        },
+        {
+            "title": "Trask's Historical Linguistics",
+            "firstname": [
+                "Robert"
+            ],
+            "lastname": [
+                "McColl Miller"
+            ],
+            "location": "London/New York",
+            "publisher": "Routledge",
+            "year": 2015,
+            "reference": "McColl Miller (2015)",
+            "internalreference": "McColl Miller0"
+        },
+        {
+            "title": "S-stem Nouns and Adjectives in Greek and Proto-Indo-European",
+            "subtitle": "A Diachronic Study in Word Formation",
+            "firstname": [
+                "Torsten"
+            ],
+            "lastname": [
+                "Meissner"
+            ],
+            "location": "Oxford",
+            "publisher": "University Press",
+            "year": 2005,
+            "reference": "Meissner (2005)",
+            "internalreference": "Meissner0"
+        },
+        {
+            "title": "Note on Gk. ΦΙΑΡΟΣ, ΦΙΔΡΟΣ, ΦΙΕΡΟΣ (?)",
+            "firstname": [
+                "Biliana"
+            ],
+            "lastname": [
+                "Mihaylova"
+            ],
+            "year": 2010,
+            "reference": "Mihaylova (2010)",
+            "internalreference": "Mihaylova0"
+        },
+        {
+            "title": "Greek σῑμός, σῑ́νομαι and the Indo-European roots *tweH-i- ‘cut, hew’, *tyeh2- ‘strike’",
+            "firstname": [
+                "Biliana"
+            ],
+            "lastname": [
+                "Mihaylova"
+            ],
+            "year": 2012,
+            "reference": "Mihaylova (2012)",
+            "internalreference": "Mihaylova1"
+        },
+        {
+            "title": "On the Reflex of Word Initial RHV- in Greek",
+            "firstname": [
+                "Biliana"
+            ],
+            "lastname": [
+                "Mihaylova"
+            ],
+            "year": 2012,
+            "reference": "Mihaylova (2012)",
+            "internalreference": "Mihaylova2"
+        },
+        {
+            "title": "Once again on Slavic *gluxъ, *glupъ and *glumъ",
+            "firstname": [
+                "Biliana"
+            ],
+            "lastname": [
+                "Mihaylova"
+            ],
+            "year": 2012,
+            "reference": "Mihaylova (2012)",
+            "internalreference": "Mihaylova3"
+        },
+        {
+            "title": "Ancient Greek Dialects and Early Authors",
+            "subtitle": "Introduction to the Dialect Mixture in Homer, with Notes on Lyric and Herodotus",
+            "firstname": [
+                "Gary D."
+            ],
+            "lastname": [
+                "Miller"
+            ],
+            "location": "Boston/Berlin",
+            "publisher": "Walter de Gruyter Inc.",
+            "year": 2014,
+            "reference": "Miller (2014)",
+            "internalreference": "Miller0"
+        },
+        {
+            "title": "The case for the partitive case",
+            "subtitle": "the contribution of Ancient Greek",
+            "firstname": [
+                "Maria"
+            ],
+            "lastname": [
+                "Napoli"
+            ],
+            "year": 2010,
+            "reference": "Napoli (2010)",
+            "internalreference": "Napoli0"
+        },
+        {
+            "title": "Dicionário etimológico da língua portuguêsa",
+            "firstname": [
+                "Antenor"
+            ],
+            "lastname": [
+                "Nascentes"
+            ],
+            "location": "Rio de Janeiro",
+            "publisher": "F. Alves",
+            "year": 1955,
+            "reference": "Nascentes (1955)",
+            "internalreference": "Nascentes0"
+        },
+        {
+            "title": "Wetter",
+            "subtitle": "Etymologie und Lautgesetz",
+            "firstname": [
+                "Sergio"
+            ],
+            "lastname": [
+                "Neri"
+            ],
+            "year": 2017,
+            "reference": "Neri (2017)",
+            "internalreference": "Neri0"
+        },
+        {
+            "title": "The Germanic word for ‘sword’ and delocatival derivation in Proto-Indo-European",
+            "firstname": [
+                "Alexander"
+            ],
+            "lastname": [
+                "Nikolaev"
+            ],
+            "year": 2009,
+            "reference": "Nikolaev (2009)",
+            "internalreference": "Nikolaev0"
+        },
+        {
+            "title": "Indo-European root *dem(h2)- ‘to build’ and its derivatives",
+            "firstname": [
+                "Alexander"
+            ],
+            "lastname": [
+                "Nikolaev"
+            ],
+            "year": 2010,
+            "reference": "Nikolaev (2010)",
+            "internalreference": "Nikolaev1"
+        },
+        {
+            "title": "Time to gather stones together",
+            "subtitle": "Greek λᾶας and its Indo-European background",
+            "firstname": [
+                "Alexander"
+            ],
+            "lastname": [
+                "Nikolaev"
+            ],
+            "year": 2010,
+            "reference": "Nikolaev (2010)",
+            "internalreference": "Nikolaev2"
+        },
+        {
+            "title": "Homeric ἀάατος",
+            "subtitle": "etymology and poetics",
+            "firstname": [
+                "Alexander"
+            ],
+            "lastname": [
+                "Nikolaev"
+            ],
+            "year": 2013,
+            "reference": "Nikolaev (2013)",
+            "internalreference": "Nikolaev3"
+        },
+        {
+            "title": "Greek εἱαμενή",
+            "firstname": [
+                "Alexander"
+            ],
+            "lastname": [
+                "Nikolaev"
+            ],
+            "year": 2015,
+            "reference": "Nikolaev (2015)",
+            "internalreference": "Nikolaev4"
+        },
+        {
+            "title": "The origin of Latin prōsāpia",
+            "firstname": [
+                "Alexander"
+            ],
+            "lastname": [
+                "Nikolaev"
+            ],
+            "year": 2015,
+            "reference": "Nikolaev (2015)",
+            "internalreference": "Nikolaev5"
+        },
+        {
+            "title": "The humī-rule in Italic",
+            "firstname": [
+                "Kanehiro"
+            ],
+            "lastname": [
+                "Nishimura"
+            ],
+            "year": 2018,
+            "reference": "Nishimura (2018)",
+            "internalreference": "Nishimura0"
+        },
+        {
+            "title": "Severe problems",
+            "firstname": [
+                "Alan J."
+            ],
+            "lastname": [
+                "Nussbaum"
+            ],
+            "year": 1998,
+            "reference": "Nussbaum (1998)",
+            "internalreference": "Nussbaum0"
+        },
+        {
+            "title": "Feminine, Abstract, Collective, Neuter Plural",
+            "subtitle": "Some remarks on each",
+            "firstname": [
+                "Alan J."
+            ],
+            "lastname": [
+                "Nussbaum"
+            ],
+            "year": 2014,
+            "reference": "Nussbaum (2014)",
+            "internalreference": "Nussbaum1"
+        },
+        {
+            "title": "A Dedicatory Thigh",
+            "subtitle": "Greek μηρός and μῆρα Once Again",
+            "firstname": [
+                "Alan J."
+            ],
+            "lastname": [
+                "Nussbaum"
+            ],
+            "year": 2018,
+            "reference": "Nussbaum (2018)",
+            "internalreference": "Nussbaum2"
+        },
+        {
+            "title": "Limning Some Limbs",
+            "subtitle": "A Note on Greek μηρός ‘thigh’ and Its Relatives",
+            "firstname": [
+                "Alan J."
+            ],
+            "lastname": [
+                "Nussbaum"
+            ],
+            "year": 2018,
+            "reference": "Nussbaum (2018)",
+            "internalreference": "Nussbaum3"
+        },
+        {
+            "title": "Spēs Exploration",
+            "firstname": [
+                "Alan J."
+            ],
+            "lastname": [
+                "Nussbaum"
+            ],
+            "year": 2021,
+            "reference": "Nussbaum (2021)",
+            "internalreference": "Nussbaum4"
+        },
+        {
+            "title": "Griechische, armenische und albanische ,Frauen‘ und die Wurzel *gu̯en-",
+            "firstname": [
+                "Andreas"
+            ],
+            "lastname": [
+                "Opfermann"
+            ],
+            "year": 2017,
+            "reference": "Opfermann (2017)",
+            "internalreference": "Opfermann0"
+        },
+        {
+            "title": "Albanian Etymological Dictionary",
+            "firstname": [
+                "Vladimir"
+            ],
+            "lastname": [
+                "Orel"
+            ],
+            "location": "Leiden/Boston/Köln",
+            "year": 1998,
+            "reference": "Orel (1998)",
+            "internalreference": "Orel0"
+        },
+        {
+            "title": "A concise historical grammar of the Albanian language",
+            "subtitle": "reconstruction of Proto-Albanian",
+            "firstname": [
+                "Vladimir"
+            ],
+            "lastname": [
+                "Orel"
+            ],
+            "location": "Leiden/Boston/Köln",
+            "year": 2000,
+            "reference": "Orel (2000)",
+            "internalreference": "Orel1"
+        },
+        {
+            "title": "[Review of] Jasanoff Jay H. Prehistory of Balto-Slavic Accent",
+            "firstname": [
+                "Michail"
+            ],
+            "lastname": [
+                "Oslon"
+            ],
+            "year": 2017,
+            "reference": "Oslon (2017)",
+            "internalreference": "Oslon0"
+        },
+        {
+            "title": "Revisiting Proto-Indo-European Schwebeablaut",
+            "firstname": [
+                "Kaspar"
+            ],
+            "lastname": [
+                "Ozolins"
+            ],
+            "year": 2015,
+            "reference": "Ozolins (2015)",
+            "internalreference": "Ozolins0"
+        },
+        {
+            "title": "Proto-Indo-European ‘fox’ and the reconstruction of an athematic ḱ-stem",
+            "firstname": [
+                "Axel I."
+            ],
+            "lastname": [
+                "Palmér"
+            ],
+            "etal": true,
+            "location": "Leiden",
+            "publisher": "Leiden University",
+            "year": 2021,
+            "reference": "Palmér (2021)",
+            "internalreference": "Palmér0"
+        },
+        {
+            "title": "Indo-European Perspectives",
+            "subtitle": "Studies in Honour of Anna Morpurgo Davies",
+            "firstname": [
+                "J. H. W."
+            ],
+            "lastname": [
+                "Penney"
+            ],
+            "location": "Oxford",
+            "publisher": "University Press",
+            "year": 2004,
+            "reference": "Penney (2004)",
+            "internalreference": "Penney0"
+        },
+        {
+            "title": "A History of the Spanish Language",
+            "firstname": [
+                "Ralph"
+            ],
+            "lastname": [
+                "Penny"
+            ],
+            "location": "Cambridge",
+            "publisher": "University Press",
+            "year": 2002,
+            "reference": "Penny (2002)",
+            "internalreference": "Penny0"
+        },
+        {
+            "title": "Lat. salūs ‘health’",
+            "firstname": [
+                "Moss"
+            ],
+            "lastname": [
+                "Pike"
+            ],
+            "year": 2007,
+            "reference": "Pike (2007)",
+            "internalreference": "Pike0"
+        },
+        {
+            "title": "Latin -tās and Related Forms",
+            "firstname": [
+                "Moss"
+            ],
+            "lastname": [
+                "Pike"
+            ],
+            "year": 2011,
+            "reference": "Pike (2011)",
+            "internalreference": "Pike1"
+        },
+        {
+            "title": "Dizionario della lingua etrusca",
+            "firstname": [
+                "Massimo"
+            ],
+            "lastname": [
+                "Pittau"
+            ],
+            "location": "Sassari",
+            "publisher": "Dessi",
+            "year": 2005,
+            "reference": "Pittau (2005)",
+            "internalreference": "Pittau0"
+        },
+        {
+            "title": "The Proto-Indo-European *-VTs# clusters and the formulation of Szemerényi’s Law",
+            "firstname": [
+                "Dariusz R."
+            ],
+            "lastname": [
+                "Piwowarczyk"
+            ],
+            "year": 2015,
+            "reference": "Piwowarczyk (2015)",
+            "internalreference": "Piwowarczyk0"
+        },
+        {
+            "title": "The origin of the Latin -iēs/-ia inflection",
+            "firstname": [
+                "Dariusz R."
+            ],
+            "lastname": [
+                "Piwowarczyk"
+            ],
+            "year": 2016,
+            "reference": "Piwowarczyk (2016)",
+            "internalreference": "Piwowarczyk1"
+        },
+        {
+            "title": "Indo-European Personal Names",
+            "firstname": [
+                "Ernst"
+            ],
+            "lastname": [
+                "Plugram"
+            ],
+            "in": "Language, Vol. 23, No. 3",
+            "publisher": "Linguistic Society of America",
+            "year": 1947,
+            "reference": "Plugram (1947)",
+            "internalreference": "Plugram0"
+        },
+        {
+            "title": "Proto-Indo-European Nominal Morphology",
+            "subtitle": "Part 1. The Noun",
+            "firstname": [
+                "Roland A."
+            ],
+            "lastname": [
+                "Pooth"
+            ],
+            "year": 2015,
+            "reference": "Pooth (2015)",
+            "internalreference": "Pooth0"
+        },
+        {
+            "title": "(Proto-) Indo-European 'to split' and 'to fear'",
+            "firstname": [
+                "Roland A."
+            ],
+            "lastname": [
+                "Pooth"
+            ],
+            "year": 2016,
+            "reference": "Pooth (2016)",
+            "internalreference": "Pooth1"
+        },
+        {
+            "title": "Germanic and the RUKI dialects",
+            "firstname": [
+                "Charles"
+            ],
+            "lastname": [
+                "Prescott"
+            ],
+            "location": "Sussex",
+            "year": 2004,
+            "reference": "Prescott (2004)",
+            "internalreference": "Prescott0"
+        },
+        {
+            "title": "Sanskrit (v)rsabhá-, Greek αρσην, ερσην",
+            "subtitle": "the spraying bull of Indo-European?",
+            "firstname": [
+                "Tijmen"
+            ],
+            "lastname": [
+                "Pronk"
+            ],
+            "year": 2009,
+            "reference": "Pronk (2009)",
+            "internalreference": "Pronk0"
+        },
+        {
+            "title": "On the development of initial *Hu, *Hi and the rise of initial acute diphthongs in Baltic and Slavic",
+            "firstname": [
+                "Tijmen"
+            ],
+            "lastname": [
+                "Pronk"
+            ],
+            "year": 2011,
+            "reference": "Pronk (2011)",
+            "internalreference": "Pronk1"
+        },
+        {
+            "title": "The Saussure effect in Indo-European Languages Other Than Greek",
+            "firstname": [
+                "Tijmen"
+            ],
+            "lastname": [
+                "Pronk"
+            ],
+            "year": 2011,
+            "reference": "Pronk (2011)",
+            "internalreference": "Pronk2"
+        },
+        {
+            "title": "Singulative n-stems in Indo-European",
+            "firstname": [
+                "Tijmen"
+            ],
+            "lastname": [
+                "Pronk"
+            ],
+            "year": 2015,
+            "reference": "Pronk (2015)",
+            "internalreference": "Pronk3"
+        },
+        {
+            "title": "Stang's law in Baltic, Greek and Indo-Iranian",
+            "firstname": [
+                "Tijmen"
+            ],
+            "lastname": [
+                "Pronk"
+            ],
+            "year": 2016,
+            "reference": "Pronk (2016)",
+            "internalreference": "Pronk4"
+        },
+        {
+            "title": "Mars Veneticus and the “palma-rule”",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 0,
+            "reference": "Prósper (0)",
+            "internalreference": "Prósper0"
+        },
+        {
+            "title": "The hispano-celtic divinity ILVRBEDA, gold mining in western hispania and the syntactic context of Celtiberian arkatobezom ‘silver mine’",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2010,
+            "reference": "Prósper (2010)",
+            "internalreference": "Prósper1"
+        },
+        {
+            "title": "Sifting the evidence",
+            "subtitle": "New interpretations on Celtic and Non–Celtic personal names of western Hispania in the light of phonetics, composition and suffixation",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2014,
+            "reference": "Prósper (2014)",
+            "internalreference": "Prósper2"
+        },
+        {
+            "title": "Celtic and non–Celtic divinities from ancient Hispania",
+            "subtitle": "power, daylight, fertility, water spirits and what they can tell us about Indo–European morphology",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2015,
+            "reference": "Prósper (2015)",
+            "internalreference": "Prósper3"
+        },
+        {
+            "title": "The Indo–European ordinal numerals “fourth” and “fifth” and the reconstruction of the Celtic and Italic numeral systems",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2016,
+            "reference": "Prósper (2016)",
+            "internalreference": "Prósper4"
+        },
+        {
+            "title": "Proto–Italic laryngeals in the context ClHC– and new Italic and Celtic etymological connections",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2017,
+            "reference": "Prósper (2017)",
+            "internalreference": "Prósper5"
+        },
+        {
+            "title": "The INDO-EUROPEAN Personal Names of Pannonia, Noricum and Northern Italy",
+            "subtitle": "Comparative and Superlative Forms in Celtic, Venetic, and South-Picene",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2018,
+            "reference": "Prósper (2018)",
+            "internalreference": "Prósper6"
+        },
+        {
+            "title": "What became of “Sabine l”? An overlooked Proto-Italic sound law",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2019,
+            "reference": "Prósper (2019)",
+            "internalreference": "Prósper7"
+        },
+        {
+            "title": "The Sabellic accusative plural endings and the outcome of the Indo-European sibilants in Italic",
+            "firstname": [
+                "Blanca María"
+            ],
+            "lastname": [
+                "Prósper"
+            ],
+            "year": 2020,
+            "reference": "Prósper (2020)",
+            "internalreference": "Prósper8"
+        },
+        {
+            "title": "Myth and Law Among the Indo-Europeans",
+            "subtitle": "Studies in Indo-European Comparative Mythology",
+            "firstname": [
+                "Jaan"
+            ],
+            "lastname": [
+                "Puhvel"
+            ],
+            "location": "Berkeley/Los Angeles/London",
+            "publisher": "University of California Press",
+            "year": 1970,
+            "reference": "Puhvel (1970)",
+            "internalreference": "Puhvel0"
+        },
+        {
+            "title": "The Origins of Tree Names in Celtic",
+            "firstname": [
+                "Gilles"
+            ],
+            "lastname": [
+                "Quentel"
+            ],
+            "year": 2019,
+            "reference": "Quentel (2019)",
+            "internalreference": "Quentel0"
+        },
+        {
+            "title": "From Proto-Indo-European to Proto-Germanic",
+            "firstname": [
+                "Don"
+            ],
+            "lastname": [
+                "Ringe"
+            ],
+            "location": "Oxford",
+            "publisher": "University Press",
+            "year": 2009,
+            "reference": "Ringe (2009)",
+            "internalreference": "Ringe0"
+        },
+        {
+            "title": "LIV, Lexikon der Indogermanischen Verben",
+            "subtitle": "die Wurzeln und ihre Primärstammbildungen",
+            "firstname": [
+                "Helmut"
+            ],
+            "lastname": [
+                "Rix"
+            ],
+            "location": "Wiesbaden",
+            "publisher": "Dr. Ludwig Reichert Verlag",
+            "year": 2001,
+            "reference": "Rix (2001)",
+            "internalreference": "Rix0"
+        },
+        {
+            "title": "Etruscan",
+            "firstname": [
+                "Helmut"
+            ],
+            "lastname": [
+                "Rix"
+            ],
+            "in": "The Ancient Languages of Europe",
+            "location": "Cambridge",
+            "publisher": "University Press",
+            "year": 2010,
+            "reference": "Rix (2010)",
+            "internalreference": "Rix1"
+        },
+        {
+            "title": "Homeric ἐγρήγορθε, ἐγρήγορθαι and ἐγρηγόρθᾱσι",
+            "firstname": [
+                "Zachary"
+            ],
+            "lastname": [
+                "Rothstein-Dowden"
+            ],
+            "year": 2022,
+            "reference": "Rothstein-Dowden (2022)",
+            "internalreference": "Rothstein-Dowden0"
+        },
+        {
+            "title": "The Chimera of Proto-Indo-European Ergativity",
+            "subtitle": "Lessons for Historical Syntax",
+            "firstname": [
+                "Alan"
+            ],
+            "lastname": [
+                "Rumsey"
+            ],
+            "year": 1987,
+            "reference": "Rumsey (1987)",
+            "internalreference": "Rumsey0"
+        },
+        {
+            "title": "Absolute Constructions in Early Indo-European",
+            "firstname": [
+                "Antonia"
+            ],
+            "lastname": [
+                "Ruppel"
+            ],
+            "location": "New York",
+            "publisher": "Cambridge University Press",
+            "year": 2013,
+            "reference": "Ruppel (2013)",
+            "internalreference": "Ruppel0"
+        },
+        {
+            "title": "Some thoughts on Mycenaean o-u-qe",
+            "firstname": [
+                "Ester"
+            ],
+            "lastname": [
+                "Salgarella"
+            ],
+            "year": 2018,
+            "reference": "Salgarella (2018)",
+            "internalreference": "Salgarella0"
+        },
+        {
+            "title": "Evidence for Indo-European Acrostatic Presents in Old Irish?",
+            "firstname": [
+                "Ryan"
+            ],
+            "lastname": [
+                "Sandell"
+            ],
+            "year": 2011,
+            "reference": "Sandell (2011)",
+            "internalreference": "Sandell0"
+        },
+        {
+            "title": "The Morphophonology of Reduplicated Presents in Vedic and Indo-European",
+            "firstname": [
+                "Ryan"
+            ],
+            "lastname": [
+                "Sandell"
+            ],
+            "year": 2011,
+            "reference": "Sandell (2011)",
+            "internalreference": "Sandell1"
+        },
+        {
+            "title": "In Defense of Szemerényi's Law",
+            "firstname": [
+                "Ryan",
+                "Andrew Miles"
+            ],
+            "lastname": [
+                "Sandell",
+                "Byrd"
+            ],
+            "year": 2014,
+            "reference": "Sandell (2014)",
+            "internalreference": "Sandell2"
+        },
+        {
+            "title": "The Phonological Origins of Indo-European Long-Vowel (“Narten”) Presents",
+            "firstname": [
+                "Ryan"
+            ],
+            "lastname": [
+                "Sandell"
+            ],
+            "year": 2014,
+            "reference": "Sandell (2014)",
+            "internalreference": "Sandell3"
+        },
+        {
+            "title": "Vedic dāśvā́ṃs- 'pious one', Homeric ἀδηκότες 'inattentive', and the “long-vowel” perfects of Proto-Indo-European",
+            "firstname": [
+                "Ryan"
+            ],
+            "lastname": [
+                "Sandell"
+            ],
+            "year": 2018,
+            "reference": "Sandell (2018)",
+            "internalreference": "Sandell4"
+        },
+        {
+            "title": "Zur Wortbildung von griechisch ἄγυια, Ἅρπυια, ὄργυια und Verwandten",
+            "firstname": [
+                "Stefan"
+            ],
+            "lastname": [
+                "Schaffner"
+            ],
+            "year": 2019,
+            "reference": "Schaffner (2019)",
+            "internalreference": "Schaffner0"
+        },
+        {
+            "title": "Laryngeal Features of Armenian Dialects",
+            "firstname": [
+                "Giancarlo"
+            ],
+            "lastname": [
+                "Schirru"
+            ],
+            "year": 2012,
+            "reference": "Schirru (2012)",
+            "internalreference": "Schirru0"
+        },
+        {
+            "title": "The Grammaticalization of Antipassives",
+            "firstname": [
+                "Wolfgang"
+            ],
+            "lastname": [
+                "Schultze"
+            ],
+            "year": 2011,
+            "reference": "Schultze (2011)",
+            "internalreference": "Schultze0"
+        },
+        {
+            "title": "Portrait of Linguists",
+            "subtitle": "A Biographical Source Book for the History of Western Linguistics, 1746-1963",
+            "firstname": [
+                "Thomas A."
+            ],
+            "lastname": [
+                "Sebeck"
+            ],
+            "location": "Bristol",
+            "publisher": "Thoemmes Press",
+            "year": 2022,
+            "reference": "Sebeck (2022)",
+            "internalreference": "Sebeck0"
+        },
+        {
+            "title": "Nuevo diccionario etimológico Latín-Español y de las voces derivadas",
+            "firstname": [
+                "Santiago"
+            ],
+            "lastname": [
+                "Segura Munguía"
+            ],
+            "location": "Bilbao",
+            "publisher": "Universidad de Deusto",
+            "year": 2010,
+            "reference": "Segura Munguía (2010)",
+            "internalreference": "Segura Munguía0"
+        },
+        {
+            "title": "The concept of 'a handful', PIE *dḱm̥(t) 'ten/decade', Germanic 'hand', and more",
+            "firstname": [
+                "Eduard"
+            ],
+            "lastname": [
+                "Selleslagh-Suykens"
+            ],
+            "year": 2019,
+            "reference": "Selleslagh-Suykens (2019)",
+            "internalreference": "Selleslagh-Suykens0"
+        },
+        {
+            "title": "PIE *mel-",
+            "subtitle": "Some Anatolian and Greek Thoughts— Gk. μέλω, Hitt. mala-ḫḫi/malāi-mi, CLuv. mali(ya)-",
+            "firstname": [
+                "Matilde"
+            ],
+            "lastname": [
+                "Serangeli"
+            ],
+            "year": 2016,
+            "reference": "Serangeli (2016)",
+            "internalreference": "Serangeli0"
+        },
+        {
+            "title": "Gk. ταπεινός ‘low(-lying)’ and its IE heritage: Gk. PN Τέμπυρα, Hitt. dampu- ‘blunt’, Old Russ. tupъ ‘blunt, stupid’",
+            "firstname": [
+                "Matilde"
+            ],
+            "lastname": [
+                "Serangeli"
+            ],
+            "year": 2019,
+            "reference": "Serangeli (2019)",
+            "internalreference": "Serangeli1"
+        },
+        {
+            "title": "An Approach to Syntactic Reconstruction",
+            "firstname": [
+                "Ilja"
+            ],
+            "lastname": [
+                "Seržant"
+            ],
+            "year": 2015,
+            "reference": "Seržant (2015)",
+            "internalreference": "Seržant0"
+        },
+        {
+            "title": "A History of Indo-European Verb Morphology",
+            "firstname": [
+                "Kenneth C."
+            ],
+            "lastname": [
+                "Shields"
+            ],
+            "in": "Current Issues in Linguistic Theory",
+            "location": "Amsterdam/Philadelphia",
+            "publisher": "John Benjamins Publishing Company",
+            "year": 1992,
+            "reference": "Shields (1992)",
+            "internalreference": "Shields0"
+        },
+        {
+            "title": "New Comparative Grammar of Latin and Greek",
+            "firstname": [
+                "Andrew L."
+            ],
+            "lastname": [
+                "Sihler"
+            ],
+            "location": "New York/Oxford",
+            "publisher": "Oxford University Press",
+            "year": 1995,
+            "reference": "Sihler (1995)",
+            "internalreference": "Sihler0"
+        },
+        {
+            "title": "The Words for 'fire' in Germanic",
+            "firstname": [
+                "Douglas"
+            ],
+            "lastname": [
+                "Simms"
+            ],
+            "year": 2009,
+            "reference": "Simms (2009)",
+            "internalreference": "Simms0"
+        },
+        {
+            "title": "Die Etymologie von caballus",
+            "firstname": [
+                "Zsolt"
+            ],
+            "lastname": [
+                "Simon"
+            ],
+            "year": 2005,
+            "reference": "Simon (2005)",
+            "internalreference": "Simon0"
+        },
+        {
+            "title": "Review of Benjamin W. Fortson: Indo-European Language and Culture. An Introduction",
+            "firstname": [
+                "Zsolt"
+            ],
+            "lastname": [
+                "Simon"
+            ],
+            "year": 2007,
+            "reference": "Simon (2007)",
+            "internalreference": "Simon1"
+        },
+        {
+            "title": "Zur Geschichte des lat. sum",
+            "firstname": [
+                "Zsolt"
+            ],
+            "lastname": [
+                "Simon"
+            ],
+            "year": 2008,
+            "reference": "Simon (2008)",
+            "internalreference": "Simon2"
+        },
+        {
+            "title": "Anatolian Influences on Greek",
+            "firstname": [
+                "Zsolt"
+            ],
+            "lastname": [
+                "Simon"
+            ],
+            "year": 2018,
+            "reference": "Simon (2018)",
+            "internalreference": "Simon3"
+        },
+        {
+            "title": "#RHC- in Germanic",
+            "firstname": [
+                "Kathryn"
+            ],
+            "lastname": [
+                "Spence"
+            ],
+            "year": 2017,
+            "reference": "Spence (2017)",
+            "internalreference": "Spence0"
+        },
+        {
+            "title": "Initial *gʷʰ (and *ǵʰw) in Germanic",
+            "firstname": [
+                "Kathryn"
+            ],
+            "lastname": [
+                "Spence"
+            ],
+            "year": 2017,
+            "reference": "Spence (2017)",
+            "internalreference": "Spence1"
+        },
+        {
+            "title": "Laryngeal Aspiration in Greek",
+            "firstname": [
+                "Kathryn"
+            ],
+            "lastname": [
+                "Spence"
+            ],
+            "year": 2017,
+            "reference": "Spence (2017)",
+            "internalreference": "Spence2"
+        },
+        {
+            "title": "Some etymological musings",
+            "firstname": [
+                "Kathryn"
+            ],
+            "lastname": [
+                "Spence"
+            ],
+            "year": 2017,
+            "reference": "Spence (2017)",
+            "internalreference": "Spence3"
+        },
+        {
+            "title": "PIE Case Endings",
+            "firstname": [
+                "Kathryn"
+            ],
+            "lastname": [
+                "Spence"
+            ],
+            "year": 2018,
+            "reference": "Spence (2018)",
+            "internalreference": "Spence4"
+        },
+        {
+            "title": "The Phonology of Celtic",
+            "firstname": [
+                "David"
+            ],
+            "lastname": [
+                "Stifter"
+            ],
+            "year": 2017,
+            "reference": "Stifter (2017)",
+            "internalreference": "Stifter0"
+        },
+        {
+            "title": "Historical Dictionary of the Etruscans",
+            "firstname": [
+                "Simon K. F."
+            ],
+            "lastname": [
+                "Stoddart"
+            ],
+            "location": "Lanham/Toronto/Plymouth",
+            "publisher": "The Scarecrow Press, Inc.",
+            "year": 2008,
+            "reference": "Stoddart (2008)",
+            "internalreference": "Stoddart0"
+        },
+        {
+            "title": "Phonetics and Philology",
+            "subtitle": "Sound Change in Italic",
+            "firstname": [
+                "Jane"
+            ],
+            "lastname": [
+                "Stuart-Smith"
+            ],
+            "location": "New York",
+            "publisher": "Oxford University Press Inc.",
+            "year": 2004,
+            "reference": "Stuart-Smith (2004)",
+            "internalreference": "Stuart-Smith0"
+        },
+        {
+            "title": "ἵστωρ and ἑορτή",
+            "subtitle": "The Rough-Breathing Reflex of Greek",
+            "firstname": [
+                "Julia"
+            ],
+            "lastname": [
+                "Sturm"
+            ],
+            "year": 2016,
+            "reference": "Sturm (2016)",
+            "internalreference": "Sturm0"
+        },
+        {
+            "title": "Reconstructing Proto-Italo-Celtic",
+            "subtitle": "On the common origins of the phonemic systems and verbal TAM categories of Italic and Celtic",
+            "firstname": [
+                "Cid"
+            ],
+            "lastname": [
+                "Swanenvleugel"
+            ],
+            "year": 2021,
+            "reference": "Swanenvleugel (2021)",
+            "internalreference": "Swanenvleugel0"
+        },
+        {
+            "title": "A Morphological Conflation Approach to the Historical Development of Preterite-Present Verbs",
+            "subtitle": "Old English, Proto-Germanic, and Proto-Indo-European",
+            "firstname": [
+                "Toshiya"
+            ],
+            "lastname": [
+                "Tanaka"
+            ],
+            "year": 2011,
+            "reference": "Tanaka (2011)",
+            "internalreference": "Tanaka0"
+        },
+        {
+            "title": "Etymological Dictionary of Basque",
+            "firstname": [
+                "R. L."
+            ],
+            "lastname": [
+                "Trask"
+            ],
+            "location": "Sussex",
+            "publisher": "University of Sussex",
+            "year": 2008,
+            "reference": "Trask (2008)",
+            "internalreference": "Trask0"
+        },
+        {
+            "title": "Verb incorporation in PIE, and other verbal suffixes",
+            "firstname": [
+                "Miguel Carrasquer"
+            ],
+            "lastname": [
+                "Vidal"
+            ],
+            "year": 2013,
+            "reference": "Vidal (2013)",
+            "internalreference": "Vidal0"
+        },
+        {
+            "title": "The PIE verbal endings (revised)",
+            "firstname": [
+                "Miguel Carrasquer"
+            ],
+            "lastname": [
+                "Vidal"
+            ],
+            "year": 2015,
+            "reference": "Vidal (2015)",
+            "internalreference": "Vidal1"
+        },
+        {
+            "title": "The PIE sound law *-n > *-r",
+            "firstname": [
+                "Miguel Carrasquer"
+            ],
+            "lastname": [
+                "Vidal"
+            ],
+            "year": 2016,
+            "reference": "Vidal (2016)",
+            "internalreference": "Vidal2"
+        },
+        {
+            "title": "Aeolic ὄρπετον and Deverbative *-etós in Greek and Indo-European",
+            "firstname": [
+                "Brent"
+            ],
+            "lastname": [
+                "Vine"
+            ],
+            "location": "Innsbruck",
+            "year": 1998,
+            "reference": "Vine (1998)",
+            "internalreference": "Vine0"
+        },
+        {
+            "title": "The etymology of Greek κώμη and related problems",
+            "firstname": [
+                "Brent"
+            ],
+            "lastname": [
+                "Vine"
+            ],
+            "year": 1998,
+            "reference": "Vine (1998)",
+            "internalreference": "Vine1"
+        },
+        {
+            "title": "Latin aliās 'at another time'",
+            "firstname": [
+                "Brent"
+            ],
+            "lastname": [
+                "Vine"
+            ],
+            "year": 2010,
+            "reference": "Vine (2010)",
+            "internalreference": "Vine2"
+        },
+        {
+            "title": "Initial *mo- in Latin and Italic",
+            "firstname": [
+                "Brent"
+            ],
+            "lastname": [
+                "Vine"
+            ],
+            "year": 2011,
+            "reference": "Vine (2011)",
+            "internalreference": "Vine3"
+        },
+        {
+            "title": "Perspectives on Historical Syntax",
+            "firstname": [
+                "Carlotta"
+            ],
+            "lastname": [
+                "Viti"
+            ],
+            "location": "Amsterdam/Philadelphia",
+            "publisher": "John Benjamins Publishing Company",
+            "year": 2015,
+            "reference": "Viti (2015)",
+            "internalreference": "Viti0"
+        },
+        {
+            "title": "Areal Distribution of Argument Marking in Indo-European",
+            "firstname": [
+                "Carlotta"
+            ],
+            "lastname": [
+                "Viti"
+            ],
+            "year": 2016,
+            "reference": "Viti (2016)",
+            "internalreference": "Viti1"
+        },
+        {
+            "title": "Dictionnaire étymologique de la langue copte",
+            "firstname": [
+                "Werner"
+            ],
+            "lastname": [
+                "Vycichl"
+            ],
+            "location": "Leuven",
+            "publisher": "Éditions Peeters",
+            "year": 1983,
+            "reference": "Vycichl (1983)",
+            "internalreference": "Vycichl0"
+        },
+        {
+            "title": "Introduction au latin vulgaire",
+            "firstname": [
+                "Veikko"
+            ],
+            "lastname": [
+                "Väänänen"
+            ],
+            "location": "Klincksieck",
+            "year": 2006,
+            "reference": "Väänänen (2006)",
+            "internalreference": "Väänänen0"
+        },
+        {
+            "title": "Zikh Rasna",
+            "subtitle": "A Manual of the Etruscan Language and Inscriptions",
+            "firstname": [
+                "Rex E."
+            ],
+            "lastname": [
+                "Wallace"
+            ],
+            "location": "Ann Arbor/New York",
+            "publisher": "Beech Stave Press",
+            "year": 2008,
+            "reference": "Wallace (2008)",
+            "internalreference": "Wallace0"
+        },
+        {
+            "title": "How to kill a dragon",
+            "subtitle": "aspects of Indo-European poetics",
+            "firstname": [
+                "Calvert"
+            ],
+            "lastname": [
+                "Watkins"
+            ],
+            "location": "New York",
+            "publisher": "Oxford University Press",
+            "year": 1995,
+            "reference": "Watkins (1995)",
+            "internalreference": "Watkins0"
+        },
+        {
+            "title": "OCS spodŭ and Avestan spāda-",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 1993,
+            "reference": "Weiss (1993)",
+            "internalreference": "Weiss0"
+        },
+        {
+            "title": "Life Everlasting",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 1994,
+            "reference": "Weiss (1994)",
+            "internalreference": "Weiss1"
+        },
+        {
+            "title": "Review of Kenneth Shields, A History of Indo-European Verb Morphology",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 1994,
+            "reference": "Weiss (1994)",
+            "internalreference": "Weiss2"
+        },
+        {
+            "title": "Greek μυϱίος ‘countless’, Hittite mūri- ‘bunch (of fruit)",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 1996,
+            "reference": "Weiss (1996)",
+            "internalreference": "Weiss3"
+        },
+        {
+            "title": "Latin orbis and its cognates",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 2006,
+            "reference": "Weiss (2006)",
+            "internalreference": "Weiss4"
+        },
+        {
+            "title": "Observations on the Littera Rule",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 2010,
+            "reference": "Weiss (2010)",
+            "internalreference": "Weiss5"
+        },
+        {
+            "title": "Observations on the Prehistory of Latin augur",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 2011,
+            "reference": "Weiss (2011)",
+            "internalreference": "Weiss6"
+        },
+        {
+            "title": "The rite stuff: Lat. rīte, rītus, TB rittetär, TA ritwatär, and Av. raēθβa-",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 2015,
+            "reference": "Weiss (2015)",
+            "internalreference": "Weiss7"
+        },
+        {
+            "title": "On the Prehistory of Latin iūs",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 2017,
+            "reference": "Weiss (2017)",
+            "internalreference": "Weiss8"
+        },
+        {
+            "title": "Limited Latin Grassmann's Law",
+            "subtitle": "Do we Need it?",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 2018,
+            "reference": "Weiss (2018)",
+            "internalreference": "Weiss9"
+        },
+        {
+            "title": "The Etymology of Latin lībra",
+            "firstname": [
+                "Michael"
+            ],
+            "lastname": [
+                "Weiss"
+            ],
+            "year": 2021,
+            "reference": "Weiss (2021)",
+            "internalreference": "Weiss10"
+        },
+        {
+            "title": "The Semitic Languages",
+            "subtitle": "An International Handbook",
+            "firstname": [
+                "Stefan"
+            ],
+            "lastname": [
+                "Weninger"
+            ],
+            "etal": true,
+            "location": "Berlin/Boston",
+            "publisher": "Walter de Gruyter GmbH & Co. KG",
+            "year": 2011,
+            "reference": "Weninger (2011)",
+            "internalreference": "Weninger0"
+        },
+        {
+            "title": "Indo-European Poetry and Myth",
+            "firstname": [
+                "M. L."
+            ],
+            "lastname": [
+                "West"
+            ],
+            "location": "New York",
+            "publisher": "Oxford University Press",
+            "year": 2007,
+            "reference": "West (2007)",
+            "internalreference": "West0"
+        },
+        {
+            "title": "Origins of the Greek Verb",
+            "firstname": [
+                "Andreas"
+            ],
+            "lastname": [
+                "Willi"
+            ],
+            "location": "Cambridge",
+            "publisher": "University Press",
+            "year": 2018,
+            "reference": "Willi (2018)",
+            "internalreference": "Willi0"
+        },
+        {
+            "title": "Studies in Armenian Etymology (1-30)",
+            "firstname": [
+                "Krzysztof"
+            ],
+            "lastname": [
+                "Witczak"
+            ],
+            "year": 1999,
+            "reference": "Witczak (1999)",
+            "internalreference": "Witczak0"
+        },
+        {
+            "title": "Nomina im Indogermanischen Lexikon",
+            "firstname": [
+                "Dagmar S."
+            ],
+            "lastname": [
+                "Wodtko"
+            ],
+            "etal": true,
+            "location": "Memmingen",
+            "publisher": "Universitätsverlag Winter Heidelberg GmbH",
+            "year": 2008,
+            "reference": "Wodtko (2008)",
+            "internalreference": "Wodtko0"
+        },
+        {
+            "title": "On the reality of the laryngeal theory",
+            "subtitle": "a response to Witold Manczak",
+            "firstname": [
+                "Robert"
+            ],
+            "lastname": [
+                "Woodard"
+            ],
+            "year": 2008,
+            "reference": "Woodard (2008)",
+            "internalreference": "Woodard0"
+        },
+        {
+            "title": "Phoinikēia Grammata",
+            "subtitle": "An Alphabet for the Greek Language",
+            "firstname": [
+                "Roger D."
+            ],
+            "lastname": [
+                "Woodard"
+            ],
+            "in": "A Companian to the Ancient Greek Language",
+            "location": "Singapore",
+            "publisher": "Blackwell Publishing Ltd",
+            "year": 2010,
+            "reference": "Woodard (2010)",
+            "internalreference": "Woodard1"
+        },
+        {
+            "title": "Lubotsky's and Beekes' laws, PIE *(H)r-, *(H)i(V)-, *a and some other laryngeal matters",
+            "firstname": [
+                "Robert"
+            ],
+            "lastname": [
+                "Woodard"
+            ],
+            "year": 2011,
+            "reference": "Woodard (2011)",
+            "internalreference": "Woodard2"
+        },
+        {
+            "title": "Some Observations on the Putative Dual Reflexes of PIE *CRHC in Greek and Armenian, Francis' Law and Greek αὐχήν 'neck, etc.'",
+            "firstname": [
+                "Robert"
+            ],
+            "lastname": [
+                "Woodhouse"
+            ],
+            "year": 2015,
+            "reference": "Woodhouse (2015)",
+            "internalreference": "Woodhouse0"
+        },
+        {
+            "title": "Late Latin and Early Romance in Spain and Carolingian France",
+            "firstname": [
+                "Roger"
+            ],
+            "lastname": [
+                "Wright"
+            ],
+            "location": "Liverpool",
+            "publisher": "Francis Cairns",
+            "year": 1982,
+            "reference": "Wright (1982)",
+            "internalreference": "Wright0"
+        },
+        {
+            "title": "Hittite 'fire' and “proterokinesis” as epiphenomenon",
+            "firstname": [
+                "Anthony"
+            ],
+            "lastname": [
+                "Yates"
+            ],
+            "year": 2017,
+            "reference": "Yates (2017)",
+            "internalreference": "Yates0"
+        },
+        {
+            "title": "PIE *–oi-stems were not “amphikinetic”",
+            "subtitle": "Decoupling stress mobility and *o-vocalism",
+            "firstname": [
+                "Anthony"
+            ],
+            "lastname": [
+                "Yates"
+            ],
+            "year": 2018,
+            "reference": "Yates (2018)",
+            "internalreference": "Yates1"
+        },
+        {
+            "title": "Indo-European ablaut and the trap of the leftmost column",
+            "firstname": [
+                "Anthony"
+            ],
+            "lastname": [
+                "Yates"
+            ],
+            "year": 2019,
+            "reference": "Yates (2019)",
+            "internalreference": "Yates2"
+        },
+        {
+            "title": "Suffixal *o-vocalism without “Amphikinesis”",
+            "subtitle": "On Proto-Indo-European *oi-stems and Ablaut as a Diagnostic for Word Stress",
+            "firstname": [
+                "Anthony"
+            ],
+            "lastname": [
+                "Yates"
+            ],
+            "year": 2019,
+            "reference": "Yates (2019)",
+            "internalreference": "Yates3"
+        },
+        {
+            "title": "The phonology, phonetics, and diachrony of Sturtevant's Law",
+            "firstname": [
+                "Anthony"
+            ],
+            "lastname": [
+                "Yates"
+            ],
+            "year": 2019,
+            "reference": "Yates (2019)",
+            "internalreference": "Yates4"
+        },
+        {
+            "title": "PIE *h1eish2- and *h2eis- in Vedic",
+            "firstname": [
+                "Sabine"
+            ],
+            "lastname": [
+                "Ziegler"
+            ],
+            "year": 2012,
+            "reference": "Ziegler (2012)",
+            "internalreference": "Ziegler0"
+        },
+        {
+            "title": "Areal Features of Hittite Conditionals",
+            "subtitle": "Consequences for the Reconstruction of Indo-European",
+            "firstname": [
+                "Marina"
+            ],
+            "lastname": [
+                "Zorman"
+            ],
+            "year": 2017,
+            "reference": "Zorman (2017)",
+            "internalreference": "Zorman0"
+        },
+        {
+            "title": "On the Origins of Attic Reduplication (WeCIEC 25)",
+            "firstname": [
+                "Sam"
+            ],
+            "lastname": [
+                "Zukoff"
+            ],
+            "year": 2014,
+            "reference": "Zukoff (2014)",
+            "internalreference": "Zukoff0"
+        },
+        {
+            "title": "Indo-European Reduplication",
+            "subtitle": "Synchrony, Diachrony, and Theory",
+            "firstname": [
+                "Sam"
+            ],
+            "lastname": [
+                "Zukoff"
+            ],
+            "year": 2017,
+            "reference": "Zukoff (2017)",
+            "internalreference": "Zukoff1"
+        },
+        {
+            "title": "The PIE root structure *Te(R)Dh-",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "year": 1999,
+            "reference": "de Vaan (1999)",
+            "internalreference": "de Vaan0"
+        },
+        {
+            "title": "Etymological Dictionary of Latin and the other Italic Languages",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "location": "Leiden",
+            "publisher": "Koninklijke Brill NV",
+            "year": 2008,
+            "reference": "de Vaan (2008)",
+            "internalreference": "de Vaan1"
+        },
+        {
+            "title": "The derivational history of Greek híppos and hippeús",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "year": 2009,
+            "reference": "de Vaan (2009)",
+            "internalreference": "de Vaan2"
+        },
+        {
+            "title": "Latin danunt",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "year": 2012,
+            "reference": "de Vaan (2012)",
+            "internalreference": "de Vaan3"
+        },
+        {
+            "title": "Latin deverbal presents in -ā-",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "year": 2012,
+            "reference": "de Vaan (2012)",
+            "internalreference": "de Vaan4"
+        },
+        {
+            "title": "On some forms of the athematic root present",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "year": 2012,
+            "reference": "de Vaan (2012)",
+            "internalreference": "de Vaan5"
+        },
+        {
+            "title": "Reduplicated Demonstratives in Ancient Indo-European Languages",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "year": 2015,
+            "reference": "de Vaan (2015)",
+            "internalreference": "de Vaan6"
+        },
+        {
+            "title": "On the homonymy of 'put' and 'suck' in Proto-Indo-European",
+            "firstname": [
+                "Michiel"
+            ],
+            "lastname": [
+                "de Vaan"
+            ],
+            "year": 2019,
+            "reference": "de Vaan (2019)",
+            "internalreference": "de Vaan7"
+        },
+        {
+            "title": "The “Saussure effect” in Greek",
+            "subtitle": "a reinterpretation of the evidence",
+            "firstname": [
+                "Lucien"
+            ],
+            "lastname": [
+                "van Beek"
+            ],
+            "year": 2011,
+            "reference": "van Beek (2011)",
+            "internalreference": "van Beek0"
+        },
+        {
+            "title": "Greek πέδιλον ‘sandal’ and the origin of the e-grade in PIE ‘foot’",
+            "firstname": [
+                "Lucien"
+            ],
+            "lastname": [
+                "van Beek"
+            ],
+            "year": 2018,
+            "reference": "van Beek (2018)",
+            "internalreference": "van Beek1"
+        }
+    ]
+}

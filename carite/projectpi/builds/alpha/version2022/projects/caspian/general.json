@@ -1,0 +1,40 @@
+{
+    "stages": [
+        {
+            "name": "Early-Proto-Caspian",
+            "abbreviation": "EPC",
+            "origin": "Proto-Indo-European",
+            "originabbreviation": "PIE",
+            "orthography": [
+                {
+                    "name": "authentic",
+                    "rules": [
+                        [
+                            "INPUT",
+                            "OUTPUT"
+                        ]
+                    ]
+                }
+            ],
+            "pronunciation": [
+                [
+                    "INPUT",
+                    "OUTPUT"
+                ]
+            ],
+            "allophony": [
+                [
+                    "INPUT",
+                    "OUTPUT"
+                ]
+            ],
+            "cases": [],
+            "noun_numbers": [],
+            "genders": []
+        }
+    ],
+    "general_settings": {
+        "timespent": 337,
+        "lastedited": "2023-02-15T19:03:35.044806"
+    }
+}

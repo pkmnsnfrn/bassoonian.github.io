@@ -1,0 +1,1549 @@
+{
+    "sc": [
+        [
+            {
+                "newchapter": "Laryngeal colouring",
+                "prose": "Likely the earliest traditionally-dateable sound change in Carite, and in Indo-European in general, is ::laryngeal colouring::. As its traces can be seen even within Anatolian, it is likely that an allophonic process of vowel colouring next to the laryngeals _*h₂ *h₃_ predates the split of the Anatolian subfamily. Early on, this had little effect on the morphology of Indo-European; only later did it influence its grammatical ablaut. Compare the following examples:",
+                "prose_after": "As in other Indo-European languages, the effects of laryngeal colouring are recoverable only for the vowel _*e_. No language shows coloring on _*o_, though it's indeterminable if this is due to only _*e_ being affected or if colored _*o_ was simply lost. The oft-reported colouring of _*o_ next to _*h₂_ in Latin and Greek is convincingly refuted by §De Decker1§.\nDue to how widespread this change was, examples in other branches are plentiful. Compare the following:\n- pie@bʰréh₂tēr@bʰr::éh₂::tēr > °FRATERBROTHER°, pclt@brātīr@br::ā::tīr, grc@φρᾱ́τηρ@φρ::ᾱ́::τηρ=phr::ā́::tēr, lat@frāter@fr::ā::ter, pgmc@brōþēr@br::ō::þēr (through _*br::ā::þēr_);\n- pie@h₂érh₃trom@::h₂é::rh₃trom > °PLOUGHARD°, pclt@aratrom@::a::ratrom, grc@ἄροτρον@::ἄ::ροτρον=::á::rotron, lat@arātrum@::a::rātrum, pgmc@arþraz@::a::rþraz;\n- pie@déh₃nom@d::éh₃::nom > °GIFTDONUM° (through _*d::ṓ::nom_), pclt@dānus@d::ā::nus (through _*d::ō::nus_), lat@dōnum@d::ō::num; pie@déh₃rom@d::éh₃::rom > grc@δῶρον@δ::ῶ::ρον=d::ô::ron; pie@bʰleh₃tís@bʰl::eh₃::tís > pgmc@blōdiz@bl::ō::diz;\n- pie@h₃éwis@::h₃é::wis > °OWISSHEEP°, pclt@owis@::o::wis, grc@ὄϊς@::ὄ::ϊς=::ó::ïs, lat@ovis@::o::vis, pgmc@awiz@::a::wiz (through _*::o::wiz_).\nThe vocalism in °GIFTDONUM° is the result of a later raising of stressed _*ō_. Note that the vocalism in pgmc@brōþēr reflects a later merger of _*ā_ into _*ō_, and the vocalism in pgmc@awiz reflects a later merger of _*o_ into _*a_.",
+                "changes": [
+                    {
+                        "display": "e > a / _h₂",
+                        "regex": [
+                            [
+                                "ex2",
+                                "ax2"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "e > a / h₂_",
+                        "regex": [
+                            [
+                                "x2(\")?e",
+                                "x2\\1a"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "e > o / _h₃",
+                        "regex": [
+                            [
+                                "ex3",
+                                "ox3"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "e > o / h₃_",
+                        "regex": [
+                            [
+                                "x3(\")?e",
+                                "x3\\1o"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Cluster assimilation",
+                "prose": "Obstruent clusters undergo ::regressive voicing assimilation::. This process is also extremely early, though its age relative to laryngeal voicing cannot be determined. Observe the following examples:",
+                "repeatchanges": true,
+                "changes": [
+                    {
+                        "display": "C[-voice] > [+voice] / _C[+voice]",
+                        "regex": [
+                            [
+                                "s([bdg])",
+                                "z\\1"
+                            ],
+                            [
+                                "p(h)?([bdg])",
+                                "b\\1\\2"
+                            ],
+                            [
+                                "t(h)?([bdg])",
+                                "d\\1\\2"
+                            ],
+                            [
+                                "k(')?(v)?(h)?([bdg])",
+                                "g\\1\\2\\3\\4"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "C[+voice] > [-voice] / _C[-voice]",
+                        "regex": [
+                            [
+                                "z([ptks])",
+                                "s\\1"
+                            ],
+                            [
+                                "b(h)?([ptks])",
+                                "p\\1\\2"
+                            ],
+                            [
+                                "d(h)?([ptks])",
+                                "t\\1\\2"
+                            ],
+                            [
+                                "g(')?(v)?(h)?([ptks])",
+                                "k\\1\\2\\3\\4"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "This change also operated when the cluster included aspirates: they can be assumed to also be voiced, or breathily/partially voiced, to begin with. All aspirates in such clusters presumably become voiceless aspirates, but their result cannot be shown to be different from regular voiced obstruents: presumably, this aspiration is lost early enough internally to merge their outcome with that of regular _tenues_, and not (the somewhat later) voiceless aspirates.",
+                "changes": [
+                    {
+                        "display": "Cʰ > [-aspirated] / _C[-voice]",
+                        "regex": [
+                            [
+                                "([ptk]'?v?)h",
+                                "\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Later on, s-mobile arose and proliferated. This had a different behavior, promoting progressive voicing assimilation under ::Siebs' Law::. This had the effect of changing morphological |*sB *sBh| into |*sP|:",
+                "repeatchanges": true,
+                "changes": [
+                    {
+                        "display": "C[+voice] > [-voice] / #s_",
+                        "regex": [
+                            [
+                                "^z",
+                                "s"
+                            ],
+                            [
+                                "([bdg]'?)z",
+                                "\\1s"
+                            ],
+                            [
+                                "([bdg]'?)bh?",
+                                "\\1p"
+                            ],
+                            [
+                                "([bdg]'?)dh?",
+                                "\\1t"
+                            ],
+                            [
+                                "([bdg]'?)g('?v?h?)",
+                                "\\1k\\2"
+                            ]
+                        ]
+                    }
+                ],
+                "prose_after": "It is not clear if the voiceless aspirates remained phonemic for long — in any case, in Carite, they behave identically to the regular voiceless tenues and presumably merged shortly after if they ever were distinct in the first place."
+            },
+            {
+                "newchapter": "Dental degemination",
+                "prose": "As part of the ::degemination of dentals::, the first dental (i.e. alveolar plosive) was affricated, likely already in Proto-Indo-European times, and then the resulting cluster was simplified:",
+                "prose_after": "This process continued to be a productive morphophonological alternation.\nThis development mirrors the degemination in Greek:\n- pie@bʰéydʰtis@bʰéy::dʰt::is > °BHIDHTIS°, grc@πίστις@πί::στ::ις=pí::st::is;\nCompare this to Italic, Celtic and Germanic, where the degemination of dentals resulted in _*ss_:\n- pie@sedtós@se::dt::ós > pgmc@sessaz@se::ss::az, lat@sessus@se::ss::us;\n- pie@medtós@me::dt::ós > pclt@messos@me::ss::os.\nIt is likely the change was not complete yet in Celtic in Proto-Celtic times, as we find an intermediate stage in Gaulish.",
+                "changes": [
+                    {
+                        "display": "TT > sT",
+                        "regex": [
+                            [
+                                "t([ts])",
+                                "s\\1"
+                            ],
+                            [
+                                "d([dz])",
+                                "z\\1"
+                            ],
+                            [
+                                "ss([pbtdkgmnlrs])",
+                                "s\\1"
+                            ],
+                            [
+                                "zz([pbtdkgmnlrs])",
+                                "z\\1"
+                            ],
+                            [
+                                "([pbtdkgmnlrsvh])ss",
+                                "\\1s"
+                            ],
+                            [
+                                "([pbtdkgmnlrsvh])zz",
+                                "\\1z"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Thorn clusters",
+                "prose": "The treatment of ::thorn clusters:: sets Common Indo-European apart from Early Indo-European: none of these languages preserve them intact, i.e. as coronal-dorsal clusters. In Carite, thorn clusters underwent metathesis:",
+                "prose_after": "Metathesis of thorn clusters is a trait shared with Celtic and Greek as shown below:\n- pie@dʰǵʰési@::dʰǵʰ::ési > °YESTERDAYWORD° (through _*gdesi_), pclt@gdesi@::gd::esi, grc@χθές@::χθ::ές=::khth::és.\nThe assibilation of the dental in °YESTERDAYWORD° will be discussed later. In the other western branches, the clusters were simply reduced:\n- pie@dʰǵʰemelos@::dʰǵʰ::emelos > lat@humilis@::h::umilis; compare to °LOWWW° and grc@χθαμαλός@::χθ::αμαλός=::khth::amalós;\n- pie@dʰǵʰésros@::dʰǵʰ::ésros > pgmc@gestraz@::g::estraz.",
+                "changes": [
+                    {
+                        "display": "TK > KT",
+                        "regex": [
+                            [
+                                "t(k'?v?)",
+                                "\\1t"
+                            ],
+                            [
+                                "(dh?)(g'?v?h?)",
+                                "\\2\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Osthoff's Law",
+                "prose": "Another early process in Carite history, shared with Italo-Celtic, Greek, and probably Germanic, is ::Osthoff's Law::: long vowels shorten when preceding a resonant that's followed by a consonant:",
+                "prose_after": "Osthoff's Law continued to be productive until after the loss of laryngeals in all branches, but in Carite, it acted as a surface filter for a particularly long time, continuing to affect later loans and formations all the way until the loss of vowel length in the medieval period. The example below illustrates how it divides western Indo-European from eastern languages such as Sanskrit:\n- pie@tpḗrsneh₂@tp::ḗ::rsneh₂ > °HEEL1°, grc@πτέρνη@πτ::έ::ρνη=pt::é::rnē, lat@perna@p::e::rna, pgmc@fersnō@f::e::rsnō; compare to san@पार्ष्णि=pā́rṣṇi.\nIn subsequent changes, Osthoff's Law, as a surface filter, will continue to be pointed out.",
+                "changes": [
+                    {
+                        "display": "V[+long] > [-long] / _RC",
+                        "regex": [
+                            [
+                                "([aeiou]):([mnlryw])([pbtdkgmnlryws])",
+                                "\\1\\2\\3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Saussure Effect",
+                "prose": "Laryngeals between a resonant and a consonant were lost, provided that the resonant was preceded by _*o_; this is known as the ::Saussure Effect::. While it is unclear if this effect already affected Proto-Indo-European proper or if it's a later development, it is nonetheless shared by many branches, Carite included:",
+                "changes": [
+                    {
+                        "display": "H > Ø / oR_C",
+                        "regex": [
+                            [
+                                "o([mnlryw])x[123x]([pbtdkgmnlryws])",
+                                "o\\1\\2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Centumisation",
+                "prose": "Centumisation in Carite took place somewhat late, and only after the ::coalescence:: of a sequence of a back velar followed by _*w_ into a single labiovelar consonant:",
+                "prose_after": "It is worth noting that Greek, in order to preserve the length caused by the original cluster, rendered them as geminates instead.",
+                "changes": [
+                    {
+                        "display": "kw > kʷ",
+                        "regex": [
+                            [
+                                "kw",
+                                "kv"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "gw > gʷ",
+                        "regex": [
+                            [
+                                "gw",
+                                "gv"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "gʰw > gʷʰ",
+                        "regex": [
+                            [
+                                "ghw",
+                                "gvh"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "The typical actual centumisation involved the unconditional merger of the palatovelars into regular velars as follows:",
+                "prose_after": "This reduced the triple-contrast velar series to one that only contrasted plain and labialised. Centumisation is shared with the other western languages:\n- pie@swéḱuros@swé::ḱ::uros > °SEKURUSFATHER°, pclt@swekrVnos@swe::k::rVnos, grc@ἑκυρός@ἑ::κ::υρός=he::k::urós, lat@socer@so::c::er, pgmc@swehrô@swe::h::rô (through _*swe::k::rô_);\n- pie@ǵénus@::ǵ::énus > °GENWII°, pclt@genus@::g::enus, grc@γένυς@::γ::ένυς=::g::énus, lat@gena@::g::ena, pgmc@kinnuz@::k::innuz (through _*::g::innuz_);\n- pie@ǵʰéyōm@::ǵʰ::éyōm > °WINTER°, pclt@gyemos@::g::yemos (through _*::gʰ::yemos_), grc@χεῖμα@::χ::εῖμα=::kh::eîma, lat@hiems@::h::iems (through _*::gʰ::iems_), pgmc@gōīn-@::g::ōīn- (through _*::gʰ::ōīn-_).\nCarite is peculiar in that the late centumisation, which only occurred after the coalescence of a sequence of a plain velar and _*w_, allows for an original contrast that is not found in the other western languages as they also merged palatovelars followed by _*w_ with the labiovelars. For example, compare how Carite, unlike its sister centum branches, retains a sequence of a palatovelar and _*w_ as a cluster as opposed original labiovelars and the sequence of a plain velar and _*w_ which later shifted to fricatives as seen in the examples above — this will be discussed in greater detail later:\n- pie@h₁éḱwos@h₁é::ḱw::os > °EKWOS°, not  **ε::φ::ος (_**e::f::os_); compare to pclt@ekʷos@e::kʷ::os, grc@ἵππος@ἵ::ππ::ος=hi::pp::os (through _*íkkʷos_), lat@equus@e::qu::us, pgmc@ehwaz@e::hw::az (through _*e::kw::az_);\n- pie@dn̥ǵʰwéh₂s@dn̥::ǵʰw::éh₂s > °DAGWAA°, not **διμ::θ::ᾱ (_**dim::v::ā_); compare to pclt@tangʷāts@tan::gʷ::āts (through _*tan::gʷʰ::āts_), lat@lingua@lin::gu::a (through _*lin::gʷʰ::ā_), pgmc@tungǭ@tun::g::ǭ (through _*tun::gʰw::ǭ_).\nOriginal _*ǵw_ clusters are not included in the examples above as none such cluster were continued into Carite; however, we can safely assume that it would probably have had the same fate. It is worth noting that in Germanic, the fact labiovelars are written as _*Cw_ rather than _*Cʷ_ is purely an orthographical convention and does not mean they are clusters. The loss of the labialisation in pgmc@tungǭ is a result of delabialisation after _*un_.",
+                "changes": [
+                    {
+                        "display": "ḱ > k",
+                        "regex": [
+                            [
+                                "k'",
+                                "k"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ǵ > g",
+                        "regex": [
+                            [
+                                "g'([^h])",
+                                "g\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ǵʰ > gʰ",
+                        "regex": [
+                            [
+                                "g'h",
+                                "gh"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Laryngeal and syllabic sonorant development",
+                "prose": "The Proto-Indo-European laryngeals, which (mostly) disappeared in almost all branches, left behind traces before doing so. Besides the laryngeal colouring mentioned earlier, which was presumably much older, the ::first laryngeal loss:: marks the start of a long process of laryngeal deletion:",
+                "prose_after": "As Osthoff's Law continued to be in effect, vowels were prevented from being lengthened if they were followed by a resonant and another consonant.",
+                "changes": [
+                    {
+                        "display": "V[-long]HS̥ > V[+long]S",
+                        "regex": [
+                            [
+                                "([aeiou])(x[123x])([mnlr]\\.)",
+                                "\\1:\\3"
+                            ],
+                            [
+                                "([aeiou]:?[mnlr])\\.",
+                                "\\1"
+                            ],
+                            [
+                                "([aeiou]):([mnlryw])([pbtdkgmnlryws])",
+                                "\\1\\2\\3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Syllabic sonorants and laryngeals adjacent to them interacted in many branches, Carite included. Similar to Celtic, Greek and Latin, Carite inserted a prop vowel between any syllabic sonorant and a laryngeal, moving the syllabicity from the sonorant to this new prop vowel:",
+                "changes": [
+                    {
+                        "display": "S̥h₁ > Sǝh₁",
+                        "regex": [
+                            [
+                                "\\.x1",
+                                "@x1"
+                            ],
+                            [
+                                "\"([mnlr])@",
+                                "\\1\"@"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "S̥h₂ > Sǝh₂",
+                        "regex": [
+                            [
+                                "\\.x2",
+                                "@x2"
+                            ],
+                            [
+                                "\"([mnlr])@",
+                                "\\1\"@"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "S̥h₃ > Sǝh₃",
+                        "regex": [
+                            [
+                                "\\.x3",
+                                "@x3"
+                            ],
+                            [
+                                "\"([mnlr])@",
+                                "\\1\"@"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "h₁S̥ > h₁ǝS",
+                        "regex": [
+                            [
+                                "x1(\"?[mnlr])\\.",
+                                "x1@\\1"
+                            ],
+                            [
+                                "@\"",
+                                "\"@"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "h₂S̥ > h₂ǝS",
+                        "regex": [
+                            [
+                                "x2(\"?[mnlr])\\.",
+                                "x2@\\1"
+                            ],
+                            [
+                                "@\"",
+                                "\"@"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "h₃S̥ > h₃ǝS",
+                        "regex": [
+                            [
+                                "x3(\"?[mnlr])\\.",
+                                "x3@\\1"
+                            ],
+                            [
+                                "@\"",
+                                "\"@"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Next, syllabic sonorants lost their syllabicity with an epenthetic vowel _*ǝ_ being inserted to compensate. The exact resolution depended on the environment. Syllabic nasals turned into _*a_ when preceded by at least two consonants, while syllabic liquids inserted a prop vowel after them in the same environment. All remaining syllabic sonorants simply ejected a prop vowel before them:",
+                "prose_after": "It is likely that the reflex of nasals before clusters started off as a nasalised neutral vowel - _*ə̃_ - which later lost its nasalisation and neutralised differently than its oral equivalent, most importantly not engaging in the vowel colouring that would later take place.",
+                "changes": [
+                    {
+                        "display": "N̥ > a / _CC",
+                        "regex": [
+                            [
+                                "([mn]\\.)([pbtdkgmnlryws]v?h?[pbtdkgmnlryws])",
+                                "a\\2"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "S̥ > Sǝ / _CC",
+                        "regex": [
+                            [
+                                "([lr])\\.([pbtdkgmnlryws]v?h?[pbtdkgmnlryws])",
+                                "\\1@\\2"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "S̥ > ǝS",
+                        "regex": [
+                            [
+                                "([mnlr])\\.",
+                                "@\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Whenever a laryngeal was surrounded by two true consonants - that is, all consonants excluding the semivowels _*y *w_ - it inserted a prop vowel after itself:",
+                "changes": [
+                    {
+                        "display": "H > Hǝ / C[-semivowel]_C[-semivowel]",
+                        "regex": [
+                            [
+                                "([pbtdkgmnlrsvh])(x[123x])([pbtdkgmnlrs])",
+                                "\\1\\2@\\3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Prop vowel colouring",
+                "prose": "The precise reflex of the recently created prop vowels heavily depended on their environment. First of all, it took up rounding from any previous consonant:",
+                "changes": [
+                    {
+                        "display": "ǝ > u / Cʷ_",
+                        "regex": [
+                            [
+                                "v(h?\"?)@",
+                                "v\\1u"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ǝ > u / {p,b,bʰ,m,w}_",
+                        "regex": [
+                            [
+                                "([pbmw]h?\"?)@",
+                                "\\1u"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Due to the regressive action of the _boukolos_ rule, which delabialised labiovelars next to _*u_, this delabialised any labiovelar after which it occured:",
+                "prose_after": "It is worth noting that this did not affect new sequences of _*wu_, which stayed as is.",
+                "changes": [
+                    {
+                        "display": "Cʷ > [-rounded] / _u",
+                        "regex": [
+                            [
+                                "v(h?\"?)u",
+                                "\\1u"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "The prop vowel took colour from surrounding laryngeals much like older _*e_:",
+                "changes": [
+                    {
+                        "display": "ǝ > e / h₁_, _h₁",
+                        "regex": [
+                            [
+                                "x1(\")?@",
+                                "x1\\1e"
+                            ],
+                            [
+                                "@x1",
+                                "ex1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ǝ > a / h₂_, _h₂",
+                        "regex": [
+                            [
+                                "x2(\")?@",
+                                "x2\\1a"
+                            ],
+                            [
+                                "@x2",
+                                "ax2"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ǝ > o / h₃_, _h₃",
+                        "regex": [
+                            [
+                                "x3(\")?@",
+                                "x3\\1o"
+                            ],
+                            [
+                                "@x3",
+                                "ox3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Finally, any remaining prop vowels merged into _*u_ when directly preceding _*m_, while all other prop vowels lost their distinctiveness by merging into _*i_:",
+                "prose_after": "As can be seen above, the treatment of syllabic sonorants and laryngeals in these contexts is particularly complicated, and the same can be said for the other western branches. The following comparison will remain superficial and simplified; as such, the reader is advised to read more specialised sources if they wish to learn more.\nSyllabic sonorants interacting with adjacent laryngeals is a feature shared with Celtic, Greek and Latin, but not Germanic, which simply ignored the laryngeals as if they didn't exist and treated these clusters just like it treated lone syllabic sonorants: by inserting a _*u_ before them. The later colouring of the prop vowel by adjacent laryngeals is only shared with Greek, however, and referred to as the so-called ::triple reflex::. In other branches, the outcome tended to be an a-vocalism instead. Compare the following:\n- pie@(h₂)wĺ̥h₁neh₂@(h₂)w::ĺ̥h₁::neh₂ > °WLANA°, pclt@w(u)lān-@w(u)::lā::n-, grc@λῆνος@::λῆ::νος=::lê::nos, lat@lāna@::lā::na; compare to pgmc@wullō@w::ul::lō;\n- pie@ǵr̥h₂nóm@ǵ::r̥h₂::nóm > °GRANUMGRAIN°, pclt@grānom@g::rā::nom, lat@grānum@g::rā::num; compare to pgmc@kurną@k::ur::ną; pie@pl̥h₂Kyéti@p::l̥h₂::Kyéti > °ISTRIKE°, grc@πλήσσω@π::λή::σσω=p::lḗ::ssō;\n- pie@ǵn̥h₃tós@ǵ::n̥h₃::tós > °GNOTUSKNOWN°, pclt@gnātos@g::nā::tos (through _*gnōtos_), grc@γνωτός@γ::νω::τός=g::nō::tós, lat@nōtus@::nō::tus.\nThe resulting vocalisations of syllabic sonorants and the position of the newly inserted vowel is particularly complicated in Carite, but significantly easier in the other branches. In Celtic, _*i_ appeared after syllabic liquids when between any consonant and a stop or _*m_, while _*a_ appeared in every other case. In Latin, _*o_ appeared before liquids, but _*e_ did for everything else; special developments are included in papers such as §Prósper5§. The Greek development is considerably more complicated and readers are advised to consult §Sihler0§ and papers such as §Mihaylova2§ for an elaborate exposition. Germanic, as mentioned before, was very straightforward as it simply put _*u_ before the syllabic sonorants. Some examples are included below:\n- pie@déḱm̥@déḱ::m̥:: > °10°, pclt@dekam@dek::am::, grc@δέκα@δέκ::α::=dék::a::, lat@decem@dec::em::, pgmc@tehun@teh::un:: (with secondary _*-n_ for _*-m_);\n- pie@mr̥tós@m::r̥::tós > °MORTUUSDEAD°, pclt@marwos@m::ar::wos, grc@βροτός@β::ρο::τός=b::ro::tós, lat@mortuus@m::or::tuus, pgmc@murþą@m::ur::þą.\nIn the same fashion, Carite has environment-dependent outcomes like the other branches did.",
+                "changes": [
+                    {
+                        "display": "ǝ > u / _m",
+                        "regex": [
+                            [
+                                "@m",
+                                "um"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ǝ > i",
+                        "regex": [
+                            [
+                                "@",
+                                "i"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Engels' Law",
+                "prose": "An unusual but well-documented Carite change is the effect of laryngeals on consonants in word-initial position. They voiced plosives and sibilants, probably through a process of glottalisation:",
+                "changes": [
+                    {
+                        "display": "p → ˀp > b / #H_(H)V",
+                        "regex": [
+                            [
+                                "^(x[123x])p(x[123x])?(\"?[aeiou])",
+                                "\\1b\\2\\3"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "t → ˀt > d / #H_(H)V",
+                        "regex": [
+                            [
+                                "^(x[123x])t(x[123x])?(\"?[aeiou])",
+                                "\\1d\\2\\3"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "k → ˀk > g / #H_(H)V",
+                        "regex": [
+                            [
+                                "^(x[123x])k(x[123x])?(\"?[aeiou])",
+                                "\\1g\\2\\3"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "kʷ → ˀkʷ > gʷ / #H_(H)V",
+                        "regex": [
+                            [
+                                "^(x[123x])kv(x[123x])?(\"?[aeiou])",
+                                "\\1gv\\2\\3"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "s → ˀs > z / #H_(H)V",
+                        "regex": [
+                            [
+                                "^(x[123x])s(x[123x])?(\"?[aeiou])",
+                                "\\1z\\2\\3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Similarly, semivowels underwent fortition, with _*y_ surfacing as _*k_ and _*w_ surfacing as _*kʷ_. Importantly, however, is that the fortition of _*y_ only took place following _*h₁_, as opposed to the other consonants, which underwent this change regardless of which of laryngeal:",
+                "prose_after": "A longstanding hypothesis is that the fortition of _*h₁y_ resulted in _*ḱ_, which hadn't merged into _*k_ yet. This opinion is somewhat controversial, but is unfalsifiable because what sound exactly that _*y_ fortited to is impossible to know for sure. The fact only _*h₁_ affected _*y_ is in line with its word-initial treatment in Greek and can be explained through Byrd's improvement of Pinault's Law; this would imply _*h₂ *h₃_ would have been lost before _*y_ before this phonological change could have taken place. For more information, please refer to §Bozzone1§.\nThis change is occasionally termed ::Engels' Law::, and it was first posited by the Limburgish philologist Klaus Engels.",
+                "changes": [
+                    {
+                        "display": "y → ˀy > k / #h₁_(H)V",
+                        "regex": [
+                            [
+                                "^x1y(x[123x])?(\"?[aeiou])",
+                                "x1k\\1\\2"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "w → ˀw > kʷ / #H_(H)V",
+                        "regex": [
+                            [
+                                "^(x[123x])w(x[123x])?(\"?[aeiou])",
+                                "\\1kv\\2\\3"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "It is likely that at this point, the laryngeals lost differentiation and merged into one general laryngeal continuant, completing the ::merger of laryngeals:::",
+                "changes": [
+                    {
+                        "display": "h₁ h₂ h₃ > H",
+                        "regex": [
+                            [
+                                "x[123x]",
+                                "H"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "The next loss of laryngeals (::second laryngeal loss::) happened to sequences of vowels with a laryngeal:",
+                "prose_after": "The lengthening of contracted laryngeal sequences still obeyed Osthoff's Law, shortening the new vowels when followed by a sequence of a resonant plus obstruent. Examples of this process are scant, but they are evident in the so-called conjunctive nominals, which, in early Carite, take special forms in subordinate clauses and in coordinated clauses. A typical example of this is with the masculine noun °EKWOS°: its genitive plural is attested as both the ordinary εκῠωμ (_ekwōm_) and the conjunctive εκῠομφε (_ekwomfe_) - the length of the vowel in the suffix is indicative of Osthoff's Law. With the deletion of the laryngeal and subsequent compensatory lengthening, any allophonous colouring effects were phonemicised.",
+                "changes": [
+                    {
+                        "display": "VH > V[+long] / _{C,#}",
+                        "regex": [
+                            [
+                                "([aeiou])H([pbtdkgmnlrswy])",
+                                "\\1:\\2"
+                            ],
+                            [
+                                "([aeiou])H$",
+                                "\\1:"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "V₁HV₁ > V₁[+long]",
+                        "regex": [
+                            [
+                                "aH(\"?)a",
+                                "\\1a:"
+                            ],
+                            [
+                                "eH(\"?)e",
+                                "\\1e:"
+                            ],
+                            [
+                                "iH(\"?)i",
+                                "\\1i:"
+                            ],
+                            [
+                                "oH(\"?)o",
+                                "\\1o:"
+                            ],
+                            [
+                                "uH(\"?)u",
+                                "\\1u:"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "After this, the laryngeals failed to effect any further changes, and were likely lost shortly thereafter, completing the ::third laryngeal loss:::",
+                "prose_after": "This included all word-initial laryngeals immediately followed by a consonant, which were lost in all daughters except for Anatolian, Greek, Armenian, and Phrygian. It is worth noting this change phonemicised what used to be allophones; i.e. the colouring of _*e_ and Engels' Law.",
+                "changes": [
+                    {
+                        "display": "H > Ø",
+                        "regex": [
+                            [
+                                "H",
+                                ""
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Davide's Law",
+                "prose": "One of the longstanding issues in the evolution from Proto-Indo-European to Abean was the surfacing of some _*e *ē_ as _*a *ā_. This shift is called ::Davide's Law::, and it must have taken place following the dissolution of syllabic sonorants and laryngeals, but before the collapse of the three-way plosive system and (presumably) the fricativisation of the labiovelars. Davide's Law posits that pretonic _*e *ē_ shift to _*a *ā_ when next to a rhotic, the semivowel _*w_ or its vocalic equivalent _*u_, and any (labio)velar:",
+                "changes": [
+                    {
+                        "display": "e > a / _{r,u,w,k(ʷ),g(ʷ)(ʰ)}...V́",
+                        "regex": [
+                            [
+                                "e([ruwkg].*\")",
+                                "a\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ē > ā / _{r,u,w,k(ʷ),g(ʷ)(ʰ)}...V́",
+                        "regex": [
+                            [
+                                "e:([ruwkg].*\")",
+                                "a:\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "e > a / {r,u,w,k(ʷ),g(ʷ)(ʰ)}_...V́",
+                        "regex": [
+                            [
+                                "([ruwkg]v?h?)e([^:].*\")",
+                                "\\1a\\2"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ē > ā / {r,u,w,k(ʷ),g(ʷ)(ʰ)}_...V́",
+                        "regex": [
+                            [
+                                "([ruwkg]v?h?)e([^:].*\")",
+                                "\\1a:\\2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "When preceding _*n_ before another velar, the allophonic velarity of the nasal also triggered the same shift:",
+                "prose_after": "It is likely this change originally also affected the augment for roots starting with the consonants mentioned above, but we find no trace of this in inscriptions, and it was probably analogised away later.\nDue to the environment this change is conditioned by, several historical linguists have pointed out the noteworthy similarity to the phenomenon known as RUKI, which was long held to only affect satem languages. However, post-Proto-Germanic developments related to vowel lowering in RUKI-like environments have pointed towards the isogloss being shared with at least one centum language, too (see §Prescott0§), so it is not unthinkable that the Carite shift may be explained in the same vein.",
+                "changes": [
+                    {
+                        "display": "e > a / _n{k(ʷ),g(ʷ)(ʰ)}...V́",
+                        "regex": [
+                            [
+                                "en([kg].*\")",
+                                "an\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Unusually, some words show the effects of Davide's Law outside of these conditions. One of these conditions is after initial _*s_, which will actually be explained shortly; the others are more opaque. The effect again seems to be limited to pretonic _*e *ē_, but the range of adjacent consonants triggering it seems to be larger. Some Caritologists have suggested that dialectally, Davide's Law also affected any pretonic _*e *ē_ next to voiced obstruents, citing the glottalic theory as a possible additional cause. Regardless, the conditions are not fully understood and we only posit the following:",
+                "prose_after": "Superficially, the fact Carite exhibits “too many” a-vocalisms is noteworthily similar to an identical problem in Latin. However, the conditions are entirely different. For more information on the Italic colouring of _*o_ to _*a_, please refer to sources such as §Vine3§ and §de Vaan1§.",
+                "sporadic": "Davide's next to voiced obstruents",
+                "changes": [
+                    {
+                        "display": "e ē > a ā / ???",
+                        "regex": [
+                            [
+                                "e(:?[bdg].*\")",
+                                "a\\1"
+                            ],
+                            [
+                                "([bdg]h?)e(:?.*\")",
+                                "\\1a\\2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Development of _*h_",
+                "prose": "Word-initial laryngeal voicing of _*s_ enables the dating of another change: its word-initial, prevocalic debuccalisation:",
+                "prose_after": "Greek also took part in the debuccalisation of _*s_, although it was significantly more widespread, also taking place intervocalically and in some complex clusters. Compare the following:\n- pie@supnós@::s::upnós > °HUPNOS°, pclt@sownos@::s::ownos, grc@ὕπνος@::ὕ::πνος=::h::úpnos, lat@somnus@::s::omnus, pgmc@swefnaz@::s::wefnaz;\n- pie@sweḱrúh₂@::s::weḱrúh₂ > °SOCRUSAUNT°, pclt@swekrū@::s::wekrū, grc@ἑκυρά@::ἑ::κυρά=::h::ekurá, lat@socrus@::s::ocrus, pgmc@swegrū@::s::wegrū.\nAs shown above, original _*sw-_ kept the sibilant as is; the labial would later possibly coalesce with the following vowel.",
+                "changes": [
+                    {
+                        "display": "s > h / #_V",
+                        "regex": [
+                            [
+                                "^s(\"?[aeiou])",
+                                "h\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Another change, presumably happening concurrently, was the debuccalisation of word-initial prevocalic _*gʰ_:",
+                "prose_after": "In Latin, we find <<h>> for original _*gʰ_ but in a far more widespread environment. Compare the following:\n- pie@ǵʰh₂éns@::ǵʰ::h₂éns > °GANSGOOSE°, pclt@gansis@::g::ansis, grc@χήν@::χ::ήν=::kh::ḗn, lat@ansēr@ansēr (through _*::h::ansēr_), pgmc@gans@::g::ans;\n- pie@wéǵʰeti@wé::ǵʰ::eti > °VEHOBRING°, grc@ἔχω@ἔ::χ::ω=é::kh::ō, lat@vehō@ve::h::ō, pgmc@weganą@we::g::aną.",
+                "changes": [
+                    {
+                        "display": "gʰ → ɦ > h / #_V",
+                        "regex": [
+                            [
+                                "^gh(\"?[aeiou])",
+                                "h\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "In a handful of words, we find the effects of Davide's Law on words that etymologically started with _*s_. It is likely that the word-initial prevocalic merger of _*s_ and _*gʰ_, where the latter triggered the change, resulted in these hypercorrections.",
+                "sporadic": "Davide's next to initial *s",
+                "changes": [
+                    {
+                        "display": "e ē > a ā / h_...V́",
+                        "regex": [
+                            [
+                                "he(:?.*\")",
+                                "ha\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Dental assibilation",
+                "prose": "Around this time, dental plosives following a (labio)velar plosive assibilated when not followed by another consonant.",
+                "prose_after": "This process was unique to Carite and can not be found in other early western Indo-European languages.",
+                "changes": [
+                    {
+                        "display": "kt > ks / _{#,V}",
+                        "regex": [
+                            [
+                                "kt(\"?[aeiou$])",
+                                "ks\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "g(ʰ)d(ʰ) > g(ʰ)z / _{#,V}",
+                        "regex": [
+                            [
+                                "g(h)?dh?(\"?[aeiou$])",
+                                "g\\1z\\2"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "kʷt > kʷs / _{#,V}",
+                        "regex": [
+                            [
+                                "kvt(\"?[aeiou$])",
+                                "kvs\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Aspiration loss",
+                "prose": "The three-way stop system collapsed after dental assibilation occurred. First, we find that plain and aspirated voiced stops neutralize after a nasal:",
+                "prose_after": "It was long assumed that an identical change occurred in Italic; however, recent evidence suggests that this must be a post-Italic development, as Umbrian lacks it. As such, even though Latin has an identical development, we must consider these to be independent (cf. §Stuart-Smith0§).",
+                "changes": [
+                    {
+                        "display": "Cʰ > [-aspirate] / N_",
+                        "regex": [
+                            [
+                                "([mn][bdg]v?)h",
+                                "\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "The three-way contrast system in plosives only took place after the aforementioned post-nasal neutralisation. The voiced aspirates, being actually breathy voiced, merged into the tenues. A glottalic interpretation is that in these early Carite stages voicing was a creaky or glottalised feature (explaining laryngeal voicing of word-initial obstruents), and that breathy segments had more in common acoustically with voiceless tenues. Alternatively, we posit that they simply devoiced first and only later lost their aspiration. Regardless, the internal history of this change is opaque, and we only posit:",
+                "prose_after": "Notably, this change did not affect word-initial _*h_ derived from older _*gʰ_, as it had already merged with the reflex of initial _*s_, but did affect all internal instances of _*gʰ_—even those that were preserved as a result of prefixation. If the environment in which Davide's Law was effective did indeed sporadically include voiced stops, then the collapse of the system probably postdates it. Likewise, the collapse must follow the assibilation described above, as the cluster _*gʰdʰ_ yielded _*gz_ (through _*gʰz_), not _**ks_ (through _**kt_).\nThe outcome of the original three-way contrast system in other languages is diverse. Compare the following cognates:\n- pie@h₃órbʰos@h₃ór::bʰ::os > °ORPHANOS°, pclt@orbos@or::b::os, grc@ὀρφανός@ὀρ::φ::ανός=or::ph::anós, lat@orbus@or::b::us, pgmc@arbaz@ar::b::az;\n- pie@dʰuréh₂@::dʰ::uréh₂ > °DOORTURA°, pclt@dworā@::d::worā, grc@θύρα@::θ::ύρα=::th::úra, lat@forum@::f::orum (through _*þorum_), pgmc@durō@::d::urō;\n- pie@h₃méyǵʰeti@h₃méy::ǵʰ::eti > °MIIKOO° grc@ὀμείχω@ὀμεί::χ::ω=omeí::kh::ō, lat@meiō (through _*mei::χ::ō_), pgmc@mīganą@mī::g::aną; pie@séǵʰos@sé::ǵʰ::os > °SEGOSPOWER°, pclt@segos@se::g::os, pgmc@segaz@se::g::az;\n- pie@snígʷʰs@sní::gʷʰ::s > °SNIFI° (through _*snikʷī_), pclt@snigʷ(y)os@sni::gʷ::(y)os, grc@νίφα@νί::φ::α=ní::ph::a (through _ní::kʷʰ::a_), lat@nix (with oblique _ni::v::-_ through _ni::ɣʷ::-_), pgmc@snaiwaz@snai::w::az (through _*snai::gw::az_).\nThe way Celtic handles the voiced aspirates is relatively straightforward, as it merged voiced aspirates into the regular voiced series. The only exception is _*gʷʰ_, which deaspirated only after _*gʷ_ had shifted to _*b_. In Greek, the aspirates simply devoiced; this may be an isogloss shared with Carite, which would later lose their aspiration. In Italic, we find word-initial devoicing of the aspirates, after which all aspirates became fricatives. In Latin times, these later shifted further - for exact details, one may consult §Stuart-Smith0§, although the examples listed above already give some clues. In Germanic, the voiced aspirates played a pivotal role in what is referred to as Grimm's Law. The three-way contrast system remained, although a chain shift took place that caused the fricativisation of voiceless stops, the devoicing of voiced stops, and the deaspiration of aspirates. This can be conveniently conveyed as _*Bʰ > *B > *P > *F_. For more information and examples, please consult §Ringe0§.",
+                "changes": [
+                    {
+                        "display": "bʰ > p",
+                        "regex": [
+                            [
+                                "bh",
+                                "p"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "dʰ > t",
+                        "regex": [
+                            [
+                                "dh",
+                                "t"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "gʰ > k",
+                        "regex": [
+                            [
+                                "gh",
+                                "k"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "gʷʰ > kʷ",
+                        "regex": [
+                            [
+                                "gvh",
+                                "kv"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Labiovelar developments",
+                "prose": "Long-distance assimilation of labial _*p_ into a following _*kʷ_ happened around this period. It is unknown whether this change predated or postdated the collapse of the aspiration-based system, since there are no suitable etymologies with original _*bʰ_ and _*gʷʰ_. Examples are few but include the following:",
+                "prose_after": "Italo-Celtic individually underwent a similar assimilation, the difference being that Carite requires the second labiovelar to be prevocalic, whereas Italo-Celtic does not. Compare the following:\n- pie@pénkʷe@::p::én::kʷ::e > °5°, pclt@kʷenkʷe@::kʷ::en::kʷ::e, grc@πέντε@::π::έν::τ::ε=::p::én::t::e, lat@quīnque@::qu::īn::qu::e, pgmc@fimfe@::f::im::f::e;\n- pie@pokʷtéh₂@::p::o::kʷ::téh₂ > °COCTUSSWEAT°; compare to pclt@kʷoxtos@::kʷ::o::x::tos (through _*::kʷ::o::k::tos_), lat@coctus@::c::o::c::tus (through _::qu::o::c::tus_).\nThe development of pgmc@fimfe seems like it fits the picture, but is actually an irregular assimilation going the other way around, with _*kʷ_ assimilating into the preceding _*p_ and a shift to _*f_ through Grimm's Law. On the preconsonantal delabialisation in the latter example, as well as the Carite outcome of _*kʷs_, see below. The Carite ordinal °5o° appears to defy the prevocalic requirement of the shift, but this is easily explained as analogy with the cardinal.",
+                "changes": [
+                    {
+                        "display": "p > kʷ / {#,V}_V(...)$kʷV",
+                        "regex": [
+                            [
+                                "([^aeiou]:?)p(\"?[aeiou][mnlrpbtdkgvhyw]*kv\"?[aeiou])",
+                                "\\1kv\\2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "It was roughly at this time that the more lenis labiovelar plosives _*kʷ *gʷ_ lost their velar plosion, but retained the lower frequency timbre of velarisation by labiodentalising instead of merely shifting to labials:",
+                "prose_after": "The development of labiovelars into labials (rather than labiodentals) is seen in some of Carite's sister branches. Celtic, for example, merges _*gʷ_ into _*b_ with _*gʷʰ_ taking its place. In Greek, labiovelars merged into labial or dental stops depending on their environment; the exact outcome also depends on the dialect. Latin retained _*kʷ_ as <<qu>> (except in cases where it was later unrounded), while _*gʷ_ merged into _*w_ <<v>> when not postnasal. Some other Italic languages shifted them to labial plosives. Germanic retained labialisation, but the series had been subject to Grimm's Law, yielding _*hw *kw *gw_. Compare the following cognates:\n- pie@linékʷti@liné::kʷ::ti > °LEYKWOO° (through _*lin::f::ṓ_) > pclt@linkʷeti@lin::kʷ::eti, grc@λιμπάνω@λιμ::π::άνω=lim::p::ánō, lat@linquō@lin::qu::ō; pie@h₂ékʷeh₂@h₂é::kʷ::eh₂ > °AQUAWATER°, lat@aquā@a::qu::ā, pgmc@ahwō@a::hw::ō;\n- pie@gʷih₃wós@::gʷ::ih₃wós > °VIVUS°, pclt@biwos@::b::iwos, lat@vīvus@::v::īvus, pgmc@kwikwaz@::kw::ikwaz; pie@h₁régʷos@h₁ré::gʷ::os > °TWILIGHTDUSK°, grc@ἔρεβος@ἔρε::β::ος=ére::b::os, pgmc@rekwaz@re::kw::az.\nThe intervocalic labiovelar in pgmc@kwikwaz is a development unique to Germanic referred to as Cowgill's Law; for more information, please refer to §Ringe0§.\nIt is worth noting that Carite, unlike all other western centum languages - Celtic (before _*y_, _*t_, _*s_ and _*n_), Greek (before _*y_), Latin (before all consonants) and Germanic (before _*y_, _*r_ _*t_) - preserved labialisation in all cases (with the obvious exception of the boukolos rule). Compare the words for “night”:\n- pie@nókʷts@nó::kʷ::ts > °NUFT° (through _*no::f::sī_), pclt@noxtV-@no::x::tV-, grc@νύξ@νύ::ξ::=nú::x:: (through _nó::kʷ::ts_ > _nú::k::ts_ with Cowgill's Law), lat@nox@no::x:: (through _no::c::ts_), pgmc@nahts@na::h::ts.\nPlease do note that the conditions of delabialisation in the other branches mentioned above are simplifications. For further information, consult the relevant sources.",
+                "changes": [
+                    {
+                        "display": "kʷ → kᶠ > f",
+                        "regex": [
+                            [
+                                "kv",
+                                "f"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "gʷ → gᵛ > v",
+                        "regex": [
+                            [
+                                "gv",
+                                "v"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Diphthong collapse",
+                "prose": "When any vowel was followed by _*i *u_, the sequence collapsed into a diphthong, with _*i *u_ surfacing as the semivowels _*y *w_. If they were formerly stressed, the stress shifted to the preceding vowel:",
+                "prose_after": "This widespread change primarily resolved hiatus originating from _*VHV_ environments.",
+                "changes": [
+                    {
+                        "display": "i > y / V_",
+                        "regex": [
+                            [
+                                "([aeiou])i([^:])",
+                                "\\1y\\2"
+                            ],
+                            [
+                                "([aeiou])i$",
+                                "\\1y"
+                            ],
+                            [
+                                "([aeiou])\"i([^:])",
+                                "\"\\1y\\2"
+                            ],
+                            [
+                                "([aeiou])\"i$",
+                                "\"\\1y"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "u > w / V_",
+                        "regex": [
+                            [
+                                "([aeiou])u([^:])",
+                                "\\1w\\2"
+                            ],
+                            [
+                                "([aeiou])u$",
+                                "\\1w"
+                            ],
+                            [
+                                "([aeiou])\"u([^:])",
+                                "\"\\1w\\2"
+                            ],
+                            [
+                                "([aeiou])\"u$",
+                                "\"\\1w"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Very early on, the homorganic sequence _*eye_ coalesced into a long vowel:",
+                "changes": [
+                    {
+                        "display": "eye > ē",
+                        "regex": [
+                            [
+                                "ey(\")?e",
+                                "\\1e:"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "At some point between the coalescence of _*eye_ and all further monophthongisation (as will be discussed below), semivowel dissimilation took place. In brief, _*w_ and _*y_ shifted to _*b_ and _*l_, respectively, when near or next to another instance of the same vowel or its vocalic equivalent. More precisely, _*w_ shifted to _*b_ before _*u *ū_ or before a sequence consisting of a vowel, optionally a resonant, and _*w_, while _*y_ shifted to _*l_ before _*i *ī_ or before a sequence consisting of a vowel, optionally a resonant, and _*y_:",
+                "prose_after": "We know this change follows the coalescence of _*eye_, as the sequence _*-eyey_ surfaces as *-ηῐ (_*-ēj_) and not **-ελη (_*-elē_). This dissimilation did not take place where the vocalic equivalent preceded its semivowel equivalent: we find °TREEKNOWER° rather than **δρυβῑστρις (_**drubīstris_).",
+                "changes": [
+                    {
+                        "display": "w > b / _{u,ū}",
+                        "regex": [
+                            [
+                                "w(\")?u",
+                                "b\\1u"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "w > b / _V(R)w",
+                        "regex": [
+                            [
+                                "w(\"?[aeiou])([mnlryw])?w",
+                                "b\\1\\2w"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "y > l / _{i,ī}",
+                        "regex": [
+                            [
+                                "y(\")?i",
+                                "l\\1i"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "y > l / _V(R)y",
+                        "regex": [
+                            [
+                                "y(\"?[aeiou])([mnlryw])?y",
+                                "l\\1\\2y"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Change *y to *j to avoid confusion with the new vowel",
+                "donotdisplay": true,
+                "changes": [
+                    {
+                        "display": "change",
+                        "regex": [
+                            [
+                                "y",
+                                "j"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Short diphthongs merged into long vowels. The sequences _*we *wa *wo_ collapsed too, unless the result would be shortened by Osthoff's Law.",
+                "prose_after": "This caused the original Indo-European ablaut patterns to become very opaque, leading to the loss of productive ablaut.",
+                "changes": [
+                    {
+                        "display": "wa > ō / {#,C}_ & ! _RC",
+                        "regex": [
+                            [
+                                "([pbtdkgfvlmnrjwsz])w(\")?a(?![mnlrjw][pbtdkgfvlmnrjwsz])",
+                                "\\1\\2o:"
+                            ],
+                            [
+                                "^w(\")?a(?![mnlrjw][pbtdkgfvlmnrjwsz])",
+                                "\\1o:"
+                            ],
+                            [
+                                "(\")?o::",
+                                "w\\1a:"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "we > ȳ / {#,C}_  & ! _RC",
+                        "regex": [
+                            [
+                                "([pbtdkgfvlmnrjwsz])w(\")?e(?![mnlrjw][pbtdkgfvlmnrjwsz])",
+                                "\\1\\2y:"
+                            ],
+                            [
+                                "^w(\")?e(?![mnlrjw][pbtdkgfvlmnrjwsz])",
+                                "\\1y:"
+                            ],
+                            [
+                                "(\")?y::",
+                                "w\\1e:"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "wo > ū / {#,C}_  & ! _RC",
+                        "regex": [
+                            [
+                                "([pbtdkgfvlmnrjwsz])w(\")?o(?![mnlrjw][pbtdkgfvlmnrjwsz])",
+                                "\\1\\2u:"
+                            ],
+                            [
+                                "^w(\")?o(?![mnlrjw][pbtdkgfvlmnrjwsz])",
+                                "\\1u:"
+                            ],
+                            [
+                                "(\")?u::",
+                                "w\\1o:"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "aw > ō / _{#,C}",
+                        "regex": [
+                            [
+                                "aw([pbtdkgfvlmnrjwsz]|$)",
+                                "o:\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ew > ȳ / _{#,C}",
+                        "regex": [
+                            [
+                                "ew([pbtdkgfvlmnrjwsz]|$)",
+                                "y:\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ow > ū / _{#,C}",
+                        "regex": [
+                            [
+                                "ow([pbtdkgfvlmnrjwsz]|$)",
+                                "u:\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ay > ē / _{#,C}",
+                        "regex": [
+                            [
+                                "aj([pbtdkgfvlmnrjwsz]|$)",
+                                "e:\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ey > ī / _{#,C}",
+                        "regex": [
+                            [
+                                "ej([pbtdkgfvlmnrjwsz]|$)",
+                                "i:\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "oy > ø̄ / _{#,C}",
+                        "regex": [
+                            [
+                                "oj([pbtdkgfvlmnrjwsz]|$)",
+                                "ø:\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "{u,ý}y > ȳ / _{#,C}",
+                        "regex": [
+                            [
+                                "uj([pbtdkgfvlmnrjwsz]|$)",
+                                "y:\\1"
+                            ],
+                            [
+                                "yj([pbtdkgfvlmnrjwsz]|$)",
+                                "y:\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Other minor changes",
+                "prose": "A few other consonant changes date to roughly this period without an easy way to precisely date them relative to other Abean developments of this time. Several clusters simplified word-initially:",
+                "changes": [
+                    {
+                        "display": "tp > p / #_",
+                        "regex": [
+                            [
+                                "^tp",
+                                "p"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ks > s / #_",
+                        "regex": [
+                            [
+                                "^ks",
+                                "s"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "In a single occurrence, word-initial _*sf-_ (from original _*skʷ-_) underwent fortition to _*sp-_:",
+                "prose_after": "As this appears to be the only case where said environment takes place, it is unknown whether this change is regular.",
+                "changes": [
+                    {
+                        "display": "sf > sp / #_",
+                        "regex": [
+                            [
+                                "^sf",
+                                "sp"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Likewise, initial _*dl_ dissimilates to _*gl_. This is the only attested word:",
+                "prose_after": "It is unknown if the same would happen to initial _*tl-_ as Abean does not appear to continue any words with it.",
+                "changes": [
+                    {
+                        "display": "d > g / #_l",
+                        "regex": [
+                            [
+                                "^dl",
+                                "gl"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "The initial cluster _*pst_ yielded Carite _*sp_, possibly through an intermediate _*spt_:",
+                "changes": [
+                    {
+                        "display": "pst → spt > sp / #_",
+                        "regex": [
+                            [
+                                "^spt",
+                                "sp"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Word-initially, _*m_ was fortited to _*b_ before any liquid:",
+                "prose_after": "This change is shared with Greek, Latin and Germanic, while Celtic appears to lack it. Compare the following:\n- pie@mrégʰmn̥@::mr::égʰmn̥ > °BRAGNAZBRAIN°, grc@βρέχμα@::βρ::έχμα=::br::ékhma, pgmc@bragnaz@::br::agnaz;\n- pie@mréǵʰus@::mr::éǵʰus > °BRIGWIS°, grc@βραχύς@::βρ::αχύς=::br::akhús, lat@brevis@::br::evis;\n- pie@ml̥h₂tis@::ml̥::h₂tis > pclt@mlātis@::ml::ātis.",
+                "changes": [
+                    {
+                        "display": "m > b / #_L",
+                        "regex": [
+                            [
+                                "^m([lr])",
+                                "b\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Curiously, prevocalic _*fs_ and _*ms_ both surface as _*sm_:",
+                "prose_after": "It is likely the cluster _*fs_ first dissimilated and merged into _*ms_ before metathesis.",
+                "changes": [
+                    {
+                        "display": "fs > sm / _V",
+                        "regex": [
+                            [
+                                "fs(\"?[aeiouyø])",
+                                "sm\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ms > sm / _V",
+                        "regex": [
+                            [
+                                "ms(\"?[aeiouyø])",
+                                "sm\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Between two sonorants, _*s_ was deleted:",
+                "changes": [
+                    {
+                        "display": "s > Ø / S_S",
+                        "regex": [
+                            [
+                                "([mnlr])s([mnlr])",
+                                "\\1\\2"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Word-finally, _*d_ rhotacised into _*r_, provided it was preceded by a vowel:",
+                "changes": [
+                    {
+                        "display": "d > r / V_#",
+                        "regex": [
+                            [
+                                "([aeiouyø]:?)d$",
+                                "\\1r"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Somewhere around this time, the short high vowels _*i *u_ turned into glides when unstressed and preceding another vowel. This did not take place when following any cluster.",
+                "changes": [
+                    {
+                        "display": "i > y / {V,#}(C)_[-stress]V",
+                        "regex": []
+                    },
+                    {
+                        "display": "u > w / {V,#}(C)_[-stress]V",
+                        "regex": []
+                    }
+                ]
+            },
+            {
+                "prose": "Following the reduction of these unstressed high vowels, dentals palatalised:",
+                "prose_after": "This assibilation of dentals resembles Greek, but it is by no means as widespread as in there. Refer to §Sihler0§ for the major palatalisation of most Proto-Greek consonants.",
+                "changes": [
+                    {
+                        "display": "ty > s / #_",
+                        "regex": [
+                            [
+                                "^tj",
+                                "s"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ty > ss",
+                        "regex": [
+                            [
+                                "tj",
+                                "ss"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "dy > z / #_",
+                        "regex": [
+                            [
+                                "^dj",
+                                "z"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "dy > zz",
+                        "regex": [
+                            [
+                                "dj",
+                                "zz"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "Stressed _*ē *ō_ were raised:",
+                "changes": [
+                    {
+                        "display": "ē > ī / [+stress]",
+                        "regex": [
+                            [
+                                "\"e:",
+                                "\"i:"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "ō > ū / [+stress]",
+                        "regex": [
+                            [
+                                "\"o:",
+                                "\"u:"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Nasal surface filter",
+                "prose": "A surface filter of nasal assimilation applying across Carite history is also dated to have started here:",
+                "prose_after": "Exceptionally, _*m_ did not assimilate into _*n_ before _*n_, which was retained as the sequence _*mn_ instead.",
+                "changes": [
+                    {
+                        "display": "n > m / _C[+bilabial]",
+                        "regex": [
+                            [
+                                "n([pbfvm])",
+                                "m\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "m > n / _C[+alveolar]",
+                        "regex": [
+                            [
+                                "m([tdsz])",
+                                "n\\1"
+                            ]
+                        ]
+                    },
+                    {
+                        "display": "m > n / _C[+velar]",
+                        "regex": [
+                            [
+                                "m([kg])",
+                                "n\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "newchapter": "Carite Verner's Law",
+                "prose": "The change that is taken to define Carite as a fully independent language in its own right is the ::Carite Verner's Law::, a structural parallel of Verner's Law in Germanic. Onsets of stressed, non-initial Carite syllables were voiced, and when distinctive positional accent was lost to fixed word-initial accent, the voicing phonemicised completely:",
+                "prose_after": "The voicing is likely to have initially affected only the onset of that stressed syllable, but voicing assimilation rules for clusters spread voicing to the whole cluster. Despite the name and similar effect - that is, the voicing of segments based on now-lost accent - this law significantly differed from its Germanic analogue. In Germanic, clusters were automatically disqualified from being affected by the law, and the requirement was that the preceding syllable nucleus be unstressed. In Carite, clusters benefited significantly from the effects of this law, and it only affected the onset of what was formerly a stressed syllable as long as it was non-initial; as such, word-final coda voicing effects as in Germanic's _*-az_ suffix (from _*-os_) are nowhere to be found in Carite.\nWhile Carite and Germanic are the most well-known examples of Indo-European branches losing phonemic stress or pitch accent only after it had functioned as conditioning for other changes, these are by no means the only ones. Other stress-based Carite developments mentioned before are Davide's Law and the stress-based raising of Proto-Indo-European _*ē *ō_. Outside of Carite, we find Dybo's Law - the pretonic shortening of vowels in some environments - which most certainly affected Celtic and quite possibly also Latin and Germanic; for more information, please refer to §Matasović5§.",
+                "repeatchanges": true,
+                "changes": [
+                    {
+                        "display": "C > [+voiced] / V(C)(C)_V[+stress]",
+                        "regex": [
+                            [
+                                "([aeiouyø]:?[pbtdkgfvlmnrjwsz]?[pbtdkgfvlmnrjwsz]?)p([mnlrwj])?\"",
+                                "\\1b\\2\""
+                            ],
+                            [
+                                "([aeiouyø]:?[pbtdkgfvlmnrjwsz]?[pbtdkgfvlmnrjwsz]?)t([mnlrwj])?\"",
+                                "\\1d\\2\""
+                            ],
+                            [
+                                "([aeiouyø]:?[pbtdkgfvlmnrjwsz]?[pbtdkgfvlmnrjwsz]?)k([mnlrwj])?\"",
+                                "\\1g\\2\""
+                            ],
+                            [
+                                "([aeiouyø]:?[pbtdkgfvlmnrjwsz]?[pbtdkgfvlmnrjwsz]?)f([mnlrwj])?\"",
+                                "\\1v\\2\""
+                            ],
+                            [
+                                "([aeiouyø]:?[pbtdkgfvlmnrjwsz]?[pbtdkgfvlmnrjwsz]?)s([mnlrwj])?\"",
+                                "\\1z\\2\""
+                            ],
+                            [
+                                "s([bdgvz])",
+                                "z\\1"
+                            ],
+                            [
+                                "p([bdgvz])",
+                                "b\\1"
+                            ],
+                            [
+                                "t([bdgvz])",
+                                "d\\1"
+                            ],
+                            [
+                                "k([bdgvz])",
+                                "g\\1"
+                            ],
+                            [
+                                "f([bdgvz])",
+                                "v\\1"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "prose": "turn it back into normal IPA-esque notation",
+                "donotdisplay": true,
+                "changes": [
+                    {
+                        "display": "change",
+                        "regex": [
+                            [
+                                "\"",
+                                ""
+                            ],
+                            [
+                                "a:",
+                                "ā"
+                            ],
+                            [
+                                "e:",
+                                "ē"
+                            ],
+                            [
+                                "i:",
+                                "ī"
+                            ],
+                            [
+                                "o:",
+                                "ō"
+                            ],
+                            [
+                                "u:",
+                                "ū"
+                            ],
+                            [
+                                "y:",
+                                "ȳ"
+                            ],
+                            [
+                                "ø:",
+                                "ø̄"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    ]
+}

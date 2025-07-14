@@ -1,0 +1,57 @@
+{
+    "stages": [
+        {
+            "name": "Early-Proto-Akshine",
+            "abbreviation": "EPAK",
+            "origin": "Proto-Indo-European",
+            "originabbreviation": "PIE",
+            "orthography": [
+                {
+                    "name": "authentic",
+                    "rules": [
+                        [
+                            "INPUT",
+                            "OUTPUT"
+                        ]
+                    ]
+                }
+            ],
+            "pronunciation": [
+                [
+                    "INPUT",
+                    "OUTPUT"
+                ]
+            ],
+            "allophony": [
+                [
+                    "INPUT",
+                    "OUTPUT"
+                ]
+            ],
+            "cases": [
+                "NOM",
+                "VOC",
+                "ACC",
+                "GEN",
+                "ABL",
+                "DAT",
+                "LOC",
+                "INS"
+            ],
+            "noun_numbers": [
+                "SG",
+                "DU",
+                "PL"
+            ],
+            "genders": [
+                "M",
+                "F",
+                "N"
+            ]
+        }
+    ],
+    "general_settings": {
+        "timespent": 21129,
+        "lastedited": "2023-02-25T17:04:30.555497"
+    }
+}
