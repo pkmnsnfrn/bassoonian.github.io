@@ -1,3 +1,67 @@
+# ROUND FOUR
+
+Let's go back to goals and user stories. Your answers previously:
+
+>  worth noting is that developer/player/contributor are all identical because this is meant to be a tool for me and me alone, so any and all developers/players/contributors automatically belong to all categories
+> - I want to be able to automate much of the manual work otherwise required
+> - I want to be able to have a clean overview of data
+> - I want to be able to smoothly edit things, with any cascading effects being resolved automatically (as much as possible)
+
+> I find this question so hard! I'm honestly not sure. maybe I am just severely underestimating the worth of my intuition-based UIs, but the end goal is basically just an UI where everything feels like it is in the right place and not just added wherever there was still space I think?
+
+My follow ups here:
+
+> What specific tasks overall are you looking to automate that are being done maually without the software?
+
+> What specific tasks were you doing manually with your versions of the UI that you are hoping are not automated?
+
+> What data do you think should be more clearly displayed for overview?
+
+> What cascading effects are currently resolved manually?
+
+> What editing flows in the current software are not smooth?
+
+> Do you know how can I resolve either of these issues?
+
+> Can you generate a list of highly specific tasks you would complete with this software _and then_ rank those by frequency of use?
+
+The UIs you've created are extremely similar to what I was picturing in my head before I ever saw them, so I'm trying to figure out how to make improvements from what you currently have.
+
+It's also why the ability to play with the existing versions are support important.
+
+## version1
+```bash
+python3 main.py                                   
+
+WARNING: Unable to load PYSimpleGui
+WARNING: Please install it through pip install pysimplegui
+```
+
+```bash
+pip install pysimplegui
+
+
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pysimplegui in /home/psf/.local/lib/python3.10/site-packages (5.0.10)
+Requirement already satisfied: rsa in /home/psf/.local/lib/python3.10/site-packages (from pysimplegui) (4.9.1)
+Requirement already satisfied: pyasn1>=0.1.3 in /home/psf/.local/lib/python3.10/site-packages (from rsa->pysimplegui) (0.6.1)
+```
+
+## version2
+
+```bash
+flet run
+
+Traceback (most recent call last):
+  File "/home/psf/Decomps/bassoonian.github.io/carite/projectpi/builds/beta/Carite/main.py", line 5, in <module>
+    import components.constants as Constants
+  File "/home/psf/Decomps/bassoonian.github.io/carite/projectpi/builds/beta/Carite/components/constants.py", line 13, in <module>
+    WordTypes.ROOT : [ft.icons.ENERGY_SAVINGS_LEAF, "Root"],
+AttributeError: module 'flet' has no attribute 'icons'. Did you mean: 'Icons'?
+```
+
+It hangs after this, and no window appears.
+ 
 # ROUND THREE
 
 > I understand that sound changes have odds from 0% to 100%. When does this RNG get rolled?
