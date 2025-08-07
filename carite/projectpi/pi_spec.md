@@ -126,3 +126,25 @@ The dictionary of all the words
     * Todo
     * Warnings
     * Meta Information
+
+# Stage Selector
+The stage selector is a floating box in the top left hand of the screen. All of the created stages are listed as tags in the box. If the number of stages is greater than the number of stages that can be displayed in two rows, the third row will show a fade gradient over the third row, indicating there are more stages.
+
+If the number of stages is greater than the number of stages that can be displayed in two rows, a search box will appear above the first stage. Typing in the searchbox will remove all the stages from the list that do not fuzzy match the query - this should update on every keystroke. Clicking the x on the searchbox will clear the query in the search box.
+
+Clicking on any of the stages will change the program to be editing this stage. Clicking on a stage that is currently selected does nothing.
+
+# Main Menu
+The main menu lists all the different pages that can be found in the program. Each item in the menu can be clicked to switch to that page. The keyboard shortcut listed to the right of the menu item's name will also trigger a switch to that page. When a page is being currently viewed, it is highlighted. Clicking on a page that is already being viewed does nothing.
+
+# Stage Editor
+
+# Static List
+
+# Dynamic List
+
+# Regex Editor
+
+# Linker
+
+# Edit List
