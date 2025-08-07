@@ -1,3 +1,5 @@
+[Figma](https://www.figma.com/design/S0CSryxWlZRtJxW2e8IYcW/Untitled?node-id=0-1&p=f&viewport=713%252C526%252C1.76&t=x3gl8uGvGbhzOz1K-0)
+
 # Goals
 
 Build a UI to interface with data in a way that exports a website
@@ -101,3 +103,26 @@ The dictionary of all the words
 - Todo
 - Warnings
 - Meta Information
+
+# HIERARCHY
+* Stages
+    * Information (Static List)
+        * Pronounciation
+        * Allophony
+        * Orthography
+    * Sound Changes
+* Morphology
+    * Stage Data
+    * Nominal - Noun (Dynamic List)
+    * Nominal - Pronoun
+    * Nominal - Adjective
+    * Nominal - Verbal
+* Lexicon (Dynamic List)
+    * Letters
+* Corpus
+* Sources
+* Extra Functions
+    * Statistics
+    * Todo
+    * Warnings
+    * Meta Information
