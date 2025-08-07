@@ -13,17 +13,38 @@ My follow ups here:
 
 > What specific tasks overall are you looking to automate that are being done maually without the software?
 
+this list is non-exhaustive but
+* apply sound changes
+* inflect words in the corpus
+* make derivations easier
+* keep track of irregular developments and analogies more easily
+
 > What specific tasks were you doing manually with your versions of the UI that you are hoping are not automated?
+
+I think they mostly handled what I was looking for? it's really hard to say because it's so complex and there's stuff I just didn't implement yet that is on the list to implement at some point here
 
 > What data do you think should be more clearly displayed for overview?
 
+hmm, hard question. the truth is that once sound changes and grammar are in place, where everything really takes place is the lexicon (and subsequently the corpus), so I think that user-friendliness for the lexicon in particularly important in terms of visibility and overview
+
 > What cascading effects are currently resolved manually?
+
+the inheritance of words and inflections, but that's partially by design because not every word survives over time, and some inflections may just get remodeled or regularised
 
 > What editing flows in the current software are not smooth?
 
-> Do you know how can I resolve either of these issues?
+uhhh man I haven't used my software approaches in years so I can hardly say tbh, sorry for being of so little help
 
 > Can you generate a list of highly specific tasks you would complete with this software _and then_ rank those by frequency of use?
+
+hm! yes
+1. add a new word to the lexicon tab (through any of the manners, ie inheritance or new etc)
+2. add new sources to the sources tab / source lexicon entries
+3. use words in corpus texts
+    - and then by a very big margin (before preparations are in place, so to speak)
+5. edit grammar tables and rules
+6. edit sound changes
+7. edit stage names/orthography/etc
 
 The UIs you've created are extremely similar to what I was picturing in my head before I ever saw them, so I'm trying to figure out how to make improvements from what you currently have.
 
