@@ -1,3 +1,9 @@
+# ROUND FIVE
+
+> Are sound changes in a stage linear / sequential? If so, do they need to be re-ordered? If not, are they just seperate and unlinked from each other?
+
+> Assuming sound changes are not sequential... if I make sound change A in Stage 0, am I able to see this sound change A in Stage 1? Do I need to be able to build open sound change A?
+
 # ROUND FOUR
 
 Let's go back to goals and user stories. Your answers previously:
