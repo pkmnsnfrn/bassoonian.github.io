@@ -137,7 +137,18 @@ Clicking on any of the stages will change the program to be editing this stage. 
 # Main Menu
 The main menu lists all the different pages that can be found in the program. Each item in the menu can be clicked to switch to that page. The keyboard shortcut listed to the right of the menu item's name will also trigger a switch to that page. When a page is being currently viewed, it is highlighted. Clicking on a page that is already being viewed does nothing.
 
-# Stage Editor
+# Stage List
+The screen is filled with a table of all the existing stages. The stages are listed in their order, with the oldest stage at the top.
+
+Clicking the Add button will add a stage AFTER the row where the button was clicked. For example, if the button was clicked on Row 2, the new stage will be added in Slot 3.
+
+Clicking and holding the icon on the left side of the row allows users to reoreder stages by dragging them up or down.
+
+Clicking anywhere else on the stage's row will open the Stage Information page.
+
+## Stage Information 
+
+Lorem
 
 # Static List
 
