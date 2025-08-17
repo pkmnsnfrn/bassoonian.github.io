@@ -140,15 +140,24 @@ The main menu lists all the different pages that can be found in the program. Ea
 # Stage List
 The screen is filled with a table of all the existing stages. The stages are listed in their order, with the oldest stage at the top.
 
-Clicking the Add button will add a stage AFTER the row where the button was clicked. For example, if the button was clicked on Row 2, the new stage will be added in Slot 3.
+Clicking the Add button will add a stage AFTER the row where the button was clicked. For example, if the button was clicked on Row 2, the new stage will be added in Slot 3. The default name of a new stage is a "Blank", with the abbreivation B. If there is another stage with that name, a 1 is appended to the end.
 
 Clicking and holding the icon on the left side of the row allows users to reoreder stages by dragging them up or down.
 
 Clicking anywhere else on the stage's row will open the Stage Information page.
 
 ## Stage Information 
+The stage's name and abbreviation can be edited at the top of the page by clicking on the relevant section and typing.
 
-Lorem
+Users can switch between Pronounciation, Allophony and Orthography by clicking on the tags. Clicking on a currently selected tag does not do anything.
+
+The regex table shows different regex rules, ordered with the oldest at the top. The tag on the far left side of the table rows shows which stage that regex rule originates from. Clicking into the row and typing will allow that regex rule to be updated.
+
+Clicking the Add button will add a regex rule AFTER the row where the button was clicked. For example, if the button was clicked on Row 2, the new rule will be added in Slot 3. A new regex rule has no regex in the field.
+
+Regex rules from stages older than the current one cannot be edited in any way.
+
+The sample word allows users to type a word in the top box. The sample result box in every row will display what the sample word looks like after applying that rule and all the rules before it.
 
 # Static List
 

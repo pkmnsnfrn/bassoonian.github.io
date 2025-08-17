@@ -1,8 +1,21 @@
+# ROUND SIX
+
+> What do `NOM`, `VOC`, `ACC`, `GEN` mean? Is it possible for every morphology to have them? How many are there total?
+
+> Are the gender and number inflections set at the stage level? Can that be changed at the morphology level? For example:
+> Stage 1 says that nouns inflect for single / male and female. Can a specific morphology within Stage 1 inflect for single and double/ only male?
+
 # ROUND FIVE
 
 > Are sound changes in a stage linear / sequential? If so, do they need to be re-ordered? If not, are they just seperate and unlinked from each other?
 
+always linear, yes. re-ordering is generally extremely rare, but may be useful when doing large scale renovations. they can be wholly unrelated to each other and there's never a case of "only trigger X if Y was triggered before"
+
+a common saying is "sound change doesn't have memory" if that clarifies it
+
 > Assuming sound changes are not sequential... if I make sound change A in Stage 0, am I able to see this sound change A in Stage 1? Do I need to be able to build open sound change A?
+
+everything is sequential, so I think this becomes void (and if not, sound changes are 100% local to the stage they're in)
 
 # ROUND FOUR
 
