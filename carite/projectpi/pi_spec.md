@@ -151,13 +151,49 @@ The stage's name and abbreviation can be edited at the top of the page by clicki
 
 Users can switch between Pronounciation, Allophony and Orthography by clicking on the tags. Clicking on a currently selected tag does not do anything.
 
+## Regex Editor
 The regex table shows different regex rules, ordered with the oldest at the top. The tag on the far left side of the table rows shows which stage that regex rule originates from. Clicking into the row and typing will allow that regex rule to be updated.
 
 Clicking the Add button will add a regex rule AFTER the row where the button was clicked. For example, if the button was clicked on Row 2, the new rule will be added in Slot 3. A new regex rule has no regex in the field.
 
-Regex rules from stages older than the current one cannot be edited in any way.
+Regex rules from stages older than the current one cannot be edited in any way. Regex rules from the current or future stages can be reordered by dragging the icon found on the left side.
 
 The sample word allows users to type a word in the top box. The sample result box in every row will display what the sample word looks like after applying that rule and all the rules before it.
+
+
+# Sound Changes
+The sound change table shows different sound changes, ordered with the oldest at the top. Each row shows the name of the Sound Change and Internal Notes for that Sound Change.
+
+Clicking the Add button will add a sound change AFTER the row where the button was clicked. For example, if the button was clicked on Row 2, the new change will be added in Slot 3. 
+
+Sound changes can be reordered by dragging the draggable icon in each row.
+
+The sample word allows users to type a word in the top box. The sample result box in every row will display what the sample word looks like after applying that sound change and all the rules before it.
+
+Clicking on row or add button will open the Edit Sound Change Modal.
+
+## Sound Change Page
+
+The Sound Change's name can be edited by clicking on it and typing.
+
+For a new Sound Change, the unlock slider is set to unlocked and cannot be changed. For an existing Sound Change, the unlock slider is set to locked. Attempting to toggle the slider from Locked to Unlocked will open a dialog, asking if the user s certain they want to edit the Sound Change.
+
+The top of the Sound Change Page has the following fields:
+- Chapter Name (Text Field, default empty)
+- Recursion (Checkbox, default unchecked)
+- Odds (Slider 0 to 100, default 100)
+- Prose (Text Field)
+- Interal Notes (Text Field)
+
+The bottom of the Sound Change page uses the same Regex Editor as Stage Information.
+
+# Morphology
+
+The top of each morphology page shows checkboxes for each gender, case and plurality inflection. Checking this box will impact all of morpohologies for this type of this stage.
+
+Existing Morphologies for the stage are listed below in a grid. Clicking on an exisitng Morphology or the Add button in the top right will open the edit Morpohology page.
+
+## Edit Morphology
 
 # Static List
 
