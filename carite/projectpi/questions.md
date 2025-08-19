@@ -2,8 +2,12 @@
 
 > What do `NOM`, `VOC`, `ACC`, `GEN` mean? Is it possible for every morphology to have them? How many are there total?
 
+they're abbreviations for cases (nominative, vocative, accusative, genitive, but there's more), which nouns (and adjectives) as well as pronouns use to basically change the word depending on the function in the sentence (you may know German as an example here). nouns and adjectives always have the same, pronouns may use more or fewer cases (in any given stage, that is, as cases can get lost over time, as happened to English). In total as far as we're concerned there are eight cases (nominative, vocative, accusative, genitive, dative, ablative, locative, instrumental)
+
 > Are the gender and number inflections set at the stage level? Can that be changed at the morphology level? For example:
 > Stage 1 says that nouns inflect for single / male and female. Can a specific morphology within Stage 1 inflect for single and double/ only male?
+
+nouns always have an inherent gender, so eg "father" is always masculine and "mother" is always feminine. adjectives then inflect according to the noun they belong to (think how Spanish adjectives switch between -o and -a depending on which noun they go with). the same goes for number (singular vs plural), see also Spanish with the -s on adjectives in the plural. it is possible for some nouns to only exist in singular or plural forms (eg a country name will only exist in the singular, because "Spains" is stupid), in which case the adjectives, when paired with this word, just follow suit
 
 # ROUND FIVE
 
