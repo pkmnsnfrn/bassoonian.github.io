@@ -193,7 +193,31 @@ The top of each morphology page shows checkboxes for each gender, case and plura
 
 Existing Morphologies for the stage are listed below in a grid. Clicking on an exisitng Morphology or the Add button in the top right will open the edit Morpohology page.
 
-## Edit Morphology
+## Edit Morphology (Noun)
+
+Clicking the Morphology Name or the Abbreviation will allow the user to edit the field by typing.
+
+For Morphologies that require a gender, a dropdown is shown in the header to specificy. Selecting a gender will gray out those genders' columns in the morphology table.
+
+For Morphologies that require reference to another Noun, the search box allows users to search the name of another noun morpohology.
+
+The bottom half of the Morphology page shows the table for that specific morpohology. Cases are represented rows, and different inflections in columns. If the current stage does not inflect for a specific quanity or gender, those columns in the table are greyed out.
+
+The toggle switches at the top of the Morpohology page control the content of the table.
+
+Clicking into each cell will allow the user to type the regex rule that be applied for that inflection. Pressing Enter or clicking outside of the table will save that inflection.
+
+## Override Mode
+If the current morphology inheirits from elsewhere, the override toggle is shown in the top right. The default state is toggled off.
+
+When the toggle is off, the morphology table is filled in with inheirited rules. Clicking into the table does not allow for edits. When the toggle is on, the morphology table shows the override rules for this stage and morphology.
+
+## Preview Mode
+The preview toggle is shown in the top right. The default state is off.
+
+When the toggle is off, the morphology table behaves as normal. When the toggle is on, the Sample Word box appears in the top right.
+
+# Lexicon
 
 # Static List
 
