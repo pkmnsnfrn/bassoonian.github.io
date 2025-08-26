@@ -1,3 +1,8 @@
+# ROUND SEVEN
+> For verb morphology, what are all the different voices, moods, TAM and tenses?
+
+> Are voice, mood, TAM and tense defined at the morphology level or the stage level?
+
 # ROUND SIX
 
 > What do `NOM`, `VOC`, `ACC`, `GEN` mean? Is it possible for every morphology to have them? How many are there total?
